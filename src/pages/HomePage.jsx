@@ -4,6 +4,8 @@ import image from '../assets/cover.jpeg'
 import videoSrc from '../assets/legal2.mp4'
 import { Link } from "react-router-dom";
 
+
+
 const HomePage = () => {
     return ( 
         <div className={classes.pageCtn}>
@@ -20,7 +22,10 @@ const HomePage = () => {
             </div>
             <div className={classes.projectUXctn}>
                 <Link to='/legal'> 
-                <img src={image} alt="Project Cover" />
+                <video className={classes.video} autoPlay loop muted>
+            <source src={videoSrc} type="video/mp4" />
+            </video>
+               { /* <img src={image} alt="Project Cover" /> */}
                 </Link>
             </div> 
             <div className={classes.titleMicro}>  
