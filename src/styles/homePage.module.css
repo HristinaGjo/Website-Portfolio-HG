@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     /* background: red;*/
@@ -6,11 +7,40 @@ body {
 
 .pageCtn {
     width: 100%;
-    height: 100vh;
-    margin-top: 10%;
+    margin-top: 5%;
     /* height: 100vh; */
     /* background-color: aqua;*/
+    display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+.scrollSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px; /* Adjust as needed */
+  }
+  
+  .imageContainer {
+    flex: 1;
+    height: 40vh;
+  }
+  
+  .textContainer {
+    top:300px;
+    flex: 1;
+    margin-left: 20px; /* Adjust as needed for spacing */
+    height: 40vh;
+  }
+  
+  .textContainer h2 {
+    margin-top: 50px; /* Remove default margin */
+  }
+  
+  .textContainer p {
+    margin-bottom: 0; /* Remove default margin */
+  }
 
 .headerImg{
     width: 100%;
@@ -19,21 +49,25 @@ body {
 
 .headerCtn{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    background: red;
-    height:70vh;
-    margin-bottom: 0;
+
 }
 
 .headlineText{
-    height: 100vh; /* Adjust this value according to your design */
+    height: 50vh; /* Adjust this value according to your design */
 }
 
+.scrollRevealImg {
+    position: fixed;
+    top: 100vh; /* Initially hidden below the viewport */
+    left: 0;
+    width: 100%;
+    transition: transform 0.5s ease; /* Smooth transition when scrolling */
+}
 
-.titleUX, .titleMicro{
+/* .titleUX, .titleMicro{
     background: blue;
     position: relative;
     margin-bottom: 0;
@@ -43,13 +77,13 @@ body {
 
 .projectUXCtn {
     position: relative;
-    overflow: hidden; /* Ensure image doesn't overflow */
+    overflow: hidden;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     width: auto;
     background: red;
-}
+} */
 
 
 /* .video{
@@ -63,9 +97,9 @@ body {
 
 img {
     width: 100%;
-    height: 70vh; /* Maintain aspect ratio */
+    height: 50vh; /* Maintain aspect ratio */
     object-fit: cover; /* Ensure image covers the container */
-    margin-bottom: 10%;
+  
     border-radius: 40px;
 }
 
