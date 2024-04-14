@@ -3,6 +3,7 @@ body {
     margin: 0;
     /* background: red;*/
     color: black;
+    overflow-x: hidden;
 }
 
 .pageCtn {
@@ -11,34 +12,89 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 1rem;
+    
   }
   
   .scrollSection {
     display: flex;
     align-items:end;
     justify-content:left;
-    margin-top: 50px; /* Adjust as needed */
+    margin-top: 150px; /* Adjust as needed */
+
   }
 
+  .textOverlay {
+    position: absolute;
+    bottom: 30%; /* Position the text vertically in the middle */
+    left: 50%; /* Position the text horizontally in the middle */
+    transform: translate(-50%, 50%); /* Adjust position to center the text */
+    color: white; /* Adjust text color */
+    font-size: 24px; /* Adjust font size */
+    text-align: center; /* Center-align the text */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background color */
+    padding: 20px; /* Add padding around the text */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    max-width:fit-content; /* Limit the maximum width of the text */
+  }
 
-  
   .imageContainer {
     flex: 1;
     display: flex;
     justify-content: left;
+
   }
- 
+  
   .textContainer {
-    flex: 1; 
-    margin-top: 500px;/* Adjust as needed for spacing */
+    position: absolute;
+    top: 150%; /* Position the text container vertically in the middle */
+    left: 32px; /* Align the text container to the left */
+    transform: translateY(-50%); /* Adjust position to center the text vertically */
+    /* padding-left: 20px; */
+    margin-top: 150px;
+    padding: 20px;
+  }
+
+  .projectOne {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 50px;
+ 
+    width: 90vw;
+    /* font-family:"Avenir Next"; */
+    overflow: hidden;
+
+  }
+
+ .projectTwo{
+
+    border-bottom: 1px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 50px;
+    width: 90vw;
+    /* font-family:"Avenir Next"; */
+    overflow: hidden;
+  }
+
+  .projectOne .text {
+    transition: transform 0.5s ease-in-out; /* Apply transition for smooth flipping */
   }
   
-  .textContainer h2 {
-    margin-top: 10px; /* Remove default margin */
+  .projectOne:hover .text {
+    /*transform: translateY(-100%) rotateX(180deg) scale(2); */
+    transform:  translateX(10%) scale(1.1); /* Flip vertically on hover */
+  }
+
+  .projectTwo .text {
+    transition: transform 0.5s ease-in-out; /* Apply transition for smooth flipping */
   }
   
-  .textContainer p {
-    margin-bottom: 0; /* Remove default margin */
+  .projectTwo:hover .text {
+    /*transform: translateY(-100%) rotateX(180deg) scale(2); */
+    transform:  translateX(10%) scale(1.1); /* Flip vertically on hover */
   }
   
 
@@ -64,4 +120,7 @@ p{
     font-size: 2.1em;
 }
 
+a{
+    text-decoration: none;
+}
 
