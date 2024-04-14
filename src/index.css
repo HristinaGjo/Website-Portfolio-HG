@@ -1,17 +1,9 @@
-:root {
-  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
-  font-family: Poppins;
-  line-height: 1.5;
-  font-weight: 400;
+:root{
+  font-family: "Helvetica Neue", "Pretendard", sans-serif;
+  padding: 2rem !important;
+  height: auto;
   margin: 0 auto;
-  padding: 10rem !important;
-  color-scheme: light dark;
-  /*color: rgba(255, 255, 255, 0.87); */
-  background:aliceblue !important;
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  
 }
 
 /* a {
@@ -25,15 +17,16 @@ a:hover {
 
 
 
-/* body {
+ /* body {
   margin: 0;
+  
   display: flex;
   flex-direction: column;
-  /* justify-content: center;
+  justify-content: center;
   place-items: center; 
   min-width: 320px; 
   min-height: 100vh;
- /* overflow: hidden; 
+
 } */
 
 h1 {
