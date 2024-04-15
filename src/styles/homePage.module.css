@@ -86,6 +86,7 @@ body {
     width: 83vw;
     padding: 20px;
     overflow: hidden;
+    color: #282828;
   }
 
   .projectOne {
@@ -136,18 +137,24 @@ body {
   .connectText{
     padding: 0;
     margin: 0;
-    
   }
 
 
   .contactLine {
     margin-left: 400px; /* Adjust margin to position the line */
     padding-left: 500px; /* Adjust padding as needed */
+    
   }
   
   .contactArrow {
     margin-left: -400px; /* Adjust margin to align the arrow with the contact line */
     padding-left: 385px; /* Adjust padding as needed */
+  }
+
+  .contactLine path,
+  .contactArrow path{
+    stroke-width: 4;
+
   }
   
   .arrowCtn {
@@ -163,7 +170,7 @@ body {
   .designer, .developer {
     font-family: "Avenir Next";
     font-weight:800;
-    color: black;
+    color:#282828;
     /* letter-spacing: 3vw;*/
   }
 

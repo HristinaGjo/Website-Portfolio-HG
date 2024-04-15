@@ -94,7 +94,7 @@ function HomePage() {
                 <path
                   d="M720 44C720 117 507.356 232.749 271.675 68.1592C35.9949 -96.4308 -5.61532 84.8047 3.03962 193"
                   stroke="#282828"
-                  strokeWidth="4"
+                  strokeWidth="2"
                 ></path>
               </svg>
               <div className={classes.contactArrow}>
@@ -105,7 +105,7 @@ function HomePage() {
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <path d="M2 2L18.5 19L35 2" stroke="#282828" strokeWidth="4"></path>
+                  <path d="M2 2L18.5 19L35 2" stroke="#282828" strokeWidth="2"></path>
                 </svg>
               </div>
             </div>
