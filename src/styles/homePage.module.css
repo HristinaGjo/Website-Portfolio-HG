@@ -7,12 +7,12 @@ body {
 }
 
 .pageCtn {
-    width: 100%;
+    width: 100vw;
     height: 250vh; 
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1rem;
+    padding: 2rem;
   }
 
   .headlineText {
@@ -45,11 +45,19 @@ body {
     justify-content: center;
     align-items: center;
    /* background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent background color */
-    background-color:rgba(0, 0, 255, 0.7);
+    background-color:rgba(0, 0, 0, 0.5);
     padding:5px; /* Add padding around the text */
     width: 200px;
     height: 200px;
     border-radius: 50%; 
+  }
+
+  /* .imageContainer:hover .textOverlay{
+    background-color:rgba(0, 0, 255, 0.7);
+  } */
+
+ .textOverlay:hover {
+    background-color:rgba(0, 0, 255, 0.7);
   }
 
   .imageContainer {
@@ -71,10 +79,9 @@ body {
 
   .projectOne, .projectTwo{
     width: 100vw;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 20px;
     overflow: hidden;
-    padding-left: 0;
+   
   }
 
   .projectOne {

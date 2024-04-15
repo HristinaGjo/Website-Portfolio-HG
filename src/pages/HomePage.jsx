@@ -40,7 +40,7 @@ const HomePage = () => {
           <motion.div className={classes.imageContainer} style={{ y }}>
             <img src={coverImage} alt="Cover" />
             <motion.h2 className={classes.textOverlay} style={{ y }}>
-              About Me
+              ABOUT ME
             </motion.h2>
           </motion.div>
         </section>
@@ -51,7 +51,7 @@ const HomePage = () => {
           </Link>
           <div className={classes.projectTwo}> <h3 className={classes.text}>INTERACTION DESIGN</h3> </div>
           <div className={classes.connectText}>
-            <h3>Let's Connect</h3>
+            <h3>LET'S CONNECT</h3>
             <motion.div
               className={classes.arrowContainer}
               animate={{

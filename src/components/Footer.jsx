@@ -17,17 +17,17 @@ const Footer = () => {
                 <p>Berlin, Germany</p>
             </div>
             <div className={classes.rightCtn}>
-                <Link to='https://www.linkedin.com/in/gjorgieva/' target="_blank" rel="noreferrer">
-                <p>LinkedIn</p>
+                <Link   to='https://www.linkedin.com/in/gjorgieva/' target="_blank" rel="noreferrer">
+                <p className={classes.link}>LinkedIn</p>
                 </Link>
-                 <Link to='https://www.behance.net/gjorgieva' target="_blank" rel="noreferrer">
-                <p>Behance</p> 
+                 <Link  to='https://www.behance.net/gjorgieva' target="_blank" rel="noreferrer">
+                <p className={classes.link}>Behance</p> 
                 </Link>
-                <Link to='https://dribbble.com/gjorgieva' target="_blank" rel="noreferrer">
-                <p>Dribbble</p>
+                <Link  to='https://dribbble.com/gjorgieva' target="_blank" rel="noreferrer">
+                <p className={classes.link}>Dribbble</p>
                 </Link>
                 <Link to='https://github.com/HristinaGjo' target="_blank" rel="noreferrer">
-                <p>GitHub</p>
+                <p className={classes.link}>GitHub</p>
                 </Link>
             </div>
             <div>
