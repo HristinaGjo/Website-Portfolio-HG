@@ -4,13 +4,13 @@ body {
     color: #282828;
     width: 100vw;
     background:#f5f5f5;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
    
 }
 
 .pageCtn {
     width: 100vw;
-    height: 280vh; 
+    height: 310vh; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,15 +25,15 @@ body {
     display: inline-block;
     display: flex;
     flex-wrap: wrap; 
-    padding-top: 10em;
-    padding-bottom: 8em;
+    padding-top: 15em;
+    padding-bottom: 2em;
   }
 
   .scrollSection {
     display: flex;
     align-items:end;
     justify-content:left;
-    margin-top: 150px; /* Adjust as needed */
+    margin-top: 50px; /* Adjust as needed */
   }
 
   .textOverlay {
@@ -78,7 +78,7 @@ body {
     /* left: 32px; */
     transform: translateY(-50%); /* Adjust position to center the text vertically */
     /* padding-left: 20px; */
-    margin-top: 150px;
+    margin-top: 50px;
     /* padding: 20px; */
   }
 
@@ -91,7 +91,7 @@ body {
   .projectOne {
     /* border-top: 1px solid black;*/
     border-bottom: 1px solid black;  
-    margin-top: 1000px;
+    margin-top: 1500px;
     /* font-family:"Avenir Next"; */
   }
 
@@ -125,21 +125,39 @@ body {
 
   .connectText h3{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    padding-bottom: 50px;
     align-items: center;
     color: blue;
     font-family: "Poppins";
+    text-align:right;
+  }
+
+  .connectText{
+    padding: 0;
+    margin: 0;
+    
+  }
+
+
+  .contactLine {
+    margin-left: 400px; /* Adjust margin to position the line */
+    padding-left: 500px; /* Adjust padding as needed */
   }
   
-  .arrowContainer{
+  .contactArrow {
+    margin-left: -400px; /* Adjust margin to align the arrow with the contact line */
+    padding-left: 385px; /* Adjust padding as needed */
+  }
+  
+  .arrowCtn {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    color: blue;
-    /* width: 100px;
-    height: 100px;
-    border: 2px solid black;
-    border-radius: 50%; */
+  }
+
+  .arrowSvg {
+    width: 50px; /* Adjust width as needed */
+    height: 50px; /* Adjust height as needed */
+    stroke: #282828; /* Adjust stroke color as needed */
   }
 
   .designer, .developer {
@@ -181,6 +199,8 @@ a{
     text-decoration: none;
 }
 
+
+
 @media only screen and (max-width: 768px) {
   
 
@@ -197,14 +217,14 @@ a{
 
 
   .pageCtn {
-    min-height: 360vh; 
+    min-height: 420vh; 
     padding: 0;
     margin: 0;
     width: 100vw;
   }
   
   .headlineText {
-    padding-top: 6em;
+    padding-top: 2em;
     padding-bottom: 0;
     width: 90vw;
     font-family: "Avenir Next";
@@ -304,6 +324,29 @@ a{
   .connectText  {
     margin-top: 80px;
     margin-bottom: 80px;
+  }
+
+  .contactLine {
+    margin-left: 400px; /* Reset margin */
+    padding-left: 0; /* Reset padding */
+    margin-bottom: 0; /* Reset margin */
+    margin-top: 20px; /* Adjust margin-top to create space between line and arrow */
+  }
+  
+  .contactArrow {
+    margin-left: -15px; /* Reset margin */
+    padding-left: 0; /* Reset padding */
+    margin-bottom: 0; /* Reset margin */
+    margin-top: -55px; /* Adjust margin-top to align arrow with line */
+  }
+  
+  .arrowCtn {
+    display: flex;
+    justify-content: center; /* Align items horizontally */
+    align-items: center; /* Align items vertically */
+    margin-top: 0; /* Reset margin */
+    margin-bottom: 20px; /* Add margin-bottom to create space between text and arrow */
+    width: 98vw;
   }
 
  

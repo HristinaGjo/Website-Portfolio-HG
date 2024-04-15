@@ -24,7 +24,7 @@ function HomePage() {
 
   // Use useInView hook to detect when the image comes into view
   const { ref: imageRef, inView } = useInView({
-    threshold: 0.5, // Trigger when 50% of the image is visible
+    threshold: 0.65, // Trigger when 50% of the image is visible
     triggerOnce: true // Only trigger once
   });
 
@@ -41,6 +41,7 @@ function HomePage() {
             <span><h3 style={{ marginLeft: '10px' }}>WITH DEVELOPER'S MIND </h3></span>
             <span> <h3 className={classes.developer}>DEVELOPER  {" "} </h3></span> 
             <span><h3 style={{ marginLeft: '10px' }}>WITH DESIGNER EYES</h3></span>
+          
             <div className={classes.services}>
             <span>UX UI DESIGN |</span> {"  "}
             <span>INTERACTION DESIGN |</span> {"  "}
@@ -57,7 +58,7 @@ function HomePage() {
                   ? { WebkitMaskImage: visibleMask, maskImage: visibleMask }
                   : { WebkitMaskImage: hiddenMask, maskImage: hiddenMask }
               }
-              transition={{ duration: 0.8, delay: 0.8 }}
+              transition={{ duration: 0.5, delay: 0.5 }}
               viewport={{ once: true }}
               ref={imageRef} // Attach the ref to the image
             >
@@ -80,33 +81,36 @@ function HomePage() {
           </Link>
           <div className={classes.projectTwo}> <h3 className={classes.text}>INTERACTION DESIGN</h3> </div>
           <div className={classes.connectText}>
-            <h3>LET'S CONNECT</h3>
-            <motion.div
-              className={classes.arrowContainer}
-              animate={{
-                y: [0, 40, 0],
-                transition: {
-                  repeat: Infinity,
-                  duration: 1.5,
-                },
-              }}
-            >
+            <h3>FEEL FREE <br/> TO CONTACT ME <br/>IF YOU HAVE <br/> ANY PROJECTS  <br/> TO REQUEST</h3>
+            <div className={classes.arrowCtn}>
+            <div className={classes.contactLine}>
               <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="100"
-                height="100"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
+               width="100%"
+               height="194"
+               viewBox="0 0 722 194"
+               fill="none"
+               xmlns="http://www.w3.org/2000/svg"
               >
-                <line x1="12" y1="5" x2="12" y2="19"></line>
-                <polyline points="19 12 12 19 5 12"></polyline>
+                <path
+                  d="M720 44C720 117 507.356 232.749 271.675 68.1592C35.9949 -96.4308 -5.61532 84.8047 3.03962 193"
+                  stroke="#282828"
+                  strokeWidth="4"
+                ></path>
               </svg>
-            </motion.div>
-          </div>
+              <div className={classes.contactArrow}>
+                <svg
+                  width="47"
+                  height="22"
+                  viewBox="0 0 47 22"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M2 2L18.5 19L35 2" stroke="#282828" strokeWidth="4"></path>
+                </svg>
+              </div>
+            </div>
+            </div>
+          </div> 
         </div>
        
       </div>
