@@ -1,28 +1,32 @@
-
 body {
     margin: 0;
     /* background: red;*/
     color: black;
+    width: 100vw;
+    background:#f5f5f5;
     overflow-x: hidden;
+   
 }
 
 .pageCtn {
     width: 100vw;
-    height: 250vh; 
+    height: 280vh; 
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2rem;
+    padding: 0 2rem;
+    overflow-x: hidden;
   }
 
   .headlineText {
     padding-left: 0;
     margin-left: 0;
-    width: 100vw;
+    width:80%;
     display: inline-block;
     display: flex;
     flex-wrap: wrap; 
     padding-top: 10em;
+    padding-bottom: 8em;
   }
 
   .scrollSection {
@@ -35,17 +39,17 @@ body {
   .textOverlay {
     position: absolute;
     bottom: 30%; /* Position the text vertically in the middle */
-    left: 60%; /* Position the text horizontally in the middle */
+    left: 80%; /* Position the text horizontally in the middle */
     transform: translate(-50%, 50%); /* Adjust position to center the text */
     color: white; /* Adjust text color */
-    font-family: "Avenir Next";
+    font-family: "Poppins";
     font-weight:600;
     font-size: 24px; /* Adjust font size */
     display: flex;
     justify-content: center;
     align-items: center;
    /* background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent background color */
-    background-color:rgba(0, 0, 0, 0.5);
+    background-color:rgba(0, 0, 255, 0.7);
     padding:5px; /* Add padding around the text */
     width: 200px;
     height: 200px;
@@ -56,15 +60,16 @@ body {
     background-color:rgba(0, 0, 255, 0.7);
   } */
 
- .textOverlay:hover {
+ /* .textOverlay:hover {
     background-color:rgba(0, 0, 255, 0.7);
-  }
+  } */
 
   .imageContainer {
     flex: 1;
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
+    
   }
   
   .textContainer {
@@ -78,22 +83,21 @@ body {
   }
 
   .projectOne, .projectTwo{
-    width: 100vw;
+    width: 83vw;
     padding: 20px;
     overflow: hidden;
-   
   }
 
   .projectOne {
     /* border-top: 1px solid black;*/
     border-bottom: 1px solid black;  
-    margin-top: 500px;
+    margin-top: 1000px;
     /* font-family:"Avenir Next"; */
   }
 
  .projectTwo{
    /* border-bottom: 1px solid black; */
-    margin-bottom: 200px;
+    margin-bottom: 250px;
     /* font-family:"Avenir Next"; */
   }
 
@@ -124,6 +128,7 @@ body {
     justify-content: center;
     align-items: center;
     color: blue;
+    font-family: "Poppins";
   }
   
   .arrowContainer{
@@ -140,6 +145,7 @@ body {
   .designer, .developer {
     font-family: "Avenir Next";
     font-weight:800;
+    color: black;
     /* letter-spacing: 3vw;*/
   }
 
@@ -148,9 +154,8 @@ body {
     padding-left: 0;
     margin-left: 0;
     color: blue;
+    font-family: "Poppins";
   }
-
-
 
 img {
     width: 80%;
@@ -168,7 +173,6 @@ h3 {
     padding-bottom: 20px;
 }
 
-
 p{
     font-size: 2.1em;
 }
@@ -177,3 +181,139 @@ a{
     text-decoration: none;
 }
 
+@media only screen and (max-width: 768px) {
+  
+
+  html{
+    margin: 0;
+    padding: 0;
+  }
+
+  body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+  }
+
+
+  .pageCtn {
+    min-height: 360vh; 
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+  }
+  
+  .headlineText {
+    padding-top: 6em;
+    padding-bottom: 0;
+    width: 90vw;
+    font-family: "Avenir Next";
+  }
+
+  
+  .projectOne, .projectTwo {
+    padding: 0;
+    margin: 0;
+    width: 92vw; /* Adjust width for smaller screens */
+    /* padding: 4rem; */
+  }
+
+  .projectOne {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black; 
+  }
+
+  .projectTwo {
+    border-bottom: 1px solid black;  
+    margin-bottom: 60px;
+  }
+
+  .projectOne .text,
+  .projectTwo .text {
+    font-family: "Avenir Next";
+    font-weight:800;
+    transition: transform 0.5s ease-in-out; /* Apply transition for smooth flipping */
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .textContainer {
+    position: static;
+    height: 250vh;
+    width: 100vw;
+    margin: 0;
+    transform: none;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .textOverlay {
+    position: absolute;
+    bottom: 50%; /* Position the text vertically in the middle */
+    left: 65%; /* Position the text horizontally in the middle */
+    transform: translate(-50%, 50%); /* Adjust position to center the text */
+    color: white; /* Adjust text color */
+    font-family: "Poppins";
+    font-weight:600;
+    font-size: 24px; /* Adjust font size */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent background color */
+    background-color:rgba(0, 0, 255, 0.7);
+    padding:5px; /* Add padding around the text */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+  }
+
+  /* .scrollSection {
+    display: flex;
+    align-items:end;
+    justify-content:left;
+    margin-top: 150px; 
+  } */
+
+  .designer, .developer {
+    font-family: "Avenir Next";
+    font-weight:800;
+    color: blue
+  }
+
+  .services{
+    font-size: 1.3em;
+    padding-left: 0;
+    margin-left: 0;
+    color: blue;
+    font-family: "Poppins";
+  }
+
+  .connectText h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    font-family: "Poppins";
+    font-size: 64px;
+  }
+
+  .connectText  {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+
+ 
+  
+  h3 {
+    font-family: "Avenir Next";
+    font-weight:800;
+    margin: 0;
+    padding: 0;
+    color: #282828;
+  }
+
+}

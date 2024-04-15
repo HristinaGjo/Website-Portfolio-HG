@@ -8,9 +8,10 @@ body{
     justify-content: center;
     gap: 50px;
     border-top: 1px solid black;
-    gap: 50px;
     padding-top: 2em;
     padding-bottom: 6em;
+    /* background: blue;
+    color: white; */
 }
 
 .container p,
@@ -35,4 +36,64 @@ p{
     margin: 0;
 }
 
+/* .link{
+    color: white;
+}
+
+a{
+    color: white;
+} */
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+    body{
+        overflow-x: hidden !important;
+        
+    }
+  
+    .container {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      background: blue;
+      color: white;
+      width: 100vw;
+      padding-bottom: 0;
+      gap: 30px;
+      
+    }
+
+    .leftCtn,
+    .rightCtn,
+    .middleCtn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding-top: 10px;
+        padding-bottom: 0;
+    }
+
+    .link {
+        color: white;
+        
+    }
+
+    a {
+        color: white;
+    }
+    .container p,
+    .container a{
+       font-weight: 400;
+       font-size: 24px;
+    }
+}
+  
 

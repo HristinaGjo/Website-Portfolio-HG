@@ -32,7 +32,7 @@ const HomePage = () => {
             <div className={classes.services}>
             <span>UX UI DESIGN |</span> {"  "}
             <span>INTERACTION DESIGN |</span> {"  "}
-            <span>FRONT END DEVELOPMENT</span>
+            <span>FRONT-END DEVELOPMENT</span>
             </div>
         </div>
 
@@ -81,9 +81,9 @@ const HomePage = () => {
         </div>
        
       </div>
-
-      <motion.div className={classes.progress} style={{ scaleX }} />
       <Footer />
+      <motion.div className={classes.progress} style={{ scaleX }} />
+     
     </>
   );
 };
