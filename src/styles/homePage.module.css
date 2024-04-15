@@ -24,14 +24,6 @@ body {
     flex-wrap: wrap; 
   }
 
-  .designerWrapper {
-    white-space: nowrap; /* Ensure both h3 elements are displayed inline */
-  }
-
-  .headlineText h3 {
-    margin: 0; /* Remove any default margin */
-  }
-  
   .scrollSection {
     display: flex;
     align-items:end;
@@ -125,13 +117,17 @@ body {
     border-radius: 50%; */
   }
 
-  
-  
   .designer, .developer {
     font-family: "Avenir Next";
     font-weight:800;
     /* letter-spacing: 3vw;*/
   }
+
+  .services{
+    font-size: 1.5em;
+  }
+
+
 
 img {
     width: 70%;
@@ -148,6 +144,7 @@ h3 {
     line-height: 1.1;
     margin: 0;
     font-weight: 400; 
+    padding-bottom: 20px;
 }
 
 

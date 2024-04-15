@@ -24,15 +24,15 @@ const HomePage = () => {
       <div className={classes.pageCtn}>
           <div className={classes.headlineText}>
             {/* <h3> I'M HRISTINA</h3> */}
-            <span className={classes.designerWrapper}> 
-            <h3 className={classes.designer}>DESIGNER</h3>
-             <h3>WITH DEVELOPER'S MIND &</h3>
-             </span>
+            <span> <h3 className={classes.developer}>DESIGNER {" "}</h3> </span> 
+            <span><h3 style={{ marginLeft: '10px' }}>WITH DEVELOPER'S MIND </h3></span>
             <span> <h3 className={classes.developer}>DEVELOPER  {" "} </h3></span> 
-            <span><h3>WITH DESIGNER EYES</h3></span>
+            <span><h3 style={{ marginLeft: '10px' }}>WITH DESIGNER EYES</h3></span>
+            <div className={classes.services}>
             <span>UX UI DESIGN |</span> {"  "}
             <span>INTERACTION DESIGN |</span> {"  "}
             <span>FRONT END DEVELOPMENT</span>
+            </div>
         </div>
 
         <section ref={ref} className={classes.scrollSection}>
