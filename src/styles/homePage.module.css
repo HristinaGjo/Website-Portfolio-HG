@@ -8,7 +8,7 @@ body {
 
 .pageCtn {
     width: 100%;
-    height: 500vh; 
+    height: 250vh; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,6 +22,7 @@ body {
     display: inline-block;
     display: flex;
     flex-wrap: wrap; 
+    padding-top: 10em;
   }
 
   .scrollSection {
@@ -34,15 +35,21 @@ body {
   .textOverlay {
     position: absolute;
     bottom: 30%; /* Position the text vertically in the middle */
-    left: 50%; /* Position the text horizontally in the middle */
+    left: 60%; /* Position the text horizontally in the middle */
     transform: translate(-50%, 50%); /* Adjust position to center the text */
     color: white; /* Adjust text color */
+    font-family: "Avenir Next";
+    font-weight:600;
     font-size: 24px; /* Adjust font size */
-    text-align: center; /* Center-align the text */
-    background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent background color */
-    padding: 20px; /* Add padding around the text */
-    border-radius: 5px; /* Add border radius for rounded corners */
-    max-width:fit-content; /* Limit the maximum width of the text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent background color */
+    background-color:rgba(0, 0, 255, 0.7);
+    padding:5px; /* Add padding around the text */
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; 
   }
 
   .imageContainer {
@@ -71,14 +78,14 @@ body {
   }
 
   .projectOne {
-    border-top: 1px solid black;
+    /* border-top: 1px solid black;*/
     border-bottom: 1px solid black;  
     margin-top: 500px;
     /* font-family:"Avenir Next"; */
   }
 
  .projectTwo{
-    border-bottom: 1px solid black;
+   /* border-bottom: 1px solid black; */
     margin-bottom: 200px;
     /* font-family:"Avenir Next"; */
   }
@@ -105,12 +112,18 @@ body {
     transform:  translateX(10%) scale(1.1); /* Flip vertically on hover */
   }
 
-  .connectText{
-    margin-bottom: 100px;
+  .connectText h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
   }
   
   .arrowContainer{
-    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
     /* width: 100px;
     height: 100px;
     border: 2px solid black;
@@ -125,17 +138,18 @@ body {
 
   .services{
     font-size: 1.5em;
+    padding-left: 0;
+    margin-left: 0;
+    color: blue;
   }
 
 
 
 img {
-    width: 70%;
+    width: 80%;
     height: 70vh; /* Maintain aspect ratio */
     object-fit: cover; /* Ensure image covers the container */
     margin-bottom: 10%;
-    border-radius: 40px;
-   
 }
 
 h3 {
@@ -146,8 +160,6 @@ h3 {
     font-weight: 400; 
     padding-bottom: 20px;
 }
-
-
 
 
 p{

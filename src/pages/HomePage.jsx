@@ -1,8 +1,9 @@
 import React, { useRef } from "react";
 import classes from '../styles/homePage.module.css';
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
-import coverImage from '../assets/cover.jpeg';
+import coverImage from '../assets/effect.png';
 import { Link } from "react-router-dom";
+import Footer from "../components/Footer";
 
 function useParallax(value, distance) {
   return useTransform(value, [0, 1], [-distance * 0.5, distance * 0.5]);
@@ -39,10 +40,7 @@ const HomePage = () => {
           <motion.div className={classes.imageContainer} style={{ y }}>
             <img src={coverImage} alt="Cover" />
             <motion.h2 className={classes.textOverlay} style={{ y }}>
-              nsjdsdsdjskdskdsdkdklsklsdklkdslkdsknncxncxncnxcnnxncnxcncnx <br/>
-              nsjdsdsdjskdskdsdkdklsklsdklkdslkdsknncxncxncnxcnnxncnxcncnx  <br/>
-              nsjdsdsdjskdskdsdkdklsklsdklkdslkdsknncxncxncnxcnnxncnxcncnx  <br/>
-              nsjdsdsdjskdskdsdkdklsklsdklkdslkdsknncxncxncnxcnnxncnxcncnx  <br/>
+              About Me
             </motion.h2>
           </motion.div>
         </section>
@@ -85,6 +83,7 @@ const HomePage = () => {
       </div>
 
       <motion.div className={classes.progress} style={{ scaleX }} />
+      <Footer />
     </>
   );
 };
