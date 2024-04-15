@@ -23,10 +23,13 @@ const HomePage = () => {
     <>
       <div className={classes.pageCtn}>
           <div className={classes.headlineText}>
-            <br/>
             {/* <h3> I'M HRISTINA</h3> */}
-            <span> <h3>DESIGNER WITH DEVELOPER'S MIND &</h3></span> 
-            <span> <h3>DEVELOPER WITH DESIGNER EYES</h3></span> 
+            <span className={classes.designerWrapper}> 
+            <h3 className={classes.designer}>DESIGNER</h3>
+             <h3>WITH DEVELOPER'S MIND &</h3>
+             </span>
+            <span> <h3 className={classes.developer}>DEVELOPER  {" "} </h3></span> 
+            <span><h3>WITH DESIGNER EYES</h3></span>
             <span>UX UI DESIGN |</span> {"  "}
             <span>INTERACTION DESIGN |</span> {"  "}
             <span>FRONT END DEVELOPMENT</span>
