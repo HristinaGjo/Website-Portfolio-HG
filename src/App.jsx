@@ -34,7 +34,7 @@ function App() {
     <Routes>
       <Route path='/' element={<HomePage/>} />
       <Route path='/legal' element={<LegalPage />} />
-    </Routes>
+    </Routes> 
     </>
   )
 }

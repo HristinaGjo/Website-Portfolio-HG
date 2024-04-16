@@ -1,0 +1,69 @@
+body{
+    background: red;
+    overflow-x: hidden;
+}
+
+.pageCtn{
+    width: 100%;
+    margin-top: 100vh;
+}
+
+.title{
+    width: 100%; /* Adjust width as needed */
+    max-width: 800px; /* Limit maximum width */
+    margin: 0 auto; /* Center the container horizontally */
+    font-size: 2rem; /* Adjust font size for smaller screens */
+    font-family: "Helvetica";
+    text-align: left; /* Center text horizontally */  
+    padding: 2rem;
+    transition: transform 0.5s ease;
+}
+
+.animate {
+    animation-name: slideIn;
+    animation-duration: 0.5s;
+    animation-timing-function: ease;
+}
+
+
+@keyframes slideIn {
+from {
+    transform: translateX(100%);
+}
+to {
+    transform: translateX(0);
+}
+}
+
+
+
+
+@media (min-width: 768px) {
+    
+    .title{
+        width: 100%; /* Adjust width as needed */
+        margin: 0 auto; /* Center the container horizontally */
+        font-size: 5rem; /* Adjust font size for smaller screens */
+        font-family: "Helvetica";
+        padding: 2rem;
+        display: inline;
+        margin-left: 10em;
+        transition: transform 0.5s ease;
+    }
+
+    .animate {
+        animation-name: slideIn;
+        animation-duration: 0.5s;
+        animation-timing-function: ease;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+
+}

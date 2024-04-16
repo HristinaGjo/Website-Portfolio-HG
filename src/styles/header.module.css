@@ -1,7 +1,6 @@
 body {
     overflow-x: hidden; /* Prevent horizontal scrolling */
-    margin: 0;
-    
+    margin: 0; 
 }
 
 .headerCtn {
@@ -59,7 +58,7 @@ body {
         font-size: 9rem;
         font-family: "Helvetica";
         line-height: 1.1em;
-        font-weight: 600;
+        font-weight: 400;
         display: flex;
         flex-direction: row;
         align-items: flex-start;
