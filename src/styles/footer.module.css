@@ -31,20 +31,39 @@ body{
     transform:  translateX(10%) scale(1.1); /* Flip vertically on hover */
   }
 
-
 p{
     margin: 0;
 }
 
-/* .link{
-    color: white;
-}
 
-a{
-    color: white;
-} */
-
-
+.aboutImage {
+    position: relative;
+    max-width: 400.422px;
+    width: 100%;
+    max-height: 368.125px;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .aboutImage img {
+    width: 100%;
+    height: auto;
+    display: block;
+    animation: splashAnimation 2s ease-in-out infinite alternate; /* Adjust animation properties as needed */
+  }
+  
+  @keyframes splashAnimation {
+    0% {
+      transform: translateY(0) rotate(-5deg);
+    }
+    50% {
+      transform: translateY(-10px) rotate(5deg);
+    }
+    100% {
+      transform: translateY(0) rotate(-5deg);
+    }
+  }
 
 
 @media only screen and (max-width: 768px) {

@@ -10,10 +10,10 @@ function App() {
 
   return (
     <>
-     <AnimatedCursor
+  {  /*  <AnimatedCursor
       innerSize={10}
       outerSize={15}
-      color='0, 0, 255'
+      color='0, 0, 255got'
       outerAlpha={0.2}
       innerScale={0.7}
       outerScale={5}
@@ -30,7 +30,7 @@ function App() {
         'button',
         '.link'
       ]}
-    />
+    /> */}
     <Routes>
       <Route path='/' element={<HomePage/>} />
       <Route path='/legal' element={<LegalPage />} />

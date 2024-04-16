@@ -1,12 +1,19 @@
 import React from "react";
 import  classes from "../styles/footer.module.css"
 import { Link } from "react-router-dom";
+import image from "../assets/effect.png"
+import splashImage from "../assets/splash.png"
 
 
 const Footer = () => {
     return ( 
         <>
         <div className={classes.container}>
+        <div className={classes.picture}>
+        <div className={classes.aboutImage}>
+          <img src={splashImage} alt="Splash Image" />
+        </div>
+      </div>
             <div className={classes.leftCtn}>
                 <p>UX UI Design</p>
                 <p>Interaction Design</p>
