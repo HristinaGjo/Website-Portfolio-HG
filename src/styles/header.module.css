@@ -5,10 +5,11 @@ body {
 
 .headerCtn {
     width: 90%; /* Adjust width as needed */
+    height: 100vh;
     max-width: 800px; /* Limit maximum width */
     margin: 0 auto; /* Center the container horizontally */
     font-size: 2rem; /* Adjust font size for smaller screens */
-    font-family: "Helvetica";
+    font-family: "Ppneuemontreal Variable, sans-serif";
     text-align: left; /* Center text horizontally */  
     padding: 2rem;
     display: flex;
@@ -51,12 +52,13 @@ body {
 
     .headerCtn {
         width: 100%;
+        height: 100vh;
         position: absolute;
-        top:55%;
+        top:75%;
         left: 50%;
         transform: translate(-50%, -50%);
         font-size: 9rem;
-        font-family: "Helvetica";
+        font-family: "Ppneuemontreal Variable, sans-serif";
         line-height: 1.1em;
         font-weight: 400;
         display: flex;
