@@ -16,7 +16,8 @@ const Header = () => {
       <div className={classes.line3}>FRONT END </div>
       <div className={classes.line4}>DEVELOPER</div>
       </div>
-</div>
+    </div>
+    <div className={classes.bottomLine}></div>
     </> 
     );
 }
