@@ -1,28 +1,30 @@
-import React, { useRef,useState, useEffect, titleRef } from "react";
-import classes from "../styles/projects.module.css"
-
+import React, { useRef, useState, useEffect } from "react";
+import classes from "../styles/projects.module.css";
 
 const Projects = () => {
     // State to manage animation
     const [animate, setAnimate] = useState(false);
 
+    // Ref for the title element
+    const titleRef = useRef(null);
+
     // Effect to add scroll event listener
     useEffect(() => {
         // Function to handle scroll event
         const handleScroll = () => {
-            // Get the title element
-            const titleElement = document.querySelector(`.${classes.title}`);
+            // Check if titleRef is not null
+            if (titleRef.current) {
+                // Get the bounding rectangle of the title element
+                const titleRect = titleRef.current.getBoundingClientRect();
 
-            // Get the bounding rectangle of the title element
-            const titleRect = titleElement.getBoundingClientRect();
-
-            // Check if the top of the title element is within the viewport
-            if (titleRect.top < window.innerHeight && titleRect.bottom >= 0) {
-                // Set animate state to true to trigger animation
-                setAnimate(true);
-            } else {
-                // Set animate state to false if title is not in viewport
-                setAnimate(false);
+                // Check if the top of the title element is within the viewport
+                if (titleRect.top < window.innerHeight && titleRect.bottom >= 0) {
+                    // Set animate state to true to trigger animation
+                    setAnimate(true);
+                } else {
+                    // Set animate state to false if title is not in viewport
+                    setAnimate(false);
+                }
             }
         };
 
@@ -35,16 +37,16 @@ const Projects = () => {
         };
     }, []);
 
-
-    return ( 
+    return (
         <>
-        <div className={classes.pageCtn}>
-            <div className={`${classes.title} ${animate ? classes.animate : ""}`}  ref={titleRef}>
-                SELECTED PROJECTS
+            <div className={classes.pageCtn}>
+                <div className={`${classes.title} ${animate ? classes.animate : ""}`} ref={titleRef}>
+                    SELECTED PROJECTS * SELECTED PROJECTS
                 </div>
-        </div>
+                <div className={classes.projectsBackground}></div> 
+            </div>
         </>
-     );
-}
- 
+    );
+};
+
 export default Projects;
