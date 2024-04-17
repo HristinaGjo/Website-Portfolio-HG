@@ -36,6 +36,7 @@ const Projects = () => {
             window.removeEventListener("scroll", handleScroll);
         };
     }, []);
+    
 
     return (
         <>

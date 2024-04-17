@@ -19,7 +19,7 @@ const Header = () => {
     </div>
     <div className={classes.bottomCtn}>
         <p className={classes.leftP}> Based in Berlin</p>
-        <p className={classes.rightP}> hgjorgieva@gmail.com</p>
+        <a className={classes.rightP} href="mailto:hgjorgieva@gmail.com">hgjorgieva@gmail.com</a>
       </div>
     </> 
     );

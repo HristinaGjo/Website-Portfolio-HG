@@ -9,11 +9,11 @@ import Header from "../components/Header";
 import Projects from "../components/Projects";
 import About from "../components/About";
 import Services from "../components/Services";
+import Navbar from "../components/Navbar";
 
 const HomePage = () => {
   return ( 
     <>
-    
     <Header />
     <Projects />
     <About />

@@ -5,17 +5,17 @@ body {
 
 .headerCtn {
     width: 90%; /* Adjust width as needed */
-    height: 100vh;
+    height: 70vh;
     max-width: 800px; /* Limit maximum width */
-    margin: 0 auto; /* Center the container horizontally */
-    font-size: 2rem; /* Adjust font size for smaller screens */
+    margin: 0; /* Center the container horizontally */
+    font-size: 2.5rem; /* Adjust font size for smaller screens */
     font-family: "Ppneuemontreal Variable, sans-serif";
     text-align: left; /* Center text horizontally */  
     padding: 2rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .line1,
@@ -29,8 +29,29 @@ body {
     order:2;
 }
 
+.leftCtn img{
+   width: 300px;
+   height: auto;
+   border-radius: 1rem;
+}
+
 .rightCtn{
     order:1;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 1rem;
+}
+
+.bottomCtn{
+    margin-bottom: 2rem;
+    padding: 2rem;
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* .leftCtn img{
@@ -83,13 +104,33 @@ body {
     .leftCtn{
         order:1;
         margin-top: 9rem;
-        margin-left: 0em;
+        margin-left: -25rem;
+    }
+
+    .leftCtn img{
+        width: 400px;
     }
     
     .rightCtn{
         order:2;
         margin-left: -1.6em;
         margin-top: -.5em;
+    }
+
+    .bottomCtn{
+        position: absolute;
+        top: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1.3rem;
+    }
+
+    .leftP {
+        margin-left: 7rem;
+    }
+    .rightP {
+        margin-left: 75rem;
     }
 
 }

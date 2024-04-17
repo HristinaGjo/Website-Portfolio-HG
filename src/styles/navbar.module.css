@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.navCtn{
+    position: fixed;
+    top: 0;
+    left: 0rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    gap:5rem;
+    /*background: red;*/
+    z-index: 1000;
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+
+@media (min-width: 768px){
+    .navCtn{
+        position: fixed;
+        top: 0;
+        left: 9.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem 0;
+        gap:76rem;
+        /*background: red;*/
+        z-index: 1000;
+        font-size: 1.1rem;
+    }
+
+}
