@@ -55,6 +55,23 @@ body {
         justify-content: center;
         align-items: center;
     }
+
+    .animate span{
+        display: inline-block;
+        animation: fliper 2s linear normal;
+        animation-delay: calc(var(--i)*0.15s);
+        
+    }
+
+    @keyframes fliper {
+        30%{
+            transform: rotateY(360deg);
+        }
+        100%{
+            transform: rotateY(360deg);
+        }
+        
+    }
     
 
 }
