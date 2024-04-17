@@ -1,6 +1,7 @@
 import React, { useRef, useState, useEffect } from "react";
 import classes from "../styles/projects.module.css";
 
+
 const Projects = () => {
     // State to manage animation
     const [animate, setAnimate] = useState(false);

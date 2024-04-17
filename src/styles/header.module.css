@@ -9,13 +9,15 @@ body {
     max-width: 800px; /* Limit maximum width */
     margin: 0; /* Center the container horizontally */
     font-size: 2.5rem; /* Adjust font size for smaller screens */
-    font-family: "Ppneuemontreal Variable, sans-serif";
+    font-family: "Helvetica";
+    /*font-family: "Ppneuemontreal Variable, sans-serif";*/
     text-align: left; /* Center text horizontally */  
     padding: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    margin-top: 2rem;
 }
 
 .line1,
@@ -33,6 +35,7 @@ body {
    width: 300px;
    height: auto;
    border-radius: 1rem;
+   margin-top: 2rem;
 }
 
 .rightCtn{
@@ -44,10 +47,11 @@ body {
 }
 
 .bottomCtn{
-    margin-bottom: 2rem;
     padding: 2rem;
     font-weight: 300;
     font-size: 0.9rem;
+    line-height: 1.2vh;
+    margin-top: 4rem;
 }
 
 a {
@@ -124,6 +128,7 @@ a {
         justify-content: space-between;
         align-items: center;
         font-size: 1.3rem;
+        margin-top: 0rem;
     }
 
     .leftP {

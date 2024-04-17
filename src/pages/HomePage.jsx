@@ -17,7 +17,8 @@ const HomePage = () => {
     <Header />
     <Projects />
     <About />
-   <Services />
+   {/* <Services /> */}
+   <Footer />
 
     </>
    );
@@ -25,3 +26,4 @@ const HomePage = () => {
  
 export default HomePage;
 
+/*ixed='top' z-index='1000'*/

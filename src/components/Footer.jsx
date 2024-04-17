@@ -1,4 +1,46 @@
 import React from "react";
+import classes from "../styles/footer.module.css"
+
+
+const Footer = () => {
+    return ( 
+        <>
+        <h3>Hello</h3>
+        </>
+
+     );
+}
+ 
+export default Footer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* import React from "react";
 import  classes from "../styles/footer.module.css"
 import { Link } from "react-router-dom";
 import image from "../assets/effect.png"
@@ -46,4 +88,4 @@ const Footer = () => {
      );
 }
  
-export default Footer;
+export default Footer;*/

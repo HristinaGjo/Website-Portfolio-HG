@@ -25,12 +25,11 @@ body {
     width: 100%;
     max-width: 800px; /* Limit maximum width */
     margin: 0; /* Center the container horizontally */
-    font-size: 2rem; /* Adjust font size for smaller screens */
+    font-size: 2.5rem; /* Adjust font size for smaller screens */
     font-family: "Helvetica";
     text-align: left; /* Align text to the left */
     overflow: hidden;
-    white-space: nowrap;
-   
+    white-space: nowrap;   
 }
 
 .animate {
