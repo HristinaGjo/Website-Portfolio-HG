@@ -1,5 +1,5 @@
 body {
-    overflow-x: hidden; /* Prevent horizontal scrolling */
+    overflow-x: hidden; 
     margin: 0; 
 }
 
@@ -13,8 +13,14 @@ body {
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    font-family: "Helvetica";
+    margin: 0 auto;
     
+}
+
+.textCtn{
+    width: 75%;
+    max-width: 800px;
+    font-family: "Helvetica";
 }
 
 .leftCtn{
@@ -23,8 +29,27 @@ body {
 
 .rightCtn{
     font-size: 1.7rem;
+    max-width: 800px;
+    overflow-wrap: break-word;
+    font-size: 1.2rem;
 }
 
+@keyframes fliper {
+    30%{
+        transform: rotateY(360deg);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+    
+}
+
+    .animate span{
+        display: inline-block;
+        animation: fliper 2s linear normal;
+        animation-delay: calc(var(--i)*0.15s);
+    }
+    
 
 
 
@@ -40,6 +65,7 @@ body {
         align-items: center;
         gap:25em;
         font-family: "Helvetica";
+        border-bottom: 1px solid black;
     }
 
     .leftCtn{
@@ -55,23 +81,4 @@ body {
         justify-content: center;
         align-items: center;
     }
-
-    .animate span{
-        display: inline-block;
-        animation: fliper 2s linear normal;
-        animation-delay: calc(var(--i)*0.15s);
-        
-    }
-
-    @keyframes fliper {
-        30%{
-            transform: rotateY(360deg);
-        }
-        100%{
-            transform: rotateY(360deg);
-        }
-        
-    }
-    
-
 }

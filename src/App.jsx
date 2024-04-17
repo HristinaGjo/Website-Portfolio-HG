@@ -3,6 +3,7 @@ import HomePage from './pages/HomePage'
 import LegalPage from './pages/LegalPage'
 import { Routes, Route } from "react-router-dom"
 import AnimatedCursor from "react-animated-cursor"
+import Navbar from './components/Navbar'
 
 
 function App() {
@@ -10,7 +11,19 @@ function App() {
 
   return (
     <>
-  {  /*  <AnimatedCursor
+    <Navbar /> 
+
+    <Routes>
+      <Route path='/' element={<HomePage/>} />
+      <Route path='/legal' element={<LegalPage />} />
+    </Routes> 
+    </>
+  )
+}
+
+export default App;
+
+{  /*  <AnimatedCursor
       innerSize={10}
       outerSize={15}
       color='0, 0, 255got'
@@ -31,12 +44,3 @@ function App() {
         '.link'
       ]}
     /> */}
-    <Routes>
-      <Route path='/' element={<HomePage/>} />
-      <Route path='/legal' element={<LegalPage />} />
-    </Routes> 
-    </>
-  )
-}
-
-export default App
