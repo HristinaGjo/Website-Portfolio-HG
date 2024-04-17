@@ -10,6 +10,7 @@ const Header = () => {
         <img src={image} alt="picture"/>
         </div>
       { /* <div className={classes.imageCtn}> */}
+  
       <div className={classes.rightCtn}>
       <div className={classes.line1}>CREATIVE</div>
       <div className={classes.line2}>DESIGNER &</div>
@@ -21,6 +22,7 @@ const Header = () => {
         <p className={classes.leftP}> Based in Berlin</p>
         <a className={classes.rightP} href="mailto:hgjorgieva@gmail.com">hgjorgieva@gmail.com</a>
       </div>
+
     </> 
     );
 }

@@ -47,7 +47,11 @@ const About = ({ id }) => {
           AAAAAAAA shdijisjdsjjdshsjhasjajajajkskalksk dsdjskjdskjdkssdkdkskdlksdlksdkskds
           ssmndsnsndjsndlkdsmdklsmkdmsmdsmdslmdldmldmsmdmssdmdlms
           dnsdnsdnksmdsdnksdnksdnskmdsmdsdmsmdsdmsmdlsdlsdlsd,ls,dls,dls,dls,ds,s,,sd
-          dmskmdsmdmsmdmdsmsnddmkmdmssdmsldsdmdsmdjsndndnnmdmdmd</p>
+          dmskmdsmdmsmdmdsmsnddmkmdmssdmsldsdmdsmdjsndndnnmdmdmdjdnjnsjd
+          ansjdnjkjklsdkskdkdksmdksdmsmmdsmdmmsdmsmsmmdmsmsdmsdmdmndsndsndnsdn
+          AAAAAAAA shdijisjdsjjdshsjhasjajajajkskalksk dsdjskjdskjdkssdkdkskdlksdlksdkskds
+          ssmndsnsndjsndlkdsmdklsmkdmsmdsmdslmdldmldmsmdmssdmdlms
+          dnsdnsdnksmdsdnksdnksdnskmdsmdsdmsmdsdmsmdlsdlsdlsd,ls,dls,dls,dls,ds,s,,sd</p>
         </div>
         </div>
       </div>
