@@ -34,6 +34,7 @@ const About = ({ id }) => {
     <>
       <div id={id} className={classes.pageCtn}>
         <div className={classes.textCtn}>
+        <div className={classes.textCtn}>
         <div className={`${classes.leftCtn} ${animate ? classes.animate : ""}`} ref={titleRef}>
           <span style={{ "--i": 1 }}>A</span>
           <span style={{ "--i": 2 }}>B</span>
@@ -52,6 +53,7 @@ const About = ({ id }) => {
           AAAAAAAA shdijisjdsjjdshsjhasjajajajkskalksk dsdjskjdskjdkssdkdkskdlksdlksdkskds
           ssmndsnsndjsndlkdsmdklsmkdmsmdsmdslmdldmldmsmdmssdmdlms
           dnsdnsdnksmdsdnksdnksdnskmdsmdsdmsmdsdmsmdlsdlsdlsd,ls,dls,dls,dls,ds,s,,sd</p>
+        </div>
         </div>
         </div>
       </div>

@@ -18,6 +18,11 @@ body{
     font-size: 0.875rem;
 } 
 
+/*.portfolio{
+    transform: rotate(90deg);
+    margin-top: 5.5rem;
+} */
+
 @media (min-width: 768px){
     .navCtn{
         position: fixed;
