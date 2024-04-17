@@ -1,7 +1,5 @@
-import React, { useRef, useState, useEffect } from "react";
+import React from "react";
 import classes from '../styles/homePage.module.css';
-import { motion, useScroll, useSpring } from "framer-motion";
-import { useInView } from 'react-intersection-observer';
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 
