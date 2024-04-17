@@ -1,9 +1,10 @@
 body {
-    overflow-x:hidden;
+    overflow-x:hidden !important;
 }
 
 .pageCtn {
     width: 100%;
+    
     /* margin-top: 10vh; */
     height: 100vh;
     border-top: 1px solid black;
@@ -12,10 +13,11 @@ body {
 .projectsBackground{
     width: 100%;
     height: 100vh; /* Set height to fill the parent container */
+   
     position: absolute; /* Position the background behind other content */
     background-image: linear-gradient(to right, #b4aeae 1px, transparent 1px ), 
                       linear-gradient(to bottom, #b4aeae 1px, transparent 1px);
-    background-size: 100px 100px; /* Adjust grid size as needed */
+    background-size: 100px 100px; 
     border-bottom: 1px solid black;
   
 }
@@ -23,29 +25,14 @@ body {
 .title {
     /* width: calc(100vw - 2rem); /* Adjust width as needed */
     width: 100%;
-    max-width: 800px; /* Limit maximum width */
+    /* Limit maximum width */
     margin: 0; /* Center the container horizontally */
     font-size: 2.5rem; /* Adjust font size for smaller screens */
     font-family: "Helvetica";
     text-align: left; /* Align text to the left */
     overflow: hidden;
-    white-space: nowrap;   
+    white-space: nowrap;  
 }
-
-.animate {
-    animation: slideIn 1.5s forwards;
-}
-
-@keyframes slideIn {
-    from {
-        transform: translateX(100vw);
-    }
-    to {
-        transform: translateX(0vw);
-    }
-}
-
-
 
 
 @media (min-width: 768px) {
@@ -58,24 +45,38 @@ body {
     }
     
     .title{
-        width: 100%; /* Adjust width as needed */
-        margin: 0 ; /* Center the container horizontally */
-        font-size: 5.15rem; /* Adjust font size for smaller screens */
+        width: 100%; 
+        margin: 0 ;
+        font-size: 5rem; 
         font-family: "Helvetica";
         white-space: nowrap;
         overflow: visible;
+        padding: 1rem;
     }
 
     .projectsBackground{
         width: 100%;
-         /* Set height to fill the parent container */
-        position: absolute; /* Position the background behind other content */
+        position: absolute; 
         background-image: linear-gradient(to right, #b4aeae 1px, transparent 1px), 
                           linear-gradient(to bottom, #b4aeae 1px, transparent 1px);
-        background-size: 150px 150px; /* Adjust grid size as needed */
+        background-size: 150px 150px;
         background-position: center;
         border-top: 1px solid black;
         border-bottom: 1px solid black;
     }
+
+    .animate {
+        animation: slideIn 1.8s forwards;
+    }
+    
+    @keyframes slideIn {
+        from {
+            transform: translateX(100vw);
+        }
+        to {
+            transform: translateX(2vw);
+        }
+    }
+    
 }
 

@@ -4,7 +4,6 @@ body {
 }
 
 .pageCtn {
-    margin-top: 4rem;
     width: 100%;
     height: 100vh;
     /* background: red;*/
@@ -12,24 +11,27 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
-   
 }
 
 .textCtn{
-    width: 75%;
+    width: 81%;
     max-width: 800px;
     font-family: "Helvetica";
 }
 
 .leftCtn{
-    font-size:3rem ;
+    font-size:2.25rem ;
 }
 
 .rightCtn{
     max-width: 800px;
     overflow-wrap: break-word;
-    font-size: 1.2rem;
+}
+
+.rightCtn p{
+    font-size: 1rem;
+    margin-top: 3rem;
+    font-weight: 250;
 }
 
 @keyframes fliper {

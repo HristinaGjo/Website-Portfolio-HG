@@ -6,7 +6,7 @@ const Navbar = () => {
     <>
     <div className={classes.navCtn}>
         <p>HRISTINA GJORGIEVA</p>
-        <p>PORTFOLIO VOl.1</p>
+        {/* <p>PORTFOLIO VOl.1</p> */}
     </div>
 
     </> 

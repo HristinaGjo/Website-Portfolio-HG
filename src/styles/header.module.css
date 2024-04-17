@@ -1,42 +1,44 @@
 
 body {
-    overflow-x: hidden; /* Prevent horizontal scrolling */
+    overflow-x: hidden !important;
     margin: 0; 
 }
 
 .headerCtn {
-    width: 90%; /* Adjust width as needed */
+    width: 90%; 
     height: 70vh;
-    max-width: 800px; /* Limit maximum width */
+    max-width: 800px; 
     margin: 0; /* Center the container horizontally */
-    font-size: 2.5rem; /* Adjust font size for smaller screens */
+    font-size: 2.25rem;
     font-family: "Helvetica";
     /*font-family: "Ppneuemontreal Variable, sans-serif";*/
-    text-align: left; /* Center text horizontally */  
-    padding: 2rem;
+    text-align: left; 
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    margin-top: 2rem;
+    margin-top: 4.5rem;
 }
 
 .line1,
 .line2,
 .line3,
 .line4 {
-    margin: 0; /* Add vertical spacing between lines */
+    margin: 0; /*  vertical spacing between lines */
+
 }
 
 .leftCtn{
     order:2;
+    padding-left: 2rem;
+  
 }
 
 .leftCtn img{
-   width: 300px;
+   width: 250px;
    height: auto;
    border-radius: 1rem;
-   margin-top: 2rem;
+   margin-top: 3rem;
 }
 
 .rightCtn{
@@ -45,14 +47,15 @@ body {
     flex-direction: column;
     text-align: left;
     margin-top: 1rem;
+    padding-left: 2rem;
 }
 
 .bottomCtn{
     padding: 2rem;
     font-weight: 300;
-    font-size: 0.9rem;
-    line-height: 1.2vh;
-    margin-top: 4rem;
+    font-size: 0.875rem;
+    line-height: 1.2em;
+    padding-bottom: 2rem;
 }
 
 a {
@@ -68,17 +71,16 @@ a {
 
 
 @media (min-width: 768px) {
-    /* Apply styles for tablets and larger screens */
-    
 
     .headerCtn {
         width: 100%;
         height: 100vh;
         position: absolute;
-        top:75%;
-        left: 50%;
+        top:70%;
+        left: 58%;
         transform: translate(-50%, -50%);
-        font-size: 9rem;
+        font-size: 8rem;
+        /*font-family: "Avir Next"; */
         font-family: "Ppneuemontreal Variable, sans-serif";
         line-height: 1.1em;
         font-weight: 400;
@@ -88,7 +90,7 @@ a {
     }
     
     .line1{
-        margin-left: -1.3em;
+        margin-left: -1.2em;
         display: inline-block;
     }
     
@@ -108,12 +110,12 @@ a {
 
     .leftCtn{
         order:1;
-        margin-top: 9rem;
+        margin-top: 5rem;
         margin-left: -25rem;
     }
 
     .leftCtn img{
-        width: 400px;
+        width: 350px;
     }
     
     .rightCtn{
@@ -124,19 +126,21 @@ a {
 
     .bottomCtn{
         position: absolute;
-        top: 90%;
+        top: 89%;
         display: flex;
         justify-content: space-between;
         align-items: center;
         font-size: 1.3rem;
         margin-top: 0rem;
+        width: 100%;
     }
 
-    .leftP {
-        margin-left: 7rem;
-    }
     .rightP {
-        margin-left: 75rem;
+        margin-right: 7rem;
+    }
+
+    .leftP{
+        margin-left: 2.5rem;
     }
 
 }

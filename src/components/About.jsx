@@ -42,12 +42,12 @@ const About = ({ id }) => {
           <span style={{ "--i": 5 }}>T</span>
         </div>
         <div className={classes.rightCtn}>
-          Jjandjsndjndsndsbjdsnsjndjsdnkjssndk x ndbsjdjsdjdnjsnjsnfnklfsklf
+          <p>Jjandjsndjndsndsbjdsnsjndjsdnkjssndk x ndbsjdjsdjdnjsnjsnfnklfsklf
           jssjdsdksjdkjsjskjdlksjndsjdnsnddnsndkdnkdnskmdsmdsmdsldmsm
           AAAAAAAA shdijisjdsjjdshsjhasjajajajkskalksk dsdjskjdskjdkssdkdkskdlksdlksdkskds
           ssmndsnsndjsndlkdsmdklsmkdmsmdsmdslmdldmldmsmdmssdmdlms
           dnsdnsdnksmdsdnksdnksdnskmdsmdsdmsmdsdmsmdlsdlsdlsd,ls,dls,dls,dls,ds,s,,sd
-          dmskmdsmdmsmdmdsmsnddmkmdmssdmsldsdmdsmdjsndndnnmdmdmd
+          dmskmdsmdmsmdmdsmsnddmkmdmssdmsldsdmdsmdjsndndnnmdmdmd</p>
         </div>
         </div>
       </div>

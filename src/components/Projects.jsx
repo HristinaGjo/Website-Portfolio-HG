@@ -43,7 +43,7 @@ const Projects = () => {
         <>
             <div className={classes.pageCtn}>
                 <div className={`${classes.title} ${animate ? classes.animate : ""}`} ref={titleRef}>
-                    SELECTED PROJECTS * SELECTED PROJECTS
+                    PROJECTS * PROJECTS * PROJECTS
                 </div>
                 <div className={classes.projectsBackground}></div> 
             </div>
