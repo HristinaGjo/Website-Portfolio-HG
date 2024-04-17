@@ -90,21 +90,21 @@ a {
     }
     
     .line1{
-        margin-left: -1.2em;
+        margin-left: -1.5em;
         display: inline-block;
     }
     
     .line2{
-        margin-left: 2.3em;
+        margin-left: 2em;
         display: inline-block;
     }
     
     .line3{
-        margin-left: 1.7em;
+        margin-left: 1.5em;
         display: inline-block;
     }
     .line4{
-        margin-left: 3.7em;
+        margin-left: 3.4em;
         display: inline-block;
     }
 
@@ -130,17 +130,17 @@ a {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        font-size: 1.3rem;
+        font-size: 1rem;
         margin-top: 0rem;
         width: 100%;
     }
 
     .rightP {
-        margin-right: 7rem;
+        margin-right: 6.7rem;
     }
 
     .leftP{
-        margin-left: 2.5rem;
+        margin-left: 3.5rem;
     }
 
 }
