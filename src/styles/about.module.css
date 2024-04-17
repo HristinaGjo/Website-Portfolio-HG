@@ -15,8 +15,8 @@ body {
 }
 
 .textCtn{
-    width: 81%;
-    max-width: 800px;
+    width: 82%;
+    max-width: 900px;
     font-family: "Helvetica";
 }
 
@@ -25,7 +25,7 @@ body {
 }
 
 .rightCtn{
-    max-width: 800px;
+   
     overflow-wrap: break-word;
 }
 

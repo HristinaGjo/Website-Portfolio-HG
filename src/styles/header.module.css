@@ -30,7 +30,7 @@ body {
 
 .leftCtn{
     order:2;
-    padding-left: 2rem;
+    padding-left: 1rem;
 }
 
 .leftCtn img{
@@ -50,7 +50,7 @@ body {
 }
 
 .bottomCtn{
-    padding: 1.8rem;
+    padding: 1.2rem;
     font-weight: 300;
     font-size: 0.875rem;
     line-height: 1.2em;
@@ -58,7 +58,7 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 4.5rem;
+    gap: 3.9rem;
 }
 
 a {
@@ -139,11 +139,11 @@ a {
     }
 
     .rightP {
-        margin-right: 7.4rem;
+        margin-right: 7.2rem;
     }
 
     .leftP{
-        margin-left: 2.6rem;
+        margin-left: 3.3rem;
     }
 
 }
