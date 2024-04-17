@@ -21,7 +21,6 @@ const Header = () => {
         <p className={classes.leftP}> Based in Berlin</p>
         <p className={classes.rightP}> hgjorgieva@gmail.com</p>
       </div>
-    <div className={classes.bottomLine}></div>
     </> 
     );
 }
