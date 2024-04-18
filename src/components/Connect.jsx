@@ -48,6 +48,7 @@ const Connect = ({ id }) => {
           <span style={{ "--i": 12 }}>C</span>
           <span style={{ "--i": 13 }}>T</span>
         </div>
+        
         <a className={classes.emailLink} href="mailto:hgjorgieva@gmail.com">hgjorgieva@gmail.com</a>
       </div>
     </div>
