@@ -10,15 +10,16 @@ body {
 }
 
 .projectsBackground{
-    width: 100%;
+    width: 85%;
     height: 100vh; /* Set height to fill the parent container */
-   
     position: absolute; /* Position the background behind other content */
     background-image: linear-gradient(to right, #b4aeae 1px, transparent 1px ), 
                       linear-gradient(to bottom, #b4aeae 1px, transparent 1px);
-    background-size: 78px 82px; 
+    background-size: 60px 60px; 
     border-bottom: 1px solid black;
+    border-top: 1px solid black;
     background-position: center;
+
   
 }
 
@@ -31,16 +32,16 @@ body {
     font-family: "Helvetica";
     text-align: left; /* Align text to the left */
     overflow: hidden;
-    white-space: nowrap;  
+    white-space: nowrap; 
 }
 
 
-.animate {
+/* .animate {
     max-width: 600px;
     animation: slideIn 1.8s forwards;
 }
 
-/*@keyframes slideIn {
+@keyframes slideIn {
     from {
         transform: translateX(50vw);
     }
@@ -53,25 +54,22 @@ body {
 @media (min-width: 768px) {
 
     .pageCtn {
-        width: 100%;
-        
+        width: 95%;
         height: 100vh;
         border-top: 1px solid black;
     }
     
     .title{
         width: 100%; 
-        margin: 0 ;
-        font-size: 5rem; 
+        font-size: 4.9rem; 
         font-family: "Helvetica";
         white-space: nowrap;
         overflow: visible;
-        padding: 1rem;
+        padding:  1rem 0;
     }
 
     .projectsBackground{
-        width: 100%;
-        position: absolute; 
+        
         background-image: linear-gradient(to right, #b4aeae 1px, transparent 1px), 
                           linear-gradient(to bottom, #b4aeae 1px, transparent 1px);
         background-size: 165px 165px;
@@ -86,7 +84,7 @@ body {
     
     @keyframes slideIn {
         from {
-            transform: translateX(100vw);
+            transform: translateX(70vw);
         }
         to {
             transform: translateX(2vw);

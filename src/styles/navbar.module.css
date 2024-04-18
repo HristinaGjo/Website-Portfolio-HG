@@ -8,10 +8,10 @@ body{
     top: 0;
     left: 0;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    gap: 3rem;
-    padding: 1rem;
+    gap: 4.1rem;
+    padding: 1rem 0;
     /*background: red;*/
     z-index: 1000;
     font-weight: 300;

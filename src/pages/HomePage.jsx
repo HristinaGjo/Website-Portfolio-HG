@@ -1,4 +1,6 @@
+// HomePage.js
 import React, { useRef } from "react";
+import SectionContainer from "../components/SectionContainer";
 import Header from "../components/Header";
 import Projects from "../components/Projects";
 import About from "../components/About";
@@ -29,28 +31,18 @@ const HomePage = () => {
   };
 
   return (
-    <>
+    <><SectionContainer>
       <Navbar scrollToRef={scrollToRef} />
-      <Header ref={headerRef} />
-      <Projects ref={projectsRef} />
-      <About ref={aboutRef} />
-      <Services/>
-      <Connect />
+      
+        <Header ref={headerRef} />
+        <Projects ref={projectsRef} />
+        <About ref={aboutRef} />
+        <Services />
+        <Connect />
+      </SectionContainer>
       <Footer />
     </>
   );
 };
 
 export default HomePage;
-
-
-
-/*const scrollToRef = (refName) => {
-  if (refName === "headerRef") {
-    headerRef.current.scrollIntoView({ behavior: "smooth" });
-  } else if (refName === "projectsRef") {
-    projectsRef.current.scrollIntoView({ behavior: "smooth" });
-  } else if (refName === "aboutRef") {
-    aboutRef.current.scrollIntoView({ behavior: "smooth" });
-  }
-}; */
