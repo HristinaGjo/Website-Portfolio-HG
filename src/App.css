@@ -25,6 +25,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	overflow-y: scroll !important;
 }
 ol, ul {
 	list-style: none;
@@ -50,3 +51,15 @@ table {
   text-align: center;
   background-color: aliceblue;
 } */
+
+.appCtn {
+	display: flex;
+	flex-direction: column;
+
+  }
+  
+  .contentCtn {
+	flex: 1; /* Grow to fill remaining space */
+	overflow-y: scroll !important; /* Enable vertical scrolling */
+  }
+  

@@ -38,15 +38,15 @@ const Services = ({ id }) => {
           <span style={{ "--i": 3 }}>R</span>
           <span style={{ "--i": 4 }}>V</span>
           <span style={{ "--i": 5 }}>I</span>
-          <span style={{ "--i": 5 }}>S</span>
+          <span style={{ "--i": 5 }}>C</span>
           <span style={{ "--i": 5 }}>E</span>
           <span style={{ "--i": 5 }}>S</span>
                 <p>things I can help you with</p>
             </div>
             <div className={classes.rightCtn}>
-                <div className={classes.line1}>01 {" "}UX & UI Design</div>
-                <div className={classes.line2}>02 {" "}Web Development</div>
-                <div className={classes.line3}>03 {" "}Interaction Design</div>
+                <span className={classes.line1}>01 {" "}UX & UI Design</span>
+                <span className={classes.line2}>02 {" "}Web Development</span>
+                <span className={classes.line3}>03 {" "}Interaction Design</span>
             </div>
         </div>
         </>

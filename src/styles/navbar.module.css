@@ -10,13 +10,19 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    gap: 2rem;
+    gap: 3rem;
     padding: 1rem;
     /*background: red;*/
     z-index: 1000;
     font-weight: 300;
     font-size: 0.875rem;
 } 
+.rightCtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:1.5rem;
+}
 
 /*.portfolio{
     transform: rotate(90deg);
@@ -32,10 +38,16 @@ body{
         justify-content: space-between;
         align-items: center;
         padding: 2rem 0;
-        gap:64rem;
+        gap:62rem;
         /*background: red;*/
         z-index: 1000;
         font-size: 1.125rem;
+    }
+    .rightCtn{
+        margin-left: 6.6rem;
+    }
+    .leftCtn{
+        margin-left: 2.5rem;
     }
 
 }

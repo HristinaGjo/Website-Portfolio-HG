@@ -18,10 +18,10 @@ const Header = () => {
       <div className={classes.line4}>DEVELOPER</div>
       </div>
     </div>
-    <div className={classes.bottomCtn}>
+   {/* <div className={classes.bottomCtn}>
         <p className={classes.leftP}> Based in Berlin</p>
         <a className={classes.rightP} href="mailto:hgjorgieva@gmail.com">hgjorgieva@gmail.com</a>
-      </div>
+      </div> */}
 
     </> 
     );
