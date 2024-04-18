@@ -38,3 +38,15 @@ const HomePage = () => {
 };
 
 export default HomePage;
+
+
+
+/*const scrollToRef = (refName) => {
+  if (refName === "headerRef") {
+    headerRef.current.scrollIntoView({ behavior: "smooth" });
+  } else if (refName === "projectsRef") {
+    projectsRef.current.scrollIntoView({ behavior: "smooth" });
+  } else if (refName === "aboutRef") {
+    aboutRef.current.scrollIntoView({ behavior: "smooth" });
+  }
+}; */

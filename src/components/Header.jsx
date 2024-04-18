@@ -4,7 +4,8 @@ import image from "../assets/me.png";
 
 const Header = React.forwardRef((props, ref) => {
   return (
-    <div ref={ref} className={classes.headerCtn}>
+    <div ref={ref}  className={classes.pageCtn}>
+    <div className={classes.headerCtn}>
       <div className={classes.leftCtn}>
         <img src={image} alt="picture" />
       </div>
@@ -14,6 +15,7 @@ const Header = React.forwardRef((props, ref) => {
         <div className={classes.line3}>FRONT END </div>
         <div className={classes.line4}>DEVELOPER</div>
       </div>
+    </div>
     </div>
   );
 });
