@@ -4,6 +4,8 @@ import Projects from "../components/Projects";
 import About from "../components/About";
 import Navbar from "../components/Navbar";
 import Services from "../components/Services";
+import Footer from "../components/Footer";
+import Connect from "../components/Connect";
 
 const HomePage = () => {
   const headerRef = useRef(null);
@@ -33,6 +35,8 @@ const HomePage = () => {
       <Projects ref={projectsRef} />
       <About ref={aboutRef} />
       <Services/>
+      <Connect />
+      <Footer />
     </>
   );
 };

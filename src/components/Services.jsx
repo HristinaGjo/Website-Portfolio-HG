@@ -29,6 +29,8 @@ const Services = ({ id }) => {
         window.removeEventListener("scroll", handleScroll);
       };
     }, []);
+
+    
     return ( 
         <>
         <div id={id} className={classes.pageCtn}>
