@@ -3,31 +3,27 @@ body {
   margin: 0; 
 }
 
-
-
 .pageCtn {
     width: 100%;
     height: 65vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     border-bottom: 1px solid black;
-    padding-left: 2rem;
+    /*padding-left: 2rem;*/
   }
   
-  .textCtn {
-    width: 81%;
+  /*.textCtn {
+    width: 50%;
     max-width: 800px;
     font-family: "Helvetica";
     display: flex;
-    justify-content: space-between;
     align-items: center;
-  }
+  } */
   
   .leftCtn {
     font-size: 2rem;
-    margin-bottom: 8rem;
-    margin-top: -.5rem;
   }
   
   .leftCtn p {
@@ -36,25 +32,18 @@ body {
   }
   
   .rightCtn {
-    position: absolute;
-    left: 0;
-    right: 0;
     overflow-wrap: break-word;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin-top: 7.3rem;
-    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
   }
   
-  .line1,
-  .line2,
-  .line3 {
+  .rightCtn span {
     width: 90%;
-    margin: 1rem;
-    overflow: hidden;
-    position: relative;
+    /* overflow: hidden;
+    position: relative; */
     border-bottom: 1px solid black;
   }
 

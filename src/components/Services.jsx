@@ -46,9 +46,9 @@ const Services = ({ id }) => {
                 <p>things I can help you with</p>
             </div>
             <div className={classes.rightCtn}>
-                <span className={classes.line1}>01 {" "}UX & UI Design</span>
-                <span className={classes.line2}>02 {" "}Web Development</span>
-                <span className={classes.line3}>03 {" "}Interaction Design</span>
+                <span >01 {" "}UX & UI Design</span>
+                <span >02 {" "}Web Development</span>
+                <span >03 {" "}Interaction Design</span>
             </div>
         </div>
         </>

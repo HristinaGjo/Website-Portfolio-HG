@@ -59,15 +59,17 @@ body {
   height: 30vh;
   display: flex;
   justify-content: center;
+
   align-items: center;
   border-bottom: 1px solid black;
-  margin: 0;
+  /*margin-left: 2rem; */
 }
 
 .leftCtn {
   display: flex;
   flex-direction: column; /* Ensure text and email are stacked vertically */
-  align-items: flex-start; /* Center text and email horizontally */
+  align-items: flex-start;
+  margin: 0; /* Center text and email horizontally */
 }
 
 .leftCtn span {
