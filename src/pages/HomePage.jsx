@@ -1,27 +1,40 @@
-import React from "react";
-import classes from '../styles/homePage.module.css';
-import { Link } from "react-router-dom";
-import Footer from "../components/Footer";
-
+import React, { useRef } from "react";
 import Header from "../components/Header";
 import Projects from "../components/Projects";
 import About from "../components/About";
-import Services from "../components/Services";
 import Navbar from "../components/Navbar";
+import Services from "../components/Services";
 
 const HomePage = () => {
-  return ( 
+  const headerRef = useRef(null);
+  const projectsRef = useRef(null);
+  const aboutRef = useRef(null);
+
+  const scrollToRef = (refName) => {
+    switch (refName) {
+      case "headerRef":
+        headerRef.current.scrollIntoView({ behavior: "smooth" });
+        break;
+      case "projectsRef":
+        projectsRef.current.scrollIntoView({ behavior: "smooth" });
+        break;
+      case "aboutRef":
+        aboutRef.current.scrollIntoView({ behavior: "smooth" });
+        break;
+      default:
+        break;
+    }
+  };
+
+  return (
     <>
-    <Header />
-    <Projects />
-    <About />
-   <Services /> 
-  {/* <Footer /> */}
-
+      <Navbar scrollToRef={scrollToRef} />
+      <Header ref={headerRef} />
+      <Projects ref={projectsRef} />
+      <About ref={aboutRef} />
+      <Services/>
     </>
-   );
-}
- 
-export default HomePage;
+  );
+};
 
-/*ixed='top' z-index='1000'*/
+export default HomePage;

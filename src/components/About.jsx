@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import classes from "../styles/about.module.css";
 
-const About = ({ id }) => {
+const About = React.forwardRef (({ id }, ref) => {
   const [animate, setAnimate] = useState(false);
   const titleRef = useRef(null);
 
@@ -32,8 +32,7 @@ const About = ({ id }) => {
 
   return (
     <>
-      <div id={id} className={classes.pageCtn}>
-        <div className={classes.textCtn}>
+      <div ref={ref} id={id} className={classes.pageCtn}>
         <div className={classes.textCtn}>
         <div className={`${classes.leftCtn} ${animate ? classes.animate : ""}`} ref={titleRef}>
           <span style={{ "--i": 1 }}>A</span>
@@ -56,9 +55,8 @@ const About = ({ id }) => {
         </div>
         </div>
         </div>
-      </div>
     </>
   );
-};
+});
 
 export default About;

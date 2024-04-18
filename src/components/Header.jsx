@@ -1,30 +1,21 @@
 import React from "react";
-import classes from "../styles/header.module.css"
-import image from "../assets/me.png"
+import classes from "../styles/header.module.css";
+import image from "../assets/me.png";
 
-const Header = () => {
-    return ( 
-    <>
-     <div className={classes.headerCtn}>
-        <div className={classes.leftCtn}>
-        <img src={image} alt="picture"/>
-        </div>
-      { /* <div className={classes.imageCtn}> */}
-  
+const Header = React.forwardRef((props, ref) => {
+  return (
+    <div ref={ref} className={classes.headerCtn}>
+      <div className={classes.leftCtn}>
+        <img src={image} alt="picture" />
+      </div>
       <div className={classes.rightCtn}>
-      <div className={classes.line1}>CREATIVE</div>
-      <div className={classes.line2}>DESIGNER &</div>
-      <div className={classes.line3}>FRONT END </div>
-      <div className={classes.line4}>DEVELOPER</div>
+        <div className={classes.line1}>CREATIVE</div>
+        <div className={classes.line2}>DESIGNER &</div>
+        <div className={classes.line3}>FRONT END </div>
+        <div className={classes.line4}>DEVELOPER</div>
       </div>
     </div>
-   {/* <div className={classes.bottomCtn}>
-        <p className={classes.leftP}> Based in Berlin</p>
-        <a className={classes.rightP} href="mailto:hgjorgieva@gmail.com">hgjorgieva@gmail.com</a>
-      </div> */}
+  );
+});
 
-    </> 
-    );
-}
- 
 export default Header;

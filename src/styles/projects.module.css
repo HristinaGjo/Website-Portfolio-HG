@@ -5,7 +5,7 @@ body {
 .pageCtn {
     width: 100%;
     /* margin-top: 10vh; */
-
+    height: 100vh;
     border-top: 1px solid black;
 }
 
@@ -16,7 +16,7 @@ body {
     position: absolute; /* Position the background behind other content */
     background-image: linear-gradient(to right, #b4aeae 1px, transparent 1px ), 
                       linear-gradient(to bottom, #b4aeae 1px, transparent 1px);
-    background-size: 82px 82px; 
+    background-size: 78px 82px; 
     border-bottom: 1px solid black;
     background-position: center;
   
@@ -54,7 +54,7 @@ body {
 
     .pageCtn {
         width: 100%;
-        margin-top: 5rem;
+        margin-top: 100vh;
         height: 100vh;
         border-top: 1px solid black;
     }

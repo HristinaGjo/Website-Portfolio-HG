@@ -2,7 +2,7 @@ import React, { useRef, useState, useEffect } from "react";
 import classes from "../styles/projects.module.css";
 
 
-const Projects = () => {
+const Projects = React.forwardRef ((props,ref) => {
     // State to manage animation
     const [animate, setAnimate] = useState(false);
 
@@ -41,7 +41,7 @@ const Projects = () => {
 
     return (
         <>
-            <div className={classes.pageCtn}>
+            <div ref={ref} className={classes.pageCtn}>
                 <div className={`${classes.title} ${animate ? classes.animate : ""}`} ref={titleRef}>
                     PROJECTS * PROJECTS * PROJECTS
                 </div>
@@ -49,6 +49,6 @@ const Projects = () => {
             </div>
         </>
     );
-};
+});
 
 export default Projects;
