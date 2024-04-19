@@ -24,11 +24,11 @@ body {
 
 .rightCtn{
     overflow-wrap: break-word;
+    margin-top: 2rem;
 }
 
 .rightCtn p{
     font-size: 1rem;
-    margin-top: 2rem;
     font-weight: 200;
 }
 
