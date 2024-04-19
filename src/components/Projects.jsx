@@ -3,13 +3,40 @@ import classes from "../styles/projects.module.css";
 import imageOne from "../assets/me.png"
 
 const Projects = React.forwardRef (({ id }, ref) => {
+    const [animate, setAnimate] = useState(false);
+    const titleRef = useRef(null);
+  
+    useEffect(() => {
+      function handleScroll() {
+        const projectSection = titleRef.current;
+        if (!projectSection) return;
+  
+        const rect = projectSection.getBoundingClientRect();
+        const windowHeight =
+          window.innerHeight || document.documentElement.clientHeight;
+  
+        if (rect.top <= windowHeight && rect.bottom >= 0) {
+          setAnimate(true);
+        } else {
+          setAnimate(false);
+        }
+      }
+  
+      window.addEventListener("scroll", handleScroll);
+      // Call handleScroll once on mount to check if the element is initially in the viewport
+      handleScroll();
+  
+      return () => {
+        window.removeEventListener("scroll", handleScroll);
+      };
+    }, []);
 
   
   
   
     return (
       <>
-        <div  className={classes.pageCtn}>
+        <div  ref={ref} id={id} className={classes.pageCtn}>
             <div className={classes.projects}>
             <div className={classes.projectOne}>
                 <span>LEGAL</span>

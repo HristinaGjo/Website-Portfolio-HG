@@ -5,12 +5,14 @@ body {
 
 .pageCtn {
     width: 100%;
-    height: 65vh;
+    height: auto;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    border-bottom: 1px solid black;
+   /* border-bottom: 1px solid black;
     /*padding-left: 2rem;*/
   }
   
@@ -46,7 +48,7 @@ body {
     width: 100%;
     /* overflow: hidden;
     position: relative; */
-    border-bottom: 1px solid black;
+   /* border-bottom: 1px solid black;*/
   }
 
   
@@ -70,8 +72,8 @@ body {
   @media (min-width: 768px) {
     .pageCtn {
       width: 100%;
-      height: 70vh;
-      border-bottom: 1px solid black;
+      height: 50vh;
+      border-bottom: 1px solid black; 
       margin: 0;
       /* display: flex;
       justify-content: center;
@@ -94,10 +96,14 @@ body {
       width:auto;
     }
 
-    .line1,
+    .rightCtn span{
+      border: none;
+    }
+
+    /*.line1,
     .line2,
     .line3 {
-      border-bottom: 1px solid black;
-    }
+     /* border-bottom: 1px solid black;
+    } */
   }
   
