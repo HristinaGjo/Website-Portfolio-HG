@@ -20,7 +20,6 @@ body {
     border-top: 1px solid black;
     background-position: center;
 
-  
 }
 
 .title {
@@ -54,22 +53,22 @@ body {
 @media (min-width: 768px) {
 
     .pageCtn {
-        width: 95%;
-        height: 100vh;
+        width: 100%;
+        height: 114vh;
         border-top: 1px solid black;
     }
     
     .title{
-        width: 100%; 
+        width: 50%; 
         font-size: 4.9rem; 
         font-family: "Helvetica";
         white-space: nowrap;
-        overflow: visible;
+        overflow:visible;
         padding:  1rem 0;
     }
 
     .projectsBackground{
-        
+        width: 100%;
         background-image: linear-gradient(to right, #b4aeae 1px, transparent 1px), 
                           linear-gradient(to bottom, #b4aeae 1px, transparent 1px);
         background-size: 165px 165px;
@@ -84,10 +83,10 @@ body {
     
     @keyframes slideIn {
         from {
-            transform: translateX(70vw);
+            transform: translateX(50vw);
         }
         to {
-            transform: translateX(2vw);
+            transform: translateX(0vw);
         }
     }
     

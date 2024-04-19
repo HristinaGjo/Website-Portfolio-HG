@@ -54,21 +54,19 @@ body {
         width: 100%;
         height: 100vh;
         border-top: 1px solid red;
-        display: flex;
+        /*display: flex;
         justify-content: center;
-        align-items: center;
-   
-        border-bottom: 1px solid black;
+        align-items: center; 
+        border-bottom: 1px solid black;*/
     }
 
     .textCtn{
         font-family: "Helvetica";
         display: flex;
-        gap:20rem;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
-        font-family: "Helvetica";
-       
+        gap:20rem; 
     }
 
     .leftCtn{
@@ -78,10 +76,10 @@ body {
     
     .rightCtn{
         font-size: 1.2rem;
-        width: 30%;
+        width:25%;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
        /* display: flex; */
     }

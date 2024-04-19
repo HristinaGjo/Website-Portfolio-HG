@@ -49,23 +49,27 @@ body {
 
     .pageCtn{
         width: 100%;
-        height: 3vh;
+        height: auto;
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
         padding: 2rem;
+        box-sizing: border-box;
     }
 
     .leftCtn{
         width: 30%;
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
         align-items: flex-start;
-        margin-right: 46rem;
-        margin-left: 4em;
+       /* margin-left: 4em; */
     }
 
-    .rigthCtn p{
-        font-size: 1.25rem;
+    .rigthCtn span{
+        font-size: 1rem;
+        display: inline block;
     }
 
     .leftCtn a{

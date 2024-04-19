@@ -31,9 +31,9 @@ const HomePage = () => {
   };
 
   return (
-    <><SectionContainer>
+    <>
+    <SectionContainer>
       <Navbar scrollToRef={scrollToRef} />
-      
         <Header ref={headerRef} />
         <Projects ref={projectsRef} />
         <About ref={aboutRef} />

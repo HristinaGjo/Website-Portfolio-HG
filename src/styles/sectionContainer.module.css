@@ -2,12 +2,22 @@
 body{
     overflow-x: hidden;
 }
+
 .sectionContainer {
     width: 100%;
     padding: 0 1.5rem;
     align-items: center;
     border-bottom: 1px solid black;
     box-sizing: border-box;
-    /* Add any other common styling here */
+  }
+
+  @media (min-width: 768px) { 
+    .sectionContainer {
+        width: 100%;
+        padding: 0rem;
+        align-items: center;
+        border-bottom: 1px solid black;
+        box-sizing: border-box;
+      }
   }
   

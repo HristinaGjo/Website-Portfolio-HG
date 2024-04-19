@@ -43,7 +43,7 @@ const Projects = React.forwardRef ((props,ref) => {
         <>
             <div ref={ref} className={classes.pageCtn}>
                 <div className={`${classes.title} ${animate ? classes.animate : ""}`} ref={titleRef}>
-                    PROJECTS * PROJECTS * PROJECTS
+                    PROJECTS 
                 </div>
                 <div className={classes.projectsBackground}></div> 
             </div>

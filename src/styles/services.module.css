@@ -64,6 +64,7 @@ body {
         animation-delay: calc(var(--i)*0.15s);
     }
     
+    
   @media (min-width: 768px) {
     .pageCtn {
       width: 100%;
@@ -83,12 +84,12 @@ body {
   
     .rightCtn {
       font-size: 1.7rem;
-      width: 55%;
+      width:auto;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      margin-left: 40rem;
+      margin-left: 30rem;
       margin-top: -8rem;
     }
   

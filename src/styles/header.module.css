@@ -80,16 +80,16 @@ a {
 
     .pageCtn{
         width: 100%;
-        height: 120vh;
+        height: 100vh;
     }
 
     .headerCtn {
-        width: 100%;
+        width: 80%;
         position: absolute;
-        top:60%;
-        left: 58%;
+        top:50%;
+        left: 53%;
         transform: translate(-50%, -50%);
-        font-size: 8rem;
+        font-size: 7rem;
         /*font-family: "Avir Next"; */
         font-family: "Ppneuemontreal Variable, sans-serif";
         line-height: 1.1em;
@@ -100,25 +100,29 @@ a {
     }
     
     .line1{
-        margin-left: -.5em; 
+        margin-left: -2.5em; 
         display: inline-block;
     }
     
     .line2{
-        margin-left: 1.5em; 
+        margin-left: .8em; 
         display: inline-block;
     }
     
     .line3{
-        margin-left: 3em;
+        margin-left: 2em;
         display: inline-block;
     }
     .line4{
-        margin-left: 4em;
+        margin-left: 1em;
         display: inline-block;
     }
 
     .leftCtn{
+        margin-top: 10rem;
+    }
+
+    /*.leftCtn{
         order:1;
         margin-top: 1em;
         margin-left: -2em;
@@ -126,16 +130,16 @@ a {
 
     .leftCtn img{
         width: 350px;
-       
-    }
+    } */
     
     .rightCtn{
         order:2;
-        margin-left: 1em;
-        margin-top: -.5em;
     }
 
-   /*.bottomCtn{
+}
+
+
+/*.bottomCtn{
         position: absolute;
         top: 89%;
         display: flex;
@@ -153,8 +157,6 @@ a {
     .leftP{
         margin-left: 3.3rem;
     } */
-
-}
 
 /* @media (min-width: 1024px) {
     /* Apply styles for desktop screens 
