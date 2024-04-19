@@ -1,28 +1,50 @@
 import React, { useRef, useState, useEffect } from "react";
 import classes from "../styles/projects.module.css";
-import imageOne from "../assets/me.png"
 
 const Projects = React.forwardRef (({ id }, ref) => {
-
+    const [animate, setAnimate] = useState(false);
+    const titleRef = useRef(null);
   
+    useEffect(() => {
+      function handleScroll() {
+        const projectSection = titleRef.current;
+        if (!projectSection) return;
   
+        const rect = projectSection.getBoundingClientRect();
+        const windowHeight =
+          window.innerHeight || document.documentElement.clientHeight;
+  
+        if (rect.top <= windowHeight && rect.bottom >= 0) {
+          setAnimate(true);
+        } else {
+          setAnimate(false);
+        }
+      }
+  
+      window.addEventListener("scroll", handleScroll);
+      // Call handleScroll once on mount to check if the element is initially in the viewport
+      handleScroll();
+  
+      return () => {
+        window.removeEventListener("scroll", handleScroll);
+      };
+    }, []);
   
     return (
       <>
-        <div  className={classes.pageCtn}>
-            <div className={classes.projects}>
-            <div className={classes.projectOne}>
-                <span>LEGAL</span>
-                    <img src={imageOne}></img>
-            </div>
-            <div className={classes.projectTwo}>
-                <span>LEGAL</span>
-                    <img src={imageOne}></img>
-            </div>
-            </div>
-    
+        <div ref={ref} id={id} className={classes.pageCtn}>
+          <div className={classes.textCtn}>
+          <div className={`${classes.leftCtn} ${animate ? classes.animate : ""}`} ref={titleRef}>
+            <span style={{ "--i": 1 }}>W</span>
+            <span style={{ "--i": 2 }}>O</span>
+            <span style={{ "--i": 3 }}>R</span>
+            <span style={{ "--i": 4 }}>K</span>
+           {/*  <span style={{ "--i": 5 }}>T</span> */}
+          </div> 
+          <div className={classes.rightCtn}>
           </div>
-         
+          </div>
+          </div>
       </>
     );
   });
