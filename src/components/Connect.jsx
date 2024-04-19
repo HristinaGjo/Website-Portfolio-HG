@@ -41,12 +41,12 @@ const Connect = ({ id }) => {
           <span style={{ "--i": 5 }}>S</span>
           <span style={{ "--i": 6 }}> &nbsp;</span>
           <span style={{ "--i": 7 }}>C</span>
-          <span style={{ "--i": 8 }}>O</span>
-          <span style={{ "--i": 9 }}>N</span>
-          <span style={{ "--i": 10 }}>N</span>
-          <span style={{ "--i": 11 }}>E</span>
+          <span style={{ "--i": 8 }}>H</span>
+          <span style={{ "--i": 9 }}>A</span>
+          <span style={{ "--i": 10 }}>T</span>
+      {    /* <span style={{ "--i": 11 }}>E</span>
           <span style={{ "--i": 12 }}>C</span>
-          <span style={{ "--i": 13 }}>T</span>
+          <span style={{ "--i": 13 }}>T</span> */}
         </div>
         
         <a className={classes.emailLink} href="mailto:hgjorgieva@gmail.com">hgjorgieva@gmail.com</a>

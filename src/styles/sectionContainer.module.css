@@ -11,13 +11,13 @@ body{
     box-sizing: border-box;
   }
 
-  @media (min-width: 768px) { 
+   @media (min-width: 768px) { 
     .sectionContainer {
         width: 100%;
-        padding: 0rem;
+        padding: 0;
         align-items: center;
         border-bottom: 1px solid black;
         box-sizing: border-box;
       }
-  }
+  } 
   

@@ -51,7 +51,13 @@ const About = React.forwardRef (({ id }, ref) => {
           ansjdnjkjklsdkskdkdksmdksdmsmmdsmdmmsdmsmsmmdmsmsdmsdmdmndsndsndnsdn
           AAAAAAAA shdijisjdsjjdshsjhasjajajajkskalksk dsdjskjdskjdkssdkdkskdlksdlksdkskds
           ssmndsnsndjsndlkdsmdklsmkdmsmdsmdslmdldmldmsmdmssdmdlms
-          dnsdnsdnksmdsdnksdnksdnskmdsmdsdmsmdsdmsmdlsdlsdlsd,ls,dls,dls,dls,ds,s,,sd</span>
+          dnsdnsdnksmdsdnksdnksdnskmdsmdsdmsmdsdmsmdlsdlsdlsd,ls,dls,dls,dls,ds,s,,sd
+          dnsdnsdnksmdsdnksdnksdnskmdsmdsdmsmdsdmsmdlsdlsdlsd,ls,dls,dls,dls,ds,s,,sd
+          dmskmdsmdmsmdmdsmsnddmkmdmssdmsldsdmdsmdjsndndnnmdmdmdjdnjnsjd
+          ansjdnjkjklsdkskdkdksmdksdmsmmdsmdmmsdmsmsmmdmsmsdmsdmdmndsndsndnsdn
+          AAAAAAAA shdijisjdsjjdshsjhasjajajajkskalksk dsdjskjdskjdkssdkdkskdlksdlksdkskds
+          ssmndsnsndjsndlkdsmdklsmkdmsmdsmdslmdldmldmsmdmssdmdlms
+          </span>
         </div>
         </div>
         </div>

@@ -71,28 +71,27 @@ body {
       height: 70vh;
       border-bottom: 1px solid black;
       margin: 0;
-      display: flex;
+      /* display: flex;
       justify-content: center;
+      align-items: center; */
+      display: grid;
+      grid-template-columns: 1fr 2fr;
       align-items: center;
-
+      justify-content: center;
+      box-sizing: border-box;
+      padding: 4rem;
+      gap: 10rem;
     }
   
     .leftCtn {
-      font-size: 5.5rem;
-      margin-left: -55rem;
+      font-size: 4.5rem;
     }
   
     .rightCtn {
-      font-size: 1.7rem;
+      font-size: 2rem;
       width:auto;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      margin-left: 30rem;
-      margin-top: -8rem;
     }
-  
+
     .line1,
     .line2,
     .line3 {
