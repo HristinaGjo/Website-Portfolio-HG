@@ -3,78 +3,110 @@ body {
     overflow-x: hidden !important;
     margin: 0; 
 }
+
 .pageCtn{
     width: 100%;
-    height: 90vh;
+    height: 100vh;
+    box-sizing: border-box;
 }
+
 .headerCtn {
-    width: 100%; 
-    /* margin: 0; /* Center the container horizontally */
-    font-size: 2.25rem;
-    font-family: "Helvetica";
-    /*font-family: "Ppneuemontreal Variable, sans-serif";*/
-    text-align: left; 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; 
-
-}
-
-.line1,
-.line2,
-.line3,
-.line4 {
-    margin: 0; /*  vertical spacing between lines */
-
-}
-
-.leftCtn{
-    order:2;
-   
-}
-
-.leftCtn img{
-   width: 100%;
-   height: auto;
-   /* border-radius: 1rem; */
-   margin-top: 2.5rem;
-  /* padding-left: 2rem; */
-}
-
-.rightCtn{
+    background: blue;
+    box-sizing: border-box;
     width: 100%;
-    order:1;
+    height: 70vh;
+    border-radius: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
-    margin-top: 1rem;
+    align-items: center;
+    background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 250% 250%;
+    animation: gradientAnimation 8s ease infinite;
 }
+
+.textCtn {
+    width: calc(100% - 2rem);
+    word-wrap: break-word;
+    font-size: 2rem;
+}
+
+@keyframes gradientAnimation {
+
+    0%{
+        background-position: 0% 50%;
+    }
+
+    50%{
+        background-position: 100% 50%;
+    }
+
+    100%{
+        background-position: 0% 50%;
+    }
+    
+}
+
+@media (min-width: 768px) {
+
+    .pageCtn{
+        width: 100%;
+        height: 100vh;
+        box-sizing: border-box;
+        padding: 2rem;
+    }
+
+    .headerCtn {
+        background: blue;
+        box-sizing: border-box;
+        padding: 2rem;
+        width: 100%;
+        height: 100%;
+        border-radius: 1rem;
+        background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+        background-size: 250% 250%;
+        animation: gradientAnimation 8s ease infinite;
+    }
+
+
+}
+
 
 /*.bottomCtn{
-    padding: 1.2rem;
-    font-weight: 300;
-    font-size: 0.875rem;
-    line-height: 1.2em;
-    padding-bottom: 2rem;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 3.9rem;
-} 
+        position: absolute;
+        top: 89%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1rem;
+        margin-top: 0rem;
+        width: 100%;
+    }
 
-a {
-    text-decoration: none;
+    .rightP {
+        margin-right: 7.2rem;
+    }
+
+    .leftP{
+        margin-left: 3.3rem;
+    } */
+
+/* @media (min-width: 1024px) {
+    /* Apply styles for desktop screens 
+    .headerCtn {
+        font-size: 7rem; /* Adjust font size for desktops 
+    }
+
+    .line1,
+    .line2,
+    .line3,
+    .line4 {
+        margin: 1.5em 0; /* Increase vertical spacing for desktops 
+    }
 } */
 
-/* .leftCtn img{
-    width: 100%;
-    height: auto;
-} */
 
-
-
+/* before gradient 
 
 @media (min-width: 768px) {
 
@@ -90,7 +122,7 @@ a {
         left: 53%;
         transform: translate(-50%, -50%);
         font-size: 7rem;
-        /*font-family: "Avir Next"; */
+        /*font-family: "Avir Next"; 
         font-family: "Ppneuemontreal Variable, sans-serif";
         line-height: 1.1em;
         font-weight: 400;
@@ -130,44 +162,83 @@ a {
 
     .leftCtn img{
         width: 350px;
-    } */
+    } 
     
     .rightCtn{
         order:2;
     }
 
+} */
+
+
+
+/* mobile before gradient 
+.pageCtn{
+    width: 100%;
+    height: 90vh;
+}
+.headerCtn {
+    width: 100%; 
+    /* margin: 0; /* Center the container horizontally 
+    font-size: 2.25rem;
+    font-family: "Helvetica";
+    /*font-family: "Ppneuemontreal Variable, sans-serif";
+    text-align: left; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+
 }
 
+.line1,
+.line2,
+.line3,
+.line4 {
+    margin: 0; /*  vertical spacing between lines 
+
+}
+
+.leftCtn{
+    order:2;
+   
+}
+
+.leftCtn img{
+   width: 100%;
+   height: auto;
+   /* border-radius: 1rem; 
+   margin-top: 2.5rem;
+  /* padding-left: 2rem; 
+}
+
+.rightCtn{
+    width: 100%;
+    order:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 1rem;
+}
 
 /*.bottomCtn{
-        position: absolute;
-        top: 89%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        font-size: 1rem;
-        margin-top: 0rem;
-        width: 100%;
-    }
+    padding: 1.2rem;
+    font-weight: 300;
+    font-size: 0.875rem;
+    line-height: 1.2em;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3.9rem;
+} 
 
-    .rightP {
-        margin-right: 7.2rem;
-    }
+a {
+    text-decoration: none;
+} */
 
-    .leftP{
-        margin-left: 3.3rem;
-    } */
-
-/* @media (min-width: 1024px) {
-    /* Apply styles for desktop screens 
-    .headerCtn {
-        font-size: 7rem; /* Adjust font size for desktops 
-    }
-
-    .line1,
-    .line2,
-    .line3,
-    .line4 {
-        margin: 1.5em 0; /* Increase vertical spacing for desktops 
-    }
+/* .leftCtn img{
+    width: 100%;
+    height: auto;
 } */

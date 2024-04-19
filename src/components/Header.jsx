@@ -6,6 +6,33 @@ const Header = React.forwardRef((props, ref) => {
   return (
     <div ref={ref}  className={classes.pageCtn}>
     <div className={classes.headerCtn}>
+    
+      <div className={classes.textCtn}>
+        <p> 
+          JBdsbdjsndnsjdnkdkdmskdskdsmkdmskdms
+          njncjcnkckxmcxkcmkcmxkcmcmxxc cmxnmc
+          cbxbcxjcnjnxnjncx
+        </p>
+        </div>
+      </div>
+    </div>
+
+  );
+});
+
+export default Header;
+
+
+// before gradient effect on the header section//
+
+/* import React from "react";
+import classes from "../styles/header.module.css";
+import image from "../assets/me.png";
+
+const Header = React.forwardRef((props, ref) => {
+  return (
+    <div ref={ref}  className={classes.pageCtn}>
+    <div className={classes.headerCtn}>
       <div className={classes.leftCtn}>
         <img src={image} alt="picture" />
       </div>
@@ -20,4 +47,4 @@ const Header = React.forwardRef((props, ref) => {
   );
 });
 
-export default Header;
+export default Header; */
