@@ -87,8 +87,23 @@ a{
   font-size: 1.25em;
 }
 
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
 
-@keyframes fliper {
+.animate {
+  animation: fadeIn 1s ease forwards;
+}
+
+
+/* @keyframes fliper {
   30%{
       transform: rotateY(360deg);
   }
@@ -102,7 +117,7 @@ a{
       display: inline-block;
       animation: fliper 2s linear normal;
       animation-delay: calc(var(--i)*0.15s);
-  }
+  } */
 
 
   
@@ -110,7 +125,7 @@ a{
 
   .pageCtn {
     width: 100%;
-    height: 50vh;
+    height: 30vh;
     display: grid;
     gap: 2rem;
     grid-template-columns: 1fr 2fr;
