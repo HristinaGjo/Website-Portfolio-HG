@@ -1,10 +1,9 @@
-
 body {
     overflow-x: hidden !important;
     margin: 0; 
 }
 
-.pageCtn{
+.pageCtn {
     width: 100%;
     height: auto;
     box-sizing: border-box;
@@ -12,7 +11,7 @@ body {
 }
 
 .headerCtn {
-    background: blue;
+    position: relative; /* Added */
     box-sizing: border-box;
     width: 100%;
     height: 70vh;
@@ -21,9 +20,20 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    /* background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);*/
+    background: linear-gradient(45deg, #f7b8a8, #f2a1b8, #9ad2ef, #9ee3d6);
     background-size: 400% 400%;
     animation: gradientAnimation 8s ease infinite;
+}
+
+.headerBackground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px; /* Adjust height as needed */
+
+    z-index: -1; /* Place the background behind other content */
 }
 
 .textCtn {
@@ -33,44 +43,40 @@ body {
 }
 
 @keyframes gradientAnimation {
-
-    0%{
+    0% {
         background-position: 0% 50%;
     }
-
-    50%{
+    50% {
         background-position: 100% 50%;
     }
-
-    100%{
+    100% {
         background-position: 0% 50%;
     }
-    
 }
 
 @media (min-width: 768px) {
-
-    .pageCtn{
+    .pageCtn {
         width: 100%;
         height: 100vh;
         box-sizing: border-box;
         padding: 2rem;
     }
-
     .headerCtn {
-        background: blue;
         box-sizing: border-box;
         padding: 2rem;
         width: 100%;
         height: 100%;
         border-radius: 1rem;
-        background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-        background-size: 250% 250%;
+      
+    }
+    .headerBackground {
+        height: 100vh; /* Adjust height to match header height */
+        background: linear-gradient(45deg, #f7b8a8, #f2a1b8, #9ad2ef, #9ee3d6);
+        background-size: 400% 400%;
         animation: gradientAnimation 8s ease infinite;
     }
-
-
 }
+
 
 
 /*.bottomCtn{
