@@ -21,7 +21,8 @@ body {
     justify-content: center;
     align-items: center;
     /* background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);*/
-    background: linear-gradient(45deg, #f7b8a8, #f2a1b8, #9ad2ef, #9ee3d6);
+   /* background: linear-gradient(45deg, #f7b8a8, #f2a1b8, #9ad2ef, #9ee3d6); */
+   background: red;
     background-size: 400% 400%;
     animation: gradientAnimation 8s ease infinite;
 }
@@ -71,7 +72,8 @@ body {
     }
     .headerBackground {
         height: 100vh; /* Adjust height to match header height */
-        background: linear-gradient(45deg, #f7b8a8, #f2a1b8, #9ad2ef, #9ee3d6);
+        /*background: linear-gradient(45deg, #f7b8a8, #f2a1b8, #9ad2ef, #9ee3d6);*/
+        background: red;
         background-size: 400% 400%;
         animation: gradientAnimation 8s ease infinite;
     }
