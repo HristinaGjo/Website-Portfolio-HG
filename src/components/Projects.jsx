@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "../styles/projects.module.css";
+
 import imageOne from "../assets/me.png"
 
 const Projects = ({scrollRef}) => {

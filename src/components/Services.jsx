@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "../styles/services.module.css"
+
 
 const Services = ({scrollRef}) => {
     /* const [animate, setAnimate] = useState(false);

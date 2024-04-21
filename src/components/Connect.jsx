@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import classes from "../styles/connect.module.css";
+
 
 const Connect = ({ id }) => {
   const titleRef = useRef(null);
