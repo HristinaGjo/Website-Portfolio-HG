@@ -45,7 +45,7 @@ const Services = ({ id }) => {
           <span style={{ "--i": 5 }}>S</span>
                 <p>things I can help you with</p>
             </div>
-            <div className={classes.rightCtn}>
+            <div className={`${classes.rightCtn} ${animate ? classes.animate : ""}`} ref={titleRef}>
                 <span >01 {" "}UX & UI Design</span>
                 <span >02 {" "}Web Development</span>
                 <span >03 {" "}Interaction Design</span>

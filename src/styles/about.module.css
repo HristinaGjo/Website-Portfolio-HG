@@ -5,7 +5,7 @@ body {
    
 .pageCtn {
     width: 100%;
-    height: auto;
+    height: 100vh;
     padding: 4rem 0;
     /* background: red;*/
     display: flex;

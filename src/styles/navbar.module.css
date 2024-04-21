@@ -10,7 +10,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 0;
+    padding: 1rem 0; 
     /*background: red;*/
     z-index: 1000;
     font-weight: 300;
@@ -43,6 +43,7 @@ body{
         font-weight: 300;
         font-size: 1.25rem;
         box-sizing: border-box;
+        margin: 0;
         
     } 
     .rightCtn{
