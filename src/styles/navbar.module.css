@@ -5,13 +5,31 @@ body{
 
 .navCtn{
     position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    box-sizing: border-box;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.rightCtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:1rem;
+}
+
+/* .navCtn{
+    position: sticky;
     top: 0;
     left: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 0;
-    /*background: red;*/
+   /* padding: 1rem 0; */
+    /*background: red;
     z-index: 1000;
     font-weight: 300;
     font-size: 0.875rem;
@@ -20,7 +38,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap:1.5rem;
+    gap:1rem;
 }
 
 
@@ -29,20 +47,22 @@ body{
     margin-top: 5.5rem;
 } */
 
-@media (min-width: 768px){
+/* @media (min-width: 768px){
     .navCtn{
         position: sticky;
         top: 0;
         left: 0;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: center;
-        padding: .5rem 2rem;
-        /*background: red;*/
+       /* padding: .5rem 2rem; */
+        /*background: red;
         z-index: 1000;
         font-weight: 300;
         font-size: 1.25rem;
         box-sizing: border-box;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
         
     } 
     .rightCtn{
@@ -56,13 +76,13 @@ body{
 
    /* .navCtn.scrolled {
         background-color: rgba(0,0,0,0.1); 
-      } */
+      } 
 
         .navCtn.scrolled {
        color:red; 
       } 
 
-}
+} */
 
 
 

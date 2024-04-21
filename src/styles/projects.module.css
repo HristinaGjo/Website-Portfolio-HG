@@ -1,4 +1,40 @@
-body {
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.pageCtn{
+    height: auto;
+    background: red;
+    margin-bottom: 2rem;
+    /*display: grid;
+    grid-template-columns: 1fr 2fr; */
+}
+
+
+/* h3{
+    border-bottom: 1px solid black;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
     overflow-x: hidden; 
     margin: 0; 
 }
@@ -37,10 +73,10 @@ img{
     .pageCtn {
       width: 100%;
       height: auto;
-      /* border-bottom: 1px solid black; */
+      /* border-bottom: 1px solid black; 
       box-sizing: border-box;
       padding: 4rem;
-      /* border-top: 1px solid black; */
+      /* border-top: 1px solid black; 
     }
     .projects{
         display: grid;
@@ -66,8 +102,8 @@ img{
     }
     
  
-  }
-
+  } */
+ 
 
   /* before grid and projects 
   .pageCtn {

@@ -14,10 +14,20 @@ body{
    @media (min-width: 768px) { 
     .sectionContainer {
         width: 100%;
-        padding: 0;
+        height: auto;
+        padding: 0 4rem;
         align-items: center;
         /* border-bottom: 1px solid black;*/
         box-sizing: border-box;
+        justify-content: center;
+      }
+
+      h3{
+        font-size: 4rem;
+      }
+
+      p{
+        font-size: 1rem;
       }
   } 
   
