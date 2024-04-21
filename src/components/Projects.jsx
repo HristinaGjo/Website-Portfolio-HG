@@ -1,60 +1,55 @@
 import React, { useRef, useState, useEffect } from "react";
 import classes from "../styles/projects.module.css";
-import imageOne from "../assets/me.png"
+import imageOne from "../assets/me.png";
 
-const Projects = React.forwardRef (({ id }, ref) => {
-    const [animate, setAnimate] = useState(false);
-    const titleRef = useRef(null);
-  
-    useEffect(() => {
-      function handleScroll() {
-        const projectSection = titleRef.current;
-        if (!projectSection) return;
-  
-        const rect = projectSection.getBoundingClientRect();
-        const windowHeight =
-          window.innerHeight || document.documentElement.clientHeight;
-  
-        if (rect.top <= windowHeight && rect.bottom >= 0) {
-          setAnimate(true);
-        } else {
-          setAnimate(false);
-        }
+const Projects = React.forwardRef(({ id }, ref) => {
+  const [animate, setAnimate] = useState(false);
+  const titleRef = useRef(null);
+  const imageRef = useRef(null);
+
+  useEffect(() => {
+    function handleScroll() {
+      const projectSection = titleRef.current;
+      if (!projectSection) return;
+
+      const rect = projectSection.getBoundingClientRect();
+      const windowHeight =
+        window.innerHeight || document.documentElement.clientHeight;
+
+      if (rect.top <= windowHeight && rect.bottom >= 0) {
+        setAnimate(true);
+      } else {
+        setAnimate(false);
       }
-  
-      window.addEventListener("scroll", handleScroll);
-      // Call handleScroll once on mount to check if the element is initially in the viewport
-      handleScroll();
-  
-      return () => {
-        window.removeEventListener("scroll", handleScroll);
-      };
-    }, []);
+    }
 
-  
-  
-  
-    return (
-      <>
-        <div  ref={ref} id={id} className={classes.pageCtn}>
-            <div className={classes.projects}>
-            <div className={classes.projectOne}>
-                <span>LEGAL</span>
-                    <img src={imageOne}></img>
-            </div>
-            <div className={classes.projectTwo}>
-                <span>LEGAL</span>
-                    <img src={imageOne}></img>
-            </div>
-            </div>
-    
-          </div>
-         
-      </>
-    );
-  });
-  
-  export default Projects;
+    window.addEventListener("scroll", handleScroll);
+    // Call handleScroll once on mount to check if the element is initially in the viewport
+    handleScroll();
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  return (
+    <div ref={ref} id={id} className={classes.pageCtn}>
+      <div className={classes.projects}>
+        <div className={classes.projectOne}  ref={titleRef}>
+          <span className={`${animate ? classes.animateSpan : ""}`}>LEGAL</span>
+          <img /*className={`${animate ? classes.animateImage : ""}`} */ src={imageOne} ref={imageRef} alt="Legal" />
+        </div>
+        <div className={classes.projectTwo}  ref={titleRef}>
+          <span className={`${animate ? classes.animateSpan : ""}`}>LEGAL</span>
+          <img /*className={`${animate ? classes.animateImage : ""}`} */src={imageOne} ref={imageRef} alt="Legal" />
+        </div>
+      </div>
+    </div>
+  );
+});
+
+export default Projects;
+
 
 
 

@@ -14,7 +14,7 @@ body{
    @media (min-width: 768px) { 
     .sectionContainer {
         width: 100%;
-        padding: 0;
+        padding: 0 3rem;
         align-items: center;
         /* border-bottom: 1px solid black;*/
         box-sizing: border-box;

@@ -49,7 +49,7 @@ const Connect = ({ id }) => {
           <span style={{ "--i": 13 }}>T</span> */}
         </div>
         
-        <a className={classes.emailLink} href="mailto:hgjorgieva@gmail.com">hgjorgieva@gmail.com</a>
+        <a className={`${classes.emailLink} ${animate ? classes.animate : ""}`} ref={titleRef} href="mailto:hgjorgieva@gmail.com">hgjorgieva@gmail.com</a>
       </div>
     </div>
   );

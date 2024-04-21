@@ -41,7 +41,7 @@ const About = React.forwardRef (({ id }, ref) => {
           <span style={{ "--i": 4 }}>U</span>
           <span style={{ "--i": 5 }}>T</span>
         </div>
-        <div className={classes.rightCtn}>
+        <div className={`${classes.rightCtn} ${animate ? classes.animate : ""}`} ref={titleRef}>
           <span>Jjandjsndjndsndsbjdsnsjndjsdnkjssndk x ndbsjdjsdjdnjsnjsnfnklfsklf
           jssjdsdksjdkjsjskjdlksjndsjdnsnddnsndkdnkdnskmdsmdsmdsldmsm
           AAAAAAAA shdijisjdsjjdshsjhasjajajajkskalksk dsdjskjdskjdkssdkdkskdlksdlksdkskds
