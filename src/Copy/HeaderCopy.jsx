@@ -4,17 +4,16 @@ import image from "../assets/me.png";
 
 const Header = React.forwardRef((props, ref) => {
   return (
-   /*  <div ref={ref}  className={classes.pageCtn}> */
-   <div data-scroll-container className={classes.pageCtn}>
-
+    <div ref={ref}  className={classes.pageCtn}>
     <div className={classes.headerCtn}>
     
-        <h2> 
+      <div className={classes.textCtn}>
+        <p> 
           JBdsbdjsndnsjdnkdkdmskdskdsmkdmskdms
           njncjcnkckxmcxkcmkcmxkcmcmxxc cmxnmc
           cbxbcxjcnjnxnjncx
-        </h2>
-    
+        </p>
+        </div>
       </div>
     </div>
 

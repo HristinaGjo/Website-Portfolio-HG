@@ -1,8 +1,8 @@
-import React, { useState, useEffect, useRef } from "react";
-import classes from "../styles/services.module.css"
+import React from "react";
 
-const Services = ({ id }) => {
-    const [animate, setAnimate] = useState(false);
+
+const Services = ({scrollRef}) => {
+    /* const [animate, setAnimate] = useState(false);
     const titleRef = useRef(null);
   
     useEffect (() => {
@@ -28,29 +28,19 @@ const Services = ({ id }) => {
       return () => {
         window.removeEventListener("scroll", handleScroll);
       };
-    }, []);
+    }, []); */
 
     
     return ( 
         <>
-        <div id={id} className={classes.pageCtn}>
-        <div className={`${classes.leftCtn} ${animate ? classes.animate : ""}`} ref={titleRef}>
-        <span style={{ "--i": 1 }}>S</span>
-          <span style={{ "--i": 2 }}>E</span>
-          <span style={{ "--i": 3 }}>R</span>
-          <span style={{ "--i": 4 }}>V</span>
-          <span style={{ "--i": 5 }}>I</span>
-          <span style={{ "--i": 5 }}>C</span>
-          <span style={{ "--i": 5 }}>E</span>
-          <span style={{ "--i": 5 }}>S</span>
-                <p>things I can help you with</p>
-            </div>
-            <div className={classes.rightCtn}>
-                <span >01 {" "}UX & UI Design</span>
-                <span >02 {" "}Web Development</span>
-                <span >03 {" "}Interaction Design</span>
-            </div>
-        </div>
+      <div data-scroll-container className={classes.pageCtn} ref={scrollRef}>
+        <h3 data-scroll data-scroll-speed="-2" >SERVICES</h3>
+        <p data-scroll data-scroll-speed="-2" >jsajknsjsnajksnaksnaksakaksasnskasnkanskska
+          sansanskanklanskanaksnnasknansnaksnkasnkansksas
+          snfjnkfjdiojfdkfmklmdkmnsjdijdeksodksöldsekoo
+          dskdnksldnksdnskdnksndnsdnks
+        </p>
+    </div>
         </>
      );
 }

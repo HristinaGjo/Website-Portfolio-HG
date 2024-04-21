@@ -1,139 +1,52 @@
-import React, { useState, useEffect, useRef } from "react";
-import classes from "../styles/about.module.css";
+import React from "react";
 
-const About = React.forwardRef (({ id }, ref) => {
-  const [animate, setAnimate] = useState(false);
-  const titleRef = useRef(null);
-
-  useEffect(() => {
-    function handleScroll() {
-      const aboutSection = titleRef.current;
-      if (!aboutSection) return;
-
-      const rect = aboutSection.getBoundingClientRect();
-      const windowHeight =
-        window.innerHeight || document.documentElement.clientHeight;
-
-      if (rect.top <= windowHeight && rect.bottom >= 0) {
-        setAnimate(true);
-      } else {
-        setAnimate(false);
-      }
-    }
-
-    window.addEventListener("scroll", handleScroll);
-    // Call handleScroll once on mount to check if the element is initially in the viewport
-    handleScroll();
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
-  return (
-    <>
-      <div ref={ref} id={id} className={classes.pageCtn}>
-        <div className={classes.textCtn}>
-        <div className={`${classes.leftCtn} ${animate ? classes.animate : ""}`} ref={titleRef}>
-          <span style={{ "--i": 1 }}>A</span>
-          <span style={{ "--i": 2 }}>B</span>
-          <span style={{ "--i": 3 }}>O</span>
-          <span style={{ "--i": 4 }}>U</span>
-          <span style={{ "--i": 5 }}>T</span>
-        </div>
-        <div className={classes.rightCtn}>
-          <span>Jjandjsndjndsndsbjdsnsjndjsdnkjssndk x ndbsjdjsdjdnjsnjsnfnklfsklf
-          jssjdsdksjdkjsjskjdlksjndsjdnsnddnsndkdnkdnskmdsmdsmdsldmsm
-          AAAAAAAA shdijisjdsjjdshsjhasjajajajkskalksk dsdjskjdskjdkssdkdkskdlksdlksdkskds
-          ssmndsnsndjsndlkdsmdklsmkdmsmdsmdslmdldmldmsmdmssdmdlms
-          dnsdnsdnksmdsdnksdnksdnskmdsmdsdmsmdsdmsmdlsdlsdlsd,ls,dls,dls,dls,ds,s,,sd
-          dmskmdsmdmsmdmdsmsnddmkmdmssdmsldsdmdsmdjsndndnnmdmdmdjdnjnsjd
-          ansjdnjkjklsdkskdkdksmdksdmsmmdsmdmmsdmsmsmmdmsmsdmsdmdmndsndsndnsdn
-          AAAAAAAA shdijisjdsjjdshsjhasjajajajkskalksk dsdjskjdskjdkssdkdkskdlksdlksdkskds
-          ssmndsnsndjsndlkdsmdklsmkdmsmdsmdslmdldmldmsmdmssdmdlms
-          dnsdnsdnksmdsdnksdnksdnskmdsmdsdmsmdsdmsmdlsdlsdlsd,ls,dls,dls,dls,ds,s,,sd
-          dnsdnsdnksmdsdnksdnksdnskmdsmdsdmsmdsdmsmdlsdlsdlsd,ls,dls,dls,dls,ds,s,,sd
-          dmskmdsmdmsmdmdsmsnddmkmdmssdmsldsdmdsmdjsndndnnmdmdmdjdnjnsjd
-          ansjdnjkjklsdkskdkdksmdksdmsmmdsmdmmsdmsmsmmdmsmsdmsdmdmndsndsndnsdn
-          AAAAAAAA shdijisjdsjjdshsjhasjajajajkskalksk dsdjskjdskjdkssdkdkskdlksdlksdkskds
-          ssmndsnsndjsndlkdsmdklsmkdmsmdsmdslmdldmldmsmdmssdmdlms
-          </span>
-        </div>
-        </div>
-        </div>
-    </>
+const About = ({ scrollRef }) => {
+  return ( 
+    <div ref={scrollRef}>
+      <div className={classes.pageCtn}>
+        <h3 data-scroll data-scroll-speed="2" >ABOUT</h3>
+        <p data-scroll data-scroll-speed="2" >
+          jsajknsjsnajksnaksnaksakaksasnskasnkanskska
+          sansanskanklanskanaksnnasknansnaksnkasnkansksas
+          snfjnkfjdiojfdkfmklmdkmnsjdijdeksodksöldsekoo
+          dskdnksldnksdnskdnksndnsdnks
+        </p>
+      </div>
+    </div>
   );
-});
-
+}
+ 
 export default About;
 
 
 
-/* import React, { useState, useEffect, useRef } from "react";
-import classes from "../styles/about.module.css";
+// <h3 data-scroll-class={`${classes.scroll}`} data-scroll-speed="2" className={classes.customH3}>ABOUT</h3>
 
-const About = React.forwardRef (({ id }, ref) => {
-  const [animate, setAnimate] = useState(false);
-  const titleRef = useRef(null);
 
-  useEffect(() => {
-    function handleScroll() {
-      const aboutSection = titleRef.current;
-      if (!aboutSection) return;
 
-      const rect = aboutSection.getBoundingClientRect();
-      const windowHeight =
-        window.innerHeight || document.documentElement.clientHeight;
 
-      if (rect.top <= windowHeight && rect.bottom >= 0) {
-        setAnimate(true);
-      } else {
-        setAnimate(false);
-      }
-    }
+/* import React from "react";
+import classes from '../styles/about.module.css'
 
-    window.addEventListener("scroll", handleScroll);
-    // Call handleScroll once on mount to check if the element is initially in the viewport
-    handleScroll();
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
-  return (
+const About = () => {
+  return ( 
     <>
-      <div ref={ref} id={id} className={classes.pageCtn}>
-        <div className={classes.textCtn}>
-        <div className={`${classes.leftCtn} ${animate ? classes.animate : ""}`} ref={titleRef}>
-          <span style={{ "--i": 1 }}>A</span>
-          <span style={{ "--i": 2 }}>B</span>
-          <span style={{ "--i": 3 }}>O</span>
-          <span style={{ "--i": 4 }}>U</span>
-          <span style={{ "--i": 5 }}>T</span>
-        </div>
-        <div className={classes.rightCtn}>
-          <span>Jjandjsndjndsndsbjdsnsjndjsdnkjssndk x ndbsjdjsdjdnjsnjsnfnklfsklf
-          jssjdsdksjdkjsjskjdlksjndsjdnsnddnsndkdnkdnskmdsmdsmdsldmsm
-          AAAAAAAA shdijisjdsjjdshsjhasjajajajkskalksk dsdjskjdskjdkssdkdkskdlksdlksdkskds
-          ssmndsnsndjsndlkdsmdklsmkdmsmdsmdslmdldmldmsmdmssdmdlms
-          dnsdnsdnksmdsdnksdnksdnskmdsmdsdmsmdsdmsmdlsdlsdlsd,ls,dls,dls,dls,ds,s,,sd
-          dmskmdsmdmsmdmdsmsnddmkmdmssdmsldsdmdsmdjsndndnnmdmdmdjdnjnsjd
-          ansjdnjkjklsdkskdkdksmdksdmsmmdsmdmmsdmsmsmmdmsmsdmsdmdmndsndsndnsdn
-          AAAAAAAA shdijisjdsjjdshsjhasjajajajkskalksk dsdjskjdskjdkssdkdkskdlksdlksdkskds
-          ssmndsnsndjsndlkdsmdklsmkdmsmdsmdslmdldmldmsmdmssdmdlms
-          dnsdnsdnksmdsdnksdnksdnskmdsmdsdmsmdsdmsmdlsdlsdlsd,ls,dls,dls,dls,ds,s,,sd
-          dnsdnsdnksmdsdnksdnksdnskmdsmdsdmsmdsdmsmdlsdlsdlsd,ls,dls,dls,dls,ds,s,,sd
-          dmskmdsmdmsmdmdsmsnddmkmdmssdmsldsdmdsmdjsndndnnmdmdmdjdnjnsjd
-          ansjdnjkjklsdkskdkdksmdksdmsmmdsmdmmsdmsmsmmdmsmsdmsdmdmndsndsndnsdn
-          AAAAAAAA shdijisjdsjjdshsjhasjajajajkskalksk dsdjskjdskjdkssdkdkskdlksdlksdkskds
-          ssmndsnsndjsndlkdsmdklsmkdmsmdsmdslmdldmldmsmdmssdmdlms
-          </span>
-        </div>
-        </div>
-        </div>
-    </>
-  );
-});
 
+    <div data-scroll-container className={classes.pageCtn}>
+      <section data-scroll-container clas className={classes.leftCtn}>
+        <h3>ABOUT</h3>
+      </section>
+      <section data-scroll-container clas className={classes.rightCtn}>
+        <p>jsajknsjsnajksnaksnaksakaksasnskasnkanskska
+          sansanskanklanskanaksnnasknansnaksnkasnkansksas
+          snfjnkfjdiojfdkfmklmdkmnsjdijdeksodksöldsekoo
+          dskdnksldnksdnskdnksndnsdnks
+        </p>
+      </section>
+
+    </div>
+    </>
+   );
+}
+ 
 export default About; */

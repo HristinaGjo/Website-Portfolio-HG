@@ -1,25 +1,58 @@
-import React from "react";
-
+import React, { useRef, useState, useEffect } from "react";
+import classes from "../styles/projects.module.css";
 import imageOne from "../assets/me.png"
 
-const Projects = ({scrollRef}) => {
+const Projects = React.forwardRef (({ id }, ref) => {
+    const [animate, setAnimate] = useState(false);
+    const titleRef = useRef(null);
+  
+    useEffect(() => {
+      function handleScroll() {
+        const projectSection = titleRef.current;
+        if (!projectSection) return;
+  
+        const rect = projectSection.getBoundingClientRect();
+        const windowHeight =
+          window.innerHeight || document.documentElement.clientHeight;
+  
+        if (rect.top <= windowHeight && rect.bottom >= 0) {
+          setAnimate(true);
+        } else {
+          setAnimate(false);
+        }
+      }
+  
+      window.addEventListener("scroll", handleScroll);
+      // Call handleScroll once on mount to check if the element is initially in the viewport
+      handleScroll();
+  
+      return () => {
+        window.removeEventListener("scroll", handleScroll);
+      };
+    }, []);
 
- 
+  
+  
+  
     return (
       <>
-        <div data-scroll-container className={classes.pageCtn} ref={scrollRef}>
-          <div className={classes.projectOne}>
-          <h3 data-scroll data-scroll-speed="2">Legal</h3>
-          <img data-scroll data-scroll-speed="2" src={imageOne}></img>
+        <div  ref={ref} id={id} className={classes.pageCtn}>
+            <div className={classes.projects}>
+            <div className={classes.projectOne}>
+                <span>LEGAL</span>
+                    <img src={imageOne}></img>
+            </div>
+            <div className={classes.projectTwo}>
+                <span>LEGAL</span>
+                    <img src={imageOne}></img>
+            </div>
+            </div>
+    
           </div>
-          <div className={classes.projectTwo}>
-          <h3 data-scroll data-scroll-speed="2" >Legal</h3>
-          <img data-scroll data-scroll-speed="2" src={imageOne}></img>
-          </div>
-          </div>
-        </>
+         
+      </>
     );
-  };
+  });
   
   export default Projects;
 

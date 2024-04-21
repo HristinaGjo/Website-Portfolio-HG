@@ -1,23 +1,45 @@
-/* sectionContainer.module.css */
 body{
     overflow-x: hidden;
 }
 
-.sectionContainer {
+ .sectionContainer {
     width: 100%;
     padding: 0 1.5rem;
     align-items: center;
-    /* border-bottom: 1px solid black;*/
+    /* border-bottom: 1px solid black; */
     box-sizing: border-box;
+    word-break: break-all;
+    height: auto;
+  }
+
+  h3{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  p{
+    font-size: 1rem;
   }
 
    @media (min-width: 768px) { 
     .sectionContainer {
         width: 100%;
-        padding: 0;
+        height: auto;
+        padding: 0 4rem;
         align-items: center;
-        /* border-bottom: 1px solid black;*/
+        /* border-bottom: 1px solid black; */
         box-sizing: border-box;
+        justify-content: center;
+        word-break: break-all;
+      }
+
+      h3{
+        font-size: 4rem;
+        margin-bottom: 3rem;
+      }
+
+      p{
+        font-size: 1.25rem;
       }
   } 
   
