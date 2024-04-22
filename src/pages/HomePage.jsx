@@ -11,7 +11,7 @@ const HomePage = () => {
     <div className={classes.pageCtn}>
       <div className={classes.heroCtn}>
         <h1>Digital <br className={classes.mobileBreak} />Designer</h1>
-        <h4>UX & UI DESIGN <br className={classes.mobileBreak} /> WEB DEVELOPMENT <br className={classes.mobileBreak} /> INTERACTION DESIGN</h4>
+        <h4>UX & UI DESIGN | <br className={classes.mobileBreak} /> WEB DEVELOPMENT | <br className={classes.mobileBreak} /> INTERACTION DESIGN</h4>
       </div>
 
       <div className={classes.aboutCtn}>
@@ -35,18 +35,30 @@ const HomePage = () => {
         <div className={classes.projectOne}>
             <img src={imageLegal}/>
             <div className={classes.textOverlay}>
-              <h2>Legal</h2>
+              <h3>Legal</h3>
               <p>UX | UI Case Study</p>
             </div>
         </div>
         <div className={classes.projectTwo}>
-            <img src={imageLegal}/>
+            {/* <img src={imageLegal}/> */}
             <div className={classes.textOverlay}>
-              <h2>Your Project</h2>
+              <h3>Your Project</h3>
            {  /*  <p>Your Project</p> */}
             </div>
         </div>
-       
+      </div>
+      <div>
+        <div className={classes.servicesCtn}>
+          <div>
+          <h2>Process</h2>
+          <p>Things I can help you with</p>
+          </div>
+          <div className={classes.servicesText}>
+          <h3>01. UX | UI Design</h3>
+          <h3>02. Web Design</h3>
+          <h3>03. Web Development</h3>
+          </div>
+        </div>
       </div>
     </div>
    /* </SectionContainer> */

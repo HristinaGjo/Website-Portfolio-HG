@@ -39,8 +39,8 @@ body{
     display: grid;
     grid-template-columns: 1fr;
     gap: 1em;
-    min-height: 100vh;
-    margin-bottom: 2em;
+    min-height: 80vh;
+    /* margin-bottom: 2em; */
 }
 
 .aboutCtn img{
@@ -69,6 +69,12 @@ body{
 .projectsCtn .projectTwo{
     position: relative;
     width:100%;
+    min-height: 300px;
+    background: black;
+}
+
+.projectTwo h3{
+    color: white;
 }
 
 .textOverlay{
@@ -81,6 +87,24 @@ body{
     text-align: left;
     padding: 1em;
     transform: translate(-50%, -50%);
+}
+
+.servicesCtn{
+    min-height:50vh ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4em;
+}
+
+.servicesText {
+    width: 100%;
+}
+
+.servicesText h3 {
+    padding: 1em;
+    border-bottom: 1px solid black;
+    font-weight: 400;
 }
 
 
@@ -96,11 +120,15 @@ h2{
 h4{
     font-size: 1em;
     font-weight: 200;
+    line-height: 1.25em;
 }
 
 p {
     font-size: 1em;
+    font-weight: 300;
 }
+
+
 
 
 
@@ -155,6 +183,9 @@ p {
 
     .projectsCtn .projectTwo {
         position: relative;
+        width:100%;
+        height: 84%;
+        background: black;
     }
 
     .projectOne img{
@@ -174,69 +205,49 @@ p {
         left: 50%;
         transform: translate(-50%, -50%); 
     }
-    
 
-
-
-    h1{
-        font-size: 10em;
-        margin: 0;
-        padding: 0;
+    .servicesCtn{
+        min-height:60vh ;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        gap: 4em;
     }
 
-      .mobileBreak {
+    .servicesText {
+        align-self: start;
+    }
+
+    .servicesText h3 {
+        padding: 1em;
+        border-bottom: 1px solid black;
+    }
+
+    .mobileBreak {
         display: none;
     }
+    
+    /* .aboutCtn .projectsCtn .servicesCtn h2{
+        font-size:5em;
+        margin: 0;
+        padding: 0;
+    } */
 
-    h2{
-        font-size: 4em;
+    h1 {
+        font-size: 10em;
     }
+
+    h2 {
+        font-size: 7em;
+    }
+
+    h3{
+        font-size: 2.5em;
+    }
+
+  
 }
 
 
 
-
-
-
-
-
-/* .pageCtn {
-    width: 100%;
-    padding: 0 1.5rem;
-    align-items: center;
-    box-sizing: border-box;
-  }
-
-   @media (min-width: 768px) { 
-    .pageCtn {
-        width: 100%;
-        padding: 2em;
-        align-items: center;
-        box-sizing: border-box;
-      }
-  } */
-
-
-
-
-  /* .heroCtn{
-    height: 50vh;
-    /*display: grid;
-    grid-template-columns: 1fr;
-    justify-content:center;
-    align-items: end; 
-    gap: 2em;
-    word-wrap: break-word;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; 
-
-   /*  height: auto;
-    padding: 5rem 0; 
-}
-
-/* .heroCtn h4 {
-    align-items: center;
-
-} */
+ 

@@ -8,9 +8,9 @@ body{
     top: 0;
     left: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 1rem 0; 
+    padding: 2em; 
     /*background: red;*/
     z-index: 1000;
     font-weight: 300;
