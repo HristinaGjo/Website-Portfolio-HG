@@ -3,7 +3,7 @@ import classes from "../styles/projects.module.css";
 import imageOne from "../assets/me.png"
 
 const Projects = React.forwardRef (({ id }, ref) => {
-    const [animate, setAnimate] = useState(false);
+   /* const [animate, setAnimate] = useState(false); */
     const titleRef = useRef(null);
   
     useEffect(() => {
