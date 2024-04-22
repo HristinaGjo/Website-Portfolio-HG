@@ -3,6 +3,7 @@ import classes from "../styles/homePage.module.css"
 import imageAbout from "../assets/me.png"
 import imageLegal from "../assets/effect.png"
 import SectionContainer from "../components/SectionContainer.jsx"
+import Footer from "../components/Footer.jsx";
 
 const HomePage = () => {
   return ( 
@@ -40,9 +41,9 @@ const HomePage = () => {
             </div>
         </div>
         <div className={classes.projectTwo}>
-            {/* <img src={imageLegal}/> */}
+             <img src={imageLegal}/> 
             <div className={classes.textOverlay}>
-              <h3>Your Project</h3>
+              <h3>Comming soon</h3>
            {  /*  <p>Your Project</p> */}
             </div>
         </div>
@@ -60,6 +61,7 @@ const HomePage = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
    /* </SectionContainer> */
 
