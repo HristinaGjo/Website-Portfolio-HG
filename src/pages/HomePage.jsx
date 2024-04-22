@@ -1,5 +1,39 @@
+import React from "react";
+import classes from "../styles/homePage.module.css"
+import imageAbout from "../assets/me.png"
+import SectionContainer from "../components/SectionContainer.jsx"
+
+const HomePage = () => {
+  return ( 
+
+    /* <SectionContainer> */
+    <div className={classes.pageCtn}>
+      <div className={classes.heroCtn}>
+        <h1>Digital <br className={classes.mobileBreak} />Designer</h1>
+        <h4>UX & UI DESIGN <br className={classes.mobileBreak} /> WEB DEVELOPMENT <br className={classes.mobileBreak} /> INTERACTION DESIGN</h4>
+      </div>
+
+      <div className={classes.aboutCtn}>
+        <h2>About</h2>
+        <p>hfhfdjfkdjkfdjkdjfkjdkfjkdjdkfjjfdkjfkjd</p>
+        <img src={imageAbout}/>
+      </div>
+
+    </div>
+   /* </SectionContainer> */
+
+
+
+   );
+}
+ 
+export default HomePage;
+
+
+
+
 // HomePage.js
-import React, { useRef } from "react";
+/* import React, { useRef } from "react";
 import SectionContainer from "../components/SectionContainer";
 import Header from "../components/Header";
 import Projects from "../components/Projects";
@@ -45,4 +79,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default HomePage; */
