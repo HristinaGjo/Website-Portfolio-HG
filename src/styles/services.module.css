@@ -5,13 +5,14 @@ body {
 
 .pageCtn {
     width: 100%;
-    height: 100vh;
+    height: 50vh;
     padding-bottom: 2rem;
     padding-top: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    border-bottom: 1px solid black;
    /* border-bottom: 1px solid black;
     /*padding-left: 2rem;*/
   }
@@ -68,7 +69,7 @@ body {
         animation-delay: calc(var(--i)*0.15s);
     } */
 
-    @keyframes fadeIn {
+    /*@keyframes fadeIn {
       from {
           opacity: 0;
           transform: translateY(50px);
@@ -81,7 +82,7 @@ body {
   
   .animate {
       animation: fadeIn 1s ease forwards;
-  }
+  } */
     
     
   @media (min-width: 768px) {

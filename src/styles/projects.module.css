@@ -12,6 +12,7 @@ body {
 .projects{
     display: grid;
     gap: 2rem;
+    
 }
 
 .projectOne,
