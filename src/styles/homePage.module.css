@@ -1,301 +1,306 @@
-body{
-    padding: 0;
-    margin: 0;
-    overflow-x: hidden !important;
-    overflow-y: auto;
-}
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+    body{
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden !important;
+        overflow-y: auto;
+    }
 
-h1, h2, h3 {
-    margin: 0; /* Remove default margin */
-}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
-.pageCtn{
-    width: 100%;
-    height: 100vh;
-    box-sizing: border-box;
-    padding: 0 1.25rem;
-    align-items: center;
-    justify-content: center;
-    word-break: keep-all;
-}
-
-.heroCtn{
-    height: 50vh;
-    gap: 2em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: left;
-}
-
-.mobileBreak {
-    display: inline-block;
-}
-
-
-.aboutCtn{
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1em;
-    min-height: 80vh;
-    /* margin-bottom: 2em; */
-}
-
-.aboutCtn img{
-    width: 100%;
-}
-
-.aboutCtn h2{
-    margin-bottom: .5em;
-}
-
-.projectsCtn{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 50vh;
-    margin-bottom: 2em;
-    gap: 2em;
-}
-
-.projectsCtn .projectOne{
-    position: relative;
-    width:100%;
-}
-
-.projectsCtn .projectTwo{
-    position: relative;
-    width: 100%;
-   /* width:100%;
-    min-height: 300px;
-    background: black; */
-}
-
-/* .projectTwo h3{
-    color: white;
-} */
-
-.textOverlay{
-    position: absolute;
-    width: 100%;
-    top:90%;
-    left: 50%;
-    /*bottom: 0;
-    left: 0; */
-    text-align: left;
-    padding: 1em;
-    transform: translate(-50%, -50%);
-}
-
-.servicesCtn{
-    min-height:50vh ;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 4em;
-}
-
-.servicesText {
-    width: 100%;
-}
-
-.servicesText h3 {
-    padding: 1em;
-    border-bottom: 1px solid black;
-    font-weight: 400;
-}
-
-.connectCtn{
-    min-height: 50vh;
-    width: 100%;
-    word-break: keep-all;
-    border-top: 1px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-/* .emailBtn{
-    width: 100%;
-    height: auto;
-    background: black;
-    padding: 1.25em;
-    border-radius: 50px;
-} 
-
-.connectCtn a{
-    color: white;
-} */
-
-
-
-h1{
-    font-size: 4em;
-    color: black !important;
-}
-
-h2{
-    font-size: 1.25em;
-}
-
-h4{
-    font-size: 1em;
-    font-weight: 200;
-    line-height: 1.25em;
-}
-
-p {
-    font-size: 1em;
-    font-weight: 300;
-}
-
-a{
-    text-decoration: none;
-    color: black;
-    font-weight: 300;
-}
-
-
-
-
-
-@media (min-width: 768px) {
+    h1, h2, h3 {
+        margin: 0; /* Remove default margin */
+    }
 
     .pageCtn{
         width: 100%;
-        height: auto;
+        height: 100vh;
         box-sizing: border-box;
-        padding: 0 2rem;
+        padding: 0 1.25rem;
         align-items: center;
+        justify-content: center;
+        word-break: keep-all;
     }
 
     .heroCtn{
-        height: 100vh;
+        height: 50vh;
         gap: 2em;
         display: flex;
-        /* justify-content:flex-end; */
-        /* justify-content: center; */
-        align-items:flex-start;
+        flex-direction: column;
+        justify-content: center;
         text-align: left;
     }
 
+    .mobileBreak {
+        display: inline-block;
+    }
+
+
     .aboutCtn{
         display: grid;
-        grid-template-columns: repeat(2, 1fr); /* Two equal parts */
-        gap: 4em;
-        min-height: 100vh;
-        margin-bottom: 4em;
+        grid-template-columns: 1fr;
+        gap: 1em;
+        min-height: 80vh;
+        /* margin-bottom: 2em; */
     }
 
-    .text {
-        align-self: start;
+    .aboutCtn {
+        flex: 1; /* Let the text container grow to fill available space */
     }
 
+    /* .text p{
+        grid-column: 1 / -1;
+        grid-row: 1 / -1;
+    } */
     .aboutCtn img{
         width: 100%;
     }
 
-    .projectsCtn{
-        display: grid;
-        grid-template-columns:repeat(2, 1fr);
-        min-height: 100vh;
-        gap: 4rem;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 4em;
-    }
-    
-    .projectsCtn .projectOne {
-        position: relative;
+    .aboutCtn h2{
+        margin-bottom: .5em;
     }
 
-    .projectsCtn .projectTwo {
+    .projectsCtn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 50vh;
+        margin-bottom: 2em;
+        gap: 2em;
+    }
+
+    .projectsCtn .projectOne{
         position: relative;
-       /* width:100%;
-        height: 84%;
+        width:100%;
+    }
+
+    .projectsCtn .projectTwo{
+        position: relative;
+        width: 100%;
+    /* width:100%;
+        min-height: 300px;
         background: black; */
     }
 
-    .projectOne img{
-        width: 100%;
-    }
+    /* .projectTwo h3{
+        color: white;
+    } */
 
-    .projectTwo img{
-        width: 100%;
-    }
-    
     .textOverlay{
         position: absolute;
-        /*bottom: 0;
-        left: 0; */
         width: 100%;
         top:90%;
         left: 50%;
-        transform: translate(-50%, -50%); 
+        /*bottom: 0;
+        left: 0; */
+        text-align: left;
+        padding: 1em;
+        transform: translate(-50%, -50%);
     }
 
     .servicesCtn{
-        min-height:60vh ;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        min-height:50vh ;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         gap: 4em;
     }
 
     .servicesText {
-        align-self: start;
+        width: 100%;
     }
 
     .servicesText h3 {
         padding: 1em;
         border-bottom: 1px solid black;
+        font-weight: 400;
     }
 
     .connectCtn{
-        min-height: 50vh;
+        min-height: 20vh;
         width: 100%;
         word-break: keep-all;
-        border-top: 1px solid black;
+    /* border-top: 1px solid black; */
         display: flex;
-        justify-content: flex-start;
+        justify-content:flex-start;
         align-items: center;
     }
+    /* .emailBtn{
+        width: 100%;
+        height: auto;
+        background: black;
+        padding: 1.25em;
+        border-radius: 50px;
+    } 
 
     .connectCtn a{
+        color: white;
+    } */
+
+
+
+    h1{
+        font-size: 4em;
+        color: black !important;
+    }
+
+    h2{
         font-size: 1.25em;
     }
 
-    .mobileBreak {
-        display: none;
+    h4{
+        font-size: 1em;
+        font-weight: 200;
+        line-height: 1.25em;
     }
-    
-    /* .aboutCtn .projectsCtn .servicesCtn h2{
-        font-size:5em;
+
+    p {
+        font-size: 1em;
+        font-weight: 300;
         margin: 0;
-        padding: 0;
-    } */
-
-    h1 {
-        font-size: 10em;
     }
 
-    h2 {
-        font-size: 7em;
+    a {
+        text-decoration: none;
+        color: black;
+        font-weight: 300;
     }
 
-    h3{
-        font-size: 2.5em;
+
+    @media (min-width: 768px) {
+
+        .pageCtn{
+            width: 100%;
+            height: auto;
+            box-sizing: border-box;
+            padding: 0 2rem;
+            align-items: center;
+        }
+
+        .heroCtn{
+            height: 100vh;
+            gap: 2em;
+            display: flex;
+            /* justify-content:flex-end; */
+            /* justify-content: center; */
+            align-items:flex-start;
+            text-align: left;
+        }
+
+        .aboutCtn{
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* Two equal parts */
+            gap: 4em;
+            min-height: 100vh;
+            margin-bottom: 4em;
+        }
+
+        .text {
+            align-self: start;
+        }
+
+        .aboutCtn img{
+            width: 100%;
+        }
+
+        .projectsCtn{
+            display: grid;
+            grid-template-columns:repeat(2, 1fr);
+            min-height: 100vh;
+            gap: 4rem;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 4em;
+        }
+        
+        .projectsCtn .projectOne {
+            position: relative;
+        }
+
+        .projectsCtn .projectTwo {
+            position: relative;
+        /* width:100%;
+            height: 84%;
+            background: black; */
+        }
+
+        .projectOne img{
+            width: 100%;
+        }
+
+        .projectTwo img{
+            width: 100%;
+        }
+        
+        .textOverlay{
+            position: absolute;
+            /*bottom: 0;
+            left: 0; */
+            width: 100%;
+            top:90%;
+            left: 50%;
+            transform: translate(-50%, -50%); 
+        }
+
+        .servicesCtn{
+            min-height:60vh ;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            justify-content: center;
+            gap: 4em;
+        }
+
+        .servicesText {
+            align-self: start;
+        }
+
+        .servicesText h3 {
+            padding: 1em;
+            border-bottom: 1px solid black;
+        }
+
+        .connectCtn{
+            min-height: 50vh;
+            width: 100%;
+            word-break: keep-all;
+            /* border-top: 1px solid black; */
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .connectCtn a{
+            font-size: 1.25em;
+        }
+
+        .mobileBreak {
+            display: none;
+        }
+        
+        /* .aboutCtn .projectsCtn .servicesCtn h2{
+            font-size:5em;
+            margin: 0;
+            padding: 0;
+        } */
+
+        h1 {
+            font-size: 10em;
+        }
+
+        h2 {
+            font-size: 7em;
+        }
+
+        h3{
+            font-size: 2.5em;
+        }
+
+    
     }
 
-  
-}
-
-
-
- 

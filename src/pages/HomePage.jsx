@@ -18,7 +18,7 @@ const HomePage = () => {
       <div className={classes.aboutCtn}>
         <div className={classes.text}> 
         <h2>About</h2>
-        <p>hfhfdjfkdjkfdjkdjfkjdkfjkdjdkfjjfdkjfkjd
+        <p>hfhfdjfkdjkfdjkdjfkjdkfjkdjdkfjjfdkjfkjd hfhfdjfkdjkfdjkdjfkjdkfjkdjdkfjjfdkjfkjd
         hfhfdjfkdjkfdjkdjfkjdkfjkdjdkfjjfdkjfkjd
         hfhfdjfkdjkfdjkdjfkjdkfjkdjdkfjjfdkjfkjd
         hfhfdjfkdjkfdjkdjfkjdkfjkdjdkfjjfdkjfkjd
@@ -64,7 +64,7 @@ const HomePage = () => {
       <div className={classes.connectCtn}>
         <div>
           <h2>Let's Chat</h2>
-         
+          
           <a className={classes.emailBtn} href="mailto:hgjorgieva@gmail.com">hgjorgieva@gmail.com</a>
          { /* <h3> Let’s talk about a project, collaboration or an idea you may have!</h3> */}
         </div>
