@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "../styles/homePage.module.css"
 import imageAbout from "../assets/me.png"
+import imageLegal from "../assets/effect.png"
 import SectionContainer from "../components/SectionContainer.jsx"
 
 const HomePage = () => {
@@ -14,15 +15,41 @@ const HomePage = () => {
       </div>
 
       <div className={classes.aboutCtn}>
+        <div className={classes.text}> 
         <h2>About</h2>
-        <p>hfhfdjfkdjkfdjkdjfkjdkfjkdjdkfjjfdkjfkjd</p>
+        <p>hfhfdjfkdjkfdjkdjfkjdkfjkdjdkfjjfdkjfkjd
+        hfhfdjfkdjkfdjkdjfkjdkfjkdjdkfjjfdkjfkjd
+        hfhfdjfkdjkfdjkdjfkjdkfjkdjdkfjjfdkjfkjd
+        hfhfdjfkdjkfdjkdjfkjdkfjkdjdkfjjfdkjfkjd
+        hfhfdjfkdjkfdjkdjfkjdkfjkdjdkfjjfdkjfkjd
+        hfhfdjfkdjkfdjkdjfkjdkfjkdjdkfjjfdkjfkjd
+        hfhfdjfkdjkfdjkdjfkjdkfjkdjdkfjjfdkjfkjd
+        hfhfdjfkdjkfdjkdjfkjdkfjkdjdkfjjfdkjfkjd
+        hfhfdjfkdjkfdjkdjfkjdkfjkdjdkfjjfdkjfkjd
+        </p>
+        </div>
         <img src={imageAbout}/>
       </div>
 
+      <div className={classes.projectsCtn}>
+        <div className={classes.projectOne}>
+            <img src={imageLegal}/>
+            <div className={classes.textOverlay}>
+              <h2>Legal</h2>
+              <p>UX | UI Case Study</p>
+            </div>
+        </div>
+        <div className={classes.projectTwo}>
+            <img src={imageLegal}/>
+            <div className={classes.textOverlay}>
+              <h2>Your Project</h2>
+           {  /*  <p>Your Project</p> */}
+            </div>
+        </div>
+       
+      </div>
     </div>
    /* </SectionContainer> */
-
-
 
    );
 }
