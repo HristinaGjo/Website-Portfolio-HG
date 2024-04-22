@@ -10,7 +10,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 0; 
+    padding: 2em; 
     /*background: red;*/
     z-index: 1000;
     font-weight: 300;
@@ -19,7 +19,7 @@ body{
 .rightCtn{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap:1.5rem;
 }
 
@@ -37,7 +37,7 @@ body{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: .5rem 2rem;
+        padding: 2rem 2rem;
         /*background: red;*/
         z-index: 1000;
         font-weight: 300;
