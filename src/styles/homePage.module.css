@@ -5,23 +5,24 @@ body{
 
 .pageCtn{
     width: 100%;
+    height: auto;
+
     box-sizing: border-box;
-    padding: 2rem;
 }
 
 .headerCtn{
-    min-height: 100vh;
-    background: linear-gradient(45deg, #f7b8a8, #f2a1b8, #9ad2ef, #9ee3d6);
+    min-height: 50vh;
+   /* min-height: 100vh; */
+   /* background: linear-gradient(45deg, #f7b8a8, #f2a1b8, #9ad2ef, #9ee3d6);
     background-size: 400% 400%;
-    animation: gradientAnimation 8s ease infinite;
+    animation: gradientAnimation 8s ease infinite;*/
     border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     word-wrap: break-word;
     box-sizing: border-box;
-    padding: 2rem;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
 }
 
 @keyframes gradientAnimation {
@@ -55,7 +56,7 @@ body{
 
 .projectsCtn{
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr;
 }
 
 .projectsCtn img{
@@ -78,6 +79,11 @@ body{
 
 
 @media (min-width: 768px){
+
+
+    .headerCtn{
+        min-height: 80vh;
+    }
 
     .projectsCtn{
         padding-top: 4rem;
