@@ -16,6 +16,7 @@ body{
     font-weight: 300;
     font-size: 0.875rem;
 } 
+
 .rightCtn{
     display: flex;
     flex-direction: row;
@@ -44,8 +45,8 @@ body{
         font-size: 1.25rem;
         box-sizing: border-box;
         margin: 0;
-        
     } 
+
     .rightCtn{
         display: flex;
         flex-direction: row;
