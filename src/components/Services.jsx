@@ -35,14 +35,7 @@ const Services = ({ id }) => {
         <>
         <div id={id} className={classes.pageCtn}>
         <div className={`${classes.leftCtn} ${animate ? classes.animate : ""}`} ref={titleRef}>
-        <span style={{ "--i": 1 }}>S</span>
-          <span style={{ "--i": 2 }}>E</span>
-          <span style={{ "--i": 3 }}>R</span>
-          <span style={{ "--i": 4 }}>V</span>
-          <span style={{ "--i": 5 }}>I</span>
-          <span style={{ "--i": 5 }}>C</span>
-          <span style={{ "--i": 5 }}>E</span>
-          <span style={{ "--i": 5 }}>S</span>
+        <span>SERVICES</span>
                 <p>things I can help you with</p>
             </div>
             <div className={`${classes.rightCtn} ${animate ? classes.animate : ""}`} ref={titleRef}>

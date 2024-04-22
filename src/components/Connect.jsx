@@ -34,16 +34,7 @@ const Connect = ({ id }) => {
     <div id={id} className={classes.pageCtn}>
       <div className={classes.leftCtn} ref={titleRef}>
         <div className={`${animate ? classes.animate : ""}`}>
-          <span style={{ "--i": 1 }}>L</span>
-          <span style={{ "--i": 2 }}>E</span>
-          <span style={{ "--i": 3 }}>T</span>
-          <span style={{ "--i": 4 }}>'</span>
-          <span style={{ "--i": 5 }}>S</span>
-          <span style={{ "--i": 6 }}> &nbsp;</span>
-          <span style={{ "--i": 7 }}>C</span>
-          <span style={{ "--i": 8 }}>H</span>
-          <span style={{ "--i": 9 }}>A</span>
-          <span style={{ "--i": 10 }}>T</span>
+         <span>LET'S CHAT</span>
       {    /* <span style={{ "--i": 11 }}>E</span>
           <span style={{ "--i": 12 }}>C</span>
           <span style={{ "--i": 13 }}>T</span> */}
