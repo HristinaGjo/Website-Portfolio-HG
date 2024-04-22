@@ -30,18 +30,27 @@ const HomePage = () => {
       <SectionContainer>
         <div data-scroll-container className={classes.pageCtn} ref={scrollRef}>
           <section data-scroll-section>
-            <div className={classes.headerCtn}>
-              <h3>Hello world! I am Hristina Gjorgieva</h3>
+            <div className={classes.headerCtn}  >
+              <h3 data-scroll data-scroll-speed={2} >Hello world! I am Hristina Gjorgieva
+                 Hello world! I am Hristina Gjorgieva
+                 Hello world! I am Hristina Gjorgieva
+                 Hello world! I am Hristina Gjorgieva
+                 Hello world! I am Hristina Gjorgieva
+                 Hello world! I am Hristina Gjorgieva</h3>
             </div>
           </section>
 
           <section data-scroll-section>
             <div className={classes.projectsCtn}>
-              <div className={classes.projectOne} data-scroll data-scroll-speed={2}>
+              <div className={classes.projectOne} data-scroll data-scroll-speed={1}
+               data-scroll-position="top"
+               data-scroll-direction="vertical">
                 <img src={imageOne} alt="Project One" />
                 <h3>LEGAL</h3>
               </div>
-              <div className={classes.projectTwo} data-scroll data-scroll-speed={2}>
+              <div className={classes.projectTwo} data-scroll data-scroll-speed={1}
+               data-scroll-position="top"
+               data-scroll-direction="vertical">
                 <h3>LEGAL</h3>
                 <img src={imageTwo} alt="Project Two" />
               </div>
@@ -49,25 +58,40 @@ const HomePage = () => {
           </section>
 
           <section data-scroll-section>
-            <div className={classes.aboutCtn} data-scroll data-scroll-speed={2}>
+            <div className={classes.aboutCtn} data-scroll data-scroll-speed={1}
+                 data-scroll-position="top"
+                 data-scroll-direction="vertical"
+            >
               <h3 >ABOUT</h3>
               <p>
-                // Your ABOUT content here
+               sdjskdjksjskdjsjdsdksdkskdslkdskd
+               sdklsnksmdksmkdmskdmsmdkmdmdmsmdmsmdmmms
+               skdmksmdkmskmdksmkdmskmdsmmsmdsmdsmdmskmdmsmdmsd
+               smdsmdkmskmdsmdmskldmsklmdksmdmsmdksmkdmskmdsmmskmsdm
+               mdxsdmksldmskdmdmsdmsmdskmdkmskdmsmdsmdmsmdsmdsdmsdmdksm
               </p>
             </div>
           </section>
 
           <section data-scroll-section>
-            <div className={classes.servicesCtn} data-scroll data-scroll-speed={2}>
-              <h3>SERVICES</h3>
+            <div className={classes.servicesCtn} data-scroll data-scroll-speed={1}
+             data-scroll-position="top"
+             data-scroll-direction="vertical">
+              <h3 >SERVICES</h3>
               <p>
-                // Your SERVICES content here
+              sdjskdjksjskdjsjdsdksdkskdslkdskd
+               sdklsnksmdksmkdmskdmsmdkmdmdmsmdmsmdmmms
+               skdmksmdkmskmdksmkdmskmdsmmsmdsmdsmdmskmdmsmdmsd
+               smdsmdkmskmdsmdmskldmsklmdksmdmsmdksmkdmskmdsmmskmsdm
+               mdxsdmksldmskdmdmsdmsmdskmdkmskdmsmdsmdmsmdsmdsdmsdmdksm
               </p>
             </div>
           </section>
 
           <section data-scroll-section>
-            <div className={classes.connectCtn} data-scroll data-scroll-speed={2}>
+            <div className={classes.connectCtn} data-scroll data-scroll-speed={1}
+             data-scroll-position="top"
+             data-scroll-direction="vertical">
               <h3>LET'S CONNECT</h3>
               <p>
                 // Your CONNECT content here

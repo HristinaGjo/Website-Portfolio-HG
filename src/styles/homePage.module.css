@@ -5,6 +5,8 @@ body{
 
 .pageCtn{
     width: 100%;
+    box-sizing: border-box;
+    padding: 2rem;
 }
 
 .headerCtn{
@@ -36,14 +38,24 @@ body{
 
 .aboutCtn{
    height: auto;
+   margin-bottom: 20rem;
 }
 
 .servicesCtn{
     height: auto;
+    margin-bottom: 20rem;
+
 }
 
 .connectCtn{
     height: auto;
+    margin-bottom: 20rem;
+
+}
+
+.projectsCtn{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
 }
 
 .projectsCtn img{

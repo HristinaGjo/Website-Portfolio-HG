@@ -3,9 +3,11 @@ import React from "react";
 const About = ({ scrollRef }) => {
   return ( 
     <div ref={scrollRef}>
-      <div className={classes.pageCtn}>
-        <h3 data-scroll data-scroll-speed="2" >ABOUT</h3>
-        <p data-scroll data-scroll-speed="2" >
+      <div className={classes.pageCtn}
+      data-scroll data-scroll-speed="2"data-scroll-position="top"
+      data-scroll-direction="horizontal">
+        <h3  >ABOUT</h3>
+        <p >
           jsajknsjsnajksnaksnaksakaksasnskasnkanskska
           sansanskanklanskanaksnnasknansnaksnkasnkansksas
           snfjnkfjdiojfdkfmklmdkmnsjdijdeksodksöldsekoo
