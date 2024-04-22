@@ -61,6 +61,15 @@ const HomePage = () => {
           </div>
         </div>
       </div>
+      <div className={classes.connectCtn}>
+        <div>
+          <h2>Let's Chat</h2>
+         
+          <a className={classes.emailBtn} href="mailto:hgjorgieva@gmail.com">hgjorgieva@gmail.com</a>
+         { /* <h3> Let’s talk about a project, collaboration or an idea you may have!</h3> */}
+        </div>
+
+      </div>
       <Footer/>
     </div>
    /* </SectionContainer> */

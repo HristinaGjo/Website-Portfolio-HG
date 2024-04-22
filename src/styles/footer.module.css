@@ -52,6 +52,7 @@ body {
         padding-bottom: 2em;
         box-sizing: border-box;
         border-top: none;
+        font-weight: 300;
     }
 
     .leftCtn{
@@ -63,8 +64,8 @@ body {
        /* margin-left: 4em; */
     }
 
-    .rigthCtn span{
-        font-size: 1rem;
+     span{
+        font-size: 1.25rem !important;
         display: inline block;
     }
 
