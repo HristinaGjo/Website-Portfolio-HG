@@ -14,6 +14,7 @@ body{
 
 h1, h2, h3 {
     margin: 0; /* Remove default margin */
+    
 } 
 
 
@@ -45,11 +46,11 @@ h1, h2, h3 {
     word-break: break-word;
 }
 
+
 .aboutCtn .text  {
     width:100%;
     display: block;
     align-self: start;
-    color: red;
     word-break: break-word;
 }
 
@@ -123,9 +124,23 @@ h1, h2, h3 {
     padding-bottom: 4em;
 }
 
+.connectCtn h2{
+    margin-bottom: .5em;
+}
+
+.button {
+    background:black;
+    border-radius: 5em;
+    padding: .7em 2em;
+    color:#e1e1e1;
+    margin-left: 0;
+}
+
 h1{
     font-size: 4em;
     color: black !important;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
 }
 
 h2{
@@ -142,6 +157,7 @@ p {
     font-size: 1em;
     font-weight: 300;
     margin: 0;
+    margin-left: 1em;
 }
 
 a {
@@ -247,6 +263,10 @@ a {
         border-bottom: 1px solid black;
     }
 
+    .servicesCtn p {
+        margin-left: .5em;
+    }
+
     .connectCtn{
         min-height: 50vh;
         width: 100%;
@@ -258,6 +278,17 @@ a {
 
     .connectCtn a{
         font-size: 1.25em;
+    }
+    .connectCtn h2{
+        margin-bottom: .2em;
+    }
+
+    .button {
+        background:black;
+        border-radius: 5em;
+        padding: 1em 2.5em;
+        color:#e1e1e1;
+        margin-left: 0.6em;
     }
 
     .mobileBreak {
@@ -275,7 +306,10 @@ a {
 
     h3{
         font-size: 2.5em;
+      
     }
 
-
+    h4{
+        margin-left: 1em;
+    }
 }

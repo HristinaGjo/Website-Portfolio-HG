@@ -17,6 +17,11 @@
   width: 100vw; 
 }
 
+p {
+  margin: 0; /* Reset margin */
+  padding: 0; /* Reset padding */
+}
+
 /* a {
   color: black;
 } 

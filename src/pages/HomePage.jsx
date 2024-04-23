@@ -25,11 +25,11 @@ const HomePage = () => {
       <div className={classes.aboutCtn}>
         <div className={classes.text}>
           <h2>About</h2>
-          <span>sidjsidjsjdsjdsjdkskds
+          <p>sidjsidjsjdsjdsjdkskds
             sdnsdnskdnskdksmdkmskdmksmdkdmkdm
             sdnsdnskmdksmdkmskmdksmdksmdkmskdmskdm
             sndsdklsmdklsmkdmskdskdmskls
-          </span>
+          </p>
         </div>
      <div className={classes.aboutImage}>
              <img src={imageAbout}/> 
@@ -84,4 +84,3 @@ const HomePage = () => {
 }
  
 export default HomePage;
-
