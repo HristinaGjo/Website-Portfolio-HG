@@ -6,13 +6,23 @@ import SectionContainer from "../components/SectionContainer.jsx"
 import Footer from "../components/Footer.jsx";
 
 const HomePage = () => {
+
+ const handleEmailCliclk = () => {
+  /* console.log ('hello') */
+  window.location.href = "mailto:hgjorgieva@gmail.com";
+ }
+
+
+
   return ( 
 
     /* <SectionContainer> */
     <div className={classes.pageCtn}>
       <div className={classes.heroCtn}>
-        <h1>Digital <br className={classes.mobileBreak} />Designer</h1>
+        <h1>Creative <br className={classes.mobileBreak} />Designer</h1>
         <h4>UX & UI DESIGN | <br className={classes.mobileBreak} /> WEB DEVELOPMENT | <br className={classes.mobileBreak} /> INTERACTION DESIGN</h4>
+        <button className={classes.button} onClick={handleEmailCliclk}>hgjorgieva@gmail</button>
+        {/* <h4 className={classes.badge}>Based in Berlin</h4> */}
       </div>
 
       <div className={classes.aboutCtn}>
@@ -64,8 +74,9 @@ const HomePage = () => {
       <div className={classes.connectCtn}>
         <div>
           <h2>Let's Chat</h2>
+          <button className={classes.button} onClick={handleEmailCliclk}>hgjorgieva@gmail</button>
           
-          <a className={classes.emailBtn} href="mailto:hgjorgieva@gmail.com">hgjorgieva@gmail.com</a>
+         { /* <a className={classes.emailBtn} href="mailto:hgjorgieva@gmail.com">hgjorgieva@gmail.com</a> */}
          { /* <h3> Let’s talk about a project, collaboration or an idea you may have!</h3> */}
         </div>
 
