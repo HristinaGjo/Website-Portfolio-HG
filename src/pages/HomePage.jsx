@@ -2,34 +2,39 @@ import React from "react";
 import classes from "../styles/homePage.module.css"
 import imageAbout from "../assets/me.png"
 import imageLegal from "../assets/effect.png"
-import SectionContainer from "../components/SectionContainer.jsx"
 import Footer from "../components/Footer.jsx";
 
 const HomePage = () => {
+
+ const handleEmailCliclk = () => {
+  /* console.log ('hello') */
+  window.location.href = "mailto:hgjorgieva@gmail.com";
+ }
+
   return ( 
 
     /* <SectionContainer> */
     <div className={classes.pageCtn}>
       <div className={classes.heroCtn}>
-        <h1>Digital <br className={classes.mobileBreak} />Designer</h1>
+        <h1>Creative <br className={classes.mobileBreak} />Designer</h1>
         <h4>UX & UI DESIGN | <br className={classes.mobileBreak} /> WEB DEVELOPMENT | <br className={classes.mobileBreak} /> INTERACTION DESIGN</h4>
+        <button className={classes.button} onClick={handleEmailCliclk}>hgjorgieva@gmail</button>
+        {/* <h4 className={classes.badge}>Based in Berlin</h4> */}
       </div>
 
       <div className={classes.aboutCtn}>
-        <div className={classes.text}> 
-        <h2>About</h2>
-        <p>hfhfdjfkdjkfdjkdjfkjdkfjkdjdkfjjfdkjfkjd
-        hfhfdjfkdjkfdjkdjfkjdkfjkdjdkfjjfdkjfkjd
-        hfhfdjfkdjkfdjkdjfkjdkfjkdjdkfjjfdkjfkjd
-        hfhfdjfkdjkfdjkdjfkjdkfjkdjdkfjjfdkjfkjd
-        hfhfdjfkdjkfdjkdjfkjdkfjkdjdkfjjfdkjfkjd
-        hfhfdjfkdjkfdjkdjfkjdkfjkdjdkfjjfdkjfkjd
-        hfhfdjfkdjkfdjkdjfkjdkfjkdjdkfjjfdkjfkjd
-        hfhfdjfkdjkfdjkdjfkjdkfjkdjdkfjjfdkjfkjd
-        hfhfdjfkdjkfdjkdjfkjdkfjkdjdkfjjfdkjfkjd
-        </p>
+        <div className={classes.text}>
+          <h2>About</h2>
+          <p>sidjsidjsjdsjdsjdkskds
+            sdnsdnskdnskdksmdkmskdmksmdkdmkdm
+            sdnsdnskmdksmdkmskmdksmdksmdkmskdmskdm
+            sndsdklsmdklsmkdmskdskdmskls
+          </p>
         </div>
-        <img src={imageAbout}/>
+     <div className={classes.aboutImage}>
+             <img src={imageAbout}/> 
+            </div> 
+        
       </div>
 
       <div className={classes.projectsCtn}>
@@ -64,8 +69,9 @@ const HomePage = () => {
       <div className={classes.connectCtn}>
         <div>
           <h2>Let's Chat</h2>
-         
-          <a className={classes.emailBtn} href="mailto:hgjorgieva@gmail.com">hgjorgieva@gmail.com</a>
+          <button className={classes.button} onClick={handleEmailCliclk}>hgjorgieva@gmail</button>
+          
+         { /* <a className={classes.emailBtn} href="mailto:hgjorgieva@gmail.com">hgjorgieva@gmail.com</a> */}
          { /* <h3> Let’s talk about a project, collaboration or an idea you may have!</h3> */}
         </div>
 
@@ -78,55 +84,3 @@ const HomePage = () => {
 }
  
 export default HomePage;
-
-
-
-
-// HomePage.js
-/* import React, { useRef } from "react";
-import SectionContainer from "../components/SectionContainer";
-import Header from "../components/Header";
-import Projects from "../components/Projects";
-import About from "../components/About";
-import Navbar from "../components/Navbar";
-import Services from "../components/Services";
-import Footer from "../components/Footer";
-import Connect from "../components/Connect";
-
-const HomePage = () => {
-  const headerRef = useRef(null);
-  const projectsRef = useRef(null);
-  const aboutRef = useRef(null);
-
-  const scrollToRef = (refName) => {
-    switch (refName) {
-      case "headerRef":
-        headerRef.current.scrollIntoView({ behavior: "smooth" });
-        break;
-      case "projectsRef":
-        projectsRef.current.scrollIntoView({ behavior: "smooth" });
-        break;
-      case "aboutRef":
-        aboutRef.current.scrollIntoView({ behavior: "smooth" });
-        break;
-      default:
-        break;
-    }
-  };
-
-  return (
-    <>
-    <SectionContainer>
-      <Navbar scrollToRef={scrollToRef} />
-        <Header ref={headerRef} />
-        <Projects ref={projectsRef} />
-        <About ref={aboutRef} />
-        <Services />
-        <Connect />
-      </SectionContainer>
-      <Footer />
-    </>
-  );
-};
-
-export default HomePage; */

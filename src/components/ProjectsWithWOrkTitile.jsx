@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from "react";
+/* import React, { useRef, useState, useEffect } from "react";
 import classes from "../styles/projects.module.css";
 
 const Projects = React.forwardRef (({ id }, ref) => {
@@ -39,7 +39,7 @@ const Projects = React.forwardRef (({ id }, ref) => {
             <span style={{ "--i": 2 }}>O</span>
             <span style={{ "--i": 3 }}>R</span>
             <span style={{ "--i": 4 }}>K</span>
-           {/*  <span style={{ "--i": 5 }}>T</span> */}
+           {/*  <span style={{ "--i": 5 }}>T</span> }
           </div> 
           <div className={classes.rightCtn}>
           </div>
@@ -49,7 +49,7 @@ const Projects = React.forwardRef (({ id }, ref) => {
     );
   });
   
-  export default Projects;
+  export default Projects; */
 
 
 

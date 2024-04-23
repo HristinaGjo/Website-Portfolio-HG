@@ -4,7 +4,7 @@ import HomePage from './pages/HomePage'
 import LegalPage from './pages/LegalPage'
 import { Routes, Route } from "react-router-dom"
 import Navbar from './components/Navbar'
-import AboutPage from './pages/AboutPage'
+
 
 
 function App() {

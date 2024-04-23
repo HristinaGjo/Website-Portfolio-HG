@@ -10,12 +10,13 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2em; 
+    padding: 1.8em; 
     /*background: red;*/
     z-index: 1000;
     font-weight: 300;
     font-size: 0.875rem;
 } 
+
 .rightCtn{
     display: flex;
     flex-direction: row;
@@ -37,15 +38,15 @@ body{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 2rem 2rem;
+        padding: 2rem 2.1rem;
         /*background: red;*/
         z-index: 1000;
         font-weight: 300;
         font-size: 1.25rem;
         box-sizing: border-box;
         margin: 0;
-        
     } 
+
     .rightCtn{
         display: flex;
         flex-direction: row;
