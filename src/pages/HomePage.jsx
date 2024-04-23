@@ -2,7 +2,6 @@ import React from "react";
 import classes from "../styles/homePage.module.css"
 import imageAbout from "../assets/me.png"
 import imageLegal from "../assets/effect.png"
-import SectionContainer from "../components/SectionContainer.jsx"
 import Footer from "../components/Footer.jsx";
 
 const HomePage = () => {
@@ -11,8 +10,6 @@ const HomePage = () => {
   /* console.log ('hello') */
   window.location.href = "mailto:hgjorgieva@gmail.com";
  }
-
-
 
   return ( 
 
@@ -26,20 +23,18 @@ const HomePage = () => {
       </div>
 
       <div className={classes.aboutCtn}>
-        <div className={classes.text}> 
-        <h2>About</h2>
-        <p>hfhfdjfkdjkfdjkdjfkjdkfjkdjdkfjjfdkjf
-        hfhfdjfkdjkfdjkdjfkjdkfjkdjdkfjjfdkjfkjd
-        hfhfdjfkdjkfdjkdjfkjdkfjkdjdkfjjfdkjfkjd
-        hfhfdjfkdjkfdjkdjfkjdkfjkdjdkfjjfdkjfkjd
-        hfhfdjfkdjkfdjkdjfkjdkfjkdjdkfjjfdkjfkjd
-        hfhfdjfkdjkfdjkdjfkjdkfjkdjdkfjjfdkjfkjd
-        hfhfdjfkdjkfdjkdjfkjdkfjkdjdkfjjfdkjfkjd
-        hfhfdjfkdjkfdjkdjfkjdkfjkdjdkfjjfdkjfkjd
-        hfhfdjfkdjkfdjkdjfkjdkfjkdjdkfjjfdkjfkjd
-        </p>
+        <div className={classes.text}>
+          <h2>About</h2>
+          <span>sidjsidjsjdsjdsjdkskds
+            sdnsdnskdnskdksmdkmskdmksmdkdmkdm
+            sdnsdnskmdksmdkmskmdksmdksmdkmskdmskdm
+            sndsdklsmdklsmkdmskdskdmskls
+          </span>
         </div>
-        <img src={imageAbout}/>
+     <div className={classes.aboutImage}>
+             <img src={imageAbout}/> 
+            </div> 
+        
       </div>
 
       <div className={classes.projectsCtn}>
