@@ -46,6 +46,20 @@ h1, h2, h3 {
     word-break: break-word;
 }
 
+.heroCtn h4{
+    display: inline block;
+    font-size: 1em;
+}
+
+.aboutCtn{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr; /* Two equal parts */
+    gap: 4em;
+    height: auto;
+    margin-bottom: 2em;
+}
+
 
 .aboutCtn .text  {
     width:100%;
@@ -54,9 +68,9 @@ h1, h2, h3 {
     word-break: break-word;
 }
 
-.mobileBreak {
+/* .mobileBreak {
     display: inline-block;
-}
+} */
 
 .projectsCtn{
     display: flex;
@@ -130,8 +144,11 @@ h1, h2, h3 {
 
 .button {
     background:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5em;
     border-radius: 5em;
-    padding: .7em 2em;
     color:#e1e1e1;
     margin-left: 0;
 }
@@ -284,9 +301,12 @@ a {
     }
 
     .button {
+        display: flex;
+        align-items: center;
         background:black;
+        height: 2.5em;
+        padding: 0 2em;
         border-radius: 5em;
-        padding: 1em 2.5em;
         color:#e1e1e1;
         margin-left: 0.6em;
     }
