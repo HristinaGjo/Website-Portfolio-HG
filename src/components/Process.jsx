@@ -1,4 +1,4 @@
-import React, {useRef} from "react";
+import React, {useEffect} from "react";
 import classes from "../styles/process.module.css"
 import imageUX from "../assets/me.png"
 import Legal from "../assets/legal.png"
@@ -7,14 +7,14 @@ import videoWebDev from "../assets/webDevCleanCut.mp4"
 import videoWebDesign from "../assets/webDesign.mp4"
 
 
+const Process = ({ videoRef }) => {
 
-const Process = () => {
-    const videoRef = useRef(null);
-
-    const handleEmailClick = () => {
-        window.location.href = "mailto:hgjorgieva@gmail.com";
-    };
-
+    useEffect(() => {
+        if (videoRef.current) {
+            // Access the video element using videoRef.current and perform any operations
+            console.log("Video element reference:", videoRef.current);
+        }
+    }, [videoRef]);
 
     return ( 
         <>
