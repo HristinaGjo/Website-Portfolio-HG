@@ -74,9 +74,9 @@
         color:#19191b ;
     }
 
-    /* .mobileBreak {
+     .mobileBreak {
         display: inline-block;
-    }  */
+    }  
 
     .heroCtn .word-separator{
         display: none; 
@@ -270,9 +270,9 @@
             margin-left: 0.6em;
         }
 
-        /* .mobileBreak {
+        .mobileBreak {
             display: none;
-        } */
+        } 
 
         .word-separator{
             display: inline-block; /* Default display */
