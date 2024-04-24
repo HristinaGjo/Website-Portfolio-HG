@@ -24,6 +24,9 @@ body{
     gap:1.5rem;
 }
 
+p{
+    color: #19191b;
+}
 
 /*.portfolio{
     transform: rotate(90deg);

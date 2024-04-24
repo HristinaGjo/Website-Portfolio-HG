@@ -3,6 +3,7 @@ import classes from "../styles/homePage.module.css"
 import imageAbout from "../assets/me.png"
 import imageLegal from "../assets/effect.png"
 import Footer from "../components/Footer.jsx";
+import Process from "../components/Process.jsx";
 
 const HomePage = () => {
 
@@ -13,12 +14,11 @@ const HomePage = () => {
 
   return ( 
 
-    /* <SectionContainer> */
     <div className={classes.pageCtn}>
       <div className={classes.heroCtn}>
-        <h1>Creative <br className={classes.mobileBreak} />Designer</h1>
-        <h4>UX & UI DESIGN | WEB DESIGN & DEVELOPMENT | INTERACTION DESIGN</h4>
-        <button className={classes.button} onClick={handleEmailCliclk}>hgjorgieva@gmail</button>
+        <h1>Digital <br className={classes.mobileBreak} />Designer</h1>
+        <h4>UX & UI DESIGN | WEB DESIGN | WEB DEVELOPMENT</h4>
+        <button className={classes.button} onClick={handleEmailCliclk}>Get in touch</button>
         {/* <h4 className={classes.badge}>Based in Berlin</h4> */}
       </div>
 
@@ -37,6 +37,8 @@ const HomePage = () => {
         
       </div>
 
+      <Process />
+
       <div className={classes.projectsCtn}>
         <div className={classes.projectOne}>
             <img src={imageLegal}/>
@@ -49,23 +51,11 @@ const HomePage = () => {
              <img src={imageLegal}/> 
             <div className={classes.textOverlay}>
               <h3>Comming soon</h3>
-           {  /*  <p>Your Project</p> */}
+             <p>Your Project</p> 
             </div>
         </div>
       </div>
-      <div>
-        <div className={classes.servicesCtn}>
-          <div>
-          <h2>Process</h2>
-          <p>Things I can help you with</p>
-          </div>
-          <div className={classes.servicesText}>
-          <h3>01. UX | UI Design</h3>
-          <h3>02. Web Design</h3>
-          <h3>03. Web Development</h3>
-          </div>
-        </div>
-      </div>
+
       <div className={classes.connectCtn}>
         <div>
           <h2>Let's Chat</h2>
@@ -78,7 +68,6 @@ const HomePage = () => {
       </div>
       <Footer/>
     </div>
-   /* </SectionContainer> */
 
    );
 }

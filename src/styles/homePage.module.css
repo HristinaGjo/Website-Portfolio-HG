@@ -12,9 +12,9 @@ body{
     box-sizing: border-box;
 }
 
-h1, h2, h3 {
-    margin: 0; /* Remove default margin */
-    
+h1, h2, h4, p, a {
+    margin: 0; 
+    color: #19191b;
 } 
 
 
@@ -24,6 +24,7 @@ h1, h2, h3 {
 .projectTwo img {
     max-width: 100%;
     height: auto;
+    border-radius: 10px;
 }
 
 .pageCtn{
@@ -57,7 +58,8 @@ h1, h2, h3 {
     grid-template-columns: 1fr; /* Two equal parts */
     gap: 4em;
     height: auto;
-    margin-bottom: 2em;
+    margin-bottom: 5em;
+    margin-top: 5em;
 }
 
 
@@ -66,6 +68,10 @@ h1, h2, h3 {
     display: block;
     align-self: start;
     word-break: break-word;
+}
+
+.aboutCtn p {
+    color:#19191b ;
 }
 
 /* .mobileBreak {
@@ -78,7 +84,7 @@ h1, h2, h3 {
     justify-content: center;
     align-items: start;
     height: auto;
-    margin-bottom: 2em;
+    margin-bottom: 5em;
     gap: 2em;
 }
 
@@ -105,26 +111,6 @@ h1, h2, h3 {
     transform: translate(-50%, -50%);
 }
 
-.servicesCtn{
-    height: auto;
-    /* min-height:50vh ; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 2em;
-    margin-bottom: 2em;
-}
-
-.servicesText {
-    width: 100%;
-}
-
-.servicesText h3 {
-    padding: 1em;
-    border-bottom: 1px solid black;
-    font-weight: 400;
-}
-
 .connectCtn{
     height: auto;
     /* min-height: 20vh; */
@@ -143,7 +129,7 @@ h1, h2, h3 {
 }
 
 .button {
-    background:black;
+    background:#19191b;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -152,23 +138,26 @@ h1, h2, h3 {
     border-radius: 5em;
     color:#e1e1e1;
     margin-left: 0;
+    border: none;
 }
 
 h1{
     font-size: 4em;
-    color: black !important;
+
     margin-block-start: 0em;
     margin-block-end: 0em;
 }
 
 h2{
     font-size: 1.25em;
+  
 }
 
 h4{
     font-size: 1em;
     font-weight: 200;
     line-height: 1.25em;
+
 }
 
 p {
@@ -176,11 +165,12 @@ p {
     font-weight: 300;
     margin: 0;
     margin-left: 1em;
+
 }
 
 a {
     text-decoration: none;
-    color: black;
+  
     font-weight: 300;
 }
 
@@ -248,7 +238,6 @@ a {
 
     .projectOne img{
         width: 100%;
-    
     }
 
     .projectTwo img{
@@ -261,28 +250,6 @@ a {
         top:90%;
         left: 50%;
         transform: translate(-50%, -50%); 
-    }
-
-    .servicesCtn{
-        height: auto;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        justify-content: center;
-        gap: 4em;
-        margin-bottom: 7.5em;
-    }
-
-    .servicesText {
-        align-self: start;
-    }
-
-    .servicesText h3 {
-        padding: 1em;
-        border-bottom: 1px solid black;
-    }
-
-    .servicesCtn p {
-        margin-left: .5em;
     }
 
     .connectCtn{
@@ -304,7 +271,7 @@ a {
     .button {
         display: flex;
         align-items: center;
-        background:black;
+        background:#19191b;
         height: 2.5em;
         padding: 0 2em;
         border-radius: 5em;
