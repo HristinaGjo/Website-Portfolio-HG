@@ -3,6 +3,7 @@ import classes from "../styles/process.module.css"
 import imageUX from "../assets/me.png"
 import Legal from "../assets/legal.png"
 import videoUX from "../assets/uxFinal.mp4"
+import videoWebDev from "../assets/webDevCleanCut.mp4"
 
 
 
@@ -46,7 +47,9 @@ const Process = () => {
             </div>
             <div className={classes.column}>
                 <p>Web Development</p>
-                <img className={classes.imageCtn}/>
+                <video  className={classes.videoCtn} autoPlay loop muted>
+            <source src={videoWebDev} type="video/mp4" />
+            </video>
                 <p>Bringing visuals to life through developing highly functional web solutions.</p>
                 <span>Component Architecture Design</span>
                 <span>Frontend Development</span>
