@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useRef} from "react";
 import classes from "../styles/homePage.module.css"
 import imageAbout from "../assets/me.png"
 import imageLegal from "../assets/effect.png"
@@ -16,6 +16,10 @@ const HomePage = () => {
   /* console.log ('hello') */
   window.location.href = "mailto:hgjorgieva@gmail.com";
  }
+
+ const videoRef = useRef(null);
+
+
 
   return ( 
 <>

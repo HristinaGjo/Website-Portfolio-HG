@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useRef} from "react";
 import classes from "../styles/process.module.css"
 import imageUX from "../assets/me.png"
 import Legal from "../assets/legal.png"
@@ -9,6 +9,13 @@ import videoWebDesign from "../assets/webDesign.mp4"
 
 
 const Process = () => {
+    const videoRef = useRef(null);
+
+    const handleEmailClick = () => {
+        window.location.href = "mailto:hgjorgieva@gmail.com";
+    };
+
+
     return ( 
         <>
         <div className={classes.processCtn}>
@@ -19,7 +26,7 @@ const Process = () => {
            <div className={classes.services}>
             <div className={classes.column}>
                 <p>UX & UI Design</p>
-                <video  className={classes.videoCtn} autoPlay loop muted>
+                <video  className={classes.videoCtn}  autoPlay loop muted>
             <source src={videoUX} type="video/mp4" />
             </video>
                 <p>Crafting user-centric, intuitive and engaging digital experiences.</p>
