@@ -38,7 +38,18 @@
 }
 
 .column p{
-    color: #edede9;
+    color: #ccc !important;
+    font-weight: 400;
+    font-size: 1.25em !important;
+    margin-bottom: 1em !important;
+    font-family: "Helvetica Neue";
+}
+
+.column span {
+    font-size: 1em !important;
+    line-height: .7;
+    font-weight: 200;
+    color: #999 !important;
 }
 
 .imageCtn{
@@ -56,5 +67,11 @@
     margin-bottom: 5em;
     padding: 1em;
 }
+
+.column p{
+    margin-bottom: 2em;
+    font-size: 2em;
+}
+
 
 }

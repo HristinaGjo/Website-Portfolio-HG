@@ -15,25 +15,39 @@ const Process = () => {
            </div>
            <div className={classes.services}>
             <div className={classes.column}>
-                <span>UX & UI Design</span>
+                <p>UX & UI Design</p>
                 <img className={classes.imageCtn} /* src={Legal}*//>
-                <p>UX & UI DESIGN UX & UI DESIGN</p>
-                <p>UX & UI DESIGN UX & UI DESIGN</p>
-                <p>UX & UI DESIGN UX & UI DESIGN</p>
+                <p>Crafting user-centric, intuitive and engaging digital experiences.</p>
+                <span>User Research & Discovery</span>
+                {/* <span>User Persona Development</span> */}
+                <span>UX Strategy</span>
+                <span>Wireframing & Prototyping</span>
+                <span>User Testing</span>
+                <span>UI Design</span>
+               
+                {/* <span>Iterative Design Process</span>
+                <span>Implementation & Design Handoff</span> */}
             </div>
             <div className={classes.column}>
-                <span>Web Design</span>
+                <p>Web Design</p>
                 <img className={classes.imageCtn} />
-                <p>UX & UI DESIGN</p>
-                <p>UX & UI DESIGN</p>
-                <p>UX & UI DESIGN</p>
+                <p>A comprehensive design that lays the foundation for web implementation.</p>
+                <span>Planing & Strategy</span>
+                <span>Wireframing</span>
+                <span>Website Design Mockups</span>
+                <span>Responsive & mobile</span>
+                <span>UX & Copywriting</span>
+             
             </div>
             <div className={classes.column}>
-                <span>Web Development</span>
+                <p>Web Development</p>
                 <img className={classes.imageCtn}/>
-                <p>UX & UI DESIGN</p>
-                <p>UX & UI DESIGN</p>
-                <p>UX & UI DESIGN</p>
+                <p>Bringing visuals to life through developing highly functional web solutions.</p>
+                <span>Component Architecture Design</span>
+                <span>Frontend Development</span>
+                <span>Responsive Design</span>
+                <span>Testing</span>
+                <span>Deployment</span>
             </div>
 
            </div>

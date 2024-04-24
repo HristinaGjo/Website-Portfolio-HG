@@ -10,7 +10,6 @@ import DigitalPlayground from "../assets/digitalPlaygroundDark.png"
 import DigitalPlaygroundLight from "../assets/digitalPlaygroundLight.png"
 import Connect from "../components/Connect.jsx";
 
-
 const HomePage = () => {
 
  const handleEmailCliclk = () => {
