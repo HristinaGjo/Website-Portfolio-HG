@@ -5,7 +5,7 @@ import imageLegal from "../assets/effect.png"
 import Footer from "../components/Footer.jsx";
 import Process from "../components/Process.jsx";
 /* import Legal from "../assets/legal.png" */
-import Legal from "../assets/legalPurple.png"
+import Legal from "../assets/whiteLegal.png"
 import DigitalPlayground from "../assets/digitalPlaygroundDark.png"
 import DigitalPlaygroundLight from "../assets/digitalPlaygroundLight.png"
 import Connect from "../components/Connect.jsx";
@@ -23,8 +23,10 @@ const HomePage = () => {
     <div className={classes.pageCtn}>
       <div className={classes.heroCtn}>
         <h1>Digital <br className={classes.mobileBreak} />Designer</h1>
-        <h4>UX & UI DESIGN | WEB DESIGN | WEB DEVELOPMENT</h4>
-{        /* <button className={classes.button} onClick={handleEmailCliclk}>Get in touch</button> */}
+        <h4>| UX & UI DESIGN | WEB DESIGN | WEB DEVELOPMENT |</h4>
+       {/* <h4>| UX & UI DESIGN <br className={classes.mobileBreak}/> | WEB DESIGN <br className={classes.mobileBreak}/>| WEB DEVELOPMENT |</h4> */}
+
+{/* <button className={classes.button} onClick={handleEmailCliclk}>Get in touch</button> */}
         {/* <h4 className={classes.badge}>Based in Berlin</h4> */}
       </div>
 
@@ -34,8 +36,9 @@ const HomePage = () => {
           <p>sidjsidjsjdsjdsjdkskds
             sdnsdnskdnskdksmdkmskdmksmdkdmkdm
             sdnsdnskmdksmdkmskmdksmdksmdkmskdmskdm
-            sndsdklsmdklsmkdmskdskdmskls
+            sndsdklsmdklsmkdmskdskdmskls 
           </p>
+ 
         </div>
      <div className={classes.aboutImage}>
              <img src={Legal}/> 

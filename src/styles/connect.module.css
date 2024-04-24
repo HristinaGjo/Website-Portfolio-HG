@@ -1,11 +1,30 @@
 
+@media (max-width: 767px){
+    /* .connectCtn{
+        height: 20vh;
+        background: #19191b;
+        padding: 2em;
+    } */
+
+    .connectCtn {
+        min-height: 10vh !important;
+    }
+
+    .text{
+        margin-bottom: 5em;
+    }
+
+
+
+} 
+
 
 .connectCtn{
     min-height: 50vh;
     background: #19191b;
     padding: 2em;
-    
 }
+
 .text{
     display: flex;
     flex-direction: column;

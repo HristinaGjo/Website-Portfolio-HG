@@ -17,7 +17,7 @@ a {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start; */
-    padding-top: 1em;
+    padding-top: 1em ;
     padding-bottom: 1em;
 }
 
@@ -52,7 +52,7 @@ a {
         justify-content: space-between;
         align-items: flex-start;
         padding-top: 8em;
-        padding-bottom: 2em;
+        padding-bottom: 0em;
         box-sizing: border-box;
         border-top: none;
         font-weight: 300;
