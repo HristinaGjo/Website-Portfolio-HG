@@ -22,7 +22,7 @@
 .connectCtn{
     min-height: 50vh;
     background: #19191b;
-    padding: 2em;
+    padding: 1em;
 }
 
 .text{
@@ -48,4 +48,5 @@ button{
     background: transparent;
     border:1px solid #e1e1e1;
     color: #e1e1e1;
+    cursor:pointer;
 }

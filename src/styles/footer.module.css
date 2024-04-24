@@ -18,7 +18,7 @@ a {
     justify-content: flex-start;
     align-items: flex-start; */
     padding-top: 1em ;
-    padding-bottom: 1em;
+    padding-bottom: 2em;
 }
 
 .leftCtn{
@@ -52,7 +52,7 @@ a {
         justify-content: space-between;
         align-items: flex-start;
         padding-top: 8em;
-        padding-bottom: 0em;
+        padding-bottom: 1em;
         box-sizing: border-box;
         border-top: none;
         font-weight: 300;

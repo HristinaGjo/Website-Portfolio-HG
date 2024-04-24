@@ -16,7 +16,7 @@ const Connect = () => {
     <div className={classes.connectCtn}>
         <div className={classes.text}>
             <h2>Let's Chat</h2>
-            <span>Let’s talk about a project, collaboration or an idea you may have!</span>
+            <span>Have an idea or project in mind?</span>
             <div className={classes.buttonCtn}>
             <button className={classes.button} onClick={handleEmailCliclk}>Get in touch</button>
             </div>
