@@ -12,12 +12,11 @@ import Connect from "../components/Connect.jsx";
 
 const HomePage = () => {
 
- const handleEmailCliclk = () => {
-  /* console.log ('hello') */
-  window.location.href = "mailto:hgjorgieva@gmail.com";
- }
+  const videoRef = useRef(null);
 
- const videoRef = useRef(null);
+    const handleEmailClick = () => {
+        window.location.href = "mailto:hgjorgieva@gmail.com";
+    };
 
 
 
@@ -28,7 +27,7 @@ const HomePage = () => {
         <h1>Digital <br className={classes.mobileBreak} />Designer</h1>
         <h4>| UX & UI DESIGN | WEB DESIGN | FRONT END DEVELOPMENT |</h4>
         <div className={classes.buttonCtn}>
-        <button className={classes.button} onClick={handleEmailCliclk}>Get in touch</button>
+        <button className={classes.button} onClick={handleEmailClick}>Get in touch</button>
         </div>
 
        {/* <h4>| UX & UI DESIGN <br className={classes.mobileBreak}/> | WEB DESIGN <br className={classes.mobileBreak}/>| WEB DEVELOPMENT |</h4> */}
@@ -53,7 +52,7 @@ const HomePage = () => {
         
       </div>
 
-      <Process />
+      <Process videoRef={videoRef} />
 
       <div className={classes.projectsCtn}>
         <div className={classes.projectOne}>
