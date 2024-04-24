@@ -24,6 +24,8 @@ const HomePage = () => {
       <div className={classes.heroCtn}>
         <h1>Digital <br className={classes.mobileBreak} />Designer</h1>
         <h4>| UX & UI DESIGN | WEB DESIGN | WEB DEVELOPMENT |</h4>
+        <button className={classes.button} onClick={handleEmailCliclk}>Get in touch</button>
+
        {/* <h4>| UX & UI DESIGN <br className={classes.mobileBreak}/> | WEB DESIGN <br className={classes.mobileBreak}/>| WEB DEVELOPMENT |</h4> */}
 
 {/* <button className={classes.button} onClick={handleEmailCliclk}>Get in touch</button> */}
