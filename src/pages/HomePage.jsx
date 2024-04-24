@@ -8,6 +8,7 @@ import Process from "../components/Process.jsx";
 import Legal from "../assets/legalPurple.png"
 import DigitalPlayground from "../assets/digitalPlaygroundDark.png"
 import DigitalPlaygroundLight from "../assets/digitalPlaygroundLight.png"
+import Connect from "../components/Connect.jsx";
 
 
 const HomePage = () => {
@@ -18,12 +19,12 @@ const HomePage = () => {
  }
 
   return ( 
-
+<>
     <div className={classes.pageCtn}>
       <div className={classes.heroCtn}>
         <h1>Digital <br className={classes.mobileBreak} />Designer</h1>
         <h4>UX & UI DESIGN | WEB DESIGN | WEB DEVELOPMENT</h4>
-        <button className={classes.button} onClick={handleEmailCliclk}>Get in touch</button>
+{        /* <button className={classes.button} onClick={handleEmailCliclk}>Get in touch</button> */}
         {/* <h4 className={classes.badge}>Based in Berlin</h4> */}
       </div>
 
@@ -47,31 +48,30 @@ const HomePage = () => {
       <div className={classes.projectsCtn}>
         <div className={classes.projectOne}>
             <img src={Legal}/> 
-        
           <div className={classes.textOverlay}>
-              <p>Legal APP </p>
-              <p>UX | UI Case Study</p>
+              <p>Legal APP | UX & UI Case Study </p>
             </div> 
             </div>
-        
         <div className={classes.projectTwo}>
              <img src={DigitalPlaygroundLight}/> 
             <div className={classes.textOverlay}>
-             { /* <h3>Comming soon</h3>
-             <p>Playground</p>  */}
+            <p>Comming soon...</p>
             </div>
         </div>
       </div>
 
-      <div className={classes.connectCtn}>
+   {   /* <div className={classes.connectCtn}>
         <div>
           <h2>Let's Chat</h2>
           <button className={classes.button} onClick={handleEmailCliclk}>hgjorgieva@gmail</button>
         </div>
 
-      </div>
-      <Footer/>
+      </div> */}
+   
+     {/* <Footer/> */}
     </div>
+       <Connect />
+       </>
 
    );
 }

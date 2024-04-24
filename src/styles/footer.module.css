@@ -3,6 +3,10 @@ body {
     margin: 0; 
 }
 
+a {
+    color:#e1e1e1;
+}
+
 @media (max-width: 767px) {
 
 
@@ -43,12 +47,11 @@ body {
 
     .pageCtn{
         width: 100%;
-        height: auto;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: flex-start;
-        padding-top: 4em;
+        padding-top: 8em;
         padding-bottom: 2em;
         box-sizing: border-box;
         border-top: none;
@@ -72,7 +75,5 @@ body {
     .leftCtn a{
         font-size: 1.25rem;
     }
-
-   
 
 }

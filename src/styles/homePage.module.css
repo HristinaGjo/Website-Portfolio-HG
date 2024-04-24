@@ -88,36 +88,15 @@ h1, h2, h4, p, a {
     gap: 2em;
 }
 
-.projectsCtn .projectOne{
-    position: relative;
-    width:100%;
-}
-
-.projectsCtn .projectTwo{
-    position: relative;
-    width: 100%;
-}
-
-
-.textOverlay{
+.projectOne, .projectTwo{
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    gap: .5em;
-    align-items: flex-start;
-    position: absolute;
-    width: 100%;
-    top:92%;
-    left: 50%;
-    /*bottom: 0;
-    left: 0; */
-    padding: 0 1em;
-    transform: translate(-50%, -50%);
-   
+    flex-direction: column;
+    gap: 1em;
 }
 
 .textOverlay p {
     font-size: 1em;
+    font-weight: 300;
 }
 
 .connectCtn{
@@ -235,32 +214,20 @@ a {
         align-items: start;
         margin-bottom: 15em;
     }
-    
-    .projectsCtn .projectOne {
-        position: relative;
+
+    .projectOne, .projectTwo{
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        font-weight: 400;
     }
 
-    .projectsCtn .projectTwo {
-        position: relative;
-    }
-
-    .projectOne img{
-        width: 100%;
-    }
-
-    .projectTwo img{
-        width: 100%;
-    }
-    
-    .textOverlay{
-        position: absolute;
-        width: 100%;
-        top:93%;
-        left: 50%;
-        transform: translate(-50%, -50%); 
+    .textOverlay p {
         font-size: 1.25em;
-        padding: 0 1em;
+        font-weight: 300;
     }
+
+
 
     .connectCtn{
         min-height: 50vh;
