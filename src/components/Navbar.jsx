@@ -11,6 +11,7 @@ const Navbar = ({ scrollToRef }) => {
       <div className={classes.rightCtn}>
         <p onClick={() => scrollToRef("aboutRef")}>About</p>
         <p onClick={() => scrollToRef("projectsRef")}>Work</p>
+        <p onClick={() => scrollToRef("projectsRef")}>Connect</p>
       </div>
     </div>
   );

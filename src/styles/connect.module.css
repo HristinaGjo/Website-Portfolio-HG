@@ -1,0 +1,32 @@
+
+
+.connectCtn{
+    min-height: 50vh;
+    background: #19191b;
+    padding: 2em;
+    
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+
+}
+
+.text h2{
+    color: #e1e1e1;
+}
+
+ span{
+    color: #e1e1e1;
+}
+
+button{
+    height: 2.5em;
+    padding: 0 2em;
+    border-radius: 5em;
+    border: none;
+    background: transparent;
+    border:1px solid #e1e1e1;
+    color: #e1e1e1;
+}
