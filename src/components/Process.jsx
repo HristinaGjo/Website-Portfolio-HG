@@ -2,6 +2,7 @@ import React from "react";
 import classes from "../styles/process.module.css"
 import imageUX from "../assets/me.png"
 import Legal from "../assets/legal.png"
+import videoUX from "../assets/uxFinal.mp4"
 
 
 
@@ -16,7 +17,9 @@ const Process = () => {
            <div className={classes.services}>
             <div className={classes.column}>
                 <p>UX & UI Design</p>
-                <img className={classes.imageCtn} /* src={Legal}*//>
+                <video  className={classes.videoCtn} autoPlay loop muted>
+            <source src={videoUX} type="video/mp4" />
+            </video>
                 <p>Crafting user-centric, intuitive and engaging digital experiences.</p>
                 <span>User Research & Discovery</span>
                 {/* <span>User Persona Development</span> */}
@@ -30,7 +33,9 @@ const Process = () => {
             </div>
             <div className={classes.column}>
                 <p>Web Design</p>
-                <img className={classes.imageCtn} />
+                <img className={classes.imageCtn} /* src={Legal}*//>
+
+           
                 <p>A comprehensive design that lays the foundation for web implementation.</p>
                 <span>Planing & Strategy</span>
                 <span>Wireframing</span>

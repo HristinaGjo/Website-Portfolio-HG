@@ -40,7 +40,7 @@
 .column p{
     color: #ccc !important;
     font-weight: 400;
-    font-size: 1.25em !important;
+    font-size: 1em !important;
     margin-bottom: 1em !important;
     font-family: "Helvetica Neue";
 }
@@ -52,11 +52,18 @@
     color: #999 !important;
 }
 
+.videoCtn{
+    width: 100%;
+    height:60vh;
+    border-radius: 5px;
+    background: #edede9;
+}
+
 .imageCtn{
     width: 100%;
     min-height: 60vh;
     border-radius: 5px;
-    background: #edede9;;
+    background: #edede9;
 }
 
 
@@ -72,6 +79,5 @@
     margin-bottom: 2em;
     font-size: 2em;
 }
-
 
 }
