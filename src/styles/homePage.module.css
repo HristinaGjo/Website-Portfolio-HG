@@ -222,7 +222,7 @@
             grid-template-columns: repeat(2, 1fr); /* Two equal parts */
             gap: 4em;
             height: auto;
-            margin-bottom: 15em;
+            margin-bottom: 20em;
         }
 
         .text {
@@ -242,7 +242,7 @@
             gap: 4rem;
             justify-content: center;
             align-items: start;
-            margin-bottom: 15em;
+            margin-bottom: 20em;
         }
 
         .projectOne, .projectTwo{

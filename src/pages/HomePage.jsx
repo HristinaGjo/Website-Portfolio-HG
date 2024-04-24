@@ -55,7 +55,7 @@ const HomePage = () => {
         <div className={classes.projectOne}>
             <img src={Legal}/> 
           <div className={classes.textOverlay}>
-              <p>Legal APP | UX & UI Case Study </p>
+              <p>Legal App | UX & UI Case Study </p>
             </div> 
             </div>
         <div className={classes.projectTwo}>

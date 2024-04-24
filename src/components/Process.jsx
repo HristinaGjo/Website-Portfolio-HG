@@ -4,6 +4,7 @@ import imageUX from "../assets/me.png"
 import Legal from "../assets/legal.png"
 import videoUX from "../assets/uxFinal.mp4"
 import videoWebDev from "../assets/webDevCleanCut.mp4"
+import videoWebDesign from "../assets/webDesign.mp4"
 
 
 
@@ -34,8 +35,10 @@ const Process = () => {
             </div>
             <div className={classes.column}>
                 <p>Web Design</p>
-                <img className={classes.imageCtn} /* src={Legal}*//>
-
+                {/* <img className={classes.imageCtn} /* src={Legal} */}
+                <video  className={classes.videoCtn} autoPlay loop muted>
+            <source src={videoWebDesign} type="video/mp4" />
+            </video>
            
                 <p>A comprehensive design that lays the foundation for web implementation.</p>
                 <span>Planing & Strategy</span>
