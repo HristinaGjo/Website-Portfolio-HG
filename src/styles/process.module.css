@@ -12,20 +12,22 @@
     min-height: 100vh;
     background: #19191b;
     border-radius: 10px;
-    padding: 1em;
-    margin-bottom: 5em;
+    padding: 2em;
+    margin-bottom: 15em;
+    /* margin-bottom: 5em; */
 }
 
 .services {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Each column with a minimum width of 200px */
-    gap: 30px;
+    gap: 20px;
 }
 
 
 .column {
     min-height: 70vh;
-    background: red; 
+    /* background: #edede9; */
+   /* background: red; */ 
     border-radius: 5px;
     padding: .5em;
     display: flex;
@@ -35,7 +37,14 @@
     gap: .5em;
 }
 
-.image{
-    width: 100%;
-    border-radius: 5px;
+.column p{
+    color: #edede9;
 }
+
+.imageCtn{
+    width: 100%;
+    min-height: 65vh;
+    border-radius: 5px;
+    background: #edede9;;
+}
+

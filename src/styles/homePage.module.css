@@ -100,15 +100,24 @@ h1, h2, h4, p, a {
 
 
 .textOverlay{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: .5em;
+    align-items: flex-start;
     position: absolute;
     width: 100%;
-    top:90%;
+    top:92%;
     left: 50%;
     /*bottom: 0;
     left: 0; */
-    text-align: left;
-    padding: 1em;
+    padding: 0 1em;
     transform: translate(-50%, -50%);
+   
+}
+
+.textOverlay p {
+    font-size: 1em;
 }
 
 .connectCtn{
@@ -157,7 +166,6 @@ h4{
     font-size: 1em;
     font-weight: 200;
     line-height: 1.25em;
-
 }
 
 p {
@@ -247,9 +255,11 @@ a {
     .textOverlay{
         position: absolute;
         width: 100%;
-        top:90%;
+        top:93%;
         left: 50%;
         transform: translate(-50%, -50%); 
+        font-size: 1.25em;
+        padding: 0 1em;
     }
 
     .connectCtn{

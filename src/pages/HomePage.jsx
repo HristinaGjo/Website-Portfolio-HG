@@ -4,6 +4,11 @@ import imageAbout from "../assets/me.png"
 import imageLegal from "../assets/effect.png"
 import Footer from "../components/Footer.jsx";
 import Process from "../components/Process.jsx";
+/* import Legal from "../assets/legal.png" */
+import Legal from "../assets/legalPurple.png"
+import DigitalPlayground from "../assets/digitalPlaygroundDark.png"
+import DigitalPlaygroundLight from "../assets/digitalPlaygroundLight.png"
+
 
 const HomePage = () => {
 
@@ -32,7 +37,7 @@ const HomePage = () => {
           </p>
         </div>
      <div className={classes.aboutImage}>
-             <img src={imageAbout}/> 
+             <img src={Legal}/> 
             </div> 
         
       </div>
@@ -41,17 +46,19 @@ const HomePage = () => {
 
       <div className={classes.projectsCtn}>
         <div className={classes.projectOne}>
-            <img src={imageLegal}/>
-            <div className={classes.textOverlay}>
-              <h3>Legal</h3>
-              <p>UX | UI Case Study</p>
+            <img src={Legal}/> 
+        
+          <div className={classes.textOverlay}>
+              <p>Legal APP </p>
+              <p>UX | UI Case Study</p>
+            </div> 
             </div>
-        </div>
+        
         <div className={classes.projectTwo}>
-             <img src={imageLegal}/> 
+             <img src={DigitalPlaygroundLight}/> 
             <div className={classes.textOverlay}>
-              <h3>Comming soon</h3>
-             <p>Your Project</p> 
+             { /* <h3>Comming soon</h3>
+             <p>Playground</p>  */}
             </div>
         </div>
       </div>
@@ -60,9 +67,6 @@ const HomePage = () => {
         <div>
           <h2>Let's Chat</h2>
           <button className={classes.button} onClick={handleEmailCliclk}>hgjorgieva@gmail</button>
-          
-         { /* <a className={classes.emailBtn} href="mailto:hgjorgieva@gmail.com">hgjorgieva@gmail.com</a> */}
-         { /* <h3> Let’s talk about a project, collaboration or an idea you may have!</h3> */}
         </div>
 
       </div>

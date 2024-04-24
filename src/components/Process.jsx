@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "../styles/process.module.css"
 import imageUX from "../assets/me.png"
+import Legal from "../assets/legal.png"
 
 
 
@@ -15,21 +16,21 @@ const Process = () => {
            <div className={classes.services}>
             <div className={classes.column}>
                 <span>UX & UI Design</span>
-                <img className={classes.image} src={imageUX}/>
-                <p>UX & UI DESIGN</p>
-                <p>UX & UI DESIGN</p>
-                <p>UX & UI DESIGN</p>
+                <img className={classes.imageCtn} /* src={Legal}*//>
+                <p>UX & UI DESIGN UX & UI DESIGN</p>
+                <p>UX & UI DESIGN UX & UI DESIGN</p>
+                <p>UX & UI DESIGN UX & UI DESIGN</p>
             </div>
             <div className={classes.column}>
                 <span>Web Design</span>
-                <img className={classes.image} src={imageUX}/>
+                <img className={classes.imageCtn} />
                 <p>UX & UI DESIGN</p>
                 <p>UX & UI DESIGN</p>
                 <p>UX & UI DESIGN</p>
             </div>
             <div className={classes.column}>
                 <span>Web Development</span>
-                <img className={classes.image} src={imageUX}/>
+                <img className={classes.imageCtn}/>
                 <p>UX & UI DESIGN</p>
                 <p>UX & UI DESIGN</p>
                 <p>UX & UI DESIGN</p>
