@@ -147,7 +147,8 @@ h1, h2, h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 2.5em;
+    height: 3em;
+    padding: 0 1.5em;
     border-radius: 5em;
     color:#e1e1e1;
     margin-left: 0;
