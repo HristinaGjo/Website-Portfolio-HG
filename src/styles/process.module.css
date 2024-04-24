@@ -19,7 +19,7 @@
 
 .services {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Each column with a minimum width of 200px */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Each column with a minimum width of 200px */
     gap: 20px;
 }
 
