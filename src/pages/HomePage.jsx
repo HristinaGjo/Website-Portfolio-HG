@@ -1,5 +1,6 @@
 import React, {useRef} from "react";
 import classes from "../styles/homePage.module.css"
+import { useNavigate } from "react-router-dom";
 import imageAbout from "../assets/me.png"
 import imageLegal from "../assets/effect.png"
 import Footer from "../components/Footer.jsx";
@@ -10,13 +11,19 @@ import DigitalPlayground from "../assets/digitalPlaygroundDark.png"
 import DigitalPlaygroundLight from "../assets/digitalPlaygroundLight.png"
 import Connect from "../components/Connect.jsx";
 
+
 const HomePage = () => {
 
   const videoRef = useRef(null);
+  const navigate= useNavigate()
 
     const handleEmailClick = () => {
         window.location.href = "mailto:hgjorgieva@gmail.com";
     };
+
+    const aboutPageClick = () => {
+      navigate ('/about');
+    }
 
 
 
@@ -38,17 +45,30 @@ const HomePage = () => {
 
       <div className={classes.aboutCtn}>
         <div className={classes.text}>
-          <h2>About</h2>
+          <hr className={classes.hr} />
+          {/* <h2>About</h2> */}
           <p>sidjsidjsjdsjdsjdkskds
             sdnsdnskdnskdksmdkmskdmksmdkdmkdm
             sdnsdnskmdksmdkmskmdksmdksmdkmskdmskdm
             sndsdklsmdklsmkdmskdskdmskls 
+            sidjsidjsjdsjdsjdkskds
+            sdnsdnskdnskdksmdkmskdmksmdkdmkdm
+            sdnsdnskmdksmdkmskmdksmdksmdkmskdmskdm
+            sndsdklsmdklsmkdmskdskdmskls 
+            sidjsidjsjdsjdsjdkskds
+            sdnsdnskdnskdksmdkmskdmksmdkdmkdm
+            sdnsdnskmdksmdkmskmdksmdksmdkmskdmskdm
+            sndsdklsmdklsmkdmskdskdmskls 
           </p>
+
+          <div className={classes.buttonCtn}>
+        <button className={classes.button} onClick={aboutPageClick}>see more</button>
+        </div>
  
         </div>
-     <div className={classes.aboutImage}>
+   { /* <div className={classes.aboutImage}>
              <img src={Legal}/> 
-            </div> 
+            </div> */}
         
       </div>
 
