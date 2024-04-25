@@ -78,6 +78,8 @@ const HomePage = () => {
       <div className={classes.projectsCtn}>
     
 
+
+
         <div className={classes.projectOne}>
             <img src={Legal}/> 
           <div className={classes.textOverlay}>
