@@ -87,4 +87,3 @@ const Navbar = ({ scrollToRef }) => {
 };
 
 export default Navbar; */
-

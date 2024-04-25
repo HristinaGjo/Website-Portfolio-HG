@@ -1,6 +1,5 @@
 import React, {useRef} from "react";
 import classes from "../styles/homePage.module.css"
-import { useNavigate } from "react-router-dom";
 import imageAbout from "../assets/me.png"
 import imageLegal from "../assets/effect.png"
 import Footer from "../components/Footer.jsx";
@@ -15,7 +14,6 @@ import Connect from "../components/Connect.jsx";
 const HomePage = () => {
 
   const videoRef = useRef(null);
-  const navigate= useNavigate()
 
     const handleEmailClick = () => {
         window.location.href = "mailto:hgjorgieva@gmail.com";
@@ -46,7 +44,7 @@ const HomePage = () => {
       <div className={classes.aboutCtn}>
         <div className={classes.text}>
           <hr className={classes.hr} />
-          {/* <h2>About</h2> */}
+          <h2>About</h2> 
           <p>sidjsidjsjdsjdsjdkskds
             sdnsdnskdnskdksmdkmskdmksmdkdmkdm
             sdnsdnskmdksmdkmskmdksmdksmdkmskdmskdm
@@ -62,7 +60,7 @@ const HomePage = () => {
           </p>
 
           <div className={classes.buttonCtn}>
-        <button className={classes.button} onClick={aboutPageClick}>see more</button>
+        <button className={classes.button} onClick={aboutPageClick}>See more</button>
         </div>
  
         </div>
@@ -74,7 +72,12 @@ const HomePage = () => {
 
       <Process videoRef={videoRef} />
 
+      <hr className={classes.hr} />
+      <h2 > Work</h2>
+
       <div className={classes.projectsCtn}>
+    
+
         <div className={classes.projectOne}>
             <img src={Legal}/> 
           <div className={classes.textOverlay}>
