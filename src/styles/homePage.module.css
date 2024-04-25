@@ -15,6 +15,7 @@
     h1, h2, h4, p, a {
         margin: 0; 
         color: #19191b;
+        font-weight: 300;
     } 
 
 
@@ -49,7 +50,7 @@
 
     .heroCtn h4{
         display: inline block;
-        font-size: .75em !important;
+        font-size: .7em !important;
     }
 
     .aboutCtn{
