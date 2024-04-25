@@ -58,6 +58,7 @@ const HomePage = () => {
             sdnsdnskmdksmdkmskmdksmdksmdkmskdmskdm
             sndsdklsmdklsmkdmskdskdmskls 
           </p>
+          
 
           <div className={classes.buttonCtn}>
         <button className={classes.button} onClick={aboutPageClick}>See more</button>

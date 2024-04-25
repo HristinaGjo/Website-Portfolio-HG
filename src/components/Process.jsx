@@ -45,6 +45,7 @@ const Process = ({ videoRef }) => {
                 <span>Implementation & Design Handoff</span> */}
                  </div>
             </div>
+            
             <div className={classes.column}>
          
                 <p>Web Design</p>
@@ -61,7 +62,7 @@ const Process = ({ videoRef }) => {
                 <span>Responsive & mobile</span>
                {/*  <span>UX & Copywriting</span> */}
                </div>
-               
+
             </div>
             <div className={classes.column}>
                 <p>Web Development</p>
