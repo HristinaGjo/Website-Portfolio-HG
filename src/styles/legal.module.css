@@ -1,3 +1,273 @@
-/* h1{
-    color: blue;
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden !important;
+    overflow-y: auto;
+}
+
+
+.pageCtn{
+    background: #f5f4f3;
+    height:auto;
+    box-sizing: border-box;
+    padding:1em;
+}
+
+.titleLegal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+    padding-top: 8em;
+}
+
+.titleLegal span{
+    color: #19191b;
+    font-weight: 300;
+    margin-left: .3em;
+}
+
+.theProject{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding-top: 8em;
+}
+
+.theProject span{
+    margin-left: 0;
+    font-weight: 400;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.column span{
+    color: #19191b;
+}
+
+.research{
+    padding-top: 8em;
+    display: flex;
+    flex-direction: column;
+}
+
+.imageCtn{
+    width: 100%;
+    padding-top: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3em;
+}
+
+.imageCtnDesctop{
+    display: none;
+}
+
+.imageCtnMobile {
+   padding-top: 2em;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: auto;
+  
+}
+
+.imageCtnMobile img{
+    width: 70%;
+ }
+
+
+img{
+    width: 100%;
+}
+
+.research span{
+    padding-top: 1em;
+    color: #19191b;
+    margin: 0;
+}
+
+.interview{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+
+/* .columnInterview span{
+    color: #e1e1e1;
 } */
+
+.textInterview{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+.textInterview02 {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    gap: 1em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+.number {
+    font-size: 2em;
+    padding-bottom: .25em;
+    padding-top: .25em;
+}
+
+
+.pivotal{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding-bottom: 5em;
+}
+
+.wireframes span{
+    color: #19191b;
+    margin-left: .3em;
+    padding-top: 2em;
+}
+
+
+@media (min-width: 768px) {
+
+.pageCtn{
+    background: #f5f4f3;
+    height:auto;
+    padding:0 2em;
+}
+
+.titleLegal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+    padding-top: 8em;
+}
+
+.titleLegal span{
+    color: #19191b;
+    font-weight: 300;
+    margin-left: .3em;
+}
+
+.theProject{
+    display: grid;
+    gap: 2em;
+    grid-template-columns:repeat(3, 1fr);
+    padding-top: 10em;
+}
+
+.theProject span{
+    margin-left: 0;
+    font-weight: 400;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.column span{
+    color: #19191b;
+}
+
+.research{
+    padding-top: 10em;
+    display: flex;
+    flex-direction: column;
+}
+
+.imageCtn{
+    width: 100%;
+    padding-top: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4em;
+}
+
+img{
+    width: 100%;
+}
+
+.imageCtnDesctop{
+    display: block;
+    padding-top: 2em;
+}
+
+.imageCtnMobile{
+    display: none;
+}
+
+.research {
+    margin-left: .3em;
+}
+
+.interview{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.columnInterview{
+    border-left: 1px solid #19191b;
+}
+
+/* .columnInterview span{
+    color: #e1e1e1;
+} */
+
+.textInterview{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding-left: 1em;
+}
+
+.textInterview02{
+    border: none;
+    padding-left: 1em;
+}
+
+.number {
+    font-size: 4em;
+    padding-bottom: .5em;
+}
+
+.pivotal{
+    padding-top: 10em;
+}
+
+.wireframes{
+    padding-top: 10em;
+}
+
+.wireframes span{
+    color: #19191b;
+    margin-left: .3em;
+    padding-top: 2em;
+}
+
+
+
+}

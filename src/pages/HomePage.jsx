@@ -1,10 +1,12 @@
 import React from "react";
 import classes from "../styles/homePage.module.css"
 import Info from "../components/Info.jsx"
+
 /* import Legal from "../assets/legal.png" */
 import Legal from "../assets/whiteLegal.png"
 import DigitalPlaygroundLight from "../assets/mockupWhite.png"
 import Connect from "../components/Connect.jsx";
+import { Link } from "react-router-dom";
 
 
 const HomePage = () => {
@@ -35,14 +37,18 @@ const HomePage = () => {
      {/* <hr className={classes.hr} /> */}
      <div className={classes.projectsFull}>
       <h2 className={classes.titleProjects}>Projects</h2>
+      
       <div className={classes.projectsCtn}>
+        <Link to="/legal">
         <div className={classes.projectOne}>
             <img src={Legal}/> 
           <div className={classes.textOverlay}>
               <p>Legal App </p>
               {/* <p>UX & UI Case Study </p> */}
             </div> 
-            </div>
+          </div>
+            </Link>
+
         <div className={classes.projectTwo}>
              <img src={DigitalPlaygroundLight}/> 
             <div className={classes.textOverlay}>
