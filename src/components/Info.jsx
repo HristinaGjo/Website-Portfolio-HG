@@ -28,7 +28,7 @@ const Info = () => {
             <br />
             <br />
             <Link to="/about">
-                <button className={classes.buttonAbout} onClick={aboutPageClick}>Read More</button>
+                <button className={classes.buttonAbout} onClick={aboutPageClick}>See More</button>
                 </Link>
                 </p>
             </div>
