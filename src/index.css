@@ -13,7 +13,10 @@
    /*background:#e1e1e1 !important;  */
 
   /* background: #edede9;*/
-  background: #050505;
+
+
+  /* background: #050505; good black as well*/
+  background: #19191b;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;

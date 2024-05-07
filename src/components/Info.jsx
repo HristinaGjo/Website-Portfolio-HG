@@ -60,7 +60,7 @@ const Info = () => {
                 </div>
 
                 <div className={classes.column}>
-                    <div className={classes.text}>
+                    <div className={classes.text02}>
                 <span className={classes.number}>02</span>
                 <br/>
                 <span className={classes.title}>Web Design</span>
