@@ -75,6 +75,7 @@ const Info = () => {
                 <p>Wireframing</p>
                 <p>Website Design Mockups</p>
                 <p>Responsive & mobile</p>
+                <p> </p>
                 </div>
                 </div>
 
@@ -94,6 +95,7 @@ const Info = () => {
                 <p>Responsive Design</p>
                 <p>Testing</p>
                 <p>Deployment</p>
+                <p> </p>
                 </div>
                 </div>
               

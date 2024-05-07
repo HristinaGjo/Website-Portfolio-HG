@@ -11,7 +11,50 @@ body{
     min-height: 100vh;
     border-radius: 20px;
     box-sizing: border-box;
-    padding:4em 2em;
+    padding:1em 1em 2em 1em;
+}
+.textAbout{
+    display: grid;
+    font-size: 1em;
+}
+
+.buttonAbout {
+    border-radius: none;
+    border: none;
+    padding: 0;
+    background: transparent;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.services{
+    padding-top: 2em;
+}
+
+.textServices{
+    display: grid;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+.number{
+    font-size: 2em;
+    padding-bottom: .25em;
+    padding-top: .25em;
+}
+
+.title {
+    font-weight: 400;
+    font-size: 1.25em;
+    color: #19191b;
 }
 
 
@@ -41,12 +84,10 @@ body{
         font-size: 1em;
     }
 
-
     .textServices{
         display: grid;
         grid-template-columns:repeat(3, 1fr);
         padding-top: 4em;
-
     }
 
     .column{
@@ -60,6 +101,7 @@ body{
         justify-content: center;
         align-items: start;
         padding-left: 1em;
+        border-bottom: none;
     }
 
     .number{
