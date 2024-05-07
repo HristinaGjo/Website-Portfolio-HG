@@ -130,8 +130,6 @@
         width: 40%;
         height: 2.5em;
        /* padding: 0 2em; */
-
-       
         border-radius: 5em;
         border: none;
         background: transparent;
@@ -221,7 +219,7 @@
         }
 
         .projectsFull{
-            padding:4em 2em;
+            padding:10em 2em;
         }
 
         .projectsCtn{
@@ -238,13 +236,12 @@
         .projectOne, .projectTwo{
             display: flex;
             flex-direction: column;
-       
             width: 70%;
         }
 
 
         .textOverlay p {
-            font-size: 1.25em;
+            font-size: 1.2em;
             font-weight: 300;
         }
 

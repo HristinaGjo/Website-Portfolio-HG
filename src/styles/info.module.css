@@ -11,11 +11,75 @@ body{
     min-height: 100vh;
     border-radius: 20px;
     box-sizing: border-box;
-
+    padding:4em 2em;
 }
 
 
-
 @media (min-width: 768px) {
+
+    .pageCtn{
+        padding:10em 2em;
+        height: auto;
+    }
+
+    .textAbout{
+        display: grid;
+        grid-template-columns:repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;        
+        padding:2em 0 6em 0;
+        font-size: 1.2em;
+    }
+
+    .buttonAbout {
+        border-radius: none;
+        border: none;
+        padding: 0;
+        background: transparent;
+        font-weight: 400;
+        font-size: 1em;
+    }
+
+
+    .textServices{
+        display: grid;
+        grid-template-columns:repeat(3, 1fr);
+        padding-top: 4em;
+
+    }
+
+    .column{
+        border-left: 1px solid #e1e1e1;
+        padding-top: 2em;
+    }
+
+    .text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        padding-left: 1em;
+    }
+
+    .number{
+        font-size: 4em;
+        padding-bottom: 1em;
+    }
+
+    .title {
+        font-weight: 400;
+        font-size: 1.5em;
+        color: #19191b;
+    }
+
+    .column p{
+        line-height: 1.1;
+        font-size: 1.2em;
+    }
+
+    /* h2{
+        font-size: 6em;
+    } */
 
 }
