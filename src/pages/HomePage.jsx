@@ -10,6 +10,7 @@ import DigitalPlayground from "../assets/digitalPlaygroundDark.png"
 import DigitalPlaygroundLight from "../assets/digitalPlaygroundLight.png"
 import Connect from "../components/Connect.jsx";
 
+
 const HomePage = () => {
 
   const videoRef = useRef(null);
@@ -18,6 +19,10 @@ const HomePage = () => {
         window.location.href = "mailto:hgjorgieva@gmail.com";
     };
 
+    const aboutPageClick = () => {
+      navigate ('/about');
+    }
+
 
 
   return ( 
@@ -25,7 +30,7 @@ const HomePage = () => {
     <div className={classes.pageCtn}>
       <div className={classes.heroCtn}>
         <h1>Digital <br className={classes.mobileBreak} />Designer</h1>
-        <h4>| UX & UI DESIGN | WEB DESIGN | FRONT END DEVELOPMENT |</h4>
+        <h4>| UX & UI DESIGN | WEB DESIGN | FRONTEND DEVELOPMENT |</h4>
         <div className={classes.buttonCtn}>
         <button className={classes.button} onClick={handleEmailClick}>Get in touch</button>
         </div>
@@ -38,23 +43,44 @@ const HomePage = () => {
 
       <div className={classes.aboutCtn}>
         <div className={classes.text}>
-          <h2>About</h2>
+          <hr className={classes.hr} />
+          <h2>About</h2> 
           <p>sidjsidjsjdsjdsjdkskds
             sdnsdnskdnskdksmdkmskdmksmdkdmkdm
             sdnsdnskmdksmdkmskmdksmdksmdkmskdmskdm
             sndsdklsmdklsmkdmskdskdmskls 
+            sidjsidjsjdsjdsjdkskds
+            sdnsdnskdnskdksmdkmskdmksmdkdmkdm
+            sdnsdnskmdksmdkmskmdksmdksmdkmskdmskdm
+            sndsdklsmdklsmkdmskdskdmskls 
+            sidjsidjsjdsjdsjdkskds
+            sdnsdnskdnskdksmdkmskdmksmdkdmkdm
+            sdnsdnskmdksmdkmskmdksmdksmdkmskdmskdm
+            sndsdklsmdklsmkdmskdskdmskls 
           </p>
+          
+
+          <div className={classes.buttonCtn}>
+        <button className={classes.button} onClick={aboutPageClick}>See more</button>
+        </div>
  
         </div>
-     <div className={classes.aboutImage}>
+   { /* <div className={classes.aboutImage}>
              <img src={Legal}/> 
-            </div> 
+            </div> */}
         
       </div>
 
       <Process videoRef={videoRef} />
 
+      <hr className={classes.hr} />
+      <h2 > Work</h2>
+
       <div className={classes.projectsCtn}>
+    
+
+
+
         <div className={classes.projectOne}>
             <img src={Legal}/> 
           <div className={classes.textOverlay}>

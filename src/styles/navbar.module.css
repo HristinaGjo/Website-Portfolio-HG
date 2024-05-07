@@ -10,7 +10,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1em; 
+    padding: 1.5em 1em; 
     /*background: red;*/
     z-index: 1000;
     font-weight: 300;

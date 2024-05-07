@@ -1,114 +1,88 @@
-import React, { useRef, useState, useEffect } from "react";
-import classes from "../styles/projects.module.css";
-import imageOne from "../assets/me.png"
+import React, {useRef} from "react";
+import classes from "../styles/homePage.module.css"
+import imageAbout from "../assets/me.png"
+import imageLegal from "../assets/effect.png"
+import Footer from "../components/Footer.jsx";
+import Process from "../components/Process.jsx";
+/* import Legal from "../assets/legal.png" */
+import Legal from "../assets/whiteLegal.png"
+import DigitalPlayground from "../assets/digitalPlaygroundDark.png"
+import DigitalPlaygroundLight from "../assets/digitalPlaygroundLight.png"
+import Connect from "../components/Connect.jsx";
 
-const Projects = React.forwardRef (({ id }, ref) => {
-   /* const [animate, setAnimate] = useState(false); */
-    const titleRef = useRef(null);
-  
-    useEffect(() => {
-      function handleScroll() {
-        const projectSection = titleRef.current;
-        if (!projectSection) return;
-  
-        const rect = projectSection.getBoundingClientRect();
-        const windowHeight =
-          window.innerHeight || document.documentElement.clientHeight;
-  
-        if (rect.top <= windowHeight && rect.bottom >= 0) {
-          setAnimate(true);
-        } else {
-          setAnimate(false);
-        }
-      }
-  
-      window.addEventListener("scroll", handleScroll);
-      // Call handleScroll once on mount to check if the element is initially in the viewport
-      handleScroll();
-  
-      return () => {
-        window.removeEventListener("scroll", handleScroll);
-      };
-    }, []);
+const HomePage = () => {
 
-  
-  
-  
-    return (
-      <>
-        <div  ref={ref} id={id} className={classes.pageCtn}>
-            <div className={classes.projects}>
-            <div className={classes.projectOne}>
-                <span>LEGAL</span>
-                    <img src={imageOne}></img>
+  const videoRef = useRef(null);
+
+    const handleEmailClick = () => {
+        window.location.href = "mailto:hgjorgieva@gmail.com";
+    };
+
+
+
+  return ( 
+<>
+    <div className={classes.pageCtn}>
+      <div className={classes.heroCtn}>
+        <h1>Digital <br className={classes.mobileBreak} />Designer</h1>
+        <h4>| UX & UI DESIGN | WEB DESIGN | FRONT END DEVELOPMENT |</h4>
+        <div className={classes.buttonCtn}>
+        <button className={classes.button} onClick={handleEmailClick}>Get in touch</button>
+        </div>
+
+       {/* <h4>| UX & UI DESIGN <br className={classes.mobileBreak}/> | WEB DESIGN <br className={classes.mobileBreak}/>| WEB DEVELOPMENT |</h4> */}
+
+{/* <button className={classes.button} onClick={handleEmailCliclk}>Get in touch</button> */}
+        {/* <h4 className={classes.badge}>Based in Berlin</h4> */}
+      </div>
+
+      <div className={classes.aboutCtn}>
+        <div className={classes.text}>
+          <h2>About</h2>
+          <p>sidjsidjsjdsjdsjdkskds
+            sdnsdnskdnskdksmdkmskdmksmdkdmkdm
+            sdnsdnskmdksmdkmskmdksmdksmdkmskdmskdm
+            sndsdklsmdklsmkdmskdskdmskls 
+          </p>
+ 
+        </div>
+     <div className={classes.aboutImage}>
+             <img src={Legal}/> 
+            </div> 
+        
+      </div>
+
+      <Process videoRef={videoRef} />
+
+      <div className={classes.projectsCtn}>
+        <div className={classes.projectOne}>
+            <img src={Legal}/> 
+          <div className={classes.textOverlay}>
+              <p>Legal App | UX & UI Case Study </p>
+            </div> 
             </div>
-            <div className={classes.projectTwo}>
-                <span>LEGAL</span>
-                    <img src={imageOne}></img>
+        <div className={classes.projectTwo}>
+             <img src={DigitalPlaygroundLight}/> 
+            <div className={classes.textOverlay}>
+            <p>Comming soon...</p>
             </div>
-            </div>
-    
-          </div>
-         
-      </>
-    );
-  });
-  
-  export default Projects;
+        </div>
+      </div>
 
+   {   /* <div className={classes.connectCtn}>
+        <div>
+          <h2>Let's Chat</h2>
+          <button className={classes.button} onClick={handleEmailCliclk}>hgjorgieva@gmail</button>
+        </div>
 
+      </div> */}
+   
+     {/* <Footer/> */}
+    </div>
+       <Connect />
+       </>
 
-/* import React, { useRef, useState, useEffect } from "react";
-import classes from "../styles/projects.module.css";
-
-
-const Projects = React.forwardRef ((props,ref) => {
-    // State to manage animation
-    const [animate, setAnimate] = useState(false);
-
-    // Ref for the title element
-    const titleRef = useRef(null);
-
-    // Effect to add scroll event listener
-    useEffect(() => {
-        // Function to handle scroll event
-        const handleScroll = () => {
-            // Check if titleRef is not null
-            if (titleRef.current) {
-                // Get the bounding rectangle of the title element
-                const titleRect = titleRef.current.getBoundingClientRect();
-
-                // Check if the top of the title element is within the viewport
-                if (titleRect.top < window.innerHeight && titleRect.bottom >= 0) {
-                    // Set animate state to true to trigger animation
-                    setAnimate(true);
-                } else {
-                    // Set animate state to false if title is not in viewport
-                    setAnimate(false);
-                }
-            }
-        };
-
-        // Add scroll event listener
-        window.addEventListener("scroll", handleScroll);
-
-        // Clean up function to remove scroll event listener
-        return () => {
-            window.removeEventListener("scroll", handleScroll);
-        };
-    }, []);
-    
-
-    return (
-        <>
-            <div ref={ref} className={classes.pageCtn}>
-                <div className={`${classes.title} ${animate ? classes.animate : ""}`} ref={titleRef}>
-                    PROJECTS 
-                </div>
-                <div className={classes.projectsBackground}></div> 
-            </div>
-        </>
-    );
-});
-
-export default Projects; */
+   );
+}
+ 
+export default HomePage;

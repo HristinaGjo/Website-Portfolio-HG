@@ -18,6 +18,9 @@
         font-weight: 300;
     } 
 
+    .hr{
+        margin-bottom: 1em;
+    }
 
 
     .aboutCtn img,
@@ -53,6 +56,7 @@
         font-size: .7em !important;
     }
 
+
     .aboutCtn{
         width: 100%;
         display: grid;
@@ -73,6 +77,8 @@
 
     .aboutCtn p {
         color:#19191b ;
+        margin-bottom: 1em;
+        margin-top: 1em;
     }
 
      .mobileBreak {
@@ -91,6 +97,7 @@
         align-items: start;
         height: auto;
         margin-bottom: 5em;
+        margin-top: 1em;
         gap: 2em;
     }
 
@@ -132,8 +139,11 @@
     }
 
     .button{
+        width: 40%;
         height: 2.5em;
-        padding: 0 2em;
+       /* padding: 0 2em; */
+
+       
         border-radius: 5em;
         border: none;
         background: transparent;
@@ -157,14 +167,14 @@
     } */
 
     h1{
-        font-size: 4em;
-
+        font-size: 5em;
         margin-block-start: 0em;
         margin-block-end: 0em;
     }
 
     h2{
-        font-size: 1.25em;
+       /* font-size: 1.25em; */
+       font-size: 2.5em;
     
     }
 
@@ -217,18 +227,29 @@
             font-size:1em !important ;
         }
 
-        .aboutCtn{
+        /*.aboutCtn{
             width: 100%;
             display: grid;
-            grid-template-columns: repeat(2, 1fr); /* Two equal parts */
+            grid-template-columns: repeat(2, 1fr); 
             gap: 4em;
             height: auto;
+            margin-bottom: 20em; */
+      
+
+        .aboutCtn{
+            width: 100%;
+            height: auto;
             margin-bottom: 20em;
+    
         }
 
         .text {
             width: 100%;
             align-self: start;
+        }
+
+        .text p{
+            font-size: 1.5em;
         }
 
         .aboutCtn img{
@@ -244,7 +265,8 @@
             justify-content: center;
             align-items: start;
             margin-bottom: 20em;
-        }
+            margin-top: 1em;
+        } 
 
         .projectOne, .projectTwo{
             display: flex;
@@ -258,7 +280,9 @@
             font-weight: 300;
         }
 
-
+        .hr {
+            margin-bottom: 1em;
+        }
 
         .connectCtn{
             min-height: 50vh;
@@ -287,6 +311,19 @@
         .word-separator{
             display: inline-block; /* Default display */
           } 
+
+    .button{
+        width: 10%;
+        height: 2.5em;
+       /* padding: 0 2em; */
+        border-radius: 5em;
+        border: none;
+        background: transparent;
+        border:1px solid #19191b;
+        color: #19191b;
+        cursor: pointer;
+        display: block;
+    }
         
 
         h1 {
@@ -305,4 +342,12 @@
         h4{
             margin-left: 1em;
         }
+
     }
+    
+
+
+
+
+
+   
