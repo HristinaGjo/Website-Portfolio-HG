@@ -15,6 +15,7 @@ body{
     z-index: 1000;
     font-weight: 300;
     font-size: 0.875rem;
+    background: #f5f4f3;
 } 
 
 .rightCtn{
@@ -28,10 +29,6 @@ p{
     color: #19191b;
 }
 
-/*.portfolio{
-    transform: rotate(90deg);
-    margin-top: 5.5rem;
-} */
 
 @media (min-width: 768px){
     .navCtn{
@@ -41,11 +38,10 @@ p{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding:2rem 1.5rem;
-        /*background: red;*/
+        padding:2em 2em;
         z-index: 1000;
         font-weight: 300;
-        font-size: 1.25rem;
+        font-size: 1.25em;
         box-sizing: border-box;
         margin: 0;
     } 
@@ -54,24 +50,19 @@ p{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        gap:1.5rem;
+        gap:1.5em;
     }
-
-    
-
-   /* .navCtn.scrolled {
-        background-color: rgba(0,0,0,0.1); 
-      } */
-
-        .navCtn.scrolled {
-       color:red; 
-      } 
-
 }
 
 
 
-       
+
+
+    /* .navCtn.scrolled {
+        color:red; 
+    } */
+
+
         /* top: 0;
         /*left: 4.5rem;
         display: flex;

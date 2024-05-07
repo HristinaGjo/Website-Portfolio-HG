@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React from "react";
 import classes from "../styles/process.module.css"
 import imageUX from "../assets/me.png"
 import Legal from "../assets/legal.png"
@@ -7,14 +7,8 @@ import videoWebDev from "../assets/webDevCleanCut.mp4"
 import videoWebDesign from "../assets/webDesignZoom.mp4"
 
 
-const Process = ({ videoRef }) => {
+const Process = () => {
 
-    useEffect(() => {
-        if (videoRef.current) {
-            // Access the video element using videoRef.current and perform any operations
-            console.log("Video element reference:", videoRef.current);
-        }
-    }, [videoRef]);
 
     return ( 
         <>
