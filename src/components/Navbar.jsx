@@ -14,7 +14,7 @@ const Navbar = () => {
         <Link to="/about">
         <p>About</p>
         </Link>
-        <p onClick={() => scrollToRef("projectsRef")}>Work</p>
+        <p onClick={() => scrollToRef("projectsRef")}>Projects</p>
        {/* <p onClick={() => scrollToRef("projectsRef")}>Connect</p> */}
       </div>
     </div>

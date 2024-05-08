@@ -51,11 +51,13 @@ a {
         flex-direction: row;
         justify-content: space-between;
         align-items: flex-start;
-        padding-top: 8em;
-        padding-bottom: 1em;
+        /* padding-top: 7em; */
+        padding-bottom: 1.5em;
         box-sizing: border-box;
         border-top: none;
         font-weight: 300;
+        border-top: .3px solid #f5f4f3;
+        padding-top: 2em;
     }
 
     .leftCtn{
@@ -67,9 +69,10 @@ a {
        /* margin-left: 4em; */
     }
 
-     span{
-        font-size: 1.25rem !important;
+     .rightCtn span{
+        font-size: 1.25rem;
         display: inline block;
+        color: #e1e1e1;
     }
 
     .leftCtn a{

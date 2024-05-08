@@ -1,52 +1,129 @@
 
-@media (max-width: 767px){
-    /* .connectCtn{
-        height: 20vh;
-        background: #19191b;
-        padding: 2em;
-    } */
-
-    .connectCtn {
-        min-height: 10vh !important;
-
+    .connectCtn{
+        height: auto;
+        padding:1em;
     }
-    
 
     .text{
-        margin-bottom: 5em;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        margin-top: 6em;
+        margin-bottom: 6em;
     }
-} 
+    
+    .text h2{
+        color: #e1e1e1;
+    }
+    
+    .contact span{
+        color: #e1e1e1;
+    } 
+
+    .text span{
+        color: #e1e1e1;
+    } 
+    
+    .contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: .5em;
+        margin-bottom: 7em;
+    }
+    
+    .button {
+     color: #e1e1e1;
+     border-radius: none;
+     border: none;
+     padding: 0;
+     background: transparent;
+     font-weight: 400;
+     font-size: 1em !important;
+    }
+
+    .arrowMobile{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        margin-top: 1em;
+    }
+
+    .arrowDesctop{
+        display: none;
+    }
+
+    
+
+    .contact span{
+        color: #e1e1e1;
+    }
 
 
-.connectCtn{
-    min-height: 50vh;
-    background: #19191b;
-    padding: 1em;
-}
+    
+    @media (min-width: 768px){
 
-.text{
-    display: flex;
-    flex-direction: column;
-    gap: 2em;
-    margin-top: 2em;
+    .connectCtn{
+        height: auto;
+        padding:4em 2em 2em;
+    }
 
-}
+    .text{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        margin-top: 6em;
+        margin-bottom: 6em;
+    }
 
-.text h2{
-    color: #e1e1e1;
-}
+    .text h2{
+        color: #e1e1e1;
+    }
 
- span{
-    color: #e1e1e1;
-}
+    .text span{
+        color: #e1e1e1;
+    } 
 
-button{
-    height: 2.5em;
-    padding: 0 2em;
-    border-radius: 5em;
-    border: none;
-    background: transparent;
-    border:1px solid #e1e1e1;
-    color: #e1e1e1;
-    cursor:pointer;
-}
+    .contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: .5em;
+        margin-bottom: 7em;
+    }
+
+    .button {
+        color: #e1e1e1;
+        border-radius: none;
+        border: none;
+        padding: 0;
+        background: transparent;
+        font-weight: 400;
+        font-size: 1.25em !important;
+    }
+
+    .arrowMobile{
+        display: none;
+    }
+
+    .arrowDesctop{
+        display: flex;
+    }
+
+    }
+
+
+
+
+    /*.button{
+        height: 2.5em;
+        padding: 0 2em;
+        border-radius: 5em;
+        border: none;
+        background: transparent;
+        border:1px solid #e1e1e1;
+        color: #e1e1e1;
+        cursor:pointer; 
+    } */
