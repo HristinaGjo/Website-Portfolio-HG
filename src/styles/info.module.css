@@ -116,6 +116,9 @@
             align-items: center;
         }
 
+        .arrowTitle span {
+            padding-bottom: 1.5em; /* Adjust as needed */
+          }
 
         .arrowTitleMobile{
             display: none;

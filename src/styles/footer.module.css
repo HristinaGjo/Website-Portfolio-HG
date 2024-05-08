@@ -69,9 +69,10 @@ a {
        /* margin-left: 4em; */
     }
 
-     span{
+     .rightCtn span{
         font-size: 1.25rem;
         display: inline block;
+        color: #e1e1e1;
     }
 
     .leftCtn a{

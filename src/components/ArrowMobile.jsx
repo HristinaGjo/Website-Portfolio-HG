@@ -6,7 +6,7 @@ const ArrowMobile = ({fill,stroke}) => {
         <>
     
           <svg width="80" height="50">
-            <g transform="scale(0.7)">
+            <g transform="scale(0.6)">
           {/* Vertical line */}
           <line x1="20" y1="10" x2="20" y2="40" stroke={stroke} strokeWidth="1" />
           {/* Horizontal line */}
