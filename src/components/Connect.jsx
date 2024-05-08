@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "../styles/connect.module.css"
 import Footer from "./Footer";
+import Arrow from "../components/Arrow.jsx";
 
 
 const Connect = () => {
@@ -20,7 +21,9 @@ const Connect = () => {
             </div>
             <div className={classes.contact}>
                 <span>Drop me a line</span>
-            <button className={classes.button} onClick={handleEmailCliclk}>hgjorgieva@gmail.com</button>
+            <button 
+            className={classes.button} 
+            onClick={handleEmailCliclk}>hgjorgieva@gmail.com</button>
             </div>
           { /* <div className={classes.buttonCtn}>
             <button className={classes.button} onClick={handleEmailCliclk}>Get in touch</button>

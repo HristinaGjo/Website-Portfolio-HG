@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import Arrow from "./Arrow";
 import MinusButton from "./MinusButton";
 import PlusButton from "./PlusButton";
+import ArrowMobile from "./ArrowMobile";
 
 const Info = () => {
   const [showDetails, setShowDetails] = useState({
@@ -36,6 +37,10 @@ const Info = () => {
             <Arrow />
             <span>About</span>
           </div>
+          <div className={classes.arrowTitleMobile}>
+            <ArrowMobile />
+            <span>About</span>
+          </div>
           <div className={classes.aboutText}>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -48,12 +53,14 @@ const Info = () => {
               viverra turpis, nec blandit nibh mattis sed.
             </p>
             <div>
+                <Link to="/about">
               <button
                 className={classes.buttonAbout}
                 onClick={aboutPageClick}
               >
                 See more
               </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -61,6 +68,10 @@ const Info = () => {
         <div className={classes.servicesCtn}>
           <div className={classes.arrowTitle}>
             <Arrow />
+            <span>Services</span>
+          </div>
+          <div className={classes.arrowTitleMobile}>
+            <ArrowMobile />
             <span>Services</span>
           </div>
 
