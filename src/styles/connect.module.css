@@ -42,9 +42,26 @@
      font-weight: 400;
      font-size: 1em !important;
     }
+
+    .arrowMobile{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        margin-top: 1em;
+    }
+
+    .arrowDesctop{
+        display: none;
+    }
+
     
 
+    .contact span{
+        color: #e1e1e1;
+    }
 
+
+    
     @media (min-width: 768px){
 
     .connectCtn{
@@ -78,13 +95,21 @@
     }
 
     .button {
-    color: #e1e1e1;
-    border-radius: none;
-    border: none;
-    padding: 0;
-    background: transparent;
-    font-weight: 400;
-    font-size: 1.25em !important;
+        color: #e1e1e1;
+        border-radius: none;
+        border: none;
+        padding: 0;
+        background: transparent;
+        font-weight: 400;
+        font-size: 1.25em !important;
+    }
+
+    .arrowMobile{
+        display: none;
+    }
+
+    .arrowDesctop{
+        display: flex;
     }
 
     }
