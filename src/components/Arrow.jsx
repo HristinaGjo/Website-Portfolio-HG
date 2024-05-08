@@ -5,7 +5,7 @@ const Arrow = () => {
     return ( 
         <>
           <div>
-      <svg width="150" height="100">
+      <svg width="125" height="100">
       <g transform="scale(0.7)"> 
         {/* Vertical line */}
         <line x1="50" y1="20" x2="50" y2="80" stroke="#19191b" strokeWidth="1" />

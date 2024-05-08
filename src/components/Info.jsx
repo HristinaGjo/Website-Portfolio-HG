@@ -6,10 +6,17 @@ import MinusButton from "./MinusButton";
 import PlusButton from "./PlusButton";
 
 const Info = () => {
-  const [showDetails, setShowDetails] = useState(false);
+  const [showDetails, setShowDetails] = useState({
+    uxDesign: false,
+    webDesign: false,
+    frontEnd: false
+  });
 
-  const toggleDetails = () => {
-    setShowDetails(!showDetails);
+  const toggleDetails = (service) => {
+    setShowDetails({
+      ...showDetails,
+      [service]: !showDetails[service]
+    });
   };
 
   const aboutPageClick = () => {
@@ -57,101 +64,104 @@ const Info = () => {
             <span>Services</span>
           </div>
 
-          <div className={classes.uxDesign}>
-            <div className={classes.title}>
-              <span> 01. UX & UI Design</span>
-              <button
-                className={classes.toggleButton}
-                onClick={toggleDetails}
+          <div className={classes.servicesContainer}>
+            <div className={classes.service}>
+              <div className={classes.title}>
+                <span> 01. UX & UI Design</span>
+                <button
+                  className={classes.toggleButton}
+                  onClick={() => toggleDetails("uxDesign")}
+                >
+                  {showDetails.uxDesign ? <MinusButton /> : <PlusButton />}
+                </button>
+              </div>
+              <div
+                className={`${classes.serviceContent} ${
+                  showDetails.uxDesign ? classes.open : ""
+                }`}
               >
-                {showDetails ? <MinusButton /> : <PlusButton />}
-              </button>
-            </div>
-
-            {showDetails && (
-              <div className={classes.showText}>
                 <p className={classes.openingLine}>
                   Crafting user-centric, intuitive and engaging digital
                   experiences.
                 </p>
                 <div className={classes.process}>
                   <span>Process</span>
+                  </div>
                   <p>User Research & Discovery</p>
                   <p>UX Strategy</p>
                   <p>Wireframing & Prototyping</p>
                   <p>User Testing & Design Iteration</p>
                   <p>UI Design</p>
-                </div>
+              
               </div>
-            )}
-         
-          <div className={classes.webDesign}>
-
-          <div className={classes.title}>
-              <span> 02. Web Design</span>
-              <button
-                className={classes.toggleButton}
-                onClick={toggleDetails}
-              >
-                {showDetails ? <MinusButton /> : <PlusButton />}
-              </button>
             </div>
 
-            {showDetails && (
-              <div className={classes.showText}>
+            <div className={classes.service}>
+              <div className={classes.title}>
+                <span> 02. Web Design</span>
+                <button
+                  className={classes.toggleButton}
+                  onClick={() => toggleDetails("webDesign")}
+                >
+                  {showDetails.webDesign ? <MinusButton /> : <PlusButton />}
+                </button>
+              </div>
+              <div
+                className={`${classes.serviceContent} ${
+                  showDetails.webDesign ? classes.open : ""
+                }`}
+              >
                 <p className={classes.openingLine}>
-                A comprehensive design that lays the foundation for web implementation.
+                  A comprehensive design that lays the foundation for web
+                  implementation.
                 </p>
                 <div className={classes.process}>
                   <span>Process</span>
+                  </div>
                   <p>Planing & Strategy</p>
                   <p>Wireframing</p>
                   <p>Website Design Mockups</p>
                   <p>Responsive & mobile</p>
-                </div>
+           
               </div>
-            )}
-
-          </div>
-
-          <div className={classes.frontEnd}>
-          <div className={classes.titleLast}>
-              <span> 03. Frontend Development</span>
-              <button
-                className={classes.toggleButton}
-                onClick={toggleDetails}
-              >
-                {showDetails ? <MinusButton /> : <PlusButton />}
-              </button>
             </div>
 
-            {showDetails && (
-              <div className={classes.showText}>
+            <div className={classes.service}>
+              <div className={classes.title}>
+                
+                <span> 03. Frontend Development</span>
+                <button
+                  className={classes.toggleButton}
+                  onClick={() => toggleDetails("frontEnd")}
+                >
+                  {showDetails.frontEnd ? <MinusButton /> : <PlusButton />}
+                </button>
+              </div>
+              <div
+                className={`${classes.serviceContent} ${
+                  showDetails.frontEnd ? classes.open : ""
+                }`}
+              >
                 <p className={classes.openingLine}>
-                Bringing visuals to life through developing highly functional web solutions.
+                  Bringing visuals to life through developing highly functional
+                  web solutions.
                 </p>
                 <div className={classes.process}>
                   <span>Process</span>
+                  </div>
+               
                   <p>Frontend Development</p>
                   <p>Responsive Design</p>
                   <p>Testing</p>
                   <p>Deplyoment</p>
-                </div>
+                
               </div>
-            )}
-          </div>
-            
+            </div>
           </div>
         </div>
       </div>
-      
     </>
   );
 };
 
 export default Info;
-
-
-
-
-     {/* <p>{'→'}</p> */}

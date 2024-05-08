@@ -14,7 +14,7 @@
         padding:4em 1em;
         display: flex;
         flex-direction: column;
-        gap: 3em;
+        gap: 2em;
     }
 
     .arrowTitle{
@@ -32,16 +32,17 @@
         font-size: 1em;
     }
 
+
     .title, .titleLast{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        display: flex;
+        justify-content: space-between;
         padding-bottom: 1em;
         padding-top: 1em;
         border-bottom: 1px solid #19191b;
     }
 
     .titleLast{
-        border: none;
+        border-bottom: none;
         display: flex;
         justify-content: space-between;
     }
@@ -53,10 +54,11 @@
         justify-content: end;
         align-items: center;
         margin-right: 2em;
+        padding: 0;
     }
 
 
-    .line{
+    .openingLine{
         margin-top: 1em;
         margin-bottom: 1em;
     }
@@ -71,8 +73,16 @@
     }
 
 
+    .serviceContent {
+        overflow: hidden;
+        max-height: 0;
+        transition: max-height 0.3s ease-out;
+      }
+      
+      .open {
+        max-height: 600px; /* Adjust this value based on your content height */
+      }
 
- 
 
 
 
@@ -102,14 +112,27 @@
             grid-template-columns: repeat(2,1fr);
         }
 
-        .title{
-            display: grid;
-            grid-template-rows: repeat(3,1);
-            align-items: start;
-            gap: 1em;
+
+        .title, .titleLast{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-bottom: 1em;
+        padding-top: 1em;
+        border-bottom: 1px solid #19191b;
+        } 
+
+        .titleLast{
+            border-bottom: none;
         }
 
 
+        .rightCtn{
+            display: grid;
+            grid-template-rows: repeat(3,1fr);
+        }
+    
+
+    
     }
 
 
