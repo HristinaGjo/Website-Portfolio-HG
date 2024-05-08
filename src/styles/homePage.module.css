@@ -16,6 +16,11 @@
         font-weight: 300;
     } 
 
+    span{
+        color: #19191b;
+        font-weight: 300;
+    }
+
     .hr{
         margin-bottom: 1em;
     }
@@ -33,7 +38,7 @@
         height: auto;
         box-sizing: border-box;
         /* padding: 0 1em; */
-        padding: 0;
+        padding:0;
         align-items: center;
         justify-content: center;
     }

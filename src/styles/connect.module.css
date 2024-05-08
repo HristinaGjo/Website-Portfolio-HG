@@ -16,10 +16,13 @@
         color: #e1e1e1;
     }
     
-     span{
+    .contact span{
         color: #e1e1e1;
-     
-    }
+    } 
+
+    .text span{
+        color: #e1e1e1;
+    } 
     
     .contact{
         display: flex;
@@ -61,10 +64,9 @@
         color: #e1e1e1;
     }
 
-    span{
+    .text span{
         color: #e1e1e1;
-    
-    }
+    } 
 
     .contact{
         display: flex;
