@@ -17,6 +17,13 @@
         gap: 1.5em;
     }
 
+    .customHr {
+        border: none; 
+        border-top: .5px solid #464647; 
+        margin: 2em 0;
+        /* border-top: .5px solid #6a6a6a; */
+    }
+
     .arrowTitle{
         /*display: flex;*/
         display: none;
@@ -108,7 +115,9 @@
         .aboutCtn{
             display: grid;
             grid-template-columns: repeat(2,1fr);
+           /* padding: 0 5em; */
         }
+
 
         .arrowTitle{
             display: flex;

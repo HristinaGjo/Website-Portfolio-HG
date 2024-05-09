@@ -18,7 +18,7 @@ const Connect = ({fill,stroke}) => {
     <div className={classes.connectCtn}>
         <div className={classes.text}>
             <h2>Let's chat</h2>
-            <span>Have an idea or project in mind?</span>
+            <span>Have an idea or project or collaboration in mind?</span>
             </div>
            
             

@@ -21,9 +21,9 @@
         font-weight: 300;
     }
 
-    .hr{
+    /*.hr{
         margin-bottom: 1em;
-    }
+    } */
 
     .aboutCtn img,
     .projectOne img,
@@ -56,6 +56,7 @@
         background: #f5f4f3;
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
+        border-top: none;
         /* margin-bottom: 2em;*/
     }
 
@@ -230,18 +231,19 @@
         .projectsCtn{
             display: grid;
             grid-template-columns:repeat(2, 1fr);
+            gap:6em;
             height: auto;
             align-items: start;
             /* min-height: 100vh; */
             margin-top: 6em;
-            margin-left: 8em;
+         
 
         } 
 
         .projectOne, .projectTwo{
             display: flex;
             flex-direction: column;
-            width: 70%;
+            width: 90%;
         }
 
 

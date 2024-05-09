@@ -6,7 +6,7 @@ import MinusButton from "./MinusButton";
 import PlusButton from "./PlusButton";
 import ArrowMobile from "./ArrowMobile";
 
-const Info = ({fill,stroke}) => {
+const Info = () => {
   const [showDetails, setShowDetails] = useState({
     uxDesign: false,
     webDesign: false,
@@ -29,22 +29,16 @@ const Info = ({fill,stroke}) => {
       <div className={classes.pageCtn}>
         <div className={classes.titleInfo}>
           <h2>Info</h2>
-          <hr />
+          <hr className={classes.customHr} />
         </div>
 
         <div className={classes.aboutCtn}>
           <div className={classes.arrowTitle}>
-            <Arrow
-            fill="#19191b" 
-            stroke="#19191b"
-             />
+            <Arrow />
             <span>About</span>
           </div>
           <div className={classes.arrowTitleMobile}>
-            <ArrowMobile
-            fill="#19191b" 
-            stroke="#19191b"
-             />
+            <ArrowMobile />
             <span>About</span>
           </div>
           <div className={classes.aboutText}>
@@ -69,21 +63,17 @@ const Info = ({fill,stroke}) => {
               </Link>
             </div>
           </div>
+         
         </div>
+        <hr className={classes.customHr} />
 
         <div className={classes.servicesCtn}>
           <div className={classes.arrowTitle}>
-            <Arrow 
-            fill="#19191b" 
-            stroke="#19191b"
-            />
+            <Arrow />
             <span>Services</span>
           </div>
           <div className={classes.arrowTitleMobile}>
-            <ArrowMobile
-            fill="#19191b" 
-            stroke="#19191b"
-            />
+            <ArrowMobile />
             <span>Services</span>
           </div>
 

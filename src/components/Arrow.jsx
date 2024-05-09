@@ -1,17 +1,17 @@
 import React from "react";
 
-const Arrow = ({ fill, stroke }) => {
+const Arrow = () => {
   return (
     <>
       <div>
         <svg width="125" height="100">
 
             {/* Vertical line */}
-            <line x1="50" y1="20" x2="50" y2="40" stroke={stroke} strokeWidth="1" />
+            <line x1="50" y1="20" x2="50" y2="40" stroke="#6a6a6a" strokeWidth="1" />
             {/* Horizontal line */}
-            <line x1="50" y1="40" x2="100" y2="40" stroke={stroke} strokeWidth="1" />
+            <line x1="50" y1="40" x2="100" y2="40" stroke="#6a6a6a" strokeWidth="1" />
             {/* Arrowhead */}
-            <polygon points="100,35 110,40 100,45" fill={fill} />
+            <polygon points="100,35 110,40 100,45" fill="#6a6a6a" />
       
         </svg>
       </div>
