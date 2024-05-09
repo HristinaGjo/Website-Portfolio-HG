@@ -20,7 +20,7 @@
     .customHr {
         border: none; 
         border-top: .5px solid #464647; 
-        margin: 2em 0;
+        margin: 1em 0;
         /* border-top: .5px solid #6a6a6a; */
     }
 
@@ -116,6 +116,10 @@
             display: grid;
             grid-template-columns: repeat(2,1fr);
            /* padding: 0 5em; */
+        }
+
+        .customHr {
+            margin: 2em 0;
         }
 
 
