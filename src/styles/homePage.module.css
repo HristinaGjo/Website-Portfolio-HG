@@ -231,7 +231,7 @@
         .projectsCtn{
             display: grid;
             grid-template-columns:repeat(2, 1fr);
-            gap:6em;
+            gap:10em;
             height: auto;
             align-items: start;
             /* min-height: 100vh; */
