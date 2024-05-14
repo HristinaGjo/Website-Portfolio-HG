@@ -18,15 +18,18 @@ const AboutPage = () => {
                 <img src={profilePic}/>
                 </div>
                 </div>
-            </div>
+         
 
          {/* <hr/> */}
 
             <div className={classes.aboutMeCtn}>
                 <div className={classes.arrowCtn}>
                 {/* <Arrow /> */}
+                <div className={classes.textBlack}>
                 <span>About me</span>
+                </div> 
                 </div>
+
             
             <div className={classes.aboutText}>
             <p>
@@ -54,6 +57,7 @@ const AboutPage = () => {
             </p>
             </div> 
             </div>
+            </div>
 
             {/* <hr/> */}
 
@@ -71,7 +75,8 @@ const AboutPage = () => {
                     <div className={classes.yearTitle}>
                     <p>15-17</p>
                     <div className={classes.form}>
-                    <span>Form & Function</span>
+                    <span>Form & Function </span>
+                    <span>Physical environment</span>
                     <p>Architect | Skopje</p>
                     </div>
                     </div>
@@ -80,6 +85,7 @@ const AboutPage = () => {
                     <p>17-21</p>
                     <div className={classes.form}>
                     <span>Form & Function</span>
+                    <span>Physical environment</span>
                     <p>Architect | Berlin</p>
                     </div>
                     </div>
@@ -97,6 +103,7 @@ const AboutPage = () => {
                     <p>22-23</p>
                     <div className={classes.form}>
                     <span>Form & Function & Scale</span>
+                    <span>Digital environment</span>
                     <p>UX & UI Designer | Wandelbots Robotics </p>
                     </div>
                     </div>
@@ -127,7 +134,9 @@ const AboutPage = () => {
 
                 <div className={classes.arrowCtn}>
                    {/* <Arrow /> */}
+                   <div className={classes.textBlack}>
                     <span>Skills</span>
+                    </div>
                 </div>
 
                 <div className={classes.skillsText}>
@@ -155,9 +164,26 @@ const AboutPage = () => {
                     
                 </div>
 
-            </div>
+   
 
+                <div className={classes.arrowCtn}>
+                   {/* <Arrow /> */}
+                   <div className={classes.textBlack}>
+                    <span>Education</span>
+                    </div>
+                </div>
 
+                <div className={classes.skillsText}>
+                    <div className={classes.educationList}>
+                        <span>Web Development | Ironhack Berlin | 23-24</span>
+                        <span>UX & UI | CareerFoundry Berlin | 22</span>
+                        <span>MA of Architecture | Skopje N. Macedonia | 13-15</span>
+                        <span>BA of Architecture | Skopje N. Macedonia | 09-13</span>
+                    </div>
+                </div>
+                </div>
+
+        
         </div>
 
         <Connect />
