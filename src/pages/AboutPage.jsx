@@ -86,13 +86,25 @@ const AboutPage = () => {
                     <div className={classes.designStrategy}>
                         <span>Design & Strategy</span>
                         <ul className={classes.list}>
+                            <li>Design Thinking Methods</li>
+                            <li>User Research (User Testing, Surveys & Interviews)</li>
+                            <li>User Personas & User flows</li>
+                            <li>Wireframing & Prototyping</li>
+                            <li>Visual & Interaction Design</li>
+                            {/* <li>Design System</li> */}
+                        </ul>
+                    </div>
+                     <div className={classes.frontend}>
+                        <span>Frontend Development</span>
+                        <ul className={classes.list}>
                             <li>HTML</li>
                             <li>CSS</li>
-                            <li>JavaScript</li>
                             <li>React.js</li>
+                            <li>JavaScript</li>
                             <li>Node.js</li>
                         </ul>
                     </div>
+                    
                 </div>
 
             </div>
