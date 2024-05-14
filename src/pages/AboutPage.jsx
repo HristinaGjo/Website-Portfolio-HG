@@ -12,17 +12,19 @@ const AboutPage = () => {
         <div className={classes.pageCtn}>
 
             <div className={classes.titleCtn}>
+                <div className={classes.aboutTitle}>
                 <h2>About</h2>
                 <div className={classes.imageCtn}>
                 <img src={profilePic}/>
                 </div>
+                </div>
             </div>
 
-            <hr />
+         {/* <hr/> */}
 
             <div className={classes.aboutMeCtn}>
                 <div className={classes.arrowCtn}>
-                <Arrow />
+                {/* <Arrow /> */}
                 <span>About me</span>
                 </div>
             
@@ -53,13 +55,15 @@ const AboutPage = () => {
             </div> 
             </div>
 
-            <hr/>
+            {/* <hr/> */}
 
             <div className={classes.experienceCtn}>
 
                 <div className={classes.arrowCtn}>
-                    <Arrow/>
+                    {/* <Arrow/> */}
+                    <div className={classes.text}>
                     <span>Journey</span>
+                    </div>
                 </div>
 
                 <div className={classes.architectCtn}>
@@ -101,7 +105,6 @@ const AboutPage = () => {
                     <img src={Wandelbots} />
                 </div>
 
-               
 
 
               {  /* <div className={classes.experienceText}>
@@ -119,12 +122,11 @@ const AboutPage = () => {
                 </div> */}
             </div>
 
-            <hr/>
             
             <div className={classes.skillsCtn}>
 
                 <div className={classes.arrowCtn}>
-                    <Arrow />
+                   {/* <Arrow /> */}
                     <span>Skills</span>
                 </div>
 
