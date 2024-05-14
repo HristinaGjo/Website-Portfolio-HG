@@ -3,6 +3,8 @@ import classes from "../styles/about.module.css"
 import profilePic from "../assets/profilePic.png"
 import Arrow from "../components/Arrow.jsx"
 import Connect from "../components/Connect.jsx";
+import Architecture from "../assets/architecture.jpg"
+import Wandelbots from "../assets/wb.jpeg"
 
 const AboutPage = () => {
     return ( 
@@ -21,7 +23,7 @@ const AboutPage = () => {
             <div className={classes.aboutMeCtn}>
                 <div className={classes.arrowCtn}>
                 <Arrow />
-                <span>Overview</span>
+                <span>About me</span>
                 </div>
             
             <div className={classes.aboutText}>
@@ -54,11 +56,55 @@ const AboutPage = () => {
             <hr/>
 
             <div className={classes.experienceCtn}>
+
                 <div className={classes.arrowCtn}>
                     <Arrow/>
-                    <span>Experience</span>
+                    <span>Journey</span>
                 </div>
-                <div className={classes.experienceText}>
+
+                <div className={classes.architectCtn}>
+                    <div className={classes.text}>
+                    <div className={classes.yearTitle}>
+                    <p>15-17</p>
+                    <div className={classes.form}>
+                    <span>Form & Function</span>
+                    <p>Architect | Skopje</p>
+                    </div>
+                    </div>
+
+                    <div className={classes.yearTitle}>
+                    <p>17-21</p>
+                    <div className={classes.form}>
+                    <span>Form & Function</span>
+                    <p>Architect | Berlin</p>
+                    </div>
+                    </div>
+                    </div>
+                    <img src={Architecture} />
+                </div>
+
+                <br/>
+                <br/>
+                <br/>
+                
+                <div className={classes.wandelbotsCtn}>
+                    <div className={classes.text}>
+                    <div className={classes.yearTitle}>
+                    <p>22-23</p>
+                    <div className={classes.form}>
+                    <span>Form & Function & Scale</span>
+                    <p>UX & UI Designer | Wandelbots Robotics </p>
+                    </div>
+                    </div>
+
+                    </div>
+                    <img src={Wandelbots} />
+                </div>
+
+               
+
+
+              {  /* <div className={classes.experienceText}>
                     <div className={classes.wandelbots}>
                         <span>Oct 2022 - Sept 2023</span>
                     <span>UX & UI Designer</span>
@@ -70,7 +116,7 @@ const AboutPage = () => {
                         <span> Architect</span>
                         <span> Berlin </span>
                     </div>
-                </div>
+                </div> */}
             </div>
 
             <hr/>
