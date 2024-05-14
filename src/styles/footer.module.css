@@ -30,7 +30,7 @@ a {
 
 
 .leftCtn a{
-    font-size: 1rem;
+    font-size: .88em;
 }
 
 @media (max-width: 767px) {

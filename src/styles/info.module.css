@@ -11,7 +11,7 @@
         height: auto;
         border-radius: 20px;
         box-sizing: border-box;
-        padding:4em 1em;
+        padding:4em 2em;
         display: flex;
         flex-direction: column;
         gap: 1.5em;
@@ -19,7 +19,7 @@
 
     .customHr {
         border: none; 
-        border-top: .5px solid #464647; 
+        border-top: .5px solid #19191b; 
         margin: 1em 0;
         /* border-top: .5px solid #6a6a6a; */
     }
@@ -37,6 +37,13 @@
         flex-direction: row;
         justify-content: start;
         align-items: center;
+        padding-bottom: 1em;
+        padding-top: 2.5em;
+    }
+
+    .arrowTitleMobile span{
+        font-weight: 400;
+        font-size: 1.2em;
     }
 
     .buttonAbout{
@@ -51,9 +58,9 @@
     .title, .titleLast{
         display: flex;
         justify-content: space-between;
-        padding-bottom: 1em;
-        padding-top: 1em;
-        border-bottom: 1px solid #19191b;
+        padding-bottom: 1.5em;
+        padding-top: 1.5em;
+        border-bottom: .5px solid #19191b;
     }
 
     .titleLast{
@@ -101,15 +108,20 @@
         line-height: 1.5;
     }
 
+    .list{
+        list-style-type:square;
+        font-weight: 300;
+    }
+
 
     @media (min-width: 768px) {
 
         .pageCtn{
             display: flex;
             flex-direction: column;
-            gap: 10em;
+            gap: 5em;
             box-sizing: border-box;
-            padding:8em 2em;
+            padding:8em 4em;
         }
 
         .aboutCtn{
@@ -130,7 +142,9 @@
         }
 
         .arrowTitle span {
-            padding-bottom: 1.5em; /* Adjust as needed */
+            padding-bottom: 1.5em;
+            font-size: 1.2em;
+            font-weight: 350;
           }
 
         .arrowTitleMobile{
@@ -147,7 +161,7 @@
         grid-template-columns: repeat(2, 1fr);
         padding-bottom: 1em;
         padding-top: 1em;
-        border-bottom: 1px solid #19191b;
+        border-bottom: .5px solid #19191b;
         } 
 
         .titleLast{

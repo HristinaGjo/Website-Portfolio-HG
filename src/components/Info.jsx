@@ -32,49 +32,17 @@ const Info = () => {
           <hr className={classes.customHr} />
         </div>
 
-        <div className={classes.aboutCtn}>
-          <div className={classes.arrowTitle}>
-            <Arrow />
-            <span>About</span>
-          </div>
-          <div className={classes.arrowTitleMobile}>
-            <ArrowMobile />
-            <span>About</span>
-          </div>
-          <div className={classes.aboutText}>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Vestibulum tempor, orci id commodo rhoncus, odio neque
-              pellentesque augue, eget convallis ante sem id est. Cras facilisis
-              porttitor enim ac maximus. Curabitur feugiat est metus, eget
-              posuere est euismod elementum. Mauris auctor nulla mauris, ac
-              malesuada est pretium sed. Mauris venenatis nibh vehicula
-              tincidunt imperdiet. Morbi id suscipit leo. Donec vestibulum
-              viverra turpis, nec blandit nibh mattis sed.
-            </p>
-            <div>
-                <Link to="/about">
-              <button
-                className={classes.buttonAbout}
-                onClick={aboutPageClick}
-              >
-                See more
-              </button>
-              </Link>
-            </div>
-          </div>
-         
-        </div>
-        <hr className={classes.customHr} />
+      
+        
 
         <div className={classes.servicesCtn}>
           <div className={classes.arrowTitle}>
-            <Arrow />
-            <span>Services</span>
+            {/* <Arrow /> */}
+            <span>I can help you with</span>
           </div>
           <div className={classes.arrowTitleMobile}>
-            <ArrowMobile />
-            <span>Services</span>
+            {/* <ArrowMobile /> */}
+            <span>I can help you with</span>
           </div>
 
           <div className={classes.servicesContainer}>
@@ -100,11 +68,14 @@ const Info = () => {
                 <div className={classes.process}>
                   <span>Process</span>
                   </div>
-                  <p>User Research & Discovery</p>
-                  <p>UX Strategy</p>
-                  <p>Wireframing & Prototyping</p>
-                  <p>User Testing & Design Iteration</p>
-                  <p>UI Design</p>
+
+                  <div className={classes.list}>
+                  <li>User Research & Discovery</li>
+                  <li>UX Strategy</li>
+                  <li>Wireframing & Prototyping</li>
+                  <li>User Testing & Design Iteration</li>
+                  <li>UI Design</li>
+                  </div>
               
               </div>
             </div>
@@ -131,11 +102,12 @@ const Info = () => {
                 <div className={classes.process}>
                   <span>Process</span>
                   </div>
-                  <p>Planing & Strategy</p>
-                  <p>Wireframing</p>
-                  <p>Website Design Mockups</p>
-                  <p>Responsive & mobile</p>
-           
+                  <div className={classes.list}>
+                  <li>Planing & Strategy</li>
+                  <li>Wireframing</li>
+                  <li>Website Design Mockups</li>
+                  <li>Responsive & mobile</li>
+                  </div>
               </div>
             </div>
 
@@ -162,16 +134,54 @@ const Info = () => {
                 <div className={classes.process}>
                   <span>Process</span>
                   </div>
-               
-                  <p>Frontend Development</p>
-                  <p>Responsive Design</p>
-                  <p>Testing</p>
-                  <p>Deplyoment</p>
+
+                  <div className={classes.list}>
+                  <li>Frontend Development</li>
+                  <li>Responsive Design</li>
+                  <li>Testing</li>
+                  <li>Deplyoment</li>
+                  </div>
                 
               </div>
             </div>
           </div>
         </div>
+
+
+        <div className={classes.aboutCtn}>
+          <div className={classes.arrowTitle}>
+           {/* <Arrow /> */}
+            <span>About me</span>
+          </div>
+          <div className={classes.arrowTitleMobile}>
+            {/* <ArrowMobile /> */}
+            <span>About me</span>
+          </div>
+          <div className={classes.aboutText}>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Vestibulum tempor, orci id commodo rhoncus, odio neque
+              pellentesque augue, eget convallis ante sem id est. Cras facilisis
+              porttitor enim ac maximus. Curabitur feugiat est metus, eget
+              posuere est euismod elementum. Mauris auctor nulla mauris, ac
+              malesuada est pretium sed. Mauris venenatis nibh vehicula
+              tincidunt imperdiet. Morbi id suscipit leo. Donec vestibulum
+              viverra turpis, nec blandit nibh mattis sed.
+            </p>
+            <div>
+                <Link to="/about">
+              <button
+                className={classes.buttonAbout}
+                onClick={aboutPageClick}
+              >
+                See more
+              </button>
+              </Link>
+            </div>
+          </div>
+         
+        </div>
+
       </div>
     </>
   );

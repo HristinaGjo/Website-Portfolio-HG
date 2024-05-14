@@ -6,7 +6,7 @@ body {
 }
 
 .pageCtn{
-    background: #19191b;
+
     height: auto;
     box-sizing: border-box;
 }
@@ -58,6 +58,8 @@ body {
 }
 
 
+
+
 /* .experienceCtn{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -90,7 +92,7 @@ body {
     flex-direction: row;
     justify-content: start;
     align-items: start;
-    gap: 2em;
+    gap: 1.5em;
     padding-bottom: 1em;
     
 }
@@ -102,14 +104,14 @@ body {
 
 .text span{
     font-size:1.2em;
-    font-weight: 300;
+    font-weight: 400;
     color: #f5f4f3;
 }
 
 .textBlack span{
     color: #19191b;
     font-size:1.2em;
-    font-weight: 350;
+    font-weight: 400;
 }
 
 .text p{
@@ -182,7 +184,7 @@ body {
 
 .pageCtn{
     /* background:#f5f4f3; */
-    background: #19191b;
+    
     height: auto;
     box-sizing: border-box;
    /* padding: 0 4em; */
@@ -192,7 +194,7 @@ body {
     background:#f5f4f3;
     height:auto;
     box-sizing: border-box;
-    padding: 4em;
+    padding: 8em 4em 4em 4em;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
@@ -276,7 +278,7 @@ body {
 .form{
     display: flex;
     flex-direction: column;
-    gap:1em;
+    gap:.5em;
 }
 
 .text span{

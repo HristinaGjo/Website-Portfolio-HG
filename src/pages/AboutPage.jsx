@@ -13,7 +13,7 @@ const AboutPage = () => {
 
             <div className={classes.titleCtn}>
                 <div className={classes.aboutTitle}>
-                <h2>About</h2>
+                {/* <h2>About</h2> */}
                 <div className={classes.imageCtn}>
                 <img src={profilePic}/>
                 </div>
@@ -76,7 +76,7 @@ const AboutPage = () => {
                     <p>15-17</p>
                     <div className={classes.form}>
                     <span>Form & Function </span>
-                    <span>Physical environment</span>
+                    <p>Physical environment</p>
                     <p>Architect | Skopje</p>
                     </div>
                     </div>
@@ -85,7 +85,7 @@ const AboutPage = () => {
                     <p>17-21</p>
                     <div className={classes.form}>
                     <span>Form & Function</span>
-                    <span>Physical environment</span>
+                    <p>Physical environment</p>
                     <p>Architect | Berlin</p>
                     </div>
                     </div>
@@ -103,7 +103,7 @@ const AboutPage = () => {
                     <p>22-23</p>
                     <div className={classes.form}>
                     <span>Form & Function & Scale</span>
-                    <span>Digital environment</span>
+                    <p>Digital environment</p>
                     <p>UX & UI Designer | Wandelbots Robotics </p>
                     </div>
                     </div>

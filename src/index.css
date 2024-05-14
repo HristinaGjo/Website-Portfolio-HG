@@ -1,7 +1,10 @@
 :root {
   /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
   /* font-family: "Helvetica Neue", "Pretendard", sans-serif; */
-  font-family: "Helvetica"; 
+  /* font-family: "Helvetica"; */
+
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  
   /* font-family: "Apoc Revelations Regular", serif; */
   /* font-family:"Satoshi Regular", serif; */
   line-height: 1.5;
