@@ -81,6 +81,7 @@ body {
 
 .skillsText{
     display: flex;
+    flex-direction: column;
     gap: 4em;
     
 }
@@ -88,6 +89,7 @@ body {
 .list{
     list-style-type:circle;
     font-weight: 300;
+    padding-top: 1em;
 }
 
 
@@ -175,8 +177,9 @@ body {
 }
 
 .list{
-    list-style-type:square;
+    list-style-type:symbols();
     font-weight: 300;
+    padding-top: 1em;
 }
 
 }
