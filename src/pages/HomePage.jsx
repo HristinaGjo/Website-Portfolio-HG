@@ -26,7 +26,7 @@ const HomePage = () => {
     <div className={classes.pageCtn}>
       <div className={classes.heroCtn}>
         <h1>Digital <br className={classes.mobileBreak} />Designer</h1>
-        <h4>| UX & UI Design | Web Design | Frontend Development |</h4>
+        <h4>UX & UI Design | Web Design | Frontend Development</h4>
     {   /* <div className={classes.buttonCtn}>
         <button className={classes.button} onClick={handleEmailClick}>Get in touch</button>
         </div> */}

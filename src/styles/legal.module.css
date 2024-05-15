@@ -13,6 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 4em;
+    /* background: rgb(232 232 237/70%); */
     background: #f5f4f3;
     height: auto;
     box-sizing: border-box;
@@ -105,7 +106,77 @@ body {
     /* width: 80%; /* Adjust width as needed */
 }
 
+
+.processCtn{
+    background: #f5f4f3;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 4em 2em;
+    border-radius: 20px;
+    gap:2em;
+}
+
+.userResearchOpening{
+    display: flex;
+    flex-direction: column;
+   /* justify-content: center;
+    align-items: center; */
+    gap:1em;
+}
+
+.userResearch{
+    display: flex;
+    flex-direction: column;
+    gap:2em;
+}
+
+.description{
+    width: 100%;
+}
+
+.surveyDataCtn{
+    display:flex;
+    flex-direction: column;
+    gap: 2em;
+    padding-top: 2em;
+}
+
+.surveyResultCtn{
+    display:flex;
+    flex-direction: column;
+   /* border: 0.5px solid #19191b; */
+    border-radius: 10px;
+    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.5)), url('your-image-url');
+    background-size: cover;
+    padding: 1em;
+}
+
+.upCtn, .downCtn{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 1em;
+}
+
+.downCtn{
+    padding-top: 1em;
+}
+
+/* .upCtn{
+    border-bottom: .5px solid #19191b;
+} */
+
+.statisticCtn{
+    font-size: 2em;
+    font-weight: 500;
+}
+
+
 @media (min-width: 768px) {
+
     .pageCtn {
         height: auto;
     }
@@ -115,6 +186,7 @@ body {
         flex-direction: column;
         gap: 8em;
         background: #f5f4f3;
+        /* background: rgb(232 232 237/70%); */
         height: auto;
         box-sizing: border-box;
         padding: 8em 4em;
@@ -198,6 +270,94 @@ body {
 
     .carousel .item {
         scroll-snap-align: start;
+    }
+
+
+    .processCtn{
+        background: #f5f4f3;
+        /* background: rgb(232 232 237/100%); */
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 8em 4em;
+        border-radius: 20px;
+        gap:4em;
+    }
+
+    .userResearchOpening{
+        display: flex;
+        flex-direction: column;
+       /* justify-content: center;
+        align-items: center; */
+        gap:1em;
+    }
+
+    .userResearch{
+        display: flex;
+        flex-direction: column;
+        gap:2em;
+    }
+
+    .description{
+        width: 50%;
+    }
+
+    .surveyDataCtn{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 7em;
+        padding-top: 2em;
+    }
+
+    .surveyResultCtn{
+        display:flex;
+        flex-direction: column;
+        /* border: 0.5px solid #19191b; */
+        border-radius: 10px;
+        /* background: linear-gradient(to bottom right, #FFFFFF, #d1c4d1); */
+        background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.5)), url('your-image-url');
+        background-size: cover;
+    }
+
+    .upCtn, .downCtn{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 1em;
+        gap: 1em;
+    }
+
+    /* .upCtn{
+        border-bottom: .5px solid #19191b;
+    } */
+
+    .statisticCtn{
+        font-size: 2em;
+        font-weight: 500;
+    }
+
+    .pivotCtn{
+        padding: 8em 4em;
+    }
+
+    .leftText{
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .pivotSpan{
+        font-size: 2em;
+        color: #f5f4f3;
+        width: 50%;
+        padding-top: 2em;
+    }
+
+    .descriptionPivot{
+        width: 50%;
+        color: #f5f4f3;
     }
 
     

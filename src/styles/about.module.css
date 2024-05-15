@@ -25,13 +25,13 @@ body {
 
 
 .imageCtn{
-    width: 50%;
+    width: 25%;
 }
 
 
 .imageCtn img{
     border-radius: 50%;
-    width: 100%;
+    width: 50%;
 }
 
 .aboutTitle{
