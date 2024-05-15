@@ -3,7 +3,7 @@ import classes from "../styles/about.module.css"
 import profilePic from "../assets/profilePic.png"
 import Arrow from "../components/Arrow.jsx"
 import Connect from "../components/Connect.jsx";
-import Architecture from "../assets/architecture.jpg"
+import Architecture from "../assets/architecture2.jpg"
 import Wandelbots from "../assets/wb.jpeg"
 
 const AboutPage = () => {
@@ -90,7 +90,7 @@ const AboutPage = () => {
                     </div>
                     </div>
                     </div>
-                    <img src={Architecture} />
+                    <img src={Wandelbots} />
                 </div>
 
                 <br/>
