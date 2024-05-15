@@ -1,8 +1,17 @@
 import React from "react";
 import classes from "../styles/legal.module.css"
+import solutionOne from "../assets/solution1.png"
 
+
+const solutions = [
+    {id:1, text:"Expert consultations in specific fields", imgSrc:solutionOne},
+    {id:2, text:"Tell us about your problem ", imgSrc:solutionOne},
+    {id:3, text:"Upload related documents", imgSrc:solutionOne},
+    {id:4, text:"Expert advice at your fingertips", imgSrc:solutionOne},
+];
 
 const LegalPage = () => {
+
     return ( 
         <>
         <div className={classes.pageCtn}>
@@ -37,6 +46,17 @@ const LegalPage = () => {
 
             <div className={classes.solutionCtn}>
                 <h2 className={classes.headline}>Solution</h2>
+
+                <div className={classes.carousel}>
+                    {solutions.map(solution =>(
+                          <div className={classes.item} key={solution.id}>
+                          <div className={classes.item1}>
+                              <span className={classes.itemSpan}>{solution.text}</span>
+                              <img className={classes.imageCtn} src={solution.imgSrc} alt={`Solution ${solution.id}`} />
+                          </div>
+                      </div>
+                    ))}
+                </div>
 
             </div>
 
