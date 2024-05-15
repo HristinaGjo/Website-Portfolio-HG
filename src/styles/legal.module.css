@@ -22,7 +22,6 @@ body {
 }
 
 
-
 .titleCtn {
     display: flex;
     flex-direction: column;
@@ -64,19 +63,19 @@ body {
     background: white;
     display: flex;
     flex-direction: column;
-    gap: 2em;
+    gap: 1em;
     box-sizing: border-box;
-    padding: 1em;
+    padding: 3em 2em;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
     width: 300px;
-    height: 450px;
+    height: 500px;
     overflow: hidden;
 }
 
 .imageCtn {
-    width: 80%;
+    width: 100%;
     height: auto;
 }
 
@@ -165,7 +164,7 @@ body {
         flex-direction: column;
         gap: 2em;
         box-sizing: border-box;
-        padding: 2.5em;
+        padding: 3em 4em;
         justify-content: center;
         align-items: center;
         border-radius: 20px;
@@ -200,4 +199,6 @@ body {
     .carousel .item {
         scroll-snap-align: start;
     }
+
+    
 }

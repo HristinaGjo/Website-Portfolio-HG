@@ -1,16 +1,19 @@
 import React from "react";
 import classes from "../styles/legal.module.css"
 import solutionOne from "../assets/solution1.png"
+import solutionTwo from "../assets/solution2.png"
+import solutionFour from "../assets/solution4.png"
 
 
 const solutions = [
-    {id:1, text:"Expert consultations in specific fields", imgSrc:solutionOne},
-    {id:2, text:"Tell us about your problem ", imgSrc:solutionOne},
-    {id:3, text:"Upload related documents", imgSrc:solutionOne},
-    {id:4, text:"Expert advice at your fingertips", imgSrc:solutionOne},
+    {id:1, text:"Get Expert Advices in Specific Fields", imgSrc:solutionOne},
+    {id:2, text:"Share Your Legal Concerns", imgSrc:solutionTwo},
+    {id:3, text:"Easily Share & Upload Relevant Documents", imgSrc:solutionOne},
+    {id:4, text:"Expert Advice At Your Fingertips", imgSrc:solutionFour},
 ];
 
 const LegalPage = () => {
+    
 
     return ( 
         <>
