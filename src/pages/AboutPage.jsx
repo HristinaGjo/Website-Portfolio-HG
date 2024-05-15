@@ -75,8 +75,8 @@ const AboutPage = () => {
                     <div className={classes.yearTitle}>
                     <p>15-17</p>
                     <div className={classes.form}>
-                    <span>Form & Function </span>
-                    <p>Physical environment</p>
+                    <p>Form & Function </p>
+                    {/* <p>Physical environment</p> */}
                     <p>Architect | Skopje</p>
                     </div>
                     </div>
@@ -84,8 +84,8 @@ const AboutPage = () => {
                     <div className={classes.yearTitle}>
                     <p>17-21</p>
                     <div className={classes.form}>
-                    <span>Form & Function</span>
-                    <p>Physical environment</p>
+                    <p>Form & Function</p>
+                    {/* <p>Physical environment</p> */}
                     <p>Architect | Berlin</p>
                     </div>
                     </div>
@@ -102,8 +102,8 @@ const AboutPage = () => {
                     <div className={classes.yearTitle}>
                     <p>22-23</p>
                     <div className={classes.form}>
-                    <span>Form & Function & Scale</span>
-                    <p>Digital environment</p>
+                    <p>Form & Function & Scale</p>
+                    {/* <p>Digital environment</p> */}
                     <p>UX & UI Designer | Wandelbots Robotics </p>
                     </div>
                     </div>
@@ -175,16 +175,25 @@ const AboutPage = () => {
 
                 <div className={classes.skillsText}>
                     <div className={classes.educationList}>
+                        <div className={classes.education}>
                         <span>Web Development | Ironhack Berlin | 23-24</span>
-                        <span>UX & UI | CareerFoundry Berlin | 22</span>
+                        </div>
+
+                        <div className={classes.education}>
+                        <span>UX & UI Design | CareerFoundry Berlin | 22</span>
+                        </div>
+
+                        <div className={classes.education}>
                         <span>MA of Architecture | Skopje N. Macedonia | 13-15</span>
+                        </div>
+
+                        <div className={classes.education}>
                         <span>BA of Architecture | Skopje N. Macedonia | 09-13</span>
+                        </div>
+                        </div>
                     </div>
                 </div>
-                </div>
-
-        
-        </div>
+            </div>
 
         <Connect />
         

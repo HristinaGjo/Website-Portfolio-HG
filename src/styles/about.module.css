@@ -179,6 +179,13 @@ body {
 }
 
 
+/* .educationYear, .educationTitley{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+} */
+
+
 
 @media (min-width: 768px) {
 

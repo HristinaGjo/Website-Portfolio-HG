@@ -29,7 +29,7 @@ const Info = () => {
       <div className={classes.pageCtn}>
         <div className={classes.titleInfo}>
           <h2>Info</h2>
-          <hr className={classes.customHr} />
+          <hr className={classes.customHr} /> 
         </div>
 
       
