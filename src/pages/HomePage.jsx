@@ -91,7 +91,7 @@ const HomePage = () => {
         <div className={classes.servicesCtn}>
         <span>IMPLEMENTATION</span>
         <h3 className={classes.gradientText}>Frontend Development</h3>
-        <span>A comprehensive design that lays the foundation for web implementation.</span>
+        <span>Bringing the design to life through developing highly functional web solutions.</span>
         {/* <img src={UI} /> */}
         </div>
 
