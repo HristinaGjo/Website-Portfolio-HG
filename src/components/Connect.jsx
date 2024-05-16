@@ -1,11 +1,8 @@
 import React from "react";
 import classes from "../styles/connect.module.css"
 import Footer from "./Footer";
-import Arrow from "../components/Arrow.jsx";
-import ArrowMobile from "./ArrowMobile.jsx";
 
-
-const Connect = ({fill,stroke}) => {
+const Connect = () => {
 
     const handleEmailCliclk = () => {
         /* console.log ('hello') */
