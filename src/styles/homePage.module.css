@@ -5,7 +5,7 @@
     justify-content: center;
     height: 50vh;
     /* border-bottom: 1px solid red; */
-    padding: 1.5em;
+    padding: 2em;
 }
 
 .headlineText h1{
@@ -27,7 +27,7 @@
 
 .projectsCtn{
     background: var(--color-secondary);
-    padding: 1.5em;
+    padding: 2em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -53,7 +53,7 @@ img{
 
 
 .aboutSectionCtn{
-    padding: 1.5em;
+    padding: 2em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -62,7 +62,7 @@ img{
 }
 
 .servicesSectionCtn{
-    padding: 1.5em;
+    padding: 2em;
     background: var(--color-secondary);
 }
 

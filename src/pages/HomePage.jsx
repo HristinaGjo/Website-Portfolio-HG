@@ -59,14 +59,15 @@ const HomePage = () => {
 
       <div className={classes.servicesSectionCtn}>
       <span>I CAN HELP YOU WITH</span>
-        <h1>Design Services</h1>
+        <h1>Services</h1>
         <div className={classes.gridCtn}>
 
         <div className={classes.servicesCtn}>
           <span>RESEARCH & DESIGN</span>
           <h3 className={classes.gradientText}>UX & UI Design</h3>
           {/* <img src={UX} /> */}
-          <span>A comprehensive design that lays the foundation for web implementation.</span>
+          <span>Crafting user-centric, intuitive and engaging digital
+                  experiences.</span>
           {/* <ul className={classes.list}>
             <li>User & Market Research</li>
             <li>Strategic Ideation</li>
