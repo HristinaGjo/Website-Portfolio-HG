@@ -1,11 +1,12 @@
 
-body {
+/* body {
 	line-height: 1;
 	overflow-y: scroll !important;
 }
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
@@ -17,7 +18,7 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-} 
+}  */
 
 
 /* #root {
