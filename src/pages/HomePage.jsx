@@ -35,11 +35,13 @@ const HomePage = () => {
       <div className={classes.projectsCtn}>
       <span>SELECTED</span>
         <h1>Projects</h1>
+
         <div className={classes.imgCtnLegal}>
           <img src={Legal} />
           </div>
           <span>Legal app | UX & UI Design</span>
       </div>
+
 
       <div className={classes.aboutSectionCtn}>
         <h1>About me</h1>
