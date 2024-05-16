@@ -1,40 +1,27 @@
 
     .connectCtn{
         height: auto;
-        padding:1em;
+        padding:2em;
     }
 
     .text{
         display: flex;
         flex-direction: column;
         gap: 1em;
-        margin-top: 6em;
-        margin-bottom: 6em;
+        margin-top: 4em;
+        margin-bottom: 4em;
     }
-    
-    .text h2{
-        color: #e1e1e1;
-    }
-    
-    .contact span{
-        color: #e1e1e1;
-    } 
 
-    .text span{
-        color: #e1e1e1;
-    } 
-    
     .contact{
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
         gap: .5em;
-        margin-bottom: 7em;
+        margin-bottom: 4em;
     }
     
     .button {
-     color: #e1e1e1;
      border-radius: none;
      border: none;
      padding: 0;
@@ -43,21 +30,8 @@
      font-size: 1em !important;
     }
 
-    .arrowMobile{
-        display: flex;
-        justify-content: start;
-        align-items: center;
-        margin-top: 1em;
-    }
-
-    .arrowDesctop{
-        display: none;
-    }
-
-    
-
-    .contact span{
-        color: #e1e1e1;
+    .text span {
+        color: #86868B;
     }
 
 
@@ -66,24 +40,16 @@
 
     .connectCtn{
         height: auto;
-        padding:4em 2em 2em;
+        padding:4em 10em 2em;
     }
 
     .text{
         display: flex;
         flex-direction: column;
         gap: 1em;
-        margin-top: 6em;
-        margin-bottom: 6em;
+        margin-top: 4em;
+        margin-bottom: 4em;
     }
-
-    .text h2{
-        color: #e1e1e1;
-    }
-
-    .text span{
-        color: #e1e1e1;
-    } 
 
     .contact{
         display: flex;
@@ -91,11 +57,10 @@
         justify-content: flex-start;
         align-items: flex-start;
         gap: .5em;
-        margin-bottom: 7em;
+        margin-bottom: 4em;
     }
 
     .button {
-        color: #e1e1e1;
         border-radius: none;
         border: none;
         padding: 0;
@@ -104,26 +69,4 @@
         font-size: 1.25em !important;
     }
 
-    .arrowMobile{
-        display: none;
-    }
-
-    .arrowDesctop{
-        display: flex;
-    }
-
-    }
-
-
-
-
-    /*.button{
-        height: 2.5em;
-        padding: 0 2em;
-        border-radius: 5em;
-        border: none;
-        background: transparent;
-        border:1px solid #e1e1e1;
-        color: #e1e1e1;
-        cursor:pointer; 
-    } */
+}

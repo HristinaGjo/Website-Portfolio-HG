@@ -1,6 +1,9 @@
 import React from "react";
 import classes from "../styles/homePage.module.css"
 import Legal from "../assets/plainLegal.png"
+import UX from "../assets/uxBlack.png"
+import UI from "../assets/uxHalf.png"
+import WEB from "../assets/webDesign.png"
 import Connect from "../components/Connect.jsx";
 import { Link } from "react-router-dom";
 
@@ -23,24 +26,82 @@ const HomePage = () => {
 
       <div className={classes.heroCtn}>
         <div className={classes.headlineText}>
+          {/*<span>HRISTINA GJORGIEVA</span>*/}
         <h1>Digital Designer</h1>
-        <span>UX & UI Design | Web Design | Frontend Development</span>
+        <span>UX & UI DESIGN | WEB DESIGN | FRONTEND DEVELOPMENT</span>
         </div>
       </div>
 
-
       <div className={classes.projectsCtn}>
-        <div className={classes.h1Position}>
+      <span>SELECTED</span>
         <h1>Projects</h1>
-        </div>
         <div className={classes.imgCtnLegal}>
           <img src={Legal} />
           </div>
           <span>Legal app | UX & UI Design</span>
       </div>
 
+      <div className={classes.aboutSectionCtn}>
+        <h1>About me</h1>
+        <div className={classes.textAboutSection}>
+          <p>Lorem ipum Some text Some text Lorem ipum Some text Some text
+          Lorem ipum Some text Some text Lorem ipum Some text Some text
+          Lorem ipum Some text Some text Lorem ipum Some text Some text
+          Lorem ipum Some text Some text Lorem ipum Some text Some text
+          Lorem ipum Some text Some text Lorem ipum Some text Some text
+          Lorem ipum Some text Some text Lorem ipum Some text Some text
+          Lorem ipum Some text Some text Lorem ipum Some text Some text
+          Lorem ipum Some text Some text Lorem ipum Some text Some text
+          Lorem ipum Some text Some text Lorem ipum Some text Some text
+          </p>
+        </div>
+      </div>
+
+      <div className={classes.servicesSectionCtn}>
+      <span>I CAN HELP YOU WITH</span>
+        <h1>Design Services</h1>
+        <div className={classes.gridCtn}>
+
+        <div className={classes.servicesCtn}>
+          <span>RESEARCH & DESIGN</span>
+          <h3 className={classes.gradientText}>UX & UI Design</h3>
+          {/* <img src={UX} /> */}
+          <span>A comprehensive design that lays the foundation for web implementation.</span>
+          {/* <ul className={classes.list}>
+            <li>User & Market Research</li>
+            <li>Strategic Ideation</li>
+            <li>Conceptual Design</li>
+            <li>Design Production & Prototype</li>
+            <li>Testing & Feedback</li>
+          </ul>*/}
+        </div>
+
+       { /*<div className={classes.servicesCtn}>
+        <h3>UI Design</h3>
+         <img src={UI} /> 
+        </div> */}
+
+        <div className={classes.servicesCtn}>
+        <span>RESEARCH & DESIGN</span>
+        <h3 className={classes.gradientText}>Web Design</h3>
+        <span>A comprehensive design that lays the foundation for web implementation.</span>
+       {/* <img className={classes.lapTop} src={WEB} /> */}
+        </div>
+
+        <div className={classes.servicesCtn}>
+        <span>IMPLEMENTATION</span>
+        <h3 className={classes.gradientText}>Frontend Development</h3>
+        <span>A comprehensive design that lays the foundation for web implementation.</span>
+        {/* <img src={UI} /> */}
+        </div>
+
+        </div>
 
       </div>
+
+      </div>
+
+      <Connect />
       </>
    );
 }

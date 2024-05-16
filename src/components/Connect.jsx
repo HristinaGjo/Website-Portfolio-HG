@@ -14,14 +14,13 @@ const Connect = () => {
     <>
     <div className={classes.connectCtn}>
         <div className={classes.text}>
-            <h2>Let's chat</h2>
-            <span>Have an idea or project or collaboration in mind?</span>
-            </div>
-           
+        <span>HAVE AN IDEA OR PROJECT IN MIND?</span>
+            <h1>Let's chat</h1>
             
-       
+            </div>
+        
             <div className={classes.contact}>
-            <span>Drop me a line</span>
+            <span>DROP ME A LINE</span>
            
             <button 
             className={classes.button} 

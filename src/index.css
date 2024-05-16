@@ -19,9 +19,11 @@
   --font-size-base: 16px;  /* Consistent base font size for larger screens */
   --font-size-h1: calc(var(--font-size-base) * 2.5); /* 40px */
   --font-size-h2: calc(var(--font-size-base) * 2); /* 32px */
+  --font-size-h3: calc(var(--font-size-base) * 1.5); /* 32px */
   --font-size-h4: 0.875rem; /* 14px */
   --font-size-p: var(--font-size-base); /* 16px */
-  --font-size-span: 1.2rem;  /* 19px */
+  --font-size-span: 1rem;  /* 16px */
+  /*--font-size-span: 1.2rem;   19px */
 }
 
 h1 {
@@ -34,6 +36,12 @@ h1 {
 
 h2 {
   font-size: var(--font-size-h2);
+  margin: 0;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: var(--font-size-h3);
   margin: 0;
   font-weight: 600;
 }
@@ -52,6 +60,7 @@ p {
 
 span {
   font-size: var(--font-size-span);
+  color:var(--color-span);
   margin: 0;
   font-weight: 400;
 }
@@ -61,19 +70,22 @@ span {
   :root {
     --font-size-base: 16px; 
     --font-size-h1: calc(var(--font-size-base) * 4); /* 64px */
-    --font-size-h2: calc(var(--font-size-base) * 1.5); /* 56px */
+    --font-size-h2: calc(var(--font-size-base) * 3.5); /* 56px */
+    --font-size-h3: calc(var(--font-size-base) * 2); /* 32px */
     --font-size-h4: 0.875rem; /* 14px */
     --font-size-p: var(--font-size-base); /* 16px */
-    --font-size-span: 1.2rem; /* 19px */
+    --font-size-span: 1rem; /* 19px */
   }
 }
 
 :root {
   --color-primary: #fff;
-  --color-secondary: #f5f5f5;
+  --color-secondary: #f5f5f7; 
+  /* --color-secondary: #1d1d1f; */
   --color-background: #fafafc;
   --color-headline: #1d1d1f;
   --color-body: #1d1d1f;
+  --color-span: #86868B;
 }
 
 :root {
@@ -90,6 +102,11 @@ body {
   /* padding: 0 var(--padding-horizontal); /* Apply global padding to body */
   box-sizing: border-box;
   margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color: var(--color-body);
 }
 
 /* Responsive adjustments 

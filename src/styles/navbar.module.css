@@ -1,7 +1,4 @@
-/* body{
-    margin: 0;
-    overflow-x: hidden;
-}
+
 
 .navCtn{
     position: sticky;
@@ -10,12 +7,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.5em 1em; 
-
+    padding: 1.5em ; 
     z-index: 1000;
     font-weight: 300;
     font-size: 0.875rem;
-    background: #f5f4f3;
+    background:var(--color-primary);
     border-bottom: none;
     border: none;
 } 
@@ -40,12 +36,10 @@ p{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding:1.5em 2em;
+        padding:2em 10em;
         z-index: 1000;
         font-weight: 300;
-        font-size: 1.25em;
         box-sizing: border-box;
-        margin: 0;
     } 
 
     .rightCtn{
