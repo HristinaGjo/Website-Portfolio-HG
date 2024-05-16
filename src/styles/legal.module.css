@@ -1,5 +1,40 @@
 
 
+.legalHeroCtn{
+    padding: 2em;
+    background: linear-gradient(135deg, #602C5D, #8A3D71, #B74E88);
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.legalHeroCtn h1,
+.legalHeroCtn span{
+    color: var(--color-primary);
+}
+
+.overviewText {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em;
+}
+
+
+
 @media (min-width: 768px) {
+
+    .legalHeroCtn{
+        padding: 6em 10em;
+    }
+
+    .overviewText {
+        padding: 6em 10em;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 4em;
+    }
 
 }
