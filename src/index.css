@@ -27,12 +27,15 @@
 h1 {
   font-size: var(--font-size-h1);
   margin: 0;
+  font-weight: 600;
   color: var(--color-headline);
+  margin-bottom: var(--spacing-medium);
 }
 
 h2 {
   font-size: var(--font-size-h2);
   margin: 0;
+  font-weight: 600;
 }
 
 h4 {
@@ -44,11 +47,13 @@ p {
   font-size: var(--font-size-p);
   margin: 0;
   color:var(--color-body);
+  font-weight: 400;
 }
 
 span {
   font-size: var(--font-size-span);
   margin: 0;
+  font-weight: 400;
 }
 
 /* Tablet and Desktop styles */
@@ -65,27 +70,55 @@ span {
 
 :root {
   --color-primary: #fff;
-  --color-secondary: #fbfbfb;
+  --color-secondary: #f5f5f5;
   --color-background: #fafafc;
   --color-headline: #1d1d1f;
   --color-body: #1d1d1f;
 }
 
-/* Spacing 
+:root {
+  --padding-horizontal: 4em; /* Default padding for horizontal axis */
+}
+
 :root {
   --spacing-small: 8px;
   --spacing-medium: 16px;
   --spacing-large: 24px;
+} 
+
+body {
+  /* padding: 0 var(--padding-horizontal); /* Apply global padding to body */
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* Responsive adjustments 
+@media (max-width: 768px) {
+  :root {
+    --padding-horizontal: 2em; /* Adjust padding for smaller screens 
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --padding-horizontal: 7em; /* Adjust padding for larger screens 
+  }
 } */
 
+/* Spacing */ 
 
-body{
+
+
+
+
+/* body{
   line-height: 1;
   margin: 0;
   padding: 0;
-}
+} */
 
 
+/* rgb(232, 232, 237) */
 
 
 
