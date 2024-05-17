@@ -63,11 +63,17 @@
 }
 
 .imageCtn {
-    width: 70%;
+    width: 60%;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center; 
+}
+
+.imageCtn img {
+    width: 100%;
+    height: auto;
+    object-fit: contain; /* Ensures the image scales proportionally */
 }
 
 
