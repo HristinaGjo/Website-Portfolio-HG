@@ -58,12 +58,13 @@
     gap: .5em;
     width: 80vw;
     max-width: 350px;
-    height: auto;
+    max-height: 350px;
+    /*height: auto;*/
     overflow: hidden;
 }
 
 .imageCtn {
-    width: 100%;
+    width: 55%;
     height: auto;
     display: flex;
     justify-content: center;
@@ -73,7 +74,7 @@
 .imageCtn img {
     width: 100%;
     height: auto;
-    object-fit: contain; /* Ensures the image scales proportionally */
+    object-fit: cover; /* Ensures the image scales proportionally */
 }
 
 
@@ -136,7 +137,7 @@
         border-radius: 10px;
         gap: 1em;
         max-width: 400px;
-        height: 500px;
+        max-height: 500px;
         overflow: hidden;
     }
 
