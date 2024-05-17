@@ -56,7 +56,7 @@
     padding: 1em;
     border-radius: 10px;
     gap: .5em;
-    width: 70vw;
+    width: 80vw;
     max-width: 350px;
     height: auto;
     overflow: hidden;
@@ -71,7 +71,7 @@
 }
 
 .imageCtn img {
-    width: 90%;
+    width: 80%;
     height: auto;
     object-fit: contain; /* Ensures the image scales proportionally */
 }
