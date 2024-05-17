@@ -53,12 +53,12 @@
     justify-content: center;
     align-items: center;
     background:var(--color-primary);
-    padding: 2em;
+    padding: 1em;
     border-radius: 10px;
     gap: .5em;
     width: 80vw;
     max-width: 350px;
-    max-height: 450px;
+    height: auto;
     overflow: hidden;
 }
 
@@ -71,7 +71,7 @@
 }
 
 .imageCtn img {
-    width: 80%;
+    width: 100%;
     height: auto;
     object-fit: contain; /* Ensures the image scales proportionally */
 }
