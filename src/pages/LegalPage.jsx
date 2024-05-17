@@ -72,6 +72,10 @@ const LegalPage = () => {
                 <div className={classes.solutionTitle}></div>
             </div>
 
+            <div>
+                
+            </div>
+
         </div>
   
         </>
@@ -79,6 +83,7 @@ const LegalPage = () => {
 }
  
 export default LegalPage;
+
 
 
 
