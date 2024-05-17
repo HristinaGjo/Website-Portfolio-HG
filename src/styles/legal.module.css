@@ -2,11 +2,12 @@
 
 .legalHeroCtn{
     padding: 2em;
-    background: linear-gradient(135deg, #602C5D, #8A3D71, #B74E88);
+   /* background: linear-gradient(135deg, #602C5D, #8A3D71, #B74E88);*/
     height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background: linear-gradient(135deg, #3498db, #9b59b6);
 }
 
 .legalHeroCtn h1,
@@ -22,6 +23,59 @@
     gap: 2em;
 }
 
+.solutionCtn{
+    background: var(--color-secondary);
+}
+
+.solutionTitle{
+    padding: 2em;
+}
+
+.carousel{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 0 24px;
+    padding-bottom: 1em;
+}
+
+.carousel .item{
+    scroll-snap-align: start;
+    flex: 0 0 auto;
+}
+
+.itemCtn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:var(--color-primary);
+    padding: 1em;
+    border-radius: 10px;
+    gap: .5em;
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.imageCtn {
+    width: 70%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+.gradientText {
+    background: linear-gradient(135deg, #3498db, #9b59b6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 
 @media (min-width: 768px) {
@@ -35,6 +89,56 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 4em;
+    }
+
+    .overviewText span {
+        margin-bottom: var(--spacing-medium);
+    }
+
+    .solutionCtn{
+        background: var(--color-secondary);
+    }
+
+    .solutionTitle{
+        padding: 6em 10em;
+    }
+
+    .carousel{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 3em;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        scroll-padding: 0 24px;
+        padding-bottom: 2em;
+    }
+
+    .carousel .item{
+        scroll-snap-align: start;
+        flex: 0 0 auto;
+    }
+
+    .itemCtn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background:var(--color-primary);
+        padding: 1em;
+        border-radius: 10px;
+        gap: 1em;
+        width: 400px;
+        height: 500px;
+        overflow: hidden;
+    }
+
+    .imageCtn {
+        width: 60%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
     }
 
 }
