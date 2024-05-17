@@ -44,7 +44,7 @@
 
 .carousel .item{
     scroll-snap-align: start;
-    flex: 1 1 auto;
+    flex: 0 0 auto;
 }
 
 .itemCtn{
@@ -56,8 +56,9 @@
     padding: 1em;
     border-radius: 10px;
     gap: .5em;
-    width: 300px;
-    height: 400px;
+    width: 80vw;
+    max-width: 300px;
+    height: auto;
     overflow: hidden;
 }
 
@@ -128,7 +129,7 @@
         padding: 1em;
         border-radius: 10px;
         gap: 1em;
-        width: 400px;
+        max-width: 400px;
         height: 500px;
         overflow: hidden;
     }
