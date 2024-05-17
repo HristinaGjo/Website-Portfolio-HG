@@ -53,12 +53,12 @@
     justify-content: center;
     align-items: center;
     background:var(--color-primary);
-    padding: 1em;
+    padding: 2em;
     border-radius: 10px;
     gap: .5em;
     width: 80vw;
     max-width: 350px;
-    height: auto;
+    max-height: 450px;
     overflow: hidden;
 }
 
