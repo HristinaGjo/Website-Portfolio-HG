@@ -104,12 +104,13 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding-top: 5em;
+        padding-bottom: 5em;
     }
 
 
-
     .keyFindings{
-        max-width: 350px;
+        max-width: 35 0px;
         background: var(--color-primary);
         border-radius: 10px;
         display: flex;
