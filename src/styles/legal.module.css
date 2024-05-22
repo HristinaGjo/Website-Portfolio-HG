@@ -191,7 +191,8 @@
     }
 
     .imgCtn{
-        width: 100%;
+        width: 85vw;
+        height: auto;
         display: flex;
         flex-direction: row;
         justify-content: center;

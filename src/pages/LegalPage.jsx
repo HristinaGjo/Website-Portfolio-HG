@@ -38,7 +38,7 @@ const LegalPage = () => {
             <div className={classes.legalHeroCtn}>
                 <span>UX & UI CASE STUDY</span>
                 <h1>Legal app</h1>
-                <span>DIGITAL BRIDGE BETWEEN A LAWYER AND A CITIZEN</span>
+                <h3>Digital bridge between a lawyer and a citizen</h3>
             </div>
 
             <div className={classes.overviewText}>
