@@ -136,12 +136,11 @@
 
     .dataCtn{
         display: grid;
-        grid-template-rows: repeat(3,1fr);
-        justify-content: center;
+        grid-template-rows: repeat(2,1fr);
         align-items: center;
         background: var(--color-secondary);
-        width: 250px;
-        height: 120px;
+        width: 90%;
+        height: 100px;
         padding: 1em;
         border-radius: 10px;
     }
@@ -192,7 +191,7 @@
     }
 
     .imgCtn{
-        width: 80%;
+        width: 100%;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -203,6 +202,96 @@
         display: flex;
         flex-direction: column;
         gap: 1em;
+    }
+
+    .uiCtn{
+        background: var(--color-secondary);
+    }
+
+
+    .uiColorsCtn{
+        background: var(--color-secondary);
+    }
+
+    .colorsCtn{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        padding: 0 2em;
+    }
+
+    .colorsItem{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 1em;
+        justify-content:center;
+        align-items: center;
+        border-bottom: .5px solid #19191b;
+        padding-bottom: .5em;
+    }
+
+    .primarySquare{
+        width: 50px;
+        height: 50px;
+        background: #F4F4F4;
+        border-radius: 10px;
+        border: .5px solid #19191b;
+    }
+
+    .secondarySquare{
+        width: 60px;
+        height: 60px;
+        background: #602C5D;
+        border-radius: 10px;
+    }
+
+    .accentSquareOne{
+        width: 60px;
+        height: 60px;
+        background: #8F578A;
+        border-radius: 10px;
+    }
+
+    .accentSquareTwo{
+        width: 60px;
+        height: 60px;
+        background: #F3E5F1;
+        border-radius: 10px;
+    }
+
+    .uiTypoCtn{
+        background: var(--color-secondary);
+        padding-bottom: 2em;
+    }
+
+    .titleTypo{
+        padding: 2em;
+    }
+
+    .typoItem{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 2em;
+        justify-content:center;
+        align-items: center;
+        border-bottom: .5px solid #19191b;
+        padding-bottom: .5em;
+        padding-top: .5em;
+
+    }
+
+    .spanTypo{
+        font-family: "Playfair Display";
+        font-weight: 600;
+        color: var(--color-body);
+        font-size: 1rem;
+    }
+
+    .spanTypoBody{
+        font-family: "Open Sans";
+        font-weight: 300;
+        color: var(--color-body);
+        font-size: 1rem;
     }
 
 
@@ -333,6 +422,7 @@
 
     .prototypeCtn{
         padding: 6em 10em;
+       /* background: linear-gradient(135deg, #7fb3d5, #b39ddb);*/
     }
 
     .videoCtn {
@@ -360,13 +450,95 @@
     }
 
     .imgCtn{
-        width: 80%;
+        width: 100%;
     }
 
     .pointText{
         display: flex;
         flex-direction: column;
         gap: 1em;
+    }
+
+    .uiColorsCtn{
+        background: var(--color-secondary);
+    }
+
+    .colorsCtn{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        padding: 0 10em 6em 10em;
+    }
+
+    .colorsItem{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 5em;
+        justify-content:center;
+        align-items: center;
+        border-bottom: .5px solid #19191b;
+        padding-bottom: .5em;
+    }
+
+    .primarySquare{
+        width: 60px;
+        height: 60px;
+        background: #F4F4F4;
+        border-radius: 10px;
+        border: .5px solid #19191b;
+    }
+
+    .secondarySquare{
+        width: 60px;
+        height: 60px;
+        background: #602C5D;
+        border-radius: 10px;
+    }
+
+    .accentSquareOne{
+        width: 60px;
+        height: 60px;
+        background: #8F578A;
+        border-radius: 10px;
+    }
+
+    .accentSquareTwo{
+        width: 60px;
+        height: 60px;
+        background: #F3E5F1;
+        border-radius: 10px;
+    }
+
+    .uiTypoCtn{
+        background: var(--color-secondary);
+    }
+
+    .titleTypo{
+        padding: 0 10em 6em 10em;
+    }
+
+    .typoItem{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 5em;
+        justify-content:center;
+        align-items: center;
+        border-bottom: .5px solid #19191b;
+        padding-bottom: .5em;
+    }
+
+    .spanTypo{
+        font-family: "Playfair Display";
+        font-weight: 600;
+        color: var(--color-body);
+        font-size: 2rem;
+    }
+
+    .spanTypoBody{
+        font-family: "Open Sans";
+        font-weight: 300;
+        color: var(--color-body);
+        font-size: 1rem;
     }
 
 }

@@ -100,7 +100,7 @@ const LegalPage = () => {
 
                                 <div className={classes.dataCtn}>
                             <p className={classes.gradientText}>90%</p>
-                            <p>respondents look for help online</p>
+                            <p>respondents are first looking for help online</p>
                                 </div>
 
                             <div className={classes.dataCtn}>
@@ -139,7 +139,7 @@ const LegalPage = () => {
                             <p className={classes.lawyers}>
                                 When asked to classify experts across various professions
                                  86% of the respondents identified
-                                <span className={classes.gradientText}>LAWYERS</span> 
+                                <span className={classes.gradientText}>Lawyers</span> 
                                 as the quintessential experts.
                             </p>
                 </div>
@@ -206,7 +206,7 @@ const LegalPage = () => {
                 <div className={classes.testing}>
                     <div className={classes.pointOne}>
                         <div className={classes.pointText}>
-                        <span>PAIN POINT</span>
+                        <span>01 - PAIN POINT</span>
                         <p>Terms of service and handling the data privacy of the users.</p>
                         <span>SOLUTION</span>
                         <p>2 additional screens where the user has to read and accept the 
@@ -217,7 +217,7 @@ const LegalPage = () => {
 
                     <div className={classes.pointTwo}>
                     <div className={classes.pointText}>
-                        <span>PAIN POINT</span>
+                        <span>02 - PAIN POINT</span>
                         <p>Unclear on services provided by matched lawyer.</p>
                         <span>SOLUTION</span>
                         <p>Add a step between booking and payment to clarify services offered by the lawyer. 
@@ -227,8 +227,62 @@ const LegalPage = () => {
                     </div>
             </div>
             </div>
-            
-            
+
+            <div className={classes.uiColorsCtn}>
+                <div className={classes.title}>
+                <span>BRINGING IT TO LIFE</span>
+                <h2>Colors</h2>
+                </div>
+                
+                <div className={classes.colorsCtn}>
+                    <div className={classes.colorsItem}>
+                    <span>PRIMARY</span>
+                    <span>#F4F4F4</span>
+                    <div className={classes.primarySquare}></div>
+                    </div>
+
+                    <div className={classes.colorsItem}>
+                    <span>SECONDARY</span>
+                    <span>#602C5D</span>
+                    <div className={classes.secondarySquare}></div>
+                    </div>
+
+                    <div className={classes.colorsItem}>
+                    <span>ACCENT</span>
+                    <span>#8F578A</span>
+                    <div className={classes.accentSquareOne}></div>
+                    </div>
+
+                    <div className={classes.colorsItem}>
+                    <span>ACCENT</span>
+                    <span>#F3E5F1</span>
+                    <div className={classes.accentSquareTwo}></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div className={classes.uiTypoCtn}>
+
+            <div className={classes.titleTypo}>
+                <h2>Typography</h2>
+            </div>
+            <div className={classes.colorsCtn}>
+                    <div className={classes.typoItem}>
+                    <span>HEADLINE</span>
+                    <span>Medium 24px</span>
+                    <span className={classes.spanTypo}>Playfair Display</span>
+                    </div>
+            </div>
+            <div className={classes.colorsCtn}>
+                    <div className={classes.typoItem}>
+                    <span>BODY</span>
+                    <span>Regular 16px</span>
+                    <span className={classes.spanTypoBody}>Open Sans</span>
+                    </div>
+            </div>
+            </div>
 
         </div>
 
