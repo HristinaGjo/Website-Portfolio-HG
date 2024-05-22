@@ -8,6 +8,8 @@ import solutionFour from "../assets/step04.png"
 import solutionFive from "../assets/step05.png"
 import Connect from "../components/Connect.jsx"
 import videoWireframes from "../assets/wireframesVideo.mp4"
+import pointOne from "../assets/pointOne.png"
+import pointTwo from "../assets/pointTwo.png"
 
 
 
@@ -137,7 +139,7 @@ const LegalPage = () => {
                             <p className={classes.lawyers}>
                                 When asked to classify experts across various professions
                                  86% of the respondents identified
-                                <span className={classes.gradientText}>Lawyers</span> 
+                                <span className={classes.gradientText}>LAWYERS</span> 
                                 as the quintessential experts.
                             </p>
                 </div>
@@ -165,7 +167,7 @@ const LegalPage = () => {
                             </p>
                                 </div>
                             </div>
-                            <h3>A platform that tries to work for everyone would be a platform that works for nobody!</h3>
+                            <h3 className={classes.gradientText}>A platform that tries to work for everyone would be a platform that works for nobody!</h3>
                             <p>
                             Driven by the insights gleaned from both user research and the conversation with the seasoned lawyer, 
                             I made the decision to pivot the focus of the platform. Instead of pursuing a broad approach, 
@@ -194,12 +196,36 @@ const LegalPage = () => {
 
             </div>
 
-            <div className={classes.prototypeCtn}>
-                <div className={classes.titlePrototype}>
+            <div className={classes.testingCtn}>
+                <div className={classes.title}>
                 <span>WHAT WAS MISSING?</span>
                 <h2>User Testing</h2>
                 </div>
+              
 
+                <div className={classes.testing}>
+                    <div className={classes.pointOne}>
+                        <div className={classes.pointText}>
+                        <span>PAIN POINT</span>
+                        <p>Terms of service and handling the data privacy of the users.</p>
+                        <span>SOLUTION</span>
+                        <p>2 additional screens where the user has to read and accept the 
+                            terms of service & data policy of Legal before continuing with the service.</p>
+                        </div>
+                        <img className={classes.imgCtn} src={pointOne} />
+                    </div>
+
+                    <div className={classes.pointTwo}>
+                    <div className={classes.pointText}>
+                        <span>PAIN POINT</span>
+                        <p>Unclear on services provided by matched lawyer.</p>
+                        <span>SOLUTION</span>
+                        <p>Add a step between booking and payment to clarify services offered by the lawyer. 
+                            Include a checkbox for users to opt-in for receiving an invoice.</p>
+                        </div>
+                        <img className={classes.imgCtn} src={pointTwo} />
+                    </div>
+            </div>
             </div>
             
             
