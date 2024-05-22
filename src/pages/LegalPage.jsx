@@ -18,9 +18,9 @@ import  Connect from "../components/Connect.jsx"
 ];*/
 
 const solutions = [
-    {id: 1, title: "Labour and Social Law", text: "01 - Get Expert Advices in Specific Fields", imgSrc: solutionOne},
+    {id: 1, title: "Labour and Social Law", text: "01 - Expert Advices in Specific Fields", imgSrc: solutionOne},
     {id: 2, title: "Legal Issues", text: "02 - Share Your Legal Concerns", imgSrc: solutionTwo},
-    {id: 3, title: "Documentation", text: "03 - Share & Upload Relevant Documents", imgSrc: solutionThree},
+    {id: 3, title: "Documentation", text: "03 - Share Relevant Documents", imgSrc: solutionThree},
     {id: 4, title: "Match", text: "04 - Find Your Perfect Match", imgSrc: solutionFour},
     {id: 5, title: "Connect", text: "05 - Expert Advice At Your Fingertips", imgSrc: solutionFive},
 ];
@@ -93,7 +93,6 @@ const LegalPage = () => {
                             <h3>User Survays</h3>
                            {/* <p>21 people took the survey</p>
                             <p>13 questions were asked</p> */}
-                            <br/>
                             <div className={classes.findingsCtn}>
 
                                 <div className={classes.dataCtn}>
@@ -110,7 +109,6 @@ const LegalPage = () => {
                             <p className={classes.gradientText}>53%</p>
                             <p>respondents used expert help within the last 6 months</p>
                             </div>
-
                             </div>
                         
                         </div>
@@ -136,15 +134,57 @@ const LegalPage = () => {
 
                         <h3>Revealing insight</h3> 
                             <p className={classes.lawyers}>
-                                When asked to classify experts across various professions, 
-                                a significant majority identified 
+                                When asked to classify experts across various professions
+                                 86% of the respondents identified
                                 <span className={classes.gradientText}>Lawyers</span> 
                                 as the quintessential experts.
                             </p>
                 </div>
             </div>
 
+            <div className={classes.researchCtnPivot}>
+                <div className={classes.keyFindings}>
+                    <div className={classes.titleResearch}>
+                        <span>SOLUTION SHAPING</span>
+                <h2 className={classes.gradientText}>Pivotal Moment</h2>
+                </div>
+                    <p>The revealing insight prompted me to reach out to a seasoned lawyer specializing 
+                        in social and labor law for further insights.
+                        </p>
 
+                        <div className={classes.survays}>
+                            <h3>Lawyer Interview</h3>
+
+                            <div className={classes.findingsCtn}>
+
+                                <div className={classes.dataCtn}>
+                            <p className={classes.gradientText}>Maximillian, 35</p>
+                            <p>Many legal issues within the domain of Labour and Social Law 
+                                are recurring and can be resolved swiftly with expert guidance. 
+                            </p>
+                                </div>
+                            </div>
+                            <h3>A platform that tries to work for everyone would be a platform that works for nobody!</h3>
+                            <p>
+                            Driven by the insights gleaned from both user research and the conversation with the seasoned lawyer, 
+                            I made the decision to pivot the focus of the platform. Instead of pursuing a broad approach, 
+                            I decided to develop a specialized app tailored to the unique needs of users navigating Labor and Social Law matters.
+                            </p>
+                        
+                        </div>
+                </div>
+            </div>
+
+
+            <div className={classes.prototypeCtn}>
+            <div className={classes.titlePrototype}>
+                <span>PROTOTYPING</span>
+                <h2>Mid-fidelity wireframes</h2>
+
+                </div>
+
+            </div>
+            
 
         </div>
 
