@@ -50,9 +50,10 @@ const HomePage = () => {
       <div className={classes.aboutSectionCtn}>
         <h1>About me</h1>
         <div className={classes.textAboutSection}>
-          <p>Hey there! I’m Hristina, an experienced Digital Designer crafting beautiful, interactive experiences. 
-            My journey began in the world of architecture, where I learned to balance form and function in the physical environment. 
-            Now, I bring that same balance to the digital world, combining UX/UI design, Web Design, and Frontend Development.
+          <p>Hey there! I’m Hristina, a Digital Designer crafting intuitive, user-friendly and  
+            interactive experiences. My journey began in architecture, where I learned and practiced
+            design that focus on human behavior and user-centric environments.
+            Now, I bring that expertise to the digital world, combining UX/UI design, Web Design and Frontend Development.
           </p>
           <br/>
           <Link to="/about">

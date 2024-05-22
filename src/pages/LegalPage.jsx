@@ -7,7 +7,7 @@ import solutionThree from "../assets/step03.png"
 import solutionFour from "../assets/step04.png"
 import solutionFive from "../assets/step05.png"
 import Connect from "../components/Connect.jsx"
-import videoWireframes from "../assets/wireframesVideo.mp4"
+import videoWireframes from "../assets/videoLegal.mp4"
 import pointOne from "../assets/pointOne.png"
 import pointTwo from "../assets/pointTwo.png"
 

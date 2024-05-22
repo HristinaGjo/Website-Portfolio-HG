@@ -20,30 +20,20 @@ const AboutPage = () => {
 
             <div className={classes.aboutMeCtn}>
                 <div className={classes.text}>  
-                <p>Hey there! I’m Hristina, an experienced Digital Designer crafting beautiful, 
-                    interactive experiences. My journey began in the world of architecture, 
-                    where I learned to balance form and function in the physical environment. 
-                    Now, I bring that same balance to the digital world, combining UX/UI design, web design, and frontend development.
+                <p>Hey there! I’m Hristina, a Digital Designer crafting intuitive, user-friendly and  
+                    interactive experiences. My journey began in architecture, where I learned and practiced
+                    design that focus on human behavior and user-centric environments.
+                    Now, I bring that expertise to the digital world, combining UX/UI design, Web Design and Frontend Development.
                     </p>
 
                 <p>
-                    I see design as a synergy between creativity and functionality. 
-                    It’s about making things both beautiful and useful. From crafting websites to designing intuitive app interfaces, 
-                    I'm all about finding that sweet spot where innovation meets user needs.
+                    For me design is a synergy between creativity and functionality. 
+                    It’s about making things both beautiful and useful, making complexity comprehensible and inclusive.
                     </p>
-                
-                <p>
-                My transition to digital design took an exciting turn when I joined Wandelbots, 
-                an innovative robotics startup. There, I delved deep into human-machine interaction 
-                and worked on some truly groundbreaking projects.
-                Determined to bridge the gap between design and implementation, 
-                I expanded my skills into frontend development. This holistic approach allows me to create seamless, 
-                end-to-end digital experiences.
-                </p>
 
                 <p>
-                When I'm not designing, you might find me exploring new tech, sketching out ideas, 
-                or enjoying nature and longer bike rides.</p>
+                When I'm not designing, you might find me enjoying life, nature and longer bike tours.
+                    </p>
 
                 <p> Let's connect and create something awesome together!</p>
                 <button
@@ -55,16 +45,60 @@ const AboutPage = () => {
                 <img className={classes.imgCtn} src={profilePic} />
             </div>
 
-            <div className={classes.workCtn}>
-                <div className={classes.middleCtn}>
-                <span>ON WHAT I WORKED</span>
+            <div className={classes.journeyCtn}>
+               
+                <span>MY</span>
                 <h2>Journey</h2>
+
+                <div className={classes.workCtn}>
+
+                <div className={classes.experienceCtn}>
+                    <h3 className={classes.gradientText}>Work</h3>
+
                 <div className={classes.workTitle}>
-                <span>15-17</span>
+                <span>15- 16</span>
                 <p>Architect | Skopje</p>
                 </div>
 
+                <div className={classes.workTitle}>
+                <span>17- 21</span>
+                <p>Architect | Berlin</p>
                 </div>
+
+                <div className={classes.workTitle}>
+                <span>22-23</span>
+                <p>UX & UI Designer | Wandelbots Robotics</p>
+                </div>
+
+                </div>
+
+                <div className={classes.educationCtn}>
+                <h3 className={classes.gradientText}>Education</h3>
+                    <div className={classes.workTitle}>
+                    <span>23-24</span>
+                <p>Web Development | Ironhack Berlin</p>
+                    </div>
+
+                    <div className={classes.workTitle}>
+                    <span>22-22</span>
+                <p>UX & UI Design | CareerFoundry Berlin </p>
+                    </div>
+
+                    <div className={classes.workTitle}>
+                    <span>13- 15</span>
+                <p>MA of Architecture | Skopje </p>
+                    </div>
+
+                    <div className={classes.workTitle}>
+                    <span>09-13</span>
+                <p>BA of Architecture | Skopje </p>
+                    </div>
+
+
+                </div>
+                </div>
+
+
 
             </div>
 

@@ -28,9 +28,59 @@
    }
 
 .imgCtn{
-    border-radius: 50%;
+    border-radius: 10px;
     width: 100%;
     /* width:20vw;*/
+}
+
+.journeyCtn{
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: var(--color-secondary);
+}
+
+.workCtn{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding-top: 2em;
+  
+}
+
+.workTitle{
+    /*display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1em;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: .5em;
+}
+
+.experienceCtn{
+    background: var(--color-primary);
+    border-radius: 10px;
+    padding: 1em;
+}
+
+.educationCtn{
+    background: var(--color-primary);
+    border-radius: 10px;
+    padding: 1em;
+}
+
+.workCtn h3,
+.educationCtn h3 {
+    padding-bottom: 1em;
+}
+
+.gradientText {
+    background: linear-gradient(135deg, #3498db, #9b59b6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 @media (min-width: 768px) {
@@ -62,37 +112,53 @@
         font-weight: 400;
         font-size: 1em !important;
         text-align: left;
-       }
-
+    }
 
     .imgCtn{
-        border-radius: 50%;
+        border-radius: 10px;
         width: 100%;
         /* width:20vw;*/
     }
 
-    .workCtn{
+    .journeyCtn{
         padding: 6em 10em;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
         background: var(--color-secondary);
     }
 
-    .middleCtn{
-        max-width:800px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-
+    .workCtn{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 5em;
+      
     }
 
     .workTitle{
+        /*display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 1em;*/
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        gap: 4em;
     }
 
+    .experienceCtn{
+        background: var(--color-primary);
+        border-radius: 10px;
+        padding: 1em;
+    }
+
+    .educationCtn{
+        background: var(--color-primary);
+        border-radius: 10px;
+        padding: 1em;
+    }
+
+    .workCtn h3,
+    .educationCtn h3 {
+        padding-bottom: 1em;
+    }
 
 }
