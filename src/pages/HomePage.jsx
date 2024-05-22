@@ -50,16 +50,14 @@ const HomePage = () => {
       <div className={classes.aboutSectionCtn}>
         <h1>About me</h1>
         <div className={classes.textAboutSection}>
-          <p>Lorem ipum Some text Some text Lorem ipum Some text Some text
-          Lorem ipum Some text Some text Lorem ipum Some text Some text
-          Lorem ipum Some text Some text Lorem ipum Some text Some text
-          Lorem ipum Some text Some text Lorem ipum Some text Some text
-          Lorem ipum Some text Some text Lorem ipum Some text Some text
-          Lorem ipum Some text Some text Lorem ipum Some text Some text
-          Lorem ipum Some text Some text Lorem ipum Some text Some text
-          Lorem ipum Some text Some text Lorem ipum Some text Some text
-          Lorem ipum Some text Some text Lorem ipum Some text Some text
+          <p>Hey there! I’m Hristina, an experienced Digital Designer crafting beautiful, interactive experiences. 
+            My journey began in the world of architecture, where I learned to balance form and function in the physical environment. 
+            Now, I bring that same balance to the digital world, combining UX/UI design, Web Design, and Frontend Development.
           </p>
+          <br/>
+          <Link to="/about">
+            <span>Read more</span>
+          </Link>
         </div>
       </div>
 
@@ -106,7 +104,7 @@ const HomePage = () => {
 
       </div>
 
-      </div>
+      </div> 
 
       <Connect />
       </>

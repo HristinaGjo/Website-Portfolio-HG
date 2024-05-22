@@ -53,7 +53,7 @@ img{
 
 
 .aboutSectionCtn{
-    padding: 2em;
+    padding:2em 4em;
     display: flex;
     flex-direction: column;
     justify-content: center;

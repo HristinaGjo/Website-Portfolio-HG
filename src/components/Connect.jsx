@@ -4,7 +4,7 @@ import Footer from "./Footer";
 
 const Connect = () => {
 
-    const handleEmailCliclk = () => {
+    const handleEmailClick = () => {
         /* console.log ('hello') */
         window.location.href = "mailto:hgjorgieva@gmail.com";
        }
@@ -24,7 +24,7 @@ const Connect = () => {
            
             <button 
             className={classes.button} 
-            onClick={handleEmailCliclk}>hgjorgieva@gmail.com</button>
+            onClick={handleEmailClick}>hgjorgieva@gmail.com</button>
             </div>
 
           { /* <div className={classes.buttonCtn}>
