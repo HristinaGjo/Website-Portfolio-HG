@@ -38,7 +38,7 @@ const LegalPage = () => {
             <div className={classes.legalHeroCtn}>
                 <span>UX & UI CASE STUDY</span>
                 <h1>Legal app</h1>
-                <h3>Digital bridge between a lawyer and a citizen</h3>
+                <span>DIGITAL BRIDGE BETWEEN A LAWYER AND A CITIZEN</span>
             </div>
 
             <div className={classes.overviewText}>
@@ -149,7 +149,7 @@ const LegalPage = () => {
                 <div className={classes.keyFindings}>
                     <div className={classes.titleResearch}>
                         <span>SOLUTION SHAPING</span>
-                <h2 className={classes.gradientText}>Pivotal Moment</h2>
+                <h2>Pivotal Moment</h2>
                 </div>
                     <p>The revealing insight prompted me to reach out to a seasoned lawyer specializing 
                         in social and labor law for further insights.
@@ -182,7 +182,7 @@ const LegalPage = () => {
 
             <div className={classes.titlePrototype}>
                 <span>PROTOTYPING</span>
-                <h2>Mid-fidelity wireframes</h2>
+                <h2>Mid-High fidelity wireframes</h2>
                 </div>
 
                 <div className={classes.videoCtn}>
@@ -274,8 +274,7 @@ const LegalPage = () => {
                     <span>Medium 24px</span>
                     <span className={classes.spanTypo}>Playfair Display</span>
                     </div>
-            </div>
-            <div className={classes.colorsCtn}>
+          
                     <div className={classes.typoItem}>
                     <span>BODY</span>
                     <span>Regular 16px</span>
