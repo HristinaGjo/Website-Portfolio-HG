@@ -58,6 +58,7 @@ img{
     flex-direction: column;
     justify-content: center;
     align-items: start;
+    background: var(--color-secondary);
 
 }
 

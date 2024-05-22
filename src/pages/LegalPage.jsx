@@ -1,9 +1,11 @@
 
 import React from "react";
 import classes from "../styles/legal.module.css"
-import solutionOne from "../assets/solution1.png"
-import solutionTwo from "../assets/solution2.png"
-import solutionFour from "../assets/solution4.png"
+import solutionOne from "../assets/step01.png"
+import solutionTwo from "../assets/step02.png"
+import solutionThree from "../assets/step03.png"
+import solutionFour from "../assets/step04.png"
+import solutionFive from "../assets/step05.png"
 
 
 
@@ -17,9 +19,9 @@ import solutionFour from "../assets/solution4.png"
 const solutions = [
     {id: 1, title: "Labour and Social Law", text: "01 - Get Expert Advices in Specific Fields", imgSrc: solutionOne},
     {id: 2, title: "Legal Issues", text: "02 - Share Your Legal Concerns", imgSrc: solutionTwo},
-    {id: 3, title: "Documentation", text: "03 - Share & Upload Relevant Documents", imgSrc: solutionOne},
+    {id: 3, title: "Documentation", text: "03 - Share & Upload Relevant Documents", imgSrc: solutionThree},
     {id: 4, title: "Match", text: "04 - Find Your Perfect Match", imgSrc: solutionFour},
-    {id: 5, title: "Expert Advice", text: "05 - Expert Advice At Your Fingertips", imgSrc: solutionFour},
+    {id: 5, title: "Expert Advice", text: "05 - Expert Advice At Your Fingertips", imgSrc: solutionFive},
 ];
 
 
@@ -30,9 +32,9 @@ const LegalPage = () => {
         <div className={classes.legalPageCtn}>
             
             <div className={classes.legalHeroCtn}>
-                <span>DIGITAL BRIDGE BETWEEN A LAWYER AND A CITIZEN</span>
-                <h1>Legal app</h1>
                 <span>UX & UI CASE STUDY</span>
+                <h1>Legal app</h1>
+                <span>DIGITAL BRIDGE BETWEEN A LAWYER AND A CITIZEN</span>
             </div>
 
             <div className={classes.overviewText}>
