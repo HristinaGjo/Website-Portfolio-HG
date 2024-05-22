@@ -177,6 +177,9 @@
         border-radius: 10px; /* Optional: Add some rounding to the corners */
     }
 
+    .videoCtn video::-webkit-media-controls {
+        display: none !important;
+    }
 
     .testingCtn{
         background: var(--color-primary);
