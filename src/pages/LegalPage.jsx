@@ -6,6 +6,7 @@ import solutionTwo from "../assets/step02.png"
 import solutionThree from "../assets/step03.png"
 import solutionFour from "../assets/step04.png"
 import solutionFive from "../assets/step05.png"
+import  Connect from "../components/Connect.jsx"
 
 
 
@@ -21,7 +22,7 @@ const solutions = [
     {id: 2, title: "Legal Issues", text: "02 - Share Your Legal Concerns", imgSrc: solutionTwo},
     {id: 3, title: "Documentation", text: "03 - Share & Upload Relevant Documents", imgSrc: solutionThree},
     {id: 4, title: "Match", text: "04 - Find Your Perfect Match", imgSrc: solutionFour},
-    {id: 5, title: "Expert Advice", text: "05 - Expert Advice At Your Fingertips", imgSrc: solutionFive},
+    {id: 5, title: "Connect", text: "05 - Expert Advice At Your Fingertips", imgSrc: solutionFive},
 ];
 
 
@@ -56,9 +57,9 @@ const LegalPage = () => {
             </div>
 
             <div className={classes.solutionCtn}>
-                <div className={classes.solutionTitle}>
+                <div className={classes.title}>
                 <span>SOLUTION APPROACH</span>
-                <h2 className={classes.gradientText}>Expert advice is  labour and social law</h2>
+                <h2 className={classes.gradientText}>Expert advice in Labour and Social Law</h2>
                 </div>
                 <div className={classes.carousel}>
                     {solutions.map (solution=> (
@@ -71,14 +72,83 @@ const LegalPage = () => {
                     </div>
                     ))}
                 </div>
-                <div className={classes.solutionTitle}></div>
+      
+            </div>
+            <div>
             </div>
 
-            <div>
-                
+            <div className={classes.researchCtn}>
+                <div className={classes.keyFindings}>
+                    <div className={classes.titleResearch}>
+                <span>USER RESEARCH</span>
+                <h2>Key findings</h2>
+                </div>
+                    <p>In order to develop an effective solution for connecting users with experts, 
+                        comprehensive research was conducted to gain insights into user behaviors and preferences, 
+                        as well as to understand the existing market landscape. This involved a combination of qualitative (user interviews) and 
+                        quantitative (user surveys) research methods.
+                        </p>
+
+                        <div className={classes.survays}>
+                            <h3>User Survays</h3>
+                           {/* <p>21 people took the survey</p>
+                            <p>13 questions were asked</p> */}
+                            <br/>
+                            <div className={classes.findingsCtn}>
+
+                                <div className={classes.dataCtn}>
+                            <p className={classes.gradientText}>90%</p>
+                            <p>respondents look for help online</p>
+                                </div>
+
+                            <div className={classes.dataCtn}>
+                            <p className={classes.gradientText}>57% </p>
+                            <p>respondents will use an app to find an expert</p>
+                            </div>
+
+                            <div className={classes.dataCtn}>
+                            <p className={classes.gradientText}>53%</p>
+                            <p>respondents used expert help within the last 6 months</p>
+                            </div>
+
+                            </div>
+                        
+                        </div>
+
+                        <h3>User Interviews</h3>
+                        <div className={classes.findingsCtn}>
+                            <div className={classes.dataCtn}>
+                            <p className={classes.gradientText}>Rebecca, 30</p>
+                            <p>If finidng an expert was easier I would do it more often</p>
+                            </div>
+
+                             <div className={classes.dataCtn}>
+                            <p className={classes.gradientText}>Maxim, 24</p>
+                            <p>I often need a specific and quick advice</p>
+                            </div>
+
+                            <div className={classes.dataCtn}>
+                            <p className={classes.gradientText}>Roman, 34</p>
+                            <p>I want to find my expert advisor quick</p>
+                            </div>
+
+                        </div>
+
+                        <h3>Revealing insight</h3> 
+                            <p className={classes.lawyers}>
+                                When asked to classify experts across various professions, 
+                                a significant majority identified 
+                                <span className={classes.gradientText}>Lawyers</span> 
+                                as the quintessential experts.
+                            </p>
+                </div>
             </div>
+
+
 
         </div>
+
+        <Connect/>
   
         </>
      );
