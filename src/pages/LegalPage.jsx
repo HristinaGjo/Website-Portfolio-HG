@@ -6,7 +6,8 @@ import solutionTwo from "../assets/step02.png"
 import solutionThree from "../assets/step03.png"
 import solutionFour from "../assets/step04.png"
 import solutionFive from "../assets/step05.png"
-import  Connect from "../components/Connect.jsx"
+import Connect from "../components/Connect.jsx"
+import videoWireframes from "../assets/wireframesVideo.mp4"
 
 
 
@@ -142,7 +143,7 @@ const LegalPage = () => {
                 </div>
             </div>
 
-            <div className={classes.researchCtnPivot}>
+            <div className={classes.researchCtn}>
                 <div className={classes.keyFindings}>
                     <div className={classes.titleResearch}>
                         <span>SOLUTION SHAPING</span>
@@ -175,15 +176,32 @@ const LegalPage = () => {
                 </div>
             </div>
 
-
             <div className={classes.prototypeCtn}>
+
             <div className={classes.titlePrototype}>
                 <span>PROTOTYPING</span>
                 <h2>Mid-fidelity wireframes</h2>
+                </div>
+
+                <div className={classes.videoCtn}>
+                    <video autoPlay loop muted>
+                        <source src={videoWireframes}  type="video/mp4"/>
+                        Your browser does not support the video tag.
+                    </video>
+
 
                 </div>
 
             </div>
+
+            <div className={classes.prototypeCtn}>
+                <div className={classes.titlePrototype}>
+                <span>WHAT WAS MISSING?</span>
+                <h2>User Testing</h2>
+                </div>
+
+            </div>
+            
             
 
         </div>

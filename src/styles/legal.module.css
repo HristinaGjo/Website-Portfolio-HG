@@ -131,7 +131,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 2em;
+        gap: 1em;
     }
 
     .dataCtn{
@@ -161,7 +161,27 @@
 
     .prototypeCtn{
         padding: 2em;
+        background: var(--color-secondary);
     }
+
+
+
+
+    .videoCtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2em;
+    }
+    
+    .videoCtn video {
+        width: 100%;
+        max-width: 600px; /* Adjust as needed for desired video size */
+        border-radius: 10px; /* Optional: Add some rounding to the corners */
+    }
+
+
+
 
 
 @media (min-width: 768px) {
@@ -237,8 +257,9 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding-top: 10em;
+        padding-top: 6em;
     }
+
 
     .keyFindings{
         max-width: 800px;
@@ -249,6 +270,7 @@
         flex-direction: column;
         gap: 2em;
     }
+
 
     .survays{
         display: flex;
@@ -277,16 +299,6 @@
         border-radius: 10px;
     }
 
-    .researchCtnPivot{
-        background: var(--color-secondary);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-top: 10em;
-        padding-bottom: 10em;
-    }
-
     .lawyers span{
         font-size: var(--font-size-h3);
         margin-left: 0.3em; /* Add space before the span */
@@ -296,6 +308,18 @@
 
     .prototypeCtn{
         padding: 6em 10em;
+    }
+
+    .videoCtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .videoCtn video {
+        width: 100%;
+        max-width: 400px; /* Adjust as needed for desired video size */
+        border-radius: 10px; /* Optional: Add some rounding to the corners */
     }
 
 }
