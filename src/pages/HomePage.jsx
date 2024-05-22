@@ -53,7 +53,7 @@ const HomePage = () => {
           <p>Hey there! I’m Hristina, a Digital Designer crafting intuitive, user-friendly and  
             interactive experiences. My journey began in architecture, where I learned and practiced
             design that focus on human behavior and user-centric environments.
-            Now, I bring that expertise to the digital world, combining UX/UI design, Web Design and Frontend Development.
+            Now, I bring that expertise to the digital world, combining UX/UI Design, Web Design and Frontend Development.
           </p>
           <br/>
           <Link to="/about">
