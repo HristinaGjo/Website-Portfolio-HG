@@ -71,8 +71,8 @@ const HomePage = () => {
           <span>RESEARCH & DESIGN</span>
           <h3 className={classes.gradientText}>UX & UI Design</h3>
           {/* <img src={UX} /> */}
-          <span>Crafting user-centric, intuitive and engaging digital
-                  experiences.</span>
+          <p>Crafting user-centric, intuitive and engaging digital
+                  experiences.</p>
           {/* <ul className={classes.list}>
             <li>User & Market Research</li>
             <li>Strategic Ideation</li>
@@ -90,14 +90,14 @@ const HomePage = () => {
         <div className={classes.servicesCtn}>
         <span>RESEARCH & DESIGN</span>
         <h3 className={classes.gradientText}>Web Design</h3>
-        <span>A comprehensive design that lays the foundation for web implementation.</span>
+        <p>A comprehensive design that lays the foundation for web implementation.</p>
        {/* <img className={classes.lapTop} src={WEB} /> */}
         </div>
 
         <div className={classes.servicesCtn}>
         <span>IMPLEMENTATION</span>
         <h3 className={classes.gradientText}>Frontend Development</h3>
-        <span>Bringing the design to life through developing highly functional web solutions.</span>
+        <p>Bringing the design to life through developing highly functional web solutions.</p>
         {/* <img src={UI} /> */}
         </div>
 
