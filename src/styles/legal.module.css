@@ -92,6 +92,7 @@
 
 
 .gradientText {
+    font-size: 1.5em;
     background: linear-gradient(135deg, #3498db, #9b59b6);
     -webkit-background-clip: text;
     background-clip: text;
@@ -145,6 +146,18 @@
         padding: 1em;
         border-radius: 10px;
     }
+
+    .dataCtnLawyer{
+        display: grid;
+        grid-template-rows: repeat(2,1fr);
+        align-items: center;
+        background: var(--color-secondary);
+        width: 90%;
+        height: auto;
+        padding: 1em;
+        border-radius: 10px;
+    }
+
 
     .lawyers span{
         font-size: var(--font-size-h3);
@@ -405,17 +418,31 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        gap: 2em;
+        gap: 1em;
     }
 
     .dataCtn{
-        display: grid;
-        grid-template-rows: repeat(3,1fr);
+        display: flex;
+        flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: start;
         background: var(--color-secondary);
         width: 350px;
         height: 150px;
+        gap: 1em;
+        padding: 1em;
+        border-radius: 10px;
+    }
+
+    .dataCtnLawyer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        background: var(--color-secondary);
+        width: 350px;
+        height: 150px;
+        gap: 1em;
         padding: 1em;
         border-radius: 10px;
     }

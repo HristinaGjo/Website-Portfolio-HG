@@ -170,7 +170,7 @@ const LegalPage = () => {
 
                             <div className={classes.findingsCtn}>
 
-                                <div className={classes.dataCtn}>
+                                <div className={classes.dataCtnLawyer}>
                             <p className={classes.gradientText}>Maximillian, 35</p>
                             <p>Many legal issues within the domain of Labour and Social Law 
                                 are recurring and can be resolved swiftly with expert guidance. 
@@ -308,3 +308,5 @@ export default LegalPage;
 
 /* The project covered user & market research, ideation, 
                      prototyping & wireframing, user testing and UI design */
+
+                     /*  A platform that tries to work for everyone would be a platform that works for nobody!*/
