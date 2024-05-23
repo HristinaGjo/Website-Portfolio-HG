@@ -28,7 +28,7 @@
 
 .projectsCtn{
     background: var(--color-secondary);
-    padding: 2em;
+    padding: 8em 2em 4em 2em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -54,7 +54,7 @@ img{
 
 
 .aboutSectionCtn{
-    padding:2em;
+    padding:4em 2em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -65,7 +65,7 @@ img{
 }
 
 .servicesSectionCtn{
-    padding: 2em;
+    padding: 4em 2em 8em 2em;
     background: var(--color-secondary);
 }
 
