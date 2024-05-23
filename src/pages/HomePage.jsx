@@ -55,7 +55,7 @@ const HomePage = () => {
             design that focus on human behavior and user-centric environments.
             Now, I bring that expertise to the digital world, combining UX/UI Design, Web Design and Frontend Development.
           </p>
-          <br/>
+        {/*  <br/> */}
           <Link to="/about">
             <span>Read more</span>
           </Link>
