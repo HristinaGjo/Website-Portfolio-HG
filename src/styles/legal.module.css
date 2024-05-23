@@ -36,7 +36,7 @@
 }
 
 .title{
-    padding: 2em;
+    padding:4em 2em;
 } 
 
 .carousel{
@@ -178,6 +178,10 @@
         background: var(--color-secondary);
     }
 
+    .titlePrototype{
+        padding: 2em 0;
+    }
+
 
     .videoCtn {
         display: flex;
@@ -281,11 +285,11 @@
 
     .uiTypoCtn{
         background: var(--color-secondary);
-        padding-bottom: 2em;
+        padding-bottom: 4em;
     }
 
     .titleTypo{
-        padding: 2em;
+        padding:4em 2em;
     }
 
     .typoItem{
