@@ -177,7 +177,7 @@ const LegalPage = () => {
                             </p>
                                 </div>
                             </div>
-                            <h3 className={classes.gradientText}>A platform that tries to work for everyone would be a platform that works for nobody!</h3>
+                            <h3 className={classes.gradientText}>A one-size-fits-all platform often fits no one effectively!</h3>
                             <p>
                             Driven by the insights gleaned from both user research and the conversation with the seasoned lawyer, 
                             I made the decision to pivot the focus of the platform. Instead of pursuing a broad approach, 
@@ -231,7 +231,7 @@ const LegalPage = () => {
                         <p>Unclear on services provided by matched lawyer.</p>
                         <span>SOLUTION</span>
                         <p>Add a step between booking and payment to clarify services offered by the lawyer. 
-                            Include a checkbox for users to opt-in for receiving an invoice.</p>
+                        Include a checkbox for users to opt-in for receiving an invoice.</p>
                         </div>
                         <img className={classes.imgCtn} src={pointTwo} />
                     </div>
