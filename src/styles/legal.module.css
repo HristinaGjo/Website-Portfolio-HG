@@ -580,4 +580,12 @@
         font-size: 1rem;
     }
 
+    .gradientTextTitle {
+        font-size: var(--font-size-h2);
+        background: linear-gradient(135deg, #3498db, #9b59b6);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
 }

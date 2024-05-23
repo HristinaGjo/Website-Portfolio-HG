@@ -72,7 +72,7 @@ const LegalPage = () => {
             <div className={classes.solutionCtn}>
                 <div className={classes.title}>
                 <span>SOLUTION APPROACH</span>
-                <h2 className={classes.gradientText}>Expert advice in Labour and Social Law</h2>
+                <h2 className={classes.gradientTextTitle}>Expert advice in Labour and Social Law</h2>
                 </div>
                 <div className={classes.carousel}>
                     {solutions.map (solution=> (
