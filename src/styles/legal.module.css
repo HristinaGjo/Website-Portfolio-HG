@@ -429,11 +429,10 @@
     .dataCtn{
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: start;
         background: var(--color-secondary);
         width: 350px;
-        height: 150px;
+        height: 130px;
         gap: 1em;
         padding: 1em;
         border-radius: 10px;
