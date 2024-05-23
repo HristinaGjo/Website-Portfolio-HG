@@ -79,7 +79,7 @@ span {
 }
 
 :root {
-  --color-primary: #f4f4f4;
+  --color-primary: #fff;
   --color-secondary: #f5f5f7; 
   /* --color-secondary: #1d1d1f; */
   --color-background: #fafafc;

@@ -2,6 +2,7 @@
     .connectCtn{
         height: auto;
         padding:2em;
+        background: var(--color-background);
     }
 
     .text{
