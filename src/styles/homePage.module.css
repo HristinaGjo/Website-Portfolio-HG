@@ -28,7 +28,7 @@
 
 .projectsCtn{
     background: var(--color-secondary);
-    padding: 8em 2em 4em 2em;
+    padding: 4em 2em 4em 2em;
     display: flex;
     flex-direction: column;
     justify-content: center;
