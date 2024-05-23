@@ -84,12 +84,12 @@ const AboutPage = () => {
                 <h3 className={classes.gradientText}>Education</h3>
                     <div className={classes.workTitle}>
                     <span>23-24</span>
-                <p>Web Development | Ironhack Berlin</p>
+                <p>Web Development | Ironhack</p>
                     </div>
 
                     <div className={classes.workTitle}>
                     <span>22-22</span>
-                <p>UX & UI Design | CareerFoundry Berlin </p>
+                <p>UX & UI Design | CareerFoundry</p>
                     </div>
 
                     <div className={classes.workTitle}>
