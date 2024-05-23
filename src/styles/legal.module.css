@@ -349,7 +349,7 @@
 
 
     .carousel{
-        width: 100%;
+        width: 96vw;
         display: flex;
         flex-direction: row;
         gap: 3em;
@@ -357,6 +357,7 @@
         scroll-snap-type: x mandatory;
         scroll-padding: 0 24px;
         padding-bottom: 2em;
+        margin-left: 2em;
     }
 
     .carousel .item{
