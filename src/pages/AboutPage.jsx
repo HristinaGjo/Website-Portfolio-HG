@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import classes from "../styles/about.module.css"
 import Connect from "../components/Connect.jsx";
 import profilePic from "../assets/me.png"
+import { useLocation } from "react-router-dom";
+
+
 
 
 const handleEmailClick = () => {
@@ -10,6 +13,11 @@ const handleEmailClick = () => {
 
 
 const AboutPage = () => {
+    const location=useLocation();
+
+    useEffect (() =>{
+        window.scrollTo(0,0);
+    }, [location])
     return ( 
         <div className={classes.aboutPageCtn}>
 
