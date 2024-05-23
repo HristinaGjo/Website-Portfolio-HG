@@ -40,7 +40,7 @@ const AboutPage = () => {
                     </p>
 
                 <p>
-                When I'm not designing, you might find me enjoying life, nature and longer bike tours.
+                When I'm not designing, you might find me enjoying life, nature and longer bike rides.
                     </p>
 
                 <p> Let's connect and create something awesome together!</p>
