@@ -62,6 +62,10 @@
     gap: .5em;
 }
 
+.workTitle span{
+    font-size: .8em;
+}
+
 .experienceCtn{
     background: var(--color-primary);
     border-radius: 10px;

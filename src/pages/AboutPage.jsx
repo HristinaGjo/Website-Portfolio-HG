@@ -75,7 +75,7 @@ const AboutPage = () => {
 
                 <div className={classes.workTitle}>
                 <span>22-23</span>
-                <p>UX & UI Designer | Wandelbots Robotics</p>
+                <p>UX & UI Designer | Wandelbots</p>
                 </div>
 
                 </div>
