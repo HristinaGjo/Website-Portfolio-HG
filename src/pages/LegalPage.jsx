@@ -1,5 +1,5 @@
 
-import React from "react";
+import React, { useEffect } from "react";
 import classes from "../styles/legal.module.css"
 import solutionOne from "../assets/step01.png"
 import solutionTwo from "../assets/step02.png"
@@ -10,6 +10,7 @@ import Connect from "../components/Connect.jsx"
 import videoWireframes from "../assets/videoLegal.mp4"
 import pointOne from "../assets/pointOne.png"
 import pointTwo from "../assets/pointTwo.png"
+import { useLocation } from "react-router-dom";
 
 
 
@@ -30,7 +31,16 @@ const solutions = [
 
 
 
+
 const LegalPage = () => {
+
+    const location=useLocation();
+
+    useEffect (() =>{
+        window.scrollTo(0,0);
+    }, [location])
+
+
     return ( 
         <>
         <div className={classes.legalPageCtn}>
