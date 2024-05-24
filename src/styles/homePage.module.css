@@ -107,7 +107,7 @@ img{
 
 .button {
     margin-top: 1em;
-    width: 150px;
+    width: 140px;
 }
 
 
@@ -205,6 +205,12 @@ img{
         box-sizing: border-box;
         padding:1em;
         text-align: center;
+    }
+
+
+    .button {
+    width: 140px;
+    border: .8px solid var(--color-body);
     }
 
 

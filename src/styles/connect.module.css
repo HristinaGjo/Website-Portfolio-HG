@@ -6,7 +6,7 @@
     }
 
     .button {
-        width: 150px;
+        width: 140px;
     }
 
     /*.text{
@@ -72,6 +72,11 @@
         gap: .5em;
         margin-bottom: 4em;
     }
+
+    .button {
+        width: 140px;
+        border: .8px solid var(--color-body);
+        }
 
     /*.button {
         border-radius: none;
