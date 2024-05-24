@@ -118,9 +118,9 @@ a{
   color: var(--color-body);
   cursor: pointer;
   background: var(--color-background);
-  border: .5px solid var(--color-body);
-  width: 200px;
-  padding: .5em 1em;
+  border: .8px solid var(--color-body);
+  /* width: 150px; */
+  padding: .5em;
   border-radius: 20px;
 
 } 
