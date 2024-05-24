@@ -13,27 +13,28 @@ const Connect = () => {
     return ( 
     <>
     <div className={classes.connectCtn}>
+        <div className={classes.textCtn}>
         <div className={classes.text}>
         <span>HAVE AN IDEA OR PROJECT IN MIND?</span>
             <h1>Let's chat</h1>
-            
             </div>
         
             <div className={classes.contact}>
-            <span>DROP ME A LINE</span>
-           
             <button 
             className={classes.button} 
             onClick={handleEmailClick}>hgjorgieva@gmail.com</button>
             </div>
+            </div>
+           
 
           { /* <div className={classes.buttonCtn}>
             <button className={classes.button} onClick={handleEmailCliclk}>Get in touch</button>
             </div> */}
        
         <Footer />
+        </div>
 
-    </div>
+    
     </> 
 
     );

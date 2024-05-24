@@ -66,6 +66,32 @@ span {
   font-weight: 400;
 }
 
+
+button {
+  background: var(--color-primary); /* Semi-transparent white background */
+  border: .5px solid var(--color-body); 
+  border-radius: 20px; 
+  padding: 10px 20px; /* Padding for the button */
+  font-size: 1em; /* Font size */
+  text-align: center; /* Center the text */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+  background: var(--color-secondary);
+  /* background: rgba(255, 255, 255, 0.3); /* Slightly more opaque on hover */
+}
+
+/* button:active {
+  background: rgba(255, 255, 255, 0.4); /* Even more opaque when active 
+} */
+
+button:focus {
+  outline: none; /* Remove default outline */
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5); /* Custom focus outline */
+}
+
+
 /* Tablet and Desktop styles */
 @media (min-width: 768px) {
   :root {
@@ -112,11 +138,11 @@ a{
   font-weight: 400;
 }
 
-button{
+/* button{
   color: var(--color-body);
   cursor: pointer;
 
-}
+} */
 
 /* Responsive adjustments 
 @media (max-width: 768px) {
