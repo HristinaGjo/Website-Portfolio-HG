@@ -5,11 +5,15 @@ import UX from "../assets/uxBlack.png"
 import UI from "../assets/uxHalf.png"
 import WEB from "../assets/webDesign.png"
 import Connect from "../components/Connect.jsx";
-import { Link } from "react-router-dom";
+import { Link, useNavigate  } from "react-router-dom";
+
 
 
 const HomePage = () => {
 
+
+
+    const navigate = useNavigate()
 
     const handleEmailClick = () => {
         window.location.href = "mailto:hgjorgieva@gmail.com";
@@ -56,9 +60,15 @@ const HomePage = () => {
             Now, I bring that expertise to the digital world, combining UX/UI Design, Web Design and Frontend Development.
           </p>
         {/*  <br/> */}
-          <Link to="/about">
+
+        <button
+              className={classes.button}
+              onClick={aboutPageClick}>
+                More About
+                </button>
+        { /* <Link to="/about">
             <span>Read more</span>
-          </Link>
+          </Link> */}
         </div>
       </div>
 

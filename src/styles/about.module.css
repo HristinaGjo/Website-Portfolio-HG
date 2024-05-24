@@ -19,6 +19,10 @@
     gap: 2em;
 }
 
+.button {
+    width: 180px;
+}
+
 /* .button {
     border-radius: none;
     border: none;
@@ -115,7 +119,9 @@
         gap: 2em;
     }
 
-   /* .button {
+    
+
+    /*.button {
         border-radius: none;
         border: none;
         padding: 0;

@@ -1,8 +1,12 @@
 
     .connectCtn{
         height: auto;
-        padding:2em;
+        padding:2em 2em 0 2em ;
         background: var(--color-background);
+    }
+
+    .button {
+        width: 180px;
     }
 
     /*.text{
@@ -21,14 +25,14 @@
         margin-bottom: 4em;
     } */
     
-    /*.button {
+   /*.button {
      border-radius: none;
      border: none;
      padding: 0;
      background: transparent;
      font-weight: 400;
      font-size: 1em !important;
-    }*/
+    } */
 
     .text span {
         color: #86868B;
