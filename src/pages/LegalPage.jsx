@@ -219,7 +219,7 @@ const LegalPage = () => {
                         <span>01 - PAIN POINT</span>
                         <p>Terms of service and handling the data privacy of the users.</p>
                         <span>SOLUTION</span>
-                        <p>2 additional screens where the user has to read and accept the 
+                        <p>Added two additional screens where the user has to read and accept the 
                             terms of service & data policy of Legal before continuing with the service.</p>
                         </div>
                         <img className={classes.imgCtn} src={pointOne} />
