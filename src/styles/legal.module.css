@@ -360,7 +360,7 @@
         width: 96vw;
         display: flex;
         flex-direction: row;
-        gap: 3em;
+        gap: 2em;
         overflow-x: auto;
         scroll-snap-type: x mandatory;
         scroll-padding: 0 24px;
