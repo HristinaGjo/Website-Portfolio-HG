@@ -41,10 +41,6 @@ const AboutPage = () => {
                     It’s about making things both beautiful and useful, transforming complexity into something comprehensible and inclusive.
                     </p>
 
-                <p>
-                When I'm not designing, you might find me enjoying life, nature and longer bike rides.
-                    </p>
-
                 <p> Let's connect and create something awesome together!
                     <br/>
                 Reach out to start your next project with a touch of creativity and expertise.
@@ -59,68 +55,175 @@ const AboutPage = () => {
             </div>
 
             <div className={classes.journeyCtn}>
-               
+               <div className={classes.titleExperience}>
                 <span>MY</span>
-                <h2>Journey</h2>
+                <h2>Experience</h2>
+                <hr/>
+                </div>
 
-                <div className={classes.workCtn}>
 
                 <div className={classes.experienceCtn}>
-                    <h3 className={classes.gradientText}>Work</h3>
 
-                <div className={classes.workTitle}>
-                <span>15- 16</span>
-                <p>Architect | Skopje</p>
-                </div>
+                <div className={classes.experienceRow}>
+                        <div className={classes.experience}>
+                            <span>Company name</span>
+                            <p>Freelance</p>
+                        </div>
 
-                <div className={classes.workTitle}>
-                <span>17- 21</span>
-                <p>Architect | Berlin</p>
-                </div>
+                        <div className={classes.experience}>
+                            <span>Position</span>
+                            <p>Digital Designer</p>
+                        </div>
 
-                <div className={classes.workTitle}>
-                <span>22-23</span>
-                <p>UX & UI Designer | Wandelbots</p>
-                </div>
-
-                </div>
-
-                <div className={classes.educationCtn}>
-                <h3 className={classes.gradientText}>Education</h3>
-                    <div className={classes.workTitle}>
-                    <span>23-24</span>
-                <p>Web Development | Ironhack</p>
+                        <div className={classes.experience}>
+                            <span>Period</span>
+                            <p>2024 - NOW</p>
+                        </div>
                     </div>
 
-                    <div className={classes.workTitle}>
-                    <span>22-22</span>
-                <p>UX & UI Design | CareerFoundry</p>
-                    </div>
+                    <div className={classes.experienceRow}>
+                        <div className={classes.experience}>
+                            <span>Company name</span>
+                            <p>Wandelbots Robotics</p>
+                        </div>
 
-                    <div className={classes.workTitle}>
-                    <span>13- 15</span>
-                <p>MA of Architecture | Skopje </p>
-                    </div>
+                        <div className={classes.experience}>
+                            <span>Position</span>
+                            <p>UX & UI Designer</p>
+                        </div>
 
-                    <div className={classes.workTitle}>
-                    <span>09-13</span>
-                <p>BA of Architecture | Skopje </p>
+                        <div className={classes.experience}>
+                            <span>Period</span>
+                            <p>2022 - 2023</p>
+                        </div>
                     </div>
 
 
-                </div>
+                    <div className={classes.experienceRow}>
+                        <div className={classes.experience}>
+                            <span>Company name</span>
+                            <p>TVA Berlin</p>
+                        </div>
+
+                        <div className={classes.experience}>
+                            <span>Position</span>
+                            <p>Architect</p>
+                        </div>
+
+                        <div className={classes.experience}>
+                            <span>Period</span>
+                            <p>2019 - 2021</p>
+                        </div>
+                    </div>
+
+                    <div className={classes.experienceRow}>
+                        <div className={classes.experience}>
+                            <span>Company name</span>
+                            <p>GPlant Berlin</p>
+                        </div>
+
+                        <div className={classes.experience}>
+                            <span>Position</span>
+                            <p>Architect</p>
+                        </div>
+
+                        <div className={classes.experience}>
+                            <span>Period</span>
+                            <p>2017 - 2019</p>
+                        </div>
+                    </div>
+
                 </div>
 
 
+             
+               <div className={classes.titleExperience}>
+                <span>MY</span>
+                <h2>Education</h2>
+                <hr/>
+                </div>
+            
+               
+                <div className={classes.experienceCtn}>
+
+                <div className={classes.experienceRow}>
+                        <div className={classes.experience}>
+                            <span>School</span>
+                            <p>Ironhack Berlin</p>
+                        </div>
+
+                        <div className={classes.experience}>
+                            <span>Degree</span>
+                            <p>Web Development</p>
+                        </div>
+
+                        <div className={classes.experience}>
+                            <span>Period</span>
+                            <p>2023 - 2024</p>
+                        </div>
+                    </div>
+
+                    <div className={classes.experienceRow}>
+                        <div className={classes.experience}>
+                            <span>School</span>
+                            <p>CareerFoundry Berlin</p>
+                        </div>
+
+                        <div className={classes.experience}>
+                            <span>Degree</span>
+                            <p>UX & UI Design</p>
+                        </div>
+
+                        <div className={classes.experience}>
+                            <span>Period</span>
+                            <p>2022 - 2022</p>
+                        </div>
+                    </div>
+
+                    <div className={classes.experienceRow}>
+                        <div className={classes.experience}>
+                            <span>School</span>
+                            <p>Uni. of Arcitecture, Skopje</p>
+                        </div>
+
+                        <div className={classes.experience}>
+                            <span>Degree</span>
+                            <p>MA of Architecture</p>
+                        </div>
+
+                        <div className={classes.experience}>
+                            <span>Period</span>
+                            <p>2013 - 2015</p>
+                        </div>
+                    </div>
+
+                    <div className={classes.experienceRow}>
+                        <div className={classes.experience}>
+                            <span>School</span>
+                            <p>Uni. of Arcitecture, Skopje</p>
+                        </div>
+
+                        <div className={classes.experience}>
+                            <span>Degree</span>
+                            <p>BA of Architecture</p>
+                        </div>
+
+                        <div className={classes.experience}>
+                            <span>Period</span>
+                            <p>2009 - 2013</p>
+                        </div>
+                  
+
+                </div>
 
             </div>
-
+            </div>
             <Connect />
 
+     
         </div>
      );
 }
  
 export default AboutPage;
-
 
