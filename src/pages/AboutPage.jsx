@@ -2,7 +2,9 @@ import React, { useEffect } from "react";
 import classes from "../styles/about.module.css"
 import Connect from "../components/Connect.jsx";
 import profilePic from "../assets/me.png"
+/* import profilePic from "../assets/profilePhoto.png"*/
 import { useLocation } from "react-router-dom";
+
 
 
 
@@ -36,14 +38,17 @@ const AboutPage = () => {
 
                 <p>
                     For me design is a synergy between creativity and functionality. 
-                    It’s about making things both beautiful and useful, making complexity comprehensible and inclusive.
+                    It’s about making things both beautiful and useful, transforming complexity into something comprehensible and inclusive.
                     </p>
 
                 <p>
                 When I'm not designing, you might find me enjoying life, nature and longer bike rides.
                     </p>
 
-                <p> Let's connect and create something awesome together!</p>
+                <p> Let's connect and create something awesome together!
+                    <br/>
+                Reach out to start your next project with a touch of creativity and expertise.
+                </p>
                 <button
                 className={classes.button}
                 onClick={handleEmailClick}>
