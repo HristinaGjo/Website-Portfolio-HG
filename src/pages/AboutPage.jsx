@@ -52,7 +52,7 @@ const AboutPage = () => {
                 <button
                 className={classes.button}
                 onClick={handleEmailClick}>
-                    Connect
+                    hgjorgieva@gmail.com
                 </button>
                 </div>
                 <img className={classes.imgCtn} src={profilePic} />
