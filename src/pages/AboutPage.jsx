@@ -2,9 +2,16 @@ import React, { useEffect } from "react";
 import classes from "../styles/about.module.css"
 import Connect from "../components/Connect.jsx";
 import profilePic from "../assets/profile3.png"
-import videoOne from "../assets/video1.mp4"
-import videoTwo from "../assets/video2.mp4"
-import videoThree from "../assets/video3.mp4"
+/* import profilePic from "../assets/profile0201.png"*/
+import videoOne from "../assets/video1Low.mp4"
+import videoTwo from "../assets/video2Low.mp4"
+import videoThree from "../assets/video3Low.mp4"
+
+/*import videoThree from "../assets/video3Low.mp4"*/
+
+
+/*import videoThree from "../assets/lunar.mp4" */
+
 import videoFour from "../assets/video4.mp4"
 
 /* import profilePic from "../assets/profilePhoto.png"*/
@@ -38,7 +45,10 @@ const AboutPage = () => {
                 <p>Hey there! I’m Hristina, Berlin based Digital Designer crafting intuitive and  
                     interactive experiences. My journey began in architecture, where I learned and practiced
                     design that focus on human behavior and user-centric environments.
-                    Now, I bring that expertise to the digital world, combining UX & UI Design, Web Design and Frontend Development.
+                    However, I eventually found myself drawn to the digital realm due to its speed, scalability, 
+                    and the exciting potential for constant product improvement.
+                    Switching from architecture to digital design, I merged my expertise in UX & UI Design, 
+                    Web Design, and Frontend Development, bringing a fresh perspective to my work.
                     </p>
 
                 <p>
@@ -46,9 +56,9 @@ const AboutPage = () => {
                     It’s about making things both beautiful and useful, transforming complexity into something comprehensible and inclusive.
                     </p>
 
-                <p> Let's connect and create something awesome together!
+                <p> Reach out to connect and create something cool!
                     <br/>
-                Reach out to start your next project with a touch of creativity and expertise.
+                    I'm always open to new projects and connections.
                 </p>
                 <button
                 className={classes.button}
@@ -229,33 +239,37 @@ const AboutPage = () => {
                 </div>
 
                 <div className={classes.personalText}>
-                    <p>When I'm not designing, you might find me enjoying life, nature and longer bike rides.</p>
+                    <p>When I’m not designing, I love soaking up life’s simple pleasures. 
+                        <br />
+                        You’ll often find me on long bike rides, exploring nature, and chasing sunsets. 
+                        <br />
+                        I thrive in the warmth of spring and summer, enjoying every moment outdoors. </p>
                 </div>
 
 
             </div>
 
             <div className={classes.videoSection}>
-                    <div className={classes.videoCtn}>
-                       <video autoPlay loop muted playsInline>
+                    
+                       <video className={classes.video} autoPlay loop muted playsInline>
                         <source src={videoOne} type="video/mp4"/>
                         Your browser does not support the video tag.
                        </video>
-                    </div>
+                
 
-                    <div className={classes.videoCtn}>
-                       <video autoPlay loop muted playsInline>
+                   
+                       <video className={classes.video} autoPlay loop muted playsInline>
                         <source src={videoTwo} type="video/mp4"/>
                         Your browser does not support the video tag.
                        </video>
-                    </div>
+                
 
-                    <div className={classes.videoCtn}>
-                       <video autoPlay loop muted playsInline>
+   
+                       <video className={classes.video} autoPlay loop muted playsInline>
                         <source src={videoThree} type="video/mp4"/>
                         Your browser does not support the video tag.
                        </video>
-                    </div>
+                   
 
                 </div>
             <Connect />
@@ -267,3 +281,6 @@ const AboutPage = () => {
  
 export default AboutPage;
 
+
+
+/* <p>When I'm not designing, you might find me enjoying life, nature and longer bike rides.</p> */

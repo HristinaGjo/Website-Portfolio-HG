@@ -55,6 +55,7 @@
 
 .journeyCtn{
     padding: 2em;
+    background: var(--color-background);
 
 }
 
@@ -81,6 +82,30 @@
 
 .experience{
     border-bottom:0.8 solid #19191b;
+}
+
+.personalCtn{
+    padding:8em 2em 2em 2em;
+    background: var(--color-primary);
+}
+
+.videoSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    margin-top: 2em;
+    margin-bottom: 8em;
+    background: var(--color-primary);
+
+}
+
+.video{
+    width: 85vw;
+    height:auto;
+    border-radius: 10px;
+    opacity: .95;  
 }
 
 
@@ -177,15 +202,21 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        gap: 4em;
         margin-top: 2em;
-        margin-left: 6em;
+        margin-bottom: 10em;
+
     }
 
-    video{
-        width: 80%;
-        height: auto;
+    .video{
+        width: 25vw;
+        height:auto;
         border-radius: 10px;
-        opacity: .95;
+        opacity: .95;  
+    }
+
+    .personalText {
+        width: 50%;
     }
 
 }
