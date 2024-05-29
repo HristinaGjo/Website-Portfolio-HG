@@ -239,7 +239,7 @@ const AboutPage = () => {
                 </div>
 
                 <div className={classes.personalText}>
-                    <p>When I’m not designing, I love soaking up life’s simple pleasures. 
+                    <p>I love soaking up life’s simple pleasures. 
                         <br />
                         You’ll often find me on long bike rides, exploring nature, and chasing sunsets. 
                         <br/>
