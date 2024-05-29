@@ -234,7 +234,7 @@ const AboutPage = () => {
 
             <div className={classes.personalCtn}>
                 <div className={classes.title}>
-                <span>MY PERSONAL PERSPECTIVE</span>
+                <span>WHAT I DO</span>
                 <h2>OFF SCREEN</h2>
                 </div>
 

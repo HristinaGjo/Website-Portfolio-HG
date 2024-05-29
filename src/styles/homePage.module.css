@@ -53,7 +53,7 @@ img{
 }
 
 
-.aboutSectionCtn{
+ .aboutSectionCtn{
     padding:4em 2em;
     display: flex;
     flex-direction: column;
@@ -61,8 +61,7 @@ img{
     align-items: center;
     text-align:left;
     background: var(--color-secondary);
-
-}
+} 
 
 .servicesSectionCtn{
     padding: 4em 2em 8em 2em;
@@ -157,7 +156,7 @@ img{
         text-align: left;
         padding-top: 6em;
         padding-bottom: 6em;
-    }
+    } 
 
     /* .h1About{
         display: flex;
@@ -169,7 +168,7 @@ img{
     }
     
     .servicesSectionCtn{
-        padding: 6em 10em;
+        padding:6em 10em 10em 10em;
         background: var(--color-secondary);
     }
 
