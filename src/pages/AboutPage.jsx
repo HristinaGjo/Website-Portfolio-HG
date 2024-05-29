@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import classes from "../styles/about.module.css"
 import Connect from "../components/Connect.jsx";
 import profilePic from "../assets/profile3.png"
-/* import profilePic from "../assets/profile0201.png"*/
+/* import profilePic from "../assets/profile0201.png" */
 import videoOne from "../assets/video1Low.mp4"
 import videoTwo from "../assets/video2Low.mp4"
 import videoThree from "../assets/video3Low.mp4"
@@ -42,7 +42,7 @@ const AboutPage = () => {
 
             <div className={classes.aboutMeCtn}>
                 <div className={classes.text}>  
-                <p>Hey there! I’m Hristina, Berlin based Digital Designer crafting intuitive and  
+                <p>Hey there! I’m Hristina Gjorgieva. Berlin based Digital Designer crafting intuitive and  
                     interactive experiences. My journey began in architecture, where I learned and practiced
                     design that focus on human behavior and user-centric environments.
                     However, I eventually found myself drawn to the digital realm due to its speed, scalability, 

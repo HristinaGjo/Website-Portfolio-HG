@@ -54,7 +54,7 @@ const HomePage = () => {
       <div className={classes.aboutSectionCtn}>
         <h1>About me</h1>
         <div className={classes.textAboutSection}>
-          <p>Hey there! I’m Hristina, Berlin based Digital Designer crafting intuitive and  
+          <p>Hey there! I’m Hristina Gjorgieva. Berlin based Digital Designer crafting intuitive and  
                     interactive experiences. <br/>My journey began in architecture, where I learned and practiced
                     design that focus on human behavior and user-centric environments.
                     However, I eventually found myself drawn to the digital realm due to its speed, scalability, 
