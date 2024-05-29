@@ -197,8 +197,8 @@ const AboutPage = () => {
 
                     <div className={classes.experienceRow}>
                         <div className={classes.experience}>
-                            <span>School</span>
-                            <p>Uni. of Arcitecture, Skopje</p>
+                            <span>Univeristy</span>
+                            <p>Arcitecture, Skopje</p>
                         </div>
 
                         <div className={classes.experience}>
@@ -214,8 +214,8 @@ const AboutPage = () => {
 
                     <div className={classes.experienceRow}>
                         <div className={classes.experience}>
-                            <span>School</span>
-                            <p>Uni. of Arcitecture, Skopje</p>
+                            <span>University</span>
+                            <p>Arcitecture, Skopje</p>
                         </div>
 
                         <div className={classes.experience}>
