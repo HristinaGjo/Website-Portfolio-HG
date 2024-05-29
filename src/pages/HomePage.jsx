@@ -78,11 +78,12 @@ const HomePage = () => {
         <div className={classes.gridCtn}>
 
         <div className={classes.servicesCtn}>
-          <span>RESEARCH & DESIGN</span>
-          <h3 className={classes.gradientText}>UX & UI Design</h3>
+         {/* <span>RESEARCH & DESIGN</span> */}
+          <h3 className={classes.gradientText}>Research & <br/>Art Direction</h3>
           {/* <img src={UX} /> */}
-          <p>Crafting user-centric, intuitive and engaging digital
-                  experiences.</p>
+          <p>At this stage, I conduct in-depth research to define project goals, 
+            target audiences, analyze competitors. 
+            Afterward, I begin working on an art direction to find the best visual style.</p>
           {/* <ul className={classes.list}>
             <li>User & Market Research</li>
             <li>Strategic Ideation</li>
@@ -98,16 +99,20 @@ const HomePage = () => {
         </div> */}
 
         <div className={classes.servicesCtn}>
-        <span>RESEARCH & DESIGN</span>
-        <h3 className={classes.gradientText}>Web Design</h3>
-        <p>A comprehensive design that lays the foundation for web implementation.</p>
+        {/* <span>RESEARCH & DESIGN</span> */}
+        <h3 className={classes.gradientText}>Web, Mobile & <br/> UX & UI Design</h3>
+        <p> 
+          I create user-centric, intuitive and engaging digital experiences for websites and mobile devices.
+          My aim is to blend creativity and uniqueness with user convenience.
+        </p>
        {/* <img className={classes.lapTop} src={WEB} /> */}
         </div>
 
         <div className={classes.servicesCtn}>
-        <span>IMPLEMENTATION</span>
-        <h3 className={classes.gradientText}>Frontend Development</h3>
-        <p>Bringing the design to life through developing highly functional web solutions.</p>
+       {/* <span>IMPLEMENTATION</span> */}
+        <h3 className={classes.gradientText}>Frontend <br/>Development</h3>
+        <p>I bring designs to life by developing highly functional and responsive web solutions. 
+          Specializing in React.js, JavaScript, HTML, and CSS, I ensure seamless integration and performance across all devices.</p>
         {/* <img src={UI} /> */}
         </div>
 
@@ -141,4 +146,6 @@ export default HomePage;
     
             </div> 
           </div>
+                    <h3 className={classes.gradientText}>UX & UI Design</h3>
+
             </Link> */

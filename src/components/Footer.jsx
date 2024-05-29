@@ -22,7 +22,7 @@ const Footer = () => {
             </Link>
         </div>
         <div className={classes.rightCtn}>
-    <span> &copy; Hristina Gjorgieva </span>
+    <span> &copy; Hristina Gjorgieva, 2024 </span>
          </div>
 
     </div>
