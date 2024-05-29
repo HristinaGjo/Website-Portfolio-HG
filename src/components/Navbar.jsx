@@ -7,7 +7,7 @@ const Navbar = () => {
     <div className={classes.navCtn}>
       <div className={classes.leftCtn}>
         <Link to="/">
-        <p>Hristina Gjorgieva</p>
+        <p>Home</p>
         </Link>
       </div>
       <div className={classes.rightCtn}>

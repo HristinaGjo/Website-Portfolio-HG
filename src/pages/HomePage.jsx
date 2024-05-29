@@ -54,17 +54,20 @@ const HomePage = () => {
       <div className={classes.aboutSectionCtn}>
         <h1>About me</h1>
         <div className={classes.textAboutSection}>
-          <p>Hey there! I’m Hristina, Berlin based Digital Designer crafting intuitive, user-friendly and  
-            interactive experiences. My journey began in architecture, where I learned and practiced
-            design that focus on human behavior and user-centric environments. <br/>
-            Now, I bring that expertise to the digital world, combining UX & UI Design, Web Design and Frontend Development.
+          <p>Hey there! I’m Hristina Gjorgieva. Berlin based Digital Designer crafting intuitive and  
+                    interactive experiences. <br/>My journey began in architecture, where I learned and practiced
+                    design that focus on human behavior and user-centric environments.
+                    However, I eventually found myself drawn to the digital realm due to its speed, scalability, 
+                    and the exciting potential for constant product improvement.
+                    {/* Switching from architecture to digital design, I merged my expertise in UX & UI Design, 
+                    Web Design, and Frontend Development, bringing a fresh perspective to my work. */}
           </p>
         {/*  <br/> */}
 
         <button
               className={classes.button}
               onClick={aboutPageClick}>
-                More About
+                <span>more about</span>
                 </button>
         { /* <Link to="/about">
             <span>Read more</span>
@@ -78,11 +81,12 @@ const HomePage = () => {
         <div className={classes.gridCtn}>
 
         <div className={classes.servicesCtn}>
-          <span>RESEARCH & DESIGN</span>
-          <h3 className={classes.gradientText}>UX & UI Design</h3>
+         {/* <span>RESEARCH & DESIGN</span> */}
+          <h3 className={classes.gradientText}>Research & <br/>Art Direction</h3>
           {/* <img src={UX} /> */}
-          <p>Crafting user-centric, intuitive and engaging digital
-                  experiences.</p>
+          <p>I conduct in-depth research to define project goals, 
+            target audiences, analyze competitors. 
+            Afterwards, I begin working on an art direction to find the best visual style.</p>
           {/* <ul className={classes.list}>
             <li>User & Market Research</li>
             <li>Strategic Ideation</li>
@@ -98,16 +102,20 @@ const HomePage = () => {
         </div> */}
 
         <div className={classes.servicesCtn}>
-        <span>RESEARCH & DESIGN</span>
-        <h3 className={classes.gradientText}>Web Design</h3>
-        <p>A comprehensive design that lays the foundation for web implementation.</p>
+        {/* <span>RESEARCH & DESIGN</span> */}
+        <h3 className={classes.gradientText}>Web, Mobile & <br/> UX & UI Design</h3>
+        <p> 
+          I create user-centric, intuitive and engaging digital experiences for websites and mobile apps.
+          My aim is to blend creativity and uniqueness with user convenience.
+        </p>
        {/* <img className={classes.lapTop} src={WEB} /> */}
         </div>
 
         <div className={classes.servicesCtn}>
-        <span>IMPLEMENTATION</span>
-        <h3 className={classes.gradientText}>Frontend Development</h3>
-        <p>Bringing the design to life through developing highly functional web solutions.</p>
+       {/* <span>IMPLEMENTATION</span> */}
+        <h3 className={classes.gradientText}>Frontend <br/>Development</h3>
+        <p>I bring designs to life by developing highly functional and responsive web solutions. 
+          Specializing in React.js, JavaScript, HTML, and CSS.</p>
         {/* <img src={UI} /> */}
         </div>
 
@@ -141,4 +149,6 @@ export default HomePage;
     
             </div> 
           </div>
+                    <h3 className={classes.gradientText}>UX & UI Design</h3>
+
             </Link> */

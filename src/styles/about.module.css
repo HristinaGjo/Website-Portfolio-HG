@@ -19,10 +19,6 @@
     gap: 2em;
 }
 
-.button {
-    width: 160px;
-}
-
 /* .button {
     border-radius: none;
     border: none;
@@ -33,63 +29,83 @@
     text-align: left;
 } */
 
-.imgCtn{
+/* .imgCtn{
     border-radius: 10px;
     width: 85vw;
     height: auto;
+    /* width:20vw;
+} */
+
+
+.imgCtn{
+    border-radius: 10px;
+    width: 85vw;
     /* width:20vw;*/
 }
 
+.button {
+    width: 180px;
+    border: .8px solid var(--color-body);
+}
+
+
 .journeyCtn{
-    padding: 8em 2em 8em 2em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background: var(--color-secondary);
+    padding: 2em;
+    background: var(--color-background);
+
 }
 
-.workCtn{
-    display: flex;
-    flex-direction: column;
-    gap: 2em;
+.titleExperience {
+    padding-bottom: 2em;
     padding-top: 2em;
-  
-}
-
-.workTitle{
-    /*display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 1em;*/
-    /*display: flex;
-    flex-direction: row;
-    justify-content: space-between;*/
-    gap: 1em;
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    align-items: center;
-}
-
-.workTitle span{
-    font-size: .8em;
 }
 
 .experienceCtn{
-    background: var(--color-primary);
-    border-radius: 10px;
-    padding: 1em;
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
 }
 
-.educationCtn{
-    background: var(--color-primary);
-    border-radius: 10px;
-    padding: 1em;
+.experienceRow{
+    grid-column: 2;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1em;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    margin-bottom: 2em;
 }
 
-.workCtn h3,
-.educationCtn h3 {
-    padding-bottom: 1em;
+.experience{
+    border-bottom:0.8 solid #19191b;
 }
+
+.personalCtn{
+    padding:8em 2em 2em 2em;
+    background: var(--color-primary);
+}
+
+.videoSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    margin-top: 2em;
+    margin-bottom: 8em;
+    background: var(--color-primary);
+
+}
+
+.video{
+    width: 85vw;
+    height:auto;
+    border-radius: 10px;
+    opacity: .95;  
+}
+
+
+
 
 .gradientText {
     background: linear-gradient(135deg, #3498db, #9b59b6);
@@ -119,7 +135,6 @@
         gap: 2em;
     }
 
-    
 
     /*.button {
         border-radius: none;
@@ -133,59 +148,71 @@
 
     .imgCtn{
         border-radius: 10px;
-        width: 100%;
+        width: 40%;
         /* width:20vw;*/
     }
 
+   
+
+    .button {
+        width: 180px;
+        border: .8px solid var(--color-body);
+    }
+
+
     .journeyCtn{
         padding: 6em 10em;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        background: var(--color-secondary);
+
     }
 
-    .workCtn{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        gap: 5em;
-    }
-
-    .workTitle{
-        /*display: grid;
-        grid-template-columns: repeat(2,1fr);
-        gap: 1em;*/
-        display: flex;
-        flex-direction: row;
-        justify-content: start;
-        align-items: center;
-        gap: 4em;
-    }
-
-    .workTitle span{
-        font-size: 1em;
+    .titleExperience {
+        padding-bottom: 2em;
     }
 
     .experienceCtn{
-        background: var(--color-primary);
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .experienceRow{
+        grid-column: 2;
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 1em;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        margin-bottom: 2em;
+    }
+
+    .experience{
+        border-bottom:0.8 solid #19191b;
+    }
+
+    .personalCtn{
+        padding: 6em 10em;
+    }
+
+    .videoSection{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 4em;
+        margin-top: 2em;
+        margin-bottom: 10em;
+
+    }
+
+    .video{
+        width: 25vw;
+        height:auto;
         border-radius: 10px;
-        padding: 1em;
+        opacity: .95;  
     }
 
-    .educationCtn{
-        background: var(--color-primary);
-        border-radius: 10px;
-        padding: 1em;
-    }
-
-    .workCtn h3,
-    .educationCtn h3 {
-        padding-bottom: 1em;
-    }
-
-    .button {
-        width: 160px;
-        border: .8px solid var(--color-body);
+    .personalText {
+        width: 50%;
     }
 
 }

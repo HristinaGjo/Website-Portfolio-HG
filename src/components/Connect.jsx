@@ -22,7 +22,9 @@ const Connect = () => {
             <div className={classes.contact}>
             <button 
             className={classes.button} 
-            onClick={handleEmailClick}>hgjorieva@gmail.com</button>
+            onClick={handleEmailClick}>
+               <span>hgjorieva@gmail.com</span>
+                </button>
             </div>
             </div>
            
