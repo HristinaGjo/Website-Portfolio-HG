@@ -33,11 +33,54 @@
     text-align: left;
 } */
 
-.imgCtn{
+/* .imgCtn{
     border-radius: 10px;
     width: 85vw;
     height: auto;
+    /* width:20vw;
+} */
+
+
+.imgCtn{
+    border-radius: 10px;
+    width: 40%;
     /* width:20vw;*/
+}
+
+.button {
+    width: 160px;
+    border: .8px solid var(--color-body);
+}
+
+
+.journeyCtn{
+    padding: 2em;
+
+}
+
+.titleExperience {
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+.experienceCtn{
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+}
+
+.experienceRow{
+    grid-column: 2;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1em;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    margin-bottom: 2em;
+}
+
+.experience{
+    border-bottom:0.8 solid #19191b;
 }
 
 
@@ -84,7 +127,7 @@
 
     .imgCtn{
         border-radius: 10px;
-        width: 100%;
+        width: 40%;
         /* width:20vw;*/
     }
 

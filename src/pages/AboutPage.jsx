@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import classes from "../styles/about.module.css"
 import Connect from "../components/Connect.jsx";
-import profilePic from "../assets/me.png"
+import profilePic from "../assets/profile3.png"
 /* import profilePic from "../assets/profilePhoto.png"*/
 import { useLocation } from "react-router-dom";
 
@@ -66,7 +66,7 @@ const AboutPage = () => {
 
                 <div className={classes.experienceRow}>
                         <div className={classes.experience}>
-                            <span>Company name</span>
+                            <span>Company</span>
                             <p>Freelance</p>
                         </div>
 
@@ -83,7 +83,7 @@ const AboutPage = () => {
 
                     <div className={classes.experienceRow}>
                         <div className={classes.experience}>
-                            <span>Company name</span>
+                            <span>Company</span>
                             <p>Wandelbots Robotics</p>
                         </div>
 
@@ -101,7 +101,7 @@ const AboutPage = () => {
 
                     <div className={classes.experienceRow}>
                         <div className={classes.experience}>
-                            <span>Company name</span>
+                            <span>Company</span>
                             <p>TVA Berlin</p>
                         </div>
 
@@ -118,7 +118,7 @@ const AboutPage = () => {
 
                     <div className={classes.experienceRow}>
                         <div className={classes.experience}>
-                            <span>Company name</span>
+                            <span>Company</span>
                             <p>GPlant Berlin</p>
                         </div>
 
@@ -212,8 +212,6 @@ const AboutPage = () => {
                             <span>Period</span>
                             <p>2009 - 2013</p>
                         </div>
-                  
-
                 </div>
 
             </div>
