@@ -81,9 +81,9 @@ const HomePage = () => {
          {/* <span>RESEARCH & DESIGN</span> */}
           <h3 className={classes.gradientText}>Research & <br/>Art Direction</h3>
           {/* <img src={UX} /> */}
-          <p>At this stage, I conduct in-depth research to define project goals, 
+          <p>I conduct in-depth research to define project goals, 
             target audiences, analyze competitors. 
-            Afterward, I begin working on an art direction to find the best visual style.</p>
+            Afterwards, I begin working on an art direction to find the best visual style.</p>
           {/* <ul className={classes.list}>
             <li>User & Market Research</li>
             <li>Strategic Ideation</li>
@@ -102,7 +102,7 @@ const HomePage = () => {
         {/* <span>RESEARCH & DESIGN</span> */}
         <h3 className={classes.gradientText}>Web, Mobile & <br/> UX & UI Design</h3>
         <p> 
-          I create user-centric, intuitive and engaging digital experiences for websites and mobile devices.
+          I create user-centric, intuitive and engaging digital experiences for websites and mobile apps.
           My aim is to blend creativity and uniqueness with user convenience.
         </p>
        {/* <img className={classes.lapTop} src={WEB} /> */}
@@ -112,7 +112,7 @@ const HomePage = () => {
        {/* <span>IMPLEMENTATION</span> */}
         <h3 className={classes.gradientText}>Frontend <br/>Development</h3>
         <p>I bring designs to life by developing highly functional and responsive web solutions. 
-          Specializing in React.js, JavaScript, HTML, and CSS, I ensure seamless integration and performance across all devices.</p>
+          Specializing in React.js, JavaScript, HTML, and CSS.</p>
         {/* <img src={UI} /> */}
         </div>
 
