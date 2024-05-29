@@ -4,9 +4,9 @@ import Legal from "../assets/plainLegal.png"
 import UX from "../assets/uxBlack.png"
 import UI from "../assets/uxHalf.png"
 import WEB from "../assets/webDesign.png"
-import wireframing from "../assets/wireframing.png"
-import artDirection from "../assets/artDirection1.png"
-import finalDesign from "../assets/finalDesign.png"
+import wireframing from "../assets/wireframing3.png"
+import artDirection from "../assets/artDirection2.png"
+import finalDesign from "../assets/finalDesign2.png"
 import Connect from "../components/Connect.jsx";
 import { Link, useNavigate  } from "react-router-dom";
 
@@ -144,12 +144,12 @@ const HomePage = () => {
           </div>
 
           <div className={classes.imageCtn}>
-          <span>ART DIRECTION</span>
+          <span>ART DIRECTION | CONCEPT</span>
           <img src={artDirection} />
           </div>
 
           <div className={classes.imageCtn}>
-          <span>FINAL DESIGN</span>
+          <span>FINAL DESIGN | CONCEPT</span>
           <img src={finalDesign} />
           </div>
 
