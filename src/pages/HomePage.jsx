@@ -4,6 +4,9 @@ import Legal from "../assets/plainLegal.png"
 import UX from "../assets/uxBlack.png"
 import UI from "../assets/uxHalf.png"
 import WEB from "../assets/webDesign.png"
+import wireframing from "../assets/wireframing.png"
+import artDirection from "../assets/artDirection1.png"
+import finalDesign from "../assets/finalDesign.png"
 import Connect from "../components/Connect.jsx";
 import { Link, useNavigate  } from "react-router-dom";
 
@@ -82,7 +85,7 @@ const HomePage = () => {
 
         <div className={classes.servicesCtn}>
          {/* <span>RESEARCH & DESIGN</span> */}
-          <h3 className={classes.gradientText}>Research & <br/>Art Direction</h3>
+          <h3>Research & <br/>Art Direction</h3>
           {/* <img src={UX} /> */}
           <p>I conduct in-depth research to define project goals, 
             target audiences, analyze competitors. 
@@ -103,7 +106,7 @@ const HomePage = () => {
 
         <div className={classes.servicesCtn}>
         {/* <span>RESEARCH & DESIGN</span> */}
-        <h3 className={classes.gradientText}>Web, Mobile & <br/> UX & UI Design</h3>
+        <h3>Web, Mobile & <br/> UX & UI Design</h3>
         <p> 
           I create user-centric, intuitive and engaging digital experiences for websites and mobile apps.
           My aim is to blend creativity and uniqueness with user convenience.
@@ -113,7 +116,7 @@ const HomePage = () => {
 
         <div className={classes.servicesCtn}>
        {/* <span>IMPLEMENTATION</span> */}
-        <h3 className={classes.gradientText}>Frontend <br/>Development</h3>
+        <h3>Frontend <br/>Development</h3>
         <p>I bring designs to life by developing highly functional and responsive web solutions. 
           Specializing in React.js, JavaScript, HTML, and CSS.</p>
         {/* <img src={UI} /> */}
@@ -124,6 +127,36 @@ const HomePage = () => {
       </div>
 
       </div> 
+
+  
+
+      <div className={classes.processSection}>
+      <div className={classes.title}>
+          <span>THE</span>
+          <h2>Workflow</h2>
+        </div>
+
+        <div className={classes.processCtn}>
+
+          <div className={classes.imageCtn}>
+            <span>WIREFRAMING</span>
+          <img  src={wireframing} />
+          </div>
+
+          <div className={classes.imageCtn}>
+          <span>ART DIRECTION</span>
+          <img src={artDirection} />
+          </div>
+
+          <div className={classes.imageCtn}>
+          <span>FINAL DESIGN</span>
+          <img src={finalDesign} />
+          </div>
+
+        </div>
+   
+
+      </div>
 
       <Connect />
       </>
