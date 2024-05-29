@@ -43,7 +43,7 @@
 
 .imgCtn{
     border-radius: 10px;
-    width: 40%;
+    width: 85vw;
     /* width:20vw;*/
 }
 
@@ -166,6 +166,26 @@
 
     .experience{
         border-bottom:0.8 solid #19191b;
+    }
+
+    .personalCtn{
+        padding: 6em 10em;
+    }
+
+    .videoSection{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2em;
+        margin-left: 6em;
+    }
+
+    video{
+        width: 80%;
+        height: auto;
+        border-radius: 10px;
+        opacity: .95;
     }
 
 }

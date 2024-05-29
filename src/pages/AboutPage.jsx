@@ -2,6 +2,11 @@ import React, { useEffect } from "react";
 import classes from "../styles/about.module.css"
 import Connect from "../components/Connect.jsx";
 import profilePic from "../assets/profile3.png"
+import videoOne from "../assets/video1.mp4"
+import videoTwo from "../assets/video2.mp4"
+import videoThree from "../assets/video3.mp4"
+import videoFour from "../assets/video4.mp4"
+
 /* import profilePic from "../assets/profilePhoto.png"*/
 import { useLocation } from "react-router-dom";
 
@@ -216,6 +221,43 @@ const AboutPage = () => {
 
             </div>
             </div>
+
+            <div className={classes.personalCtn}>
+                <div className={classes.title}>
+                <span>MY PERSONAL PERSPECTIVE</span>
+                <h2>OFF SCREEN</h2>
+                </div>
+
+                <div className={classes.personalText}>
+                    <p>When I'm not designing, you might find me enjoying life, nature and longer bike rides.</p>
+                </div>
+
+
+            </div>
+
+            <div className={classes.videoSection}>
+                    <div className={classes.videoCtn}>
+                       <video autoPlay loop muted playsInline>
+                        <source src={videoOne} type="video/mp4"/>
+                        Your browser does not support the video tag.
+                       </video>
+                    </div>
+
+                    <div className={classes.videoCtn}>
+                       <video autoPlay loop muted playsInline>
+                        <source src={videoTwo} type="video/mp4"/>
+                        Your browser does not support the video tag.
+                       </video>
+                    </div>
+
+                    <div className={classes.videoCtn}>
+                       <video autoPlay loop muted playsInline>
+                        <source src={videoThree} type="video/mp4"/>
+                        Your browser does not support the video tag.
+                       </video>
+                    </div>
+
+                </div>
             <Connect />
 
      
