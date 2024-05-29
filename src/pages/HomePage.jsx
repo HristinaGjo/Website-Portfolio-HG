@@ -64,7 +64,7 @@ const HomePage = () => {
         <button
               className={classes.button}
               onClick={aboutPageClick}>
-                More About
+                <span>more about</span>
                 </button>
         { /* <Link to="/about">
             <span>Read more</span>

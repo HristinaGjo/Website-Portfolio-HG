@@ -6,7 +6,7 @@
     }
 
     .button {
-        width: 160px;
+        width: 180px;
     }
 
     /*.text{
@@ -74,7 +74,7 @@
     }
 
     .button {
-        width: 160px;
+        width: 180px;
         border: .8px solid var(--color-body);
         }
 

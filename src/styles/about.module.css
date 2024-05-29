@@ -19,10 +19,6 @@
     gap: 2em;
 }
 
-.button {
-    width: 160px;
-}
-
 /* .button {
     border-radius: none;
     border: none;
@@ -48,7 +44,7 @@
 }
 
 .button {
-    width: 160px;
+    width: 180px;
     border: .8px solid var(--color-body);
 }
 
@@ -159,7 +155,7 @@
    
 
     .button {
-        width: 160px;
+        width: 180px;
         border: .8px solid var(--color-body);
     }
 

@@ -107,7 +107,7 @@ img{
 
 .button {
     margin-top: 1em;
-    width: 140px;
+    width: 180px;
 }
 
 
@@ -212,6 +212,42 @@ img{
     width: 140px;
     border: .8px solid var(--color-body);
     }
+
+
+    .legalProject span{
+        display: block;
+    }
+
+    .legalProject:hover span{
+        animation: moveTextUp 0.3s forwards;
+    }
+
+    @keyframes moveTextUp {
+        0% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-100%);
+          opacity: 0;
+        }
+        50.01% {
+          transform: translateY(100%);
+          opacity: 0;
+        }
+        100% {
+          transform: translateY(0);
+          opacity: 1;
+        }
+      }
+
+      .imgCtnLegal {
+        transition: transform 0.3s;
+      }
+
+      .imgCtnLegal:hover {
+        transform: scale(1.02);
+        
+      }
 
 
     /*.gradientText {

@@ -63,7 +63,7 @@ const AboutPage = () => {
                 <button
                 className={classes.button}
                 onClick={handleEmailClick}>
-                    hgjorgieva@gmail.com
+                    <span>hgjorgieva@gmail.com</span>
                 </button>
                 </div>
                 <img className={classes.imgCtn} src={profilePic} />
@@ -242,7 +242,7 @@ const AboutPage = () => {
                     <p>When I’m not designing, I love soaking up life’s simple pleasures. 
                         <br />
                         You’ll often find me on long bike rides, exploring nature, and chasing sunsets. 
-                        <br />
+                        <br/>
                         I thrive in the warmth of spring and summer, enjoying every moment outdoors. </p>
                 </div>
 
