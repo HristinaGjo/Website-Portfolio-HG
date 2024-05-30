@@ -47,12 +47,12 @@ const HomePage = () => {
       <span>SELECTED</span>
         <h1>Projects</h1>
         <Link to="/legal">
-        <div className={classes.legalProject}>
+      
         <div className={classes.imgCtnLegal}>
           <img src={Legal} />
           </div>
           <span>Legal app | UX & UI Design</span>
-          </div>
+        
           </Link>
       </div>
     
@@ -134,7 +134,7 @@ const HomePage = () => {
 
   
 
-{     /*  <div className={classes.processSection}>
+ <div className={classes.processSection}>
       <div className={classes.title}>
           <span>THE</span>
           <h2>Workflow</h2>
@@ -161,7 +161,7 @@ const HomePage = () => {
           </div>
 
         </div> 
-        </div> */}
+        </div> 
     
 
       <Connect />
