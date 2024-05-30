@@ -148,7 +148,7 @@ const HomePage = () => {
           </div>
 
           <div className={classes.imageCtn}>
-          <span>ART DIRECTION | CONCEPT</span>
+          <span>CREATIVE DIRECTION | CONCEPT</span>
           <img src={artDirection} />
           </div>
 
