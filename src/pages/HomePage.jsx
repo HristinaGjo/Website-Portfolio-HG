@@ -133,8 +133,7 @@ const HomePage = () => {
       </div> 
 
   
-
- <div className={classes.processSection}>
+ {/* <div className={classes.processSection}>
       <div className={classes.title}>
           <span>THE</span>
           <h2>Workflow</h2>
@@ -161,7 +160,7 @@ const HomePage = () => {
           </div>
 
         </div> 
-        </div> 
+        </div> */}
     
 
       <Connect />
