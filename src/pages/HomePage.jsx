@@ -143,17 +143,17 @@ const HomePage = () => {
         <div className={classes.processCtn}>
 
           <div className={classes.imageCtn}>
-            <span>WIREFRAMING | CONCEPT</span>
+            <span>WIREFRAMING | CONCEPT APP</span>
           <img  src={wireframing} />
           </div>
 
           <div className={classes.imageCtn}>
-          <span>CREATIVE DIRECTION | CONCEPT</span>
+          <span>CREATIVE DIRECTION | CONCEPT APP</span>
           <img src={artDirection} />
           </div>
 
           <div className={classes.imageCtn}>
-          <span>FINAL DESIGN | CONCEPT</span>
+          <span>FINAL DESIGN | CONCEPT APP</span>
           <img src={finalDesign} />
           </div>
 
