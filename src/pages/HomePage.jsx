@@ -1,12 +1,13 @@
 import React from "react";
 import classes from "../styles/homePage.module.css"
 import Legal from "../assets/plainLegal.png"
+/*import Legal from "../assets/mockup1.png"*/
 import UX from "../assets/uxBlack.png"
 import UI from "../assets/uxHalf.png"
 import WEB from "../assets/webDesign.png"
-import wireframing from "../assets/wireframing3.png"
-import artDirection from "../assets/artDirection2.png"
-import finalDesign from "../assets/finalDesign2.png"
+import wireframing from "../assets/wireframingNew.png"
+import artDirection from "../assets/creativeNew.png"
+import finalDesign from "../assets/designNew.png"
 import Connect from "../components/Connect.jsx";
 import { Link, useNavigate  } from "react-router-dom";
 
@@ -85,11 +86,11 @@ const HomePage = () => {
 
         <div className={classes.servicesCtn}>
          {/* <span>RESEARCH & DESIGN</span> */}
-          <h3>Research & <br/>Art Direction</h3>
+          <h3>Research & <br/>Creative Direction</h3>
           {/* <img src={UX} /> */}
           <p>I conduct in-depth research to define project goals, 
-            target audiences, analyze competitors. 
-            Afterwards, I begin working on an art direction to find the best visual style.</p>
+           target audiences and analyze competitors. Based on these insights, 
+            I develop a creative direction to establish the best visual style.</p>
           {/* <ul className={classes.list}>
             <li>User & Market Research</li>
             <li>Strategic Ideation</li>
@@ -106,9 +107,9 @@ const HomePage = () => {
 
         <div className={classes.servicesCtn}>
         {/* <span>RESEARCH & DESIGN</span> */}
-        <h3>UX & UI Design<br/>Mobile & Web</h3>
+        <h3>UX & UI Design<br/>(Mobile & Web)</h3>
         <p> 
-          I create user-centric, intuitive and engaging digital experiences for websites and mobile apps.
+          In this stage I create user-centric, intuitive and engaging digital experiences for websites and mobile apps.
           My aim is to blend creativity and uniqueness with user convenience.
         </p>
        {/* <img className={classes.lapTop} src={WEB} /> */}
@@ -118,7 +119,7 @@ const HomePage = () => {
        {/* <span>IMPLEMENTATION</span> */}
         <h3>Frontend <br/>Development</h3>
         <p>I bring designs to life by developing highly functional and responsive web solutions. 
-          Specializing in React.js, JavaScript, HTML, and CSS.</p>
+        I specialize in React.js, JavaScript, HTML, and CSS, ensuring a seamless and engaging user experience.</p>
         {/* <img src={UI} /> */}
         </div>
 
@@ -142,7 +143,7 @@ const HomePage = () => {
         <div className={classes.processCtn}>
 
           <div className={classes.imageCtn}>
-            <span>WIREFRAMING</span>
+            <span>WIREFRAMING | CONCEPT</span>
           <img  src={wireframing} />
           </div>
 
