@@ -2,12 +2,15 @@ import React from "react";
 import classes from "../styles/homePage.module.css"
 import Legal from "../assets/plainLegal.png"
 /*import Legal from "../assets/mockup1.png"*/
-import UX from "../assets/uxBlack.png"
-import UI from "../assets/uxHalf.png"
-import WEB from "../assets/webDesign.png"
+
 import wireframing from "../assets/wireframingNew.png"
 import artDirection from "../assets/creativeNew.png"
-import finalDesign from "../assets/designNew.png"
+import finalDesign from "../assets/designNew.png" 
+
+/* import wireframing from "../assets/wireframing3.png"
+import artDirection from "../assets/artDirection2.png"
+import finalDesign from "../assets/finalDesign2.png" */
+
 import Connect from "../components/Connect.jsx";
 import { Link, useNavigate  } from "react-router-dom";
 
@@ -131,7 +134,7 @@ const HomePage = () => {
 
   
 
-      {/* <div className={classes.processSection}>
+{     /*  <div className={classes.processSection}>
       <div className={classes.title}>
           <span>THE</span>
           <h2>Workflow</h2>
@@ -158,10 +161,8 @@ const HomePage = () => {
           </div>
 
         </div> 
-        </div> */
-   
-}
-      
+        </div> */}
+    
 
       <Connect />
       </>

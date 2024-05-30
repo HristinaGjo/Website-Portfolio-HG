@@ -12,7 +12,7 @@ import videoThree from "../assets/video3Low.mp4"
 
 /*import videoThree from "../assets/lunar.mp4" */
 
-import videoFour from "../assets/video4.mp4"
+
 
 /* import profilePic from "../assets/profilePhoto.png"*/
 import { useLocation } from "react-router-dom";
