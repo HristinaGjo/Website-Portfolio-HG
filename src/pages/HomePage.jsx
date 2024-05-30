@@ -106,7 +106,7 @@ const HomePage = () => {
 
         <div className={classes.servicesCtn}>
         {/* <span>RESEARCH & DESIGN</span> */}
-        <h3>Web, Mobile & <br/> UX & UI Design</h3>
+        <h3>UX & UI Design<br/>Mobile & Web</h3>
         <p> 
           I create user-centric, intuitive and engaging digital experiences for websites and mobile apps.
           My aim is to blend creativity and uniqueness with user convenience.
@@ -134,6 +134,9 @@ const HomePage = () => {
       <div className={classes.title}>
           <span>THE</span>
           <h2>Workflow</h2>
+          <br/>
+          <h3 className={classes.textWorkflow}>I focus on understanding user goals, tasks, expectation
+          and product-related challenges to improve digital project development.</h3>
         </div>
 
         <div className={classes.processCtn}>
