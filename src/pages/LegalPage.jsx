@@ -103,7 +103,7 @@ const LegalPage = () => {
                         </p>
 
                         <div className={classes.survays}>
-                            <h3>User Survays</h3>
+                            <h3>User Surveys</h3>
                            {/* <p>21 people took the survey</p>
                             <p>13 questions were asked</p> */}
                             <div className={classes.findingsCtn}>

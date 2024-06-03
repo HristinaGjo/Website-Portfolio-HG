@@ -82,7 +82,7 @@
 
 .personalCtn{
     padding:8em 2em 2em 2em;
-    background: var(--color-primary);
+    background: var(--color-background);
 }
 
 
@@ -95,7 +95,6 @@
     margin-top: 2em;
     margin-bottom: 8em;
     background: var(--color-background);
-
 }
 
 .video{
@@ -192,6 +191,7 @@
 
     .personalCtn{
         padding: 6em 10em;
+        background: var(--color-background);
     }
 
     .videoSection{
