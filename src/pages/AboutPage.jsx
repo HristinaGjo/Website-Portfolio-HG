@@ -247,7 +247,7 @@ const AboutPage = () => {
                 </div>
 
 
-            </div>
+         
 
             <div className={classes.videoSection}>
                     
@@ -269,7 +269,8 @@ const AboutPage = () => {
                         <source src={videoThree} type="video/mp4"/>
                         Your browser does not support the video tag.
                        </video>
-                   
+                
+                </div>
 
                 </div>
             <Connect />

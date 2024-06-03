@@ -82,7 +82,7 @@
 
 .personalCtn{
     padding:8em 2em 2em 2em;
-    background: var(--color-background);
+    background: var(--color-primary);
 }
 
 
@@ -94,7 +94,7 @@
     gap: 2em;
     margin-top: 2em;
     margin-bottom: 8em;
-    background: var(--color-background);
+    background: var(--color-primary);
 }
 
 .video{
@@ -191,7 +191,7 @@
 
     .personalCtn{
         padding: 6em 10em;
-        background: var(--color-background);
+        background: var(--color-primary);
     }
 
     .videoSection{
@@ -199,10 +199,10 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        gap: 4em;
+        gap: 2em;
         margin-top: 2em;
         margin-bottom: 10em;
-        background: var(--color-background);
+        background: var(--color-primary);
     }
 
     .video{
