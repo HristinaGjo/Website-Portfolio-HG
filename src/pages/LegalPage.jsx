@@ -59,14 +59,15 @@ const LegalPage = () => {
                 </div>
 
                 <div className={classes.textCtn}>
+                <span>ROLE</span>
+                <p>User Research <br/> Information Architecture <br/> UX & UI Design</p>
+                </div>
+
+                <div className={classes.textCtn}>
                 <span>PROBLEM</span>
                 <p>How to enable anyone, anywhere to instantly chat with an expert in virtually any field.</p>
                 </div>
 
-                <div className={classes.textCtn}>
-                <span>ROLE</span>
-                <p>User Research <br/> Information Architecture <br/> UX & UI Design</p>
-                </div>
             </div>
 
             <div className={classes.solutionCtn}>
@@ -130,17 +131,17 @@ const LegalPage = () => {
                         <div className={classes.findingsCtn}>
                             <div className={classes.dataCtn}>
                             <p className={classes.gradientText}>Rebecca, 30</p>
-                            <p>If finidng an expert was easier I would do it more often</p>
+                            <p>If finidng an expert was easier I would do it more often!</p>
                             </div>
 
                              <div className={classes.dataCtn}>
                             <p className={classes.gradientText}>Maxim, 24</p>
-                            <p>I often need a specific and quick advice</p>
+                            <p>I often need a specific and quick advice!</p>
                             </div>
 
                             <div className={classes.dataCtn}>
                             <p className={classes.gradientText}>Roman, 34</p>
-                            <p>I want to find my expert advisor quick</p>
+                            <p>I want to find my expert advisor quick!</p>
                             </div>
 
                         </div>

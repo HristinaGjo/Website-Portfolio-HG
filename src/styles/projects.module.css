@@ -1,0 +1,58 @@
+.pageCtn{
+    background: var(--color-secondary);
+    /* padding: 4em 2em 10em 2em; */
+    padding: 4em 10em 8em 10em;
+    box-sizing: border-box;
+
+}
+
+.projectsCtn{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2em;
+}
+
+
+.imgCtnLegal{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:1em;
+    background: var(--color-primary);
+}
+
+img{
+    width: 50%;
+}
+
+
+
+
+
+/* .projectsCtn{
+    background: var(--color-secondary);
+    padding: 4em 2em 4em 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+
+.imgCtnLegal{
+    width: 100%;
+    height: 800px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:1em;
+    border-radius: 10px;
+    background: var(--color-primary);
+}
+
+img{
+    width: 50%;
+} */

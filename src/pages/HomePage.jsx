@@ -1,15 +1,7 @@
 import React from "react";
 import classes from "../styles/homePage.module.css"
 import Legal from "../assets/plainLegal.png"
-/*import Legal from "../assets/mockup1.png"*/
-
-/* import wireframing from "../assets/wireframingNew.png"
-import artDirection from "../assets/creativeNew.png"
-import finalDesign from "../assets/designNew.png" */
-
-/* import wireframing from "../assets/wireframing3.png"
-import artDirection from "../assets/artDirection2.png"
-import finalDesign from "../assets/finalDesign2.png" */
+import Projects from "../components/Projects.jsx"
 
 import Connect from "../components/Connect.jsx";
 import { Link, useNavigate  } from "react-router-dom";
@@ -43,7 +35,9 @@ const HomePage = () => {
         </div>
       </div>
 
-      <div className={classes.projectsCtn}>
+      <Projects />
+
+     { /* <div className={classes.projectsCtn}>
       <span>SELECTED</span>
         <h1>Projects</h1>
         <Link to="/legal">
@@ -54,7 +48,7 @@ const HomePage = () => {
           <span>Legal app | UX & UI Design</span>
         
           </Link>
-      </div>
+      </div> */}
     
 
 
